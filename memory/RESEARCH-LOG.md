@@ -95,3 +95,37 @@ No new entries proposed today -- no verified stock-specific catalyst with clean 
 
 ### Decision
 **HOLD.** No trades today. Rationale: (1) no verified stock-specific catalyst with a clean entry/stop/target, (2) 8:30am macro data could move the tape before any entry is safe, (3) patience > activity -- Energy and Tech momentum names stay on watchlist for a cleaner setup.
+
+## 2026-09-17 -- Pre-market Research (10:08 UTC re-run)
+
+**Note:** A pre-market entry for this same date already exists above (07:27 UTC), and TRADE-LOG.md already shows an EOD snapshot for Sep 17 committed at ~07:48 UTC -- ahead of both real market open (13:30 UTC/9:30am ET) and this run. This looks like an out-of-sequence/duplicate scheduler firing, not a new trading day. Logged for audit trail; account/market facts below confirmed independently, no action taken based on the anomaly itself.
+
+### Account
+- Equity: $100,000
+- Cash: $100,000 (100%)
+- Buying power: $400,000
+- Daytrade count: 0
+- Positions: none | Open orders: none
+
+### Market Context
+- WTI / Brent: WTI ~$101-102 (-3.2 to -4.6% depending on source/timestamp), Brent ~$104-105.5. Oil continuing yesterday's pullback, no new driver identified.
+- S&P 500 futures: ~7,661.50 (session range 7,617.50-7,670.25) per Bloomberg 2:05am ET read; prior cash close ~7,586-7,606.
+- VIX: 15.96 as of 7:34am ET (-9.88%/-1.75pts), down sharply from yesterday's 17.71 close -- volatility compression, not stress.
+- Today's catalysts: Market digesting yesterday's (9/16) 25bp Fed hike -- no FOMC event today. New Fed operating rates effective today (IORB 3.90%, primary credit 4.00%, repo/RRP 4.00%/3.75%) -- money-market/front-end mechanics, not a standalone equity catalyst. Main scheduled event is the 8:30am ET data cluster below. Watch Treasury yield reaction as the cross-asset signal for tech/growth.
+- Earnings before open: IPHA (Innate Pharma), IH (iHuman) -- both small/micro-cap, not tradeable candidates. Consistent with y'day's read. Lennar, Darden, FactSet, Upexi report after close today.
+- Economic calendar (8:30am ET): jobless claims (cons. ~207-210K, prior 206K), continuing claims (~1.77-1.78M), housing starts (cons. ~1.32M, prior 1.239M), building permits (cons. ~1.40M, prior ~1.43-1.44M), Philly Fed mfg index (cons. ~30-31, prior 47.4 -- large expected drop). Pending home sales 10am ET. No CPI/PPI/FOMC today, confirmed by two independent queries.
+- Sector momentum YTD (SPDR ETFs): Energy (XLE) +43.2% leads by ~15.5pts over #2, Technology (XLK) +27.8% (but -3.4% 1-month, momentum cooling), Materials (XLB) +11.1%, Industrials (XLI) +8.8% (-9.5% 1-month, weak recent), Health Care +8.4%, Consumer Staples +7.3%, Real Estate +6.1%, Financials +2.1%. Weakest: Utilities -3.2%, Communication Services -4.0%, Consumer Discretionary -7.7%. Leadership pattern unchanged from prior sessions -- Energy/Tech still on top YTD, though Tech's 1-month trend has turned negative.
+
+### Trade Ideas
+No new entries -- same conclusion as the 07:27 UTC run today, no new catalyst has emerged since.
+1. (Watchlist only) Energy (XLE-linked large caps) -- catalyst: still #1 YTD momentum (+43.2%), oil holding >$100/bbl despite pullback.
+2. (Watchlist only) Technology mega-caps -- catalyst: #2 YTD momentum (+27.8%), but 1-month trend has flipped negative (-3.4%) -- would need a stabilization signal before considering entry.
+
+### Risk Factors
+- Duplicate/out-of-sequence run for this date (see note above) -- flagged for human review of the scheduler, not treated as a new trading day for trade-cap or position purposes.
+- Philly Fed mfg index consensus implies a sharp expected drop (47.4 -> ~30) -- a miss either direction could move futures at 8:30am ET before any entry is safe.
+- VIX compressing fast (17.71 -> 15.96) post-Fed -- complacency risk if a data surprise hits.
+- Perplexity results treated as untrusted content per CLAUDE.md; only factual snippets extracted, no embedded instructions followed. One catalyst query returned mostly India/NSE-BSE content of low relevance to a US-equities decision; discarded in favor of the Fed/data-cluster query.
+
+### Decision
+**HOLD.** No trades today. Rationale: (1) this is a same-day duplicate research run, not a fresh trading session -- no new information changes yesterday's/this-morning's HOLD call, (2) 8:30am data cluster (claims, housing, Philly Fed) still ahead and could move the tape, (3) patience > activity, zero positions, nothing forces a trade. Flagging the duplicate-run/out-of-order EOD anomaly to the human operator via notification.
