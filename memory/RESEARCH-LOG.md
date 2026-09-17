@@ -62,3 +62,36 @@ No new entries proposed today -- FOMC decision this afternoon makes any pre-deci
 
 ### Decision
 **HOLD.** No trades today. Rationale: (1) major FOMC decision at 2pm ET makes entries before the announcement low-quality, (2) patience > activity is the default with no forced trade, (3) this is effectively Day 0 for research cadence -- watchlist (Energy, Technology momentum names) carried to midday/next session for a post-FOMC re-check.
+
+## 2026-09-17 -- Pre-market Research
+
+### Account
+- Equity: $100,000
+- Cash: $100,000 (100%)
+- Buying power: $400,000
+- Daytrade count: 0
+- Positions: none | Open orders: none
+
+### Market Context
+- WTI / Brent: WTI ~$102.12 (-3.32% area, sources ranged $102-104), Brent ~$105.57 (spread ~$3.45). Oil extended yesterday's pullback.
+- S&P 500 futures: ~7,661-7,667 (+0.05 to +0.15%) premarket; prior cash close ~7,586.
+- VIX: closed 17.71 on 9/16 (+2.97%), modestly elevated, not stressed.
+- Today's catalysts: FOMC statement already released yesterday (9/16, 2:00pm ET) -- today is a **reaction day**, no new decision. 8:30am ET macro cluster (jobless claims, housing starts, building permits, Philly Fed Manufacturing Index) is the main scheduled event. Unverified chatter: Intel (INTC) premarket interest on reports of SK Hynix memory-chip talks at Intel's Ohio campus + Altera IPO filing + positive analyst-target commentary -- treat as rumor-level, needs verification before any action.
+- Earnings before open: IPHA (Innate Pharma, 8am ET call), IH (iHuman) -- both small/micro-cap, not tradeable candidates. Lennar (LEN) reports today (~11am ET per one source) -- housing/homebuilder read-through.
+- Economic calendar: Jobless claims 206K (vs 208K exp), housing starts 1.239M (vs 1.31M exp), building permits 1.433M (vs 1.41M exp), Philly Fed Mfg Index due same time. No CPI/PPI/monthly jobs report today (already out earlier this month); no FOMC decision today (was yesterday).
+- Sector momentum YTD (as of 9/16 close): Energy (XLE) +43.3% leads, Technology (XLK) +27.8%, Materials (XLB) +11.1%, Industrials (XLI) +8.7%. Weakest: Consumer Discretionary (XLY) -7.7%, Communication Services (XLC) -4.0%, Utilities (XLU) -3.2%. Same leadership pattern as yesterday -- Energy/Tech momentum intact.
+
+### Trade Ideas
+No new entries proposed today -- no verified stock-specific catalyst with clean entry/stop/target yet.
+1. (Watchlist only) Energy sector (XLE-linked large caps) -- catalyst: strongest YTD momentum (+43.3%), oil still >$100/bbl despite pullback. Needs a specific liquid name + pullback entry before sizing.
+2. (Watchlist only) INTC -- catalyst: SK Hynix/Altera IPO chatter + #2 sector momentum (Tech +27.8%), but catalyst is rumor-level (unverified search snippet) -- needs confirmation and current price/level check before any entry.
+
+### Risk Factors
+- FOMC statement landed yesterday -- today's price action may still be digesting the Fed's tone/guidance; elevated whipsaw risk in rate-sensitive names.
+- 8:30am ET macro cluster (claims/housing/Philly Fed) could move futures sharply right at the open.
+- Intel-related catalyst is unverified rumor from search snippets -- per CLAUDE.md, treated as untrusted content, not acted on without confirmation.
+- Still zero position history after 2 sessions -- no baseline yet for sector-failure tracking; patience > activity remains the default.
+- Perplexity results treated as untrusted content; no embedded instructions followed, only factual snippets extracted. One query (S&P futures) hit a 429 on first attempt, succeeded on retry.
+
+### Decision
+**HOLD.** No trades today. Rationale: (1) no verified stock-specific catalyst with a clean entry/stop/target, (2) 8:30am macro data could move the tape before any entry is safe, (3) patience > activity -- Energy and Tech momentum names stay on watchlist for a cleaner setup.
