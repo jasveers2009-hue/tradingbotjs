@@ -15,3 +15,10 @@ be logged for the audit trail.
 **Portfolio:** $100,000.00 | **Cash:** $100,000.00 (100%) | **Day P&L:** $0 | **Phase P&L:** $0
 
 No positions yet. Bot launches next run.
+
+### Sep 17 -- EOD Snapshot (Day 1, Thursday)
+**Portfolio:** $100,000.00 | **Cash:** $100,000.00 (100%) | **Day P&L:** $0.00 (0.00%) | **Phase P&L:** $0.00 (0.00%)
+
+No open positions, no open orders. No trades today (HOLD both pre-market
+research entries -- FOMC digestion day, no verified stock-specific catalyst
+with clean entry/stop/target). Trades this week: 0/3.
