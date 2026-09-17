@@ -53,8 +53,13 @@ an afternoon addendum to RESEARCH-LOG if used.
 STEP 7 -- Notification: only if action was taken.
 bash scripts/clickup.sh "<action summary>"
 
-STEP 8 -- COMMIT AND PUSH (if any memory files changed):
+STEP 8 -- COMMIT, PUSH, AND MERGE (if any memory files changed):
 git add memory/TRADE-LOG.md memory/RESEARCH-LOG.md
 git commit -m "midday scan $DATE"
-git push origin main
-Skip commit if no-op. On push failure: rebase and retry. Never force-push.
+git push -u origin HEAD
+BRANCH=$(git branch --show-current)
+gh pr create --base main --fill --head "$BRANCH" || true
+gh pr merge --auto --squash --delete-branch "$BRANCH" || echo "AUTO-MERGE FAILED -- PR left open for manual merge"
+Skip this whole step if no-op. Never force-push. If gh is unavailable or
+the auto-merge fails, leave the PR open and say so plainly in your final
+summary -- not a hard failure of the routine.

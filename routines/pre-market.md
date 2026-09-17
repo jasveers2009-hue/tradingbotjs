@@ -64,9 +64,13 @@ held position is already below -7% in pre-market, a thesis broke
 overnight, a major geopolitical event).
 bash scripts/clickup.sh "<one line>"
 
-STEP 6 -- COMMIT AND PUSH (mandatory):
+STEP 6 -- COMMIT, PUSH, AND MERGE (mandatory):
 git add memory/RESEARCH-LOG.md
 git commit -m "pre-market research $DATE"
-git push origin main
-On push failure: git pull --rebase origin main, then push again.
-Never force-push.
+git push -u origin HEAD
+BRANCH=$(git branch --show-current)
+gh pr create --base main --fill --head "$BRANCH" || true
+gh pr merge --auto --squash --delete-branch "$BRANCH" || echo "AUTO-MERGE FAILED -- PR left open for manual merge"
+Never force-push. If gh is unavailable or the auto-merge fails, leave the
+PR open and say so plainly in your final summary -- that is not a hard
+failure of the routine, just something the human needs to merge by hand.

@@ -65,9 +65,13 @@ STEP 6 -- Notification: ClickUp message only if a trade was actually
 placed.
 bash scripts/clickup.sh "<tickers, shares, fill prices, one-line why>"
 
-STEP 7 -- COMMIT AND PUSH (mandatory if any trades executed):
+STEP 7 -- COMMIT, PUSH, AND MERGE (mandatory if any trades executed):
 git add memory/TRADE-LOG.md
 git commit -m "market-open trades $DATE"
-git push origin main
-Skip commit if no trades fired. On push failure: git pull --rebase origin
-main, then push again. Never force-push.
+git push -u origin HEAD
+BRANCH=$(git branch --show-current)
+gh pr create --base main --fill --head "$BRANCH" || true
+gh pr merge --auto --squash --delete-branch "$BRANCH" || echo "AUTO-MERGE FAILED -- PR left open for manual merge"
+Skip this whole step if no trades fired. Never force-push. If gh is
+unavailable or the auto-merge fails, leave the PR open and say so
+plainly in your final summary -- not a hard failure of the routine.

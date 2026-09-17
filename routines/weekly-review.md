@@ -57,8 +57,13 @@ Best: SYM +X%  Worst: SYM -X%
 Strategy proposals this week: <count, or none>
 Grade: <letter>"
 
-STEP 7 -- COMMIT AND PUSH (mandatory):
+STEP 7 -- COMMIT, PUSH, AND MERGE (mandatory):
 git add memory/WEEKLY-REVIEW.md memory/STRATEGY-PROPOSALS.md
 git commit -m "weekly review $DATE"
-git push origin main
-On push failure: rebase and retry. Never force-push.
+git push -u origin HEAD
+BRANCH=$(git branch --show-current)
+gh pr create --base main --fill --head "$BRANCH" || true
+gh pr merge --auto --squash --delete-branch "$BRANCH" || echo "AUTO-MERGE FAILED -- PR left open for manual merge"
+Never force-push. If gh is unavailable or the auto-merge fails, leave the
+PR open and say so plainly in your final summary -- not a hard failure
+of the routine.
