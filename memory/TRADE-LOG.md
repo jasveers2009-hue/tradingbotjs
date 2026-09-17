@@ -22,3 +22,17 @@ No positions yet. Bot launches next run.
 No open positions, no open orders. No trades today (HOLD both pre-market
 research entries -- FOMC digestion day, no verified stock-specific catalyst
 with clean entry/stop/target). Trades this week: 0/3.
+
+### Sep 17 -- EOD Snapshot (Day 1, Thursday, 20:06 UTC re-run)
+**Note:** An EOD snapshot for Sep 17 was already committed above at ~07:48 UTC
+(before market open) -- already flagged as an out-of-sequence/duplicate
+scheduler firing by the 10:08 UTC pre-market re-run (see RESEARCH-LOG.md).
+This firing lands at actual market close (20:06 UTC / ~4:06pm ET), so it is
+logged as the real close-of-day snapshot; account data independently
+re-verified via a live Alpaca pull and is unchanged since this morning.
+Recommend human review of the schedule/trigger config -- both pre-market and
+EOD workflows have now fired multiple times on the same trading day.
+**Portfolio:** $100,000.00 | **Cash:** $100,000.00 (100%) | **Day P&L:** $0.00 (0.00%) | **Phase P&L:** $0.00 (0.00%)
+
+No open positions, no open orders (confirmed via live `alpaca.sh account` /
+`positions` / `orders` pull). No trades today. Trades this week: 0/3.
