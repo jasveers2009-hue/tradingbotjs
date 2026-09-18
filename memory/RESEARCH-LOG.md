@@ -163,3 +163,33 @@ No new entries -- no fresh stock-specific catalyst with a clean entry/stop/targe
 
 ### Decision
 **HOLD.** No trades today. Rationale: (1) no fresh, verified stock-specific catalyst with clean entry/stop/target, (2) triple witching adds noise/whipsaw risk that argues against opening new positions today, (3) patience > activity -- Energy and Tech/semis momentum names stay on watchlist for a cleaner setup next session.
+
+## 2026-09-18 -- Pre-market Research (12:11 UTC re-run)
+
+**Note:** A full pre-market research entry for this same date already exists
+above, committed at ~08:02 UTC (commit ee3bee4). This is the second
+pre-market-workflow firing on the same trading day, ~4h10m after the first
+and still before market open (13:30 UTC). This is now the **second
+consecutive trading day** with a same-morning duplicate pre-market firing
+(see the 9/17 10:08 UTC re-run entry above) -- flagging this as a
+recurring pattern for human review of the scheduler/trigger config, not a
+one-off.
+
+### Account (live re-pull)
+- Equity: $100,000 | Cash: $100,000 (100%) | Buying power: $400,000
+- Positions: none | Open orders: none -- unchanged from this morning's
+  first run.
+
+### Market Context
+Not re-researched this firing -- no position or order state changed since
+the 08:02 UTC entry above, market has not yet opened, and no new
+information would change today's HOLD decision. Full market research
+(oil, futures, VIX, catalysts, sector momentum) stands as logged in the
+first entry today; see above.
+
+### Decision
+**HOLD.** No trades. Rationale: (1) account state unchanged (zero
+positions, zero orders) since this morning's full research run, (2)
+market not yet open, nothing new to react to, (3) this run's only
+substantive finding is the recurring duplicate-firing pattern itself,
+flagged to the human operator via notification.
