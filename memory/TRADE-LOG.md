@@ -36,3 +36,13 @@ EOD workflows have now fired multiple times on the same trading day.
 
 No open positions, no open orders (confirmed via live `alpaca.sh account` /
 `positions` / `orders` pull). No trades today. Trades this week: 0/3.
+
+### Sep 18 -- EOD Snapshot (Day 2, Friday)
+**Portfolio:** $100,000.00 | **Cash:** $100,000.00 (100%) | **Day P&L:** $0.00 (0.00%) | **Phase P&L:** $0.00 (0.00%)
+
+No open positions, no open orders (confirmed via live `alpaca.sh account` /
+`positions` / `orders` pull). No trades today -- both pre-market research
+runs (08:02 UTC and 12:11 UTC re-run) held on triple witching / no verified
+stock-specific catalyst. Trades this week: 0/3. Third consecutive session
+with zero positions; Energy and Technology/semis remain the top-momentum
+watchlist sectors for a cleaner setup next week.
