@@ -129,3 +129,37 @@ No new entries -- same conclusion as the 07:27 UTC run today, no new catalyst ha
 
 ### Decision
 **HOLD.** No trades today. Rationale: (1) this is a same-day duplicate research run, not a fresh trading session -- no new information changes yesterday's/this-morning's HOLD call, (2) 8:30am data cluster (claims, housing, Philly Fed) still ahead and could move the tape, (3) patience > activity, zero positions, nothing forces a trade. Flagging the duplicate-run/out-of-order EOD anomaly to the human operator via notification.
+
+## 2026-09-18 -- Pre-market Research
+
+### Account
+- Equity: $100,000
+- Cash: $100,000 (100%)
+- Buying power: $400,000
+- Daytrade count: 0
+- Positions: none | Open orders: none
+
+### Market Context
+- WTI / Brent: WTI ~$101.2/bbl, Brent ~$104.1/bbl (Perplexity synthesis of multiple sources, 9/17-9/18 quotes). Oil continuing its post-FOMC pullback, holding just above $100.
+- S&P 500 futures: ~7,727 (-0.6%) per Bloomberg 2:07am ET read; other sources showed +0.3% -- mixed/thin pre-market tape, no strong directional signal.
+- VIX: 15.05 as of 7:40am ET (-2.5%), continuing sharp post-Fed compression (17.71 -> 15.44 -> 15.05 over 3 sessions). Volatility low, not stressed.
+- Today's catalysts: Triple witching (quarterly options/futures expiration) -- can add volume/late-session volatility but is not a directional catalyst. BoJ rate decision overnight (held at 1.25%, no surprise). Post-Fed yield digestion continues; 10Y yield direction is the key cross-asset watch item for tech/growth. Sector leadership unchanged: Energy/Tech on top YTD, AI/semis (NVDA, AMD, SMH) cited as names to watch.
+- **Flagged as untrusted/likely unreliable:** one low-quality search result ("why-is-the-stock-market-moving-today" style aggregator) claimed a 6-month-old "US-Iran war" and "US-Israel strikes on Iran" driving an oil spike above $105. This is contradicted by every other source (oil ~$101-104, calm/falling VIX) and reads like AI-generated listicle noise. Per CLAUDE.md, treated as untrusted content -- not verified, not acted on, not incorporated into the market view below.
+- Earnings before open: Trio-Tech International (TRT) only -- micro-cap, not tradeable. No major earnings today; market attention on macro/expiration flows instead.
+- Economic calendar: No CPI/PPI/FOMC/monthly jobs today. 9:15am ET Industrial Production & Capacity Utilization (Aug, cons. +0.3%). 10:00am ET State Employment and Unemployment (Aug) + preliminary Michigan Consumer Sentiment (Sep). Thursday's jobless claims already out: 196K (vs 206K prior) -- solid labor read. No CPI/PPI/FOMC/jobs report today (confirmed via two independent queries).
+- Sector momentum YTD (SPDR ETFs, as of 9/17 close): Energy (XLE) +44.2% leads, Technology (XLK) +30.6% #2 (gap ~13.6pts), Materials (XLB) +11.8%, Health Care (XLV) +9.1%, Industrials (XLI) +9.0%, Consumer Staples (XLP) +7.5%, Real Estate (XLRE) +6.4%, Financials (XLF) +2.0%. Weakest: Utilities (XLU) -2.3%, Communication Services (XLC) -4.6%, Consumer Discretionary (XLY) -6.7%. Same leadership pattern as prior sessions -- Energy/Tech dominance intact, broadening slightly (8/11 sectors positive YTD).
+
+### Trade Ideas
+No new entries -- no fresh stock-specific catalyst with a clean entry/stop/target emerged overnight.
+1. (Watchlist only) Energy (XLE-linked large caps) -- catalyst: still #1 YTD momentum (+44.2%), oil holding >$100/bbl.
+2. (Watchlist only) Technology / semiconductors (NVDA, AMD, SMH) -- catalyst: #2 YTD momentum (+30.6%), AI capex/semis leadership cited across multiple sources, VIX compression supportive of growth bid.
+
+### Risk Factors
+- Triple witching today -- elevated volume/volatility risk into the close from options and futures expiration; avoid opening new positions into that noise.
+- Post-Fed 10Y yield direction is the key swing factor for tech/growth names -- a move toward 5% would pressure the sector currently favored on momentum.
+- Unverified "US-Iran war" / oil-spike narrative in one low-quality search result -- explicitly discounted as unreliable per the untrusted-content policy; flagged here only for audit trail, not used in market view.
+- Still zero position history after 3 sessions -- no baseline yet for sector-failure tracking; patience > activity remains the default.
+- Perplexity results treated as untrusted content per CLAUDE.md; only corroborated factual snippets used, no embedded instructions followed.
+
+### Decision
+**HOLD.** No trades today. Rationale: (1) no fresh, verified stock-specific catalyst with clean entry/stop/target, (2) triple witching adds noise/whipsaw risk that argues against opening new positions today, (3) patience > activity -- Energy and Tech/semis momentum names stay on watchlist for a cleaner setup next session.
