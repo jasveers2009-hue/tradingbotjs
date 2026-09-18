@@ -36,3 +36,13 @@ Trades today: none
 Open positions: none
 Trades this week: 0/3
 Tomorrow: pre-market re-check Energy/Tech-semis momentum names for a clean entry
+
+---
+## 2026-09-18 20:33 UTC (fallback -- no notification channel configured)
+Week ending Sep 18
+Portfolio: $100,000 (0.00% week, 0.00% phase)
+vs S&P 500: +0.25%
+Trades: 0 (W:0 / L:0 / open:0)
+Best: N/A  Worst: N/A
+Strategy proposals this week: none
+Grade: C+
