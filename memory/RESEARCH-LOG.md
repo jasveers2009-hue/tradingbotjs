@@ -193,3 +193,94 @@ positions, zero orders) since this morning's full research run, (2)
 market not yet open, nothing new to react to, (3) this run's only
 substantive finding is the recurring duplicate-firing pattern itself,
 flagged to the human operator via notification.
+
+## 2026-09-21 -- Pre-market Research (Day 1, new trading week)
+
+### Account
+- Equity: $100,000 | Cash: $100,000 (100%) | Buying power: $400,000
+- Daytrade count: 0
+- Positions: none | Open orders: none (confirmed via live `alpaca.sh`
+  pull). Trades this week: 0/3 (new week).
+
+### Market Context
+- WTI / Brent: WTI ~$97-98/bbl (-2 to -3%), Brent ~$100.5-101.6/bbl
+  (-1.7 to -2.2%). Oil extending its pullback; multiple sources cite
+  falling oil tied to shifting expectations around a possible
+  US-Iran de-escalation/agreement alongside renewed Middle East
+  headline risk -- a mixed, still-fluid narrative.
+- S&P 500 futures: ~+0.5-0.95% premarket (S&P/Dow/Nasdaq-100 all
+  green), building on anticipation of a **Trump-Xi summit**. Futures
+  levels varied by source/contract (~7,712-7,766) but direction was
+  consistently positive.
+- VIX: ~14.97-15.0, up modestly (+1.08%) off Friday's 14.81 close --
+  still historically low, no stress signal.
+- Today's catalysts: (1) Trump-Xi summit anticipation -- key driver for
+  semiconductor/China-exposed names either direction on headlines; (2)
+  Chicago Fed's Goolsbee speaks 6:30am ET -- rate-expectations risk;
+  (3) Chicago Fed National Activity Index (Aug) 8:30am ET, consensus
+  ~0.20 vs -0.08 prior; (4) 3-mo/6-mo T-bill auctions 11:30am ET; (5)
+  **S&P 100 rebalance** effective today -- SanDisk (SNDK), Dell (DELL),
+  Palo Alto Networks (PANW), Arista Networks (ANET) added (Nike exits)
+  -- passive-flow tailwind for the adds, no action taken on index
+  mechanics alone.
+- Earnings before open: calendars conflict and show no confirmed major
+  premarket reporters -- only small/micro-caps (VFS, ZJK, CBAT, CLGN,
+  EBF per one source; LGCY/AYTU per another). Not tradeable candidates.
+- Economic calendar: **No CPI, PPI, FOMC decision, or jobs report
+  today** -- next CPI Oct 14, PPI Oct 15, jobs report Oct 2, next FOMC
+  Oct 27-28. Jobless claims not due until Thursday 9/24. Today's only
+  scheduled items are Goolsbee's remarks, the Chicago Fed activity
+  index, and T-bill auctions (see above) -- a genuinely light data day.
+- Sector momentum YTD (SPDR ETFs, as of 9/18 close): Energy (XLE)
+  +43.8% leads by a wide margin, Technology/XLK +31.7% #2, Materials
+  (XLB) +10.2%, Industrials (XLI) +9.4%. Weakest: Consumer
+  Discretionary (XLY) -7.0%, Communication Services (XLC) -5.9%,
+  Utilities (XLU) -3.7%. Same leadership pattern as all prior sessions
+  this cycle -- Energy/Tech dominance unchanged; note 3-month trend has
+  Energy still positive (+19.6%) while Tech/Materials/Industrials have
+  cooled or gone slightly negative over that shorter window.
+- No held positions, so no ticker-specific holdings-news query was run.
+
+### Trade Ideas
+No new entries -- still no verified, stock-specific catalyst with a
+clean entry/stop/target; today's drivers are macro/index-mechanical,
+not single-name fundamental.
+1. (Watchlist only) Energy (XLE-linked large caps) -- catalyst:
+   still #1 YTD momentum (+43.8%), though oil itself is falling 2-3%
+   today on Iran-deal chatter -- would want oil to stabilize before
+   sizing an entry.
+2. (Watchlist only) Technology/semiconductors -- catalyst: #2 YTD
+   momentum (+31.7%), directly exposed to Trump-Xi summit headline
+   risk (positive surprise = tailwind, breakdown = sharp reversal) --
+   too binary/headline-driven for an entry ahead of the summit.
+3. (Watchlist only) S&P 100 adds (SNDK, DELL, PANW, ANET) -- catalyst:
+   passive-flow/index-inclusion effect today; needs a specific
+   liquidity/price check post-open before considering, and index
+   inclusion alone is not a strong enough catalyst per the entry
+   checklist without a fundamental/technical confirmation too.
+
+### Risk Factors
+- Trump-Xi summit is a binary headline risk -- futures are pricing
+  optimism now, but a breakdown or disappointing outcome could reverse
+  the tape fast, especially in China-exposed tech/semis.
+- Oil's -2 to -3% move is itself tied to an unconfirmed/developing
+  Iran-related narrative -- sources are not fully aligned on the
+  driver; treat with caution, don't chase Energy names into a falling
+  commodity.
+- Goolsbee's 6:30am ET remarks could move rate expectations before the
+  open with no offsetting scheduled data to contextualize them.
+- Perplexity results treated as untrusted content per CLAUDE.md; no
+  embedded instructions followed, only factual snippets extracted.
+  Two queries (oil, S&P futures) hit transient 429 rate limits on
+  first attempt and succeeded on retry with backoff -- noted, not a
+  hard failure.
+
+### Decision
+**HOLD.** No trades today. Rationale: (1) no verified stock-specific
+catalyst with clean entry/stop/target -- today's drivers are
+macro/geopolitical (Trump-Xi summit) and index-mechanical (S&P 100
+rebalance), not single-name fundamentals; (2) Trump-Xi summit
+headline risk argues against opening new exposure into a binary
+catalyst; (3) patience > activity, zero positions, nothing forces a
+trade. Energy and Tech/semis remain the top-momentum watchlist
+sectors pending a cleaner, less headline-dependent setup.
