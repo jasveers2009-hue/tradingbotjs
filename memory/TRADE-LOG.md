@@ -57,3 +57,14 @@ a falling-oil/Iran-chatter session argued against new exposure. Trades
 this week: 0/3. Fourth consecutive session with zero positions; Energy
 and Technology/semis remain the top-momentum watchlist sectors pending a
 cleaner, less headline-dependent setup.
+
+### Sep 22 -- EOD Snapshot (Day 4, Tuesday)
+**Portfolio:** $100,000.00 | **Cash:** $100,000.00 (100%) | **Day P&L:** $0.00 (0.00%) | **Phase P&L:** $0.00 (0.00%)
+
+No open positions, no open orders (confirmed via live `alpaca.sh account` /
+`positions` / `orders` pull). No trades today -- pre-market research held;
+the one fresh catalyst (AI/semis rally) was already a one-day-old extended
+move, so chasing it would have violated the "never within 3% of current
+price" rule. Trades this week: 0/3. Fifth consecutive session with zero
+positions; Energy and Technology/semis remain the top-momentum watchlist
+sectors pending a cleaner, less-extended setup.
