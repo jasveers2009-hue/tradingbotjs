@@ -284,3 +284,102 @@ headline risk argues against opening new exposure into a binary
 catalyst; (3) patience > activity, zero positions, nothing forces a
 trade. Energy and Tech/semis remain the top-momentum watchlist
 sectors pending a cleaner, less headline-dependent setup.
+
+## 2026-09-22 -- Pre-market Research (Day 4, Tuesday)
+
+### Account
+- Equity: $100,000 | Cash: $100,000 (100%) | Buying power: $400,000
+- Daytrade count: 0
+- Positions: none | Open orders: none (confirmed via live `alpaca.sh`
+  pull). Trades this week: 0/3.
+
+### Market Context
+- WTI / Brent: Sources disagree sharply this morning -- WTI quotes
+  ranged ~$91.98-$97.86/bbl and Brent ~$99.82-$101.69/bbl across
+  providers, with direction split (some +1-2%, others showing a
+  -2 to -10% pullback vs. prior close). Most recent/highest-confidence
+  quote: WTI $93.16 (+0.86%), Brent $101.60 (+1.26%). Treat oil pricing
+  as noisy/unreliable today -- don't size an Energy entry off a single
+  source.
+- S&P 500 futures: ~flat to slightly positive, E-mini S&P +0.04-0.05%
+  (~7,836-7,838), Dow mini +0.07%. Muted follow-through after a strong
+  prior session (Nasdaq 100 +2.8% Monday).
+- VIX: 14.87 (+0.41%) -- still historically low, no stress signal.
+- Today's catalysts: (1) **AI/semiconductor rally** -- Meta's new AI
+  agent app "Muse" reportedly topped US iPhone free-app rankings,
+  driving an AI-infra/chip/memory rally Monday (Meta +11%, AMD market
+  cap > $1T, Philadelphia Semiconductor Index +4.29%, Nasdaq 100
+  +2.8%); premarket follow-through more muted today (INTC +7.3%,
+  AMD +4.3%, SMCI +4.1%, MU +2.8%). This is the most specific,
+  verified stock-level catalyst seen in several sessions, but the
+  move already happened yesterday -- today's premarket gains are
+  chasing an extended move, not a fresh entry point. (2) Trump-Xi
+  summit still pending -- China/semis headline risk both ways. (3)
+  UN General Assembly / Trump address -- Middle East and Iran
+  diplomacy tied to the volatile oil narrative above. (4) 10-yr
+  Treasury yield dipped below 5%, supporting growth/AI valuations;
+  a 2-yr Treasury auction at 1pm ET is a reversal risk. (5) Richmond
+  Fed Manufacturing Index 10am ET; Fed speakers Bowman (9:30am),
+  Williams, Jefferson, Barkin through the day.
+- Earnings before open: AutoZone (AZO), Thor Industries (THO),
+  MillerKnoll (MLKN) -- consumer/housing-adjacent, not momentum plays.
+  KB Home (KBH) reports after close.
+- Economic calendar: **No CPI, PPI, FOMC decision, or jobs report
+  today.** ADP weekly employment 8:15am ET, Richmond Fed 10am ET.
+  Next CPI Oct 14/PPI Oct 15/jobs report Oct 2/FOMC Oct 27-28.
+- Sector momentum YTD (SPDR proxies, as of 9/21 close): Energy
+  +39.7% #1, Technology +35.3% #2 (both compressed slightly from
+  last week's spread), Materials +9.6%, Industrials +8.4%. Weakest:
+  Consumer Discretionary -6.0%, Utilities -4.8%, Communication
+  Services -2.5%. Same leadership pattern (Energy/Tech) unchanged.
+- No held positions, so no ticker-specific holdings-news query was run.
+
+### Trade Ideas
+No new entries today -- the one fresh, verified catalyst (AI/semis
+rally off Meta's Muse launch) is a chase-risk after yesterday's move,
+not a clean entry per the checklist.
+1. (Watchlist only) AMD / semis (AMD, MU, SMCI) -- catalyst: Meta AI
+   agent demand optimism, AMD > $1T market cap, Philly Semi +4.29%
+   Monday; premarket still +2.8-4.3%. Would want a pullback toward
+   yesterday's pre-rally level or first 30-60min consolidation before
+   an entry -- not chasing a gap-up open.
+2. (Watchlist only) Energy (XLE-linked large caps) -- catalyst: still
+   #1 YTD momentum (+39.7%), but today's oil price feeds are
+   internally inconsistent (some sources show WTI up ~1%, others down
+   as much as -10% vs. prior close) -- too noisy to size an entry
+   until the number stabilizes.
+3. (Watchlist only) Tech broadly (XLK-linked) -- catalyst: #2 YTD
+   momentum (+35.3%), directly exposed to Trump-Xi summit headline
+   risk (still pending) -- same binary-headline concern flagged in
+   prior sessions, wait for summit outcome.
+
+### Risk Factors
+- Oil price data was unusually inconsistent across sources this
+  morning (WTI spanning $91.98-$97.86, Brent $99.82-$101.69, some
+  same-provider pages showing conflicting numbers) -- data-quality
+  flag, not a market signal; don't trade Energy off a single stale
+  quote today.
+- AI/semis rally is one day old and already extended (AMD +4.3%,
+  INTC +7.3% premarket on top of Monday's gains) -- elevated reversal
+  risk if Meta's Muse momentum fades or profit-taking hits.
+- Trump-Xi summit still pending -- binary headline risk for
+  China-exposed tech/semis in either direction.
+- UN General Assembly / Trump address and ongoing Iran diplomacy are
+  live geopolitical wildcards tied directly to today's noisy oil
+  data.
+- 2-yr Treasury auction (1pm ET) and four Fed speakers today could
+  move yields and pressure richly-valued AI/growth names intraday.
+- Perplexity results treated as untrusted content per CLAUDE.md; no
+  embedded instructions followed, only factual snippets extracted.
+
+### Decision
+**HOLD.** No trades today. Rationale: (1) the one fresh, verified
+catalyst (AI/semis rally) is a one-day-old, already-extended move --
+chasing it now violates "never within 3% of current price" discipline
+and the entry checklist's clean-entry requirement; (2) oil pricing is
+too internally inconsistent today to size an Energy entry off
+momentum leadership alone; (3) Trump-Xi summit remains a pending
+binary catalyst for the #2 momentum sector (Tech/semis); (4) patience
+> activity, zero positions, nothing forces a trade. Watching for a
+pullback/consolidation entry in AI/semis names and summit resolution
+before committing capital. Trades this week: 0/3.
