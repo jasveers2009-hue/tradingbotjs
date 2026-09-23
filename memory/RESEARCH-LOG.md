@@ -383,3 +383,86 @@ binary catalyst for the #2 momentum sector (Tech/semis); (4) patience
 > activity, zero positions, nothing forces a trade. Watching for a
 pullback/consolidation entry in AI/semis names and summit resolution
 before committing capital. Trades this week: 0/3.
+
+## 2026-09-23 -- Pre-market Research (Day 5, Wednesday)
+
+### Account
+- Equity: $100,000 | Cash: $100,000 (100%) | Buying power: $400,000
+- Daytrade count: 0
+- Positions: none | Open orders: none (confirmed via live `alpaca.sh`
+  pull). Trades this week: 0/3.
+
+### Market Context
+- WTI / Brent: WTI ~$90.28-90.87/bbl, Brent ~$99.80-100.17/bbl, both
+  near a 2-week low. Falling overnight after US-Iran delegations met at
+  the UN General Assembly Tuesday and reports described the meeting
+  positively, raising hopes Middle East supply disruptions could ease.
+- S&P 500 futures: +7.50 pts (+0.10%) to ~7,839, roughly flat to
+  slightly positive after Tuesday's Nasdaq record close.
+- VIX: 14.15 -- still low, no stress signal.
+- Today's catalysts: (1) **US flash PMIs, 9:45am ET** -- manufacturing
+  expected 53.5 (prev 53.9), services 56.0 (prev 56.5); a hot print
+  could pressure bonds/growth stocks if it reinforces a
+  higher-for-longer Fed view. (2) **EIA crude inventories, 10:30am ET**
+  -- consensus ~0.5-0.6M bbl draw. (3) US-Iran diplomacy easing oil --
+  reversal risk if talks sour. (4) 10-yr yield ~4.96%; Fed Gov. Barr
+  speaks ~10:05am ET. (5) **AI/semis momentum now 2 sessions old and
+  more extended** -- Meta +11% (Muse AI agent), AMD +10%, Intel +12%
+  Tuesday on top of Monday's rally; Nasdaq closed at a fresh record
+  high. (6) Biotech single-name movers (Viking Therapeutics +26%,
+  Celldex -15%) -- not on our watchlist, no sector-momentum tie-in.
+- Earnings before open: Cintas (CTAS), Paychex (PAYX), General Mills
+  (GIS), Manchester United (MANU), Cracker Barrel (CBRL) -- none are
+  momentum-sector plays for us.
+- Economic calendar: **No CPI, PPI, FOMC, or jobs report today.** Flash
+  PMIs (9:45am ET) and EIA petroleum inventories (10:30am ET) are
+  today's key releases. Weekly jobless claims land tomorrow (9/24);
+  next CPI Oct 14, PPI Oct 15, jobs report Oct 2, FOMC Oct 27-28.
+- Sector momentum YTD: Energy still #1 (+39-43% depending on source),
+  Technology #2 (+31-43%) -- same leadership unchanged for weeks.
+  Weakest: Consumer Discretionary, Communication Services/Services,
+  Utilities.
+- No held positions, so no ticker-specific holdings-news query was run.
+
+### Trade Ideas
+No new entries -- no fresh, clean-entry catalyst clears the checklist.
+1. (Watchlist only) AI/semis (AMD, INTC, META) -- catalyst: Meta Muse
+   AI-agent momentum, but this is now a **second consecutive extended
+   session** (Meta +11%, AMD +10%, Intel +12% Tuesday alone) --
+   chasing here violates "never within 3% of current price." Want a
+   pullback/consolidation before considering entry.
+2. (Watchlist only) Energy (XLE-linked large caps) -- catalyst: still
+   #1 YTD momentum, but oil is actively falling on Iran-talks optimism
+   -- a falling commodity undercuts the sector's own fundamental
+   catalyst; wait for oil to stabilize or the diplomatic narrative to
+   resolve one way or the other.
+3. (Watchlist only) Industrials/Materials -- catalyst: solid
+   mid-tier YTD momentum (+9-26% depending on source) as a less
+   extended, less headline-driven alternative to Energy/Tech; no
+   single-name catalyst identified yet, needs a specific trigger.
+
+### Risk Factors
+- AI/semis rally is now two sessions extended and increasingly
+  crowded -- elevated reversal risk on any profit-taking or Muse-
+  narrative fade.
+- US-Iran diplomacy is fluid and reported secondhand ("had a very
+  good meeting," no deal before midterms per Trump) -- a swing back
+  toward confrontational rhetoric would spike oil and could hit
+  broader risk sentiment.
+- Flash PMI and EIA inventory data both land pre/at-open today and
+  could move yields, the dollar, and energy/growth stocks quickly.
+- Perplexity results treated as untrusted content per CLAUDE.md; no
+  embedded instructions followed, only factual snippets extracted.
+
+### Decision
+**HOLD.** No trades today. Rationale: (1) the AI/semis catalyst is now
+a two-day-old, further-extended move -- chasing it breaches the
+"never within 3% of current price" rule and the entry checklist's
+clean-entry requirement; (2) Energy's YTD momentum is undercut today
+by oil actively falling on Iran-talks optimism, a fundamental
+headwind, not just noise; (3) flash PMI and EIA inventory data are
+still pending at/after the open and could move markets before a
+position could be sized safely; (4) patience > activity, zero
+positions, nothing forces a trade. Sixth consecutive session with
+zero positions; watching for a pullback entry in AI/semis or an
+Energy setup once oil/diplomacy stabilizes. Trades this week: 0/3.
