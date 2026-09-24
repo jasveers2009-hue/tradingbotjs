@@ -68,3 +68,18 @@ move, so chasing it would have violated the "never within 3% of current
 price" rule. Trades this week: 0/3. Fifth consecutive session with zero
 positions; Energy and Technology/semis remain the top-momentum watchlist
 sectors pending a cleaner, less-extended setup.
+
+### Sep 24 -- EOD Snapshot (Day 6, Thursday)
+**Portfolio:** $100,000.00 | **Cash:** $100,000.00 (100%) | **Day P&L:** $0.00 (0.00%) | **Phase P&L:** $0.00 (0.00%)
+
+No open positions, no open orders (confirmed via live `alpaca.sh account` /
+`positions` / `orders` pull). No trades today -- pre-market research held:
+no fresh single-name catalyst cleared the checklist, AI/semis is now three
+sessions extended (still a chase), Energy's oil-price whipsaw makes today's
+bounce unreliable for sizing, and a mild risk-off tone (red futures, VIX
+pop) argued against new exposure. Trades this week: 0/3. Sixth consecutive
+session with zero positions. Note: no EOD snapshot was logged for Sep 23
+(Day 5, Wednesday) -- Day P&L above is computed against the last confirmed
+snapshot (Sep 22, $100,000.00); live account data confirms equity is
+unchanged either way. Energy and Technology/semis remain the top-momentum
+watchlist sectors pending a cleaner, less-extended setup.
