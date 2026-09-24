@@ -79,3 +79,21 @@ catalyst with a clean entry/stop/target has cleared the bar. Energy and
 Technology/semis remain the top-momentum watchlist sectors; will keep
 screening for a less-extended, cleaner setup rather than force a trade to
 break the streak.
+
+### Sep 24 -- EOD Snapshot (Day 6, Thursday)
+**Portfolio:** $100,000.00 | **Cash:** $100,000.00 (100%) | **Day P&L:** $0.00 (0.00%) | **Phase P&L:** $0.00 (0.00%)
+
+No open positions, no open orders (confirmed via live `alpaca.sh account` /
+`positions` / `orders` pull). No trades today -- pre-market research held:
+no fresh single-name catalyst cleared the checklist, AI/semis is now three
+sessions extended (still a chase), Energy's oil-price whipsaw makes today's
+bounce unreliable for sizing, and a mild risk-off tone (red futures, VIX
+pop) argued against new exposure. Trades this week: 0/3. Seventh consecutive
+session with zero positions. Note: this PR's EOD snapshot was originally
+merged against main before the Sep 23 EOD snapshot PR (#15) had landed, so
+Day P&L above was computed against Sep 22's equity rather than Sep 23's;
+equity is unchanged across all three days ($100,000.00) so the number is
+correct regardless. The gap is closed by this merge, which brings Sep 23's
+entry in above in its correct chronological place. Energy and
+Technology/semis remain the top-momentum watchlist sectors pending a
+cleaner, less-extended setup.
