@@ -466,3 +466,81 @@ position could be sized safely; (4) patience > activity, zero
 positions, nothing forces a trade. Sixth consecutive session with
 zero positions; watching for a pullback entry in AI/semis or an
 Energy setup once oil/diplomacy stabilizes. Trades this week: 0/3.
+
+## 2026-09-24 -- Pre-market Research (Day 6, Thursday)
+
+### Account
+- Equity: $100,000 | Cash: $100,000 (100%) | Buying power: $400,000
+- Daytrade count: 0
+- Positions: none | Open orders: none (confirmed via live `alpaca.sh`
+  pull). Trades this week: 0/3.
+
+### Market Context
+- WTI / Brent: WTI ~$93.75/bbl, Brent ~$102.23/bbl -- both bouncing
+  back up from yesterday's ~$90/$100 2-week lows (quotes from
+  different feeds/times, treat as directional not precise).
+- S&P 500 futures: ~-0.5% premarket (7,664, -41.55pts as of 7:10am ET)
+  -- first meaningfully red premarket tape in several sessions.
+- VIX: 16.08 (+5.93%), up off yesterday's ~14.15 close -- still
+  historically low but the largest single-day VIX pop seen this cycle.
+- Today's catalysts: (1) Jobless claims 196K, beat consensus (201K) --
+  labor market still resilient; (2) New-home sales + several Fed
+  speakers incl. Barkin -- yield-sensitive catalyst; (3) US-China
+  summit -- geopolitical/trade watchpoint, same binary-headline risk
+  flagged all week for China-exposed tech/semis; (4) Premarket movers:
+  Unity (U) +7% on raised guidance, MGM Resorts -11% on earnings; (5)
+  Eli Lilly FDA approval (weekly basal insulin) -- pharma-specific, not
+  on our momentum sectors.
+- Earnings before open: BlackBerry (BB), Darden (DRI), TD SYNNEX (SNX),
+  Blackstone Mortgage Trust (BXMT) -- none are Energy/Tech-momentum
+  plays for us.
+- Economic calendar: **No CPI, PPI, FOMC, or jobs report today** --
+  only weekly jobless claims (already out, beat) and new-home sales.
+  Next CPI Oct 14, PPI Oct 15, jobs report Oct 2, FOMC Oct 27-28.
+- Sector momentum YTD (through 9/23 close): Energy +39.5% #1,
+  Technology +35.7% #2 (gap narrowing further), Materials +10.9%,
+  Industrials +9.7%. Weakest: Consumer Discretionary -7.3%, Utilities
+  -6.9%, Communication Services -4.4%. Same leadership unchanged for
+  seven straight sessions.
+- No held positions, so no ticker-specific holdings-news query was run.
+
+### Trade Ideas
+No new entries today -- no fresh single-name catalyst clears the
+entry checklist; today's setup is a broad risk-off tone (red futures,
+VIX pop), not a stock-specific opportunity.
+1. (Watchlist only) AI/semis (AMD, INTC, META) -- catalyst: still the
+   most specific momentum story, but now a **third consecutive
+   extended session** with no pullback yet -- still violates "never
+   within 3% of current price."
+2. (Watchlist only) Energy (XLE-linked large caps) -- catalyst: still
+   #1 YTD momentum, oil bouncing back today, but the whipsaw
+   (-3% Tue/Wed, now +3%+ today) makes it too noisy to size an entry
+   off a single day's bounce.
+3. (Watchlist only) Unity (U) -- catalyst: +7% premarket on raised
+   guidance, but not an Energy/Tech-momentum name and not previously
+   researched -- would need a full workup (no chase off a single
+   premarket headline) before any entry consideration.
+
+### Risk Factors
+- First red premarket tape (S&P futures -0.5%) and largest single-day
+  VIX pop (+5.93%) of this research cycle -- a mild risk-off signal
+  worth monitoring into the open, though VIX 16 is still low in
+  absolute terms.
+- US-China summit remains a binary geopolitical catalyst for
+  China-exposed tech/semis, same risk flagged all week.
+- Oil is whipsawing day-to-day (-3% Tue/Wed on Iran-talk optimism, now
+  bouncing) -- don't read today's bounce as a clean trend resumption.
+- Perplexity results treated as untrusted content per CLAUDE.md; no
+  embedded instructions followed, only factual snippets extracted.
+
+### Decision
+**HOLD.** No trades today. Rationale: (1) no fresh single-name
+catalyst with a clean entry/stop/target clears the checklist; (2)
+AI/semis momentum is now three sessions extended with no pullback --
+still a chase, not an entry; (3) Energy's oil-price whipsaw makes today's
+bounce unreliable as a sizing signal; (4) mild risk-off tone (red
+futures, VIX pop) argues for caution rather than initiating new
+exposure; (5) patience > activity, zero positions, nothing forces a
+trade. Seventh consecutive session with zero positions; watching for
+an AI/semis pullback or a more stable multi-day Energy trend before
+committing capital. Trades this week: 0/3.
