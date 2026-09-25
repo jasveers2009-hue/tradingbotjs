@@ -67,6 +67,15 @@ Trades this week: 0/3
 Tomorrow: watch for a non-extended entry in Energy/Tech momentum names
 
 ---
+## 2026-09-23 20:16 UTC (fallback -- no notification channel configured)
+EOD Sep 23
+Portfolio: $100,000.00 (0.0% day, 0.0% phase)
+Cash: $100,000.00
+Trades today: none
+Open positions: none
+Tomorrow: keep screening Energy/semis for a clean, non-extended setup
+
+---
 ## 2026-09-24 20:16 UTC (fallback -- no notification channel configured)
 EOD Sep 24
 Portfolio: $100,000.00 (0.00% day, 0.00% phase)
