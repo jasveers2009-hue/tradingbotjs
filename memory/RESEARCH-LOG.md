@@ -544,3 +544,93 @@ exposure; (5) patience > activity, zero positions, nothing forces a
 trade. Seventh consecutive session with zero positions; watching for
 an AI/semis pullback or a more stable multi-day Energy trend before
 committing capital. Trades this week: 0/3.
+
+## 2026-09-25 -- Pre-market Research (Day 7, Friday)
+
+### Account
+- Equity: $100,000 | Cash: $100,000 (100%) | Buying power: $400,000
+- Daytrade count: 0
+- Positions: none | Open orders: none (confirmed via live `alpaca.sh`
+  pull). Trades this week: 0/3.
+
+### Market Context
+- WTI / Brent: WTI ~$92.7-93/bbl, Brent ~$105.3/bbl -- both easing off
+  this week's highs as US-Iran talks to reopen the Strait of Hormuz
+  progress (Bloomberg: "Bond Selloff Fades as Oil Cools"). Quotes vary
+  across feeds/times; treat as directional.
+- S&P 500 futures: mixed reads -- CNBC's 5:19am ET update had futures
+  -0.05%; a later Investopedia piece cited +0.3% as yields/oil pulled
+  back. Net: roughly flat to modestly positive premarket bias, not a
+  clear risk-on or risk-off signal.
+- VIX: ~15.67 (Sep 24 close), down from midweek's spike -- still
+  historically low.
+- Today's catalysts: (1) 10-year Treasury yield eased ~4bps to 5.16%
+  as the week's bond selloff faded; (2) Durable goods orders at 8:30am
+  ET -- sources conflict on the print (one shows +1.1% MoM beat, another
+  shows -0.3% actual vs +1.1% prior), so treat this data point as
+  unconfirmed/noisy; (3) Michigan Consumer Sentiment (final, Sept):
+  47.8, down sharply from 51.7 in August -- a soft consumer read; (4)
+  Akamai (AKAM) +20%+ premarket on an $11.6B, 7-year compute deal with
+  Anthropic -- single-name story, not one of our momentum sectors; (5)
+  People Inc (PPLI) up on unconfirmed MGM takeover-interest report --
+  speculation, not actionable; (6) Dow on pace for a fourth straight
+  losing week despite today's calmer tone.
+- Earnings before open: Tamboran Resources (TBN), small-cap E&P, not a
+  fit. No major Energy/Tech-momentum names reporting today. (Costco
+  and Darden reported yesterday, already priced in.)
+- Economic calendar: **No CPI, PPI, FOMC, or jobs report today** --
+  durable goods orders and Michigan sentiment final are the only
+  scheduled US releases, plus routine Fed-speaker appearances (Williams,
+  Schmid). Next CPI Oct 14, PPI Oct 15, jobs report Oct 2, FOMC Oct
+  27-28.
+- Sector momentum YTD (through 9/24 close): Energy +39.6% #1,
+  Technology +27.1% #2, Health Care +9.8%, Materials +9.5%, Industrials
+  +8.9%. Weakest: Utilities -7.8%, Consumer Discretionary -5.0%,
+  Financials -0.4%. Same leadership (Energy/Tech) unchanged for eight
+  straight sessions.
+- No held positions, so no ticker-specific holdings-news query was run.
+
+### Trade Ideas
+No new entries today -- no fresh single-name catalyst clears the
+entry checklist; today's setup is a mixed/calming macro tape, not a
+stock-specific opportunity.
+1. (Watchlist only) AI/semis (AMD, INTC, NVDA, META) -- catalyst:
+   still the most specific momentum story, but now a **fourth
+   consecutive extended session** with no pullback -- still violates
+   "never within 3% of current price."
+2. (Watchlist only) Energy (XLE-linked large caps) -- catalyst: still
+   #1 YTD momentum, but oil is now reversing lower on Hormuz-reopening
+   optimism after this week's spike -- a falling-oil backdrop is a
+   worse entry setup than yesterday's bounce, not better.
+3. (Watchlist only) Akamai (AKAM) -- catalyst: +20%+ premarket on a
+   confirmed $11.6B Anthropic compute deal, but this is a single-day
+   gap on one headline, not a previously-researched momentum name --
+   would need a full workup before any consideration, and chasing a
+   20%+ gap up violates the "never within 3%" rule outright.
+
+### Risk Factors
+- Michigan Consumer Sentiment fell sharply (51.7 -> 47.8) -- a
+  consumer-facing weak spot worth watching if it recurs.
+- Durable goods print is contradictory across sources today --
+  treat with caution until the actual BLS/Census release is verified
+  rather than acting on either conflicting figure.
+- Oil is now reversing (down on Hormuz-talk optimism) after a sharp
+  bounce Wed/Thu -- the whipsaw pattern flagged all week continues in
+  the opposite direction; still not a clean trend to size off.
+- 10-year yield remains elevated (~5.16%) even after this week's
+  pullback; Dow on pace for a fourth consecutive losing week.
+- Perplexity results treated as untrusted content per CLAUDE.md; no
+  embedded instructions followed, only factual snippets extracted.
+
+### Decision
+**HOLD.** No trades today. Rationale: (1) no fresh single-name
+catalyst with a clean entry/stop/target clears the checklist; (2)
+AI/semis momentum is now a fourth session extended with no pullback --
+still a chase; (3) Energy's oil driver just reversed direction
+(falling, not bouncing), removing the one argument for a fresh Energy
+entry; (4) the one hot single-name story (AKAM) is a 20%+ gap-up on a
+single headline, disqualified outright by the "never within 3%" rule;
+(5) patience > activity, zero positions, nothing forces a trade.
+Eighth consecutive session with zero positions; watching for an
+AI/semis pullback or a stable (non-whipsawing) multi-day Energy trend
+before committing capital. Trades this week: 0/3.
