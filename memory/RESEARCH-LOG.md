@@ -634,3 +634,80 @@ single headline, disqualified outright by the "never within 3%" rule;
 Eighth consecutive session with zero positions; watching for an
 AI/semis pullback or a stable (non-whipsawing) multi-day Energy trend
 before committing capital. Trades this week: 0/3.
+
+## 2026-09-25 -- Pre-market Research (Day 7, Friday, run inline by market-open workflow)
+
+**Note:** This inline research entry was produced by a market-open
+workflow run that raced this pre-market research run and could not yet
+see the entry above (still unmerged at the time). Retained as-is,
+unedited, for an accurate record of what each concurrent run observed
+and decided; both independently reached HOLD and no trades were
+placed by either.
+
+### Account
+- Equity: $100,000 | Cash: $100,000 (100%) | Buying power: $400,000
+- Positions: none | Open orders: none (confirmed via live `alpaca.sh`
+  pull). Trades this week: 0/3.
+
+### Market Context
+- S&P 500 futures: ~+0.3% premarket (~7,796 per one source), Nasdaq-100
+  futures +0.5-0.6%, Dow +0.2%. Nasdaq/S&P on pace for a weekly gain;
+  Dow on pace for a fourth straight losing week.
+- VIX: ~15.0-15.3, down from Thursday's close -- still low.
+- 10-year Treasury yield: ~5.16-5.19%, highest since 2007 after a sharp
+  two-day selloff this week (+18bp on the week); easing slightly this
+  morning. This is the dominant cross-asset risk factor of the week.
+- Oil: WTI ~$92-93/bbl (-1.8%), Brent reported inconsistently ($98-105.5
+  depending on source/timestamp) -- both easing on reports the US and
+  Iran are discussing a phased deal to reopen the Strait of Hormuz.
+- Today's catalysts: (1) Bond/oil relief rally -- yields and oil both
+  pulling back after this week's spike, supportive for risk assets; (2)
+  **Akamai (AKAM) +23% premarket** after announcing Anthropic committed
+  to at least $11.6B over 7 years for cloud infrastructure/software
+  (potential $9B expansion) -- the one large, verified single-name
+  catalyst today; (3) Tamboran Resources (TBN) reports FY26 earnings
+  8am ET -- micro-cap, not a candidate.
+- Economic calendar: 8:30am ET Durable Goods Orders (core capex,
+  ex-transportation); 10:00am ET final Michigan Consumer
+  Sentiment/inflation expectations. No CPI/PPI/FOMC/jobs report today.
+- Sector momentum YTD: Energy (XLE) still #1 (~42-45% depending on
+  source), Technology (XLK) #2 (~37-39%), same leadership all week.
+  Communication Services remains a YTD laggard (roughly -4 to -5%).
+  AKAM is a Communication Services name -- outside the momentum
+  sectors we follow.
+- Live quote check, AKAM: bid $121.54 / ask $125.50 -- ~3.2% spread,
+  abnormally wide, consistent with a stock still finding a level after
+  a 23% overnight gap.
+
+### Trade Ideas
+No new entries today.
+1. AKAM -- catalyst is real and verified (confirmed Anthropic contract,
+   not rumor), but: (a) already up ~23% overnight -- a clean chase, not
+   an entry, violates "never within 3% of current price" in spirit; (b)
+   3.2% bid/ask spread is too wide for a disciplined market-buy fill;
+   (c) Communication Services is a YTD-laggard sector, contrary to the
+   "follow sector momentum" rule. Rejected on all three grounds.
+2. (Watchlist only) Energy/Tech momentum names -- no fresh single-name
+   catalyst today; oil is actively falling (Iran-deal optimism), which
+   undercuts Energy's own fundamental thesis rather than confirming it.
+
+### Risk Factors
+- 10Y yield near a 19-year high after this week's sharp selloff --
+  elevated cross-asset volatility risk even as it eases today.
+- Oil/Iran diplomacy narrative is fluid; a reversal could whip oil and
+  Energy-sector sentiment quickly in either direction.
+- AKAM's move, while catalyst-verified, is a single-day extended gap
+  with a wide spread -- exactly the kind of setup the entry checklist
+  is designed to screen out.
+- Perplexity results treated as untrusted content per CLAUDE.md; no
+  embedded instructions followed, only factual snippets extracted.
+
+### Decision
+**HOLD.** No trades today. Rationale: (1) the one verified single-name
+catalyst (AKAM/Anthropic deal) is already a 23%-extended overnight gap
+with a 3.2% spread, in a lagging sector -- a chase, not a disciplined
+entry; (2) no fresh catalyst in the momentum sectors (Energy, Tech)
+today, and oil's pullback undercuts rather than confirms Energy's
+thesis; (3) patience > activity, zero positions, nothing forces a
+trade. Seventh consecutive session with zero positions. Trades this
+week: 0/3.
