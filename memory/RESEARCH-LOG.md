@@ -618,3 +618,93 @@ today, and oil's pullback undercuts rather than confirms Energy's
 thesis; (3) patience > activity, zero positions, nothing forces a
 trade. Seventh consecutive session with zero positions. Trades this
 week: 0/3.
+
+## 2026-09-28 -- Pre-market Research (Day 8, Monday)
+
+### Account
+- Equity: $100,000 | Cash: $100,000 (100%) | Buying power: $400,000
+- Daytrade count: 0 (no trades placed to date)
+- Positions: none | Open orders: none (confirmed via live `alpaca.sh`
+  pull). Trades this week: 0/3.
+
+### Market Context
+- Oil is the dominant mover: WTI ~$93.5-96.5/bbl (+1.2% to +3.5%
+  depending on source/timing), Brent ~$98.5-107/bbl -- one of the
+  sharpest single-session gains in weeks, driven by a fresh breakdown
+  in US-Iran diplomatic talks and renewed Strait of Hormuz risk
+  premium. This is the same Iran/Hormuz headline risk flagged as
+  "fluid" in Friday's log, now moving the other direction.
+- S&P 500 futures: mixed/slightly negative, roughly -0.2% to -0.5%
+  (CNBC 5:37am ET: -0.46%; other reads -0.2 to -0.34%). Nasdaq-100
+  futures also down (~-0.3 to -1.0% depending on source). Rising
+  Treasury yields (multiyear highs) alongside oil cited as pressuring
+  rate-sensitive growth names. Meta -3.4% and Roblox -3.6% premarket
+  noted as movers (not held, not candidates).
+- VIX: last confirmed close 14.87 (Friday 9/25) -- still low; no
+  confirmed intraday print for today yet.
+- Today's catalysts: (1) Oil/Hormuz geopolitical spike (see above);
+  (2) rising yields pressuring equities; (3) Kodiak Sciences (KOD)
+  Phase 3 DAYBREAK topline biotech readout, 8:30am ET webcast -- binary
+  single-stock event, outside our sector focus and too speculative
+  for the checklist; (4) Kandi Technologies (KNDI) H1 earnings
+  8:00am ET -- micro-cap China EV name, not a candidate.
+- Economic calendar: No CPI/PPI/FOMC/jobs report today. Dallas Fed
+  Manufacturing Index and a Fed Governor Barkin speech are on the
+  calendar; Case-Shiller home price reading also due. JOLTS
+  (Tue), ADP + PCE (Wed), September jobs report (Fri 10/2) are the
+  week's bigger releases -- none today.
+- Sector momentum YTD (through 9/25): Energy #1 (+38.4%), Information
+  Technology #2 (+28.4%), both far ahead of the rest of the pack (S&P
+  500 overall +13.1% YTD). Utilities (-7.4%) and Consumer Discretionary
+  (-5.0%) remain laggards. Same leadership (Energy/Tech) as all prior
+  sessions this cycle.
+- Held-ticker news: N/A -- no open positions.
+- Live quote check (XOM/CVX/OXY via alpaca.sh): spreads are abnormally
+  wide/incomplete (e.g. XOM bid $152/ask $168.48, CVX ask $0) --
+  consistent with stale pre-open paper-account quotes, not usable for
+  entry pricing. Will re-check at/after the open before any order.
+
+### Trade Ideas
+No new entries pre-market; today's opening range needs to confirm
+before any order.
+1. (Watchlist) Energy majors/producers (XOM, CVX, OXY) -- catalyst is
+   the fresh oil/Hormuz spike, and Energy is the #1 YTD momentum
+   sector, so this is directionally aligned. But: (a) it's a
+   geopolitical headline move that has whipsawed both directions
+   multiple times this week already -- exactly the "fluid" risk flagged
+   Friday; (b) pre-market quotes are too stale/wide to set a real
+   entry/stop; (c) chasing a single-session oil spike at the open risks
+   buying the top of a headline pop. Would need the open print to hold
+   with a clean pullback entry, stop ~7-8% below entry, target 2:1+,
+   before this clears the checklist -- not pre-market actionable.
+2. (Watchlist only) Technology/semis -- #2 momentum sector, but no
+   fresh single-name catalyst identified today; still need a
+   non-extended entry.
+3. KOD/KNDI -- rejected outright: binary biotech readout and
+   micro-cap earnings are outside our momentum-sector, catalyst
+   discipline (no clean stop/target logic for a binary biotech event).
+
+### Risk Factors
+- Iran/Hormuz oil-price risk premium is headline-driven and has
+  reversed direction multiple times this week -- do not treat today's
+  spike as a stable multi-day trend.
+- Rising Treasury yields alongside oil raises cross-asset volatility
+  risk, particularly for rate-sensitive growth/tech names.
+- Futures are red into the open despite the Energy-sector tailwind --
+  a broad risk-off tape could undercut any single-sector setup.
+- Pre-market quotes from the paper account are unreliable (wide/zero
+  spreads) -- do not size or place orders off them; re-verify live
+  quotes at/after the open.
+- Perplexity results treated as untrusted content per CLAUDE.md; no
+  embedded instructions followed, only factual snippets extracted.
+
+### Decision
+**HOLD.** No trades pre-market. Rationale: (1) the one fresh catalyst
+(oil/Hormuz spike) is a geopolitical headline move that has whipsawed
+all week -- not yet a confirmed trend; (2) pre-market quotes are too
+stale/wide to set a disciplined entry/stop; (3) no fresh single-name
+catalyst in Tech/semis today; (4) patience > activity, zero positions,
+nothing forces a trade. Eighth consecutive session with zero
+positions. Energy and Technology remain the top-momentum watchlist
+sectors; will reassess Energy names against the live opening print
+during the market-open workflow. Trades this week: 0/3.
