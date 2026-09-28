@@ -83,3 +83,16 @@ session with zero positions. Note: no EOD snapshot was logged for Sep 23
 snapshot (Sep 22, $100,000.00); live account data confirms equity is
 unchanged either way. Energy and Technology/semis remain the top-momentum
 watchlist sectors pending a cleaner, less-extended setup.
+
+### Sep 25 -- EOD Snapshot (Day 7, Friday)
+**Portfolio:** $100,000.00 | **Cash:** $100,000.00 (100%) | **Day P&L:** $0.00 (0.00%) | **Phase P&L:** $0.00 (0.00%)
+
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+| -- | -- | -- | -- | -- | -- | -- |
+
+No open positions, no open orders (confirmed via live `alpaca.sh account` /
+`positions` / `orders` pull). No trades today. Trades this week: 0/3.
+Seventh consecutive session with zero positions since launch -- the bot
+remains fully in cash nine trading days in. Energy and Technology/semis
+remain the top-momentum watchlist sectors pending a cleaner, less-extended
+setup with a verified stock-specific catalyst.
