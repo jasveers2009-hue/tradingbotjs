@@ -83,3 +83,16 @@ session with zero positions. Note: no EOD snapshot was logged for Sep 23
 snapshot (Sep 22, $100,000.00); live account data confirms equity is
 unchanged either way. Energy and Technology/semis remain the top-momentum
 watchlist sectors pending a cleaner, less-extended setup.
+
+### Sep 29 -- EOD Snapshot (Day 9, Tuesday)
+**Portfolio:** $100,000.00 | **Cash:** $100,000.00 (100%) | **Day P&L:** $0.00 (0.00%) | **Phase P&L:** $0.00 (0.00%)
+
+No open positions, no open orders (confirmed via live `alpaca.sh account` /
+`positions` / `orders` pull). No trades today -- both pre-market research
+and the market-open reassessment held: the Hormuz/oil headline remains a
+two-sided whipsaw rather than a confirmed trend, XOM/CVX spreads were
+still abnormally wide at the open, and today's AI-safety headlines kept
+Tech/semis a two-sided catalyst, not a clean directional setup. Trades
+this week: 0/3. Ninth consecutive session with zero positions. Energy and
+Technology/semis remain the top-momentum watchlist sectors pending a
+cleaner, less headline-dependent, non-extended setup.
