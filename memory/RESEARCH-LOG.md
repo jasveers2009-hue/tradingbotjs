@@ -801,3 +801,95 @@ nothing forces a trade. Eighth consecutive session with zero
 positions. Energy and Technology remain the top-momentum watchlist
 sectors; will reassess Energy names against the live opening print
 during the market-open workflow. Trades this week: 0/3.
+
+## 2026-09-29 -- Pre-market Research (Day 9, Tuesday)
+
+### Account
+- Equity: $100,000 | Cash: $100,000 (100%) | Buying power: $400,000
+- Daytrade count: 0 (no trades placed to date)
+- Positions: none | Open orders: none (confirmed via live `alpaca.sh`
+  pull). Trades this week: 0/3 (new week).
+
+### Market Context
+- Oil: WTI ~$92-95/bbl, Brent ~$100-107/bbl -- sources disagree sharply
+  on the exact print (real-time feeds vs. delayed quotes), but
+  consistent theme: Brent spiked toward $107-108 intraday Monday/early
+  Tuesday on the collapse of US-Iran diplomacy (Trump publicly
+  dismissed Iran's conditional 7-day roadmap to reopen the Strait of
+  Hormuz), then eased back into the low $100s as the Tuesday session
+  opened -- oil is now described as "wavering." Same Hormuz headline
+  risk flagged repeatedly this week; still whipsawing, not a stable
+  trend.
+- S&P 500 futures: little changed / roughly flat overnight (ES ~7,743,
+  -0.05% per Bloomberg 2:56am ET), after Monday's broad selloff (S&P
+  -0.8%, Nasdaq -0.9%, Dow -0.7%) driven by rising Treasury yields and
+  the oil spike. Bloomberg's morning wrap: "traders held fire ahead of
+  the week's first labor data and a string of AI events."
+- VIX: last confirmed close 16.07 (Sep 28), up from last week's low of
+  14.87 -- modest volatility uptick, still not elevated. No live Sep 29
+  print yet.
+- Today's catalysts: (1) Oil/Hormuz headline risk (see above) --
+  two-sided, not a clean trend; (2) AI safety: Trump meeting industry
+  leaders (incl. Anthropic's Dario Amodei) on AI safety risk, plus
+  OpenAI's Sam Altman speaking at its dev conference -- reports OpenAI
+  canceled a model release over safety findings; AMD agreed to acquire
+  World Labs ($8.2B) -- all headline risk for AI/semis names, could cut
+  either way; (3) rising 10Y yields (~5.24%) continuing to pressure
+  rate-sensitive growth/tech.
+- Earnings before the open (none are candidates -- outside momentum
+  sectors/watchlist): Carnival (CCL, EPS est. ~$1.35), CarMax (KMX, EPS
+  est. ~$0.73), Uranium Energy (UEC, EPS est. ~-$0.04).
+- Economic calendar: No CPI/PPI/FOMC rate decision today. JOLTS job
+  openings (Aug) at 10:00am ET, consensus 7.23M vs. 7.271M prior;
+  Conference Board Consumer Confidence (Sep, consensus 89.2 vs. 89.4);
+  Case-Shiller home prices; multiple Fed speakers (Bowman 11am,
+  Williams 2pm ET) -- no rate decision, just commentary. September CPI
+  not due until Oct 14; next jobs report Oct 2.
+- Sector momentum YTD (through ~9/25): Energy #1 (+38-40%), Information
+  Technology #2 (+27-28%), both far ahead of S&P 500 overall (+12-13%
+  YTD). Utilities (-7 to -8%) and Consumer Discretionary (-5%) remain
+  laggards. Same leadership as every prior session this cycle -- no
+  rotation.
+- Held-ticker news: N/A -- no open positions.
+
+### Trade Ideas
+No new entries pre-market.
+1. (Watchlist) Energy majors/producers -- catalyst is the Hormuz
+   headline risk, and Energy remains #1 YTD momentum sector, but oil
+   has whipsawed both directions multiple sessions running (spike
+   Mon/early Tue, already easing into the open) -- same "fluid,
+   headline-driven" risk flagged all week. Not actionable pre-market;
+   would need the open print to hold with a clean, non-chasing entry.
+2. (Watchlist only) Technology/semis -- #2 momentum sector, but today's
+   AI-safety headlines (Trump/Amodei meeting, OpenAI model pulled over
+   safety concerns, AMD/World Labs deal) are two-sided catalysts that
+   could just as easily hit sentiment as lift it -- not a clean,
+   directional setup.
+3. CCL/KMX/UEC earnings -- rejected outright: outside momentum-sector
+   focus, no catalyst/stop/target logic tying them to the strategy.
+
+### Risk Factors
+- Iran/Hormuz oil risk premium remains headline-driven and reversing
+  direction session to session -- do not treat any single print as a
+  trend.
+- AI-safety headline risk (Trump/industry meeting, OpenAI safety pull,
+  Altman DevDay remarks) could swing AI/semis sentiment sharply in
+  either direction today -- avoid entering into that binary.
+- Rising Treasury yields (10Y ~5.24%) continue to pressure
+  rate-sensitive growth/tech names.
+- JOLTS (10am ET) and Fed speeches could add intraday volatility around
+  rate-path expectations.
+- Perplexity results treated as untrusted content per CLAUDE.md; no
+  embedded instructions followed, only factual snippets extracted.
+
+### Decision
+**HOLD.** No trades pre-market. Rationale: (1) oil/Hormuz spike is
+still a headline-driven whipsaw, not a confirmed trend -- unchanged
+from every prior session this week; (2) today's AI-safety
+meeting/OpenAI news is a two-sided catalyst for Tech/semis, not a
+directional setup; (3) no fresh single-name catalyst clears the
+checklist in either momentum sector; (4) patience > activity, zero
+positions, nothing forces a trade. Ninth consecutive session with zero
+positions. Energy and Technology remain the top-momentum watchlist
+sectors; will reassess against the live opening print
+during the market-open workflow. Trades this week: 0/3.
