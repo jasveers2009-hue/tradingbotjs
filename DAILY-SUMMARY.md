@@ -85,3 +85,12 @@ Trades today: none
 Open positions: none
 Trades this week: 0/3
 Tomorrow: reassess Energy/Tech for a non-extended, non-headline-whipsaw entry
+
+---
+## 2026-09-30 20:17 UTC (fallback -- no notification channel configured)
+EOD Sep 30
+Portfolio: $100,000.00 (0.00% day, 0.00% phase)
+Cash: $100,000.00
+Trades today: none
+Open positions: none
+Tomorrow: reassess Tech/semis vs Micron earnings; Energy vs opening print
