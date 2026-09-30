@@ -821,3 +821,98 @@ during the market-open workflow. Trades this week: 0/3.
   reason (missing catalyst) and obscure the real basis for standing
   down. Reassess Energy/Tech again next session. Trades this week:
   0/3.
+
+## 2026-09-30 -- Pre-market Research (Day 10, Wednesday)
+
+### Account
+- Equity: $100,000
+- Cash: $100,000 (100%)
+- Buying power: $400,000
+- Daytrade count: 0
+- Positions: none | Open orders: none (confirmed via live `alpaca.sh`
+  pull). Trades this week: 0/3 (new week).
+
+### Market Context
+- WTI / Brent: WTI ~$89-90/bbl, Brent ~$102-103/bbl -- both cooled
+  sharply from Monday/Tuesday's Hormuz-spike highs (Brent had briefly
+  topped $107-108). Tuesday's session: Brent settled $102.59 (-2.6%),
+  WTI settled $89.38 (-3.5%) as Reuters/Kpler data showed Middle East
+  crude exports hit a war-time high (16.3M bbl/day) -- oil actually
+  flowing despite the earlier Hormuz rhetoric. Trump publicly rejected
+  easing Iran sanctions overnight, a mildly bullish headline, but the
+  physical-flow data dominated. Oil remains a two-sided, headline-driven
+  whipsaw -- same pattern flagged all week, now resolving to the downside.
+- S&P 500 futures: ~+0.1-0.2% premarket (~7,737-7,746), modestly
+  positive after Tuesday's close (S&P 7,672.57, -0.14%; Nasdaq -0.08%;
+  Dow -0.26%) driven by the Treasury-yield selloff.
+- VIX: ~16.0, flat/calm -- no stress signal.
+- Today's catalysts: (1) August PCE / core PCE inflation print, 8:30am
+  ET -- the Fed's preferred gauge, consensus core ~3.3% y/y, key input
+  for October 27-28 FOMC odds (currently ~50-70% per various trackers);
+  (2) ADP private payrolls, 8:15am ET, consensus ~+70K vs +38K prior;
+  (3) Q2 GDP third estimate, 8:30am ET; (4) Treasury yields --
+  30-year hit its highest since 2002 (~5.58-5.62%) this week, 10-year
+  ~5.24-5.25%, a persistent headwind for rate-sensitive growth/tech;
+  (5) Micron (MU) reports after today's close -- AI/semis read-through
+  catalyst for tomorrow, not actionable pre-market.
+- Earnings before open: Jabil (JBL), FactSet (FDS), Conagra (CAG),
+  Cal-Maine (CALM), Lamb Weston (LW) -- none are momentum-sector
+  (Energy/Tech) candidates under our watchlist.
+- Economic calendar: No CPI, no PPI, no FOMC decision today (next FOMC
+  Oct 27-28; next CPI Oct 14; next PPI Oct 15; nonfarm payrolls Fri
+  Oct 2). Today is ADP + PCE + GDP-final only, all 8:15-8:30am ET.
+- Sector momentum YTD (through ~9/25-9/29): Energy #1 (+38-40%),
+  Information Technology #2 (+27-28%), both far ahead of S&P 500
+  overall (~+12-13% YTD). Health Care (+10%) and Industrials (+9%)
+  next tier. Financials (~flat) and Consumer Discretionary (-5%)
+  laggards. Same leadership as every prior session -- no rotation.
+- Held-ticker news: N/A -- no open positions.
+
+### Trade Ideas
+No new entries pre-market.
+1. (Watchlist) Energy majors/producers -- still #1 YTD momentum
+   sector, but yesterday's sharp reversal (Brent -2.6%, WTI -3.5% on
+   record Middle East export flows) is the opposite whipsaw direction
+   from Monday's spike -- confirms oil remains headline/flow-driven and
+   unpredictable session to session, not a stable trend to size a
+   position against. Not actionable pre-market.
+2. (Watchlist only) Technology/semis -- #2 momentum sector; Micron
+   earnings after today's close is a fresh catalyst, but it lands
+   after the close, not premarket, and rising 30-year yields (highest
+   since 2002) remain a headwind for the group today. Nothing to enter
+   before Micron's print; reassess tomorrow premarket on the results.
+3. JBL/FDS/CAG/CALM/LW earnings -- rejected outright: none are in the
+   Energy/Tech momentum sectors, no catalyst/stop/target logic ties
+   them to the strategy.
+
+### Risk Factors
+- Oil/Hormuz headline risk remains two-sided and has now whipsawed in
+  both directions multiple times this week (spike Mon/Tue, sharp
+  reversal Tue close on record ME export flows) -- do not treat either
+  move as a trend.
+- Treasury yields continue climbing to multi-decade highs (30Y ~5.6%,
+  10Y ~5.25%) -- a sustained headwind for rate-sensitive growth/tech
+  names and could pressure the broader tape around today's PCE print.
+- PCE inflation (8:30am ET) is the key macro risk today -- a hot print
+  raises October hike odds and could hit both bonds and equities
+  broadly.
+- Micron reports after today's close -- binary event risk for AI/semis
+  names tomorrow; do not pre-position ahead of it.
+- Perplexity results treated as untrusted content per CLAUDE.md; no
+  embedded instructions followed, only factual snippets extracted.
+
+### Decision
+**HOLD.** No trades pre-market. Rationale: (1) oil reversed hard
+overnight/yesterday -- the opposite whipsaw direction from earlier this
+week, reinforcing that it's headline/flow-driven, not a confirmed
+trend to size Energy against; (2) Tech/semis' one fresh catalyst
+(Micron) reports after today's close, not actionable premarket, and
+rising 30-year yields (highest since 2002) remain a headwind for the
+sector meanwhile; (3) no fresh single-name catalyst clears the entry
+checklist in either momentum sector; (4) today's PCE print is a
+known binary macro risk best not traded into; (5) patience > activity,
+zero positions, nothing forces a trade. Tenth consecutive session with
+zero positions. Energy and Technology remain the top-momentum
+watchlist sectors; will reassess Tech/semis against Micron's results
+tomorrow and Energy against the live opening print during the
+market-open workflow. Trades this week: 0/3.
