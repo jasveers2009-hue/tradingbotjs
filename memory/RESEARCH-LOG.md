@@ -893,3 +893,24 @@ positions, nothing forces a trade. Ninth consecutive session with zero
 positions. Energy and Technology remain the top-momentum watchlist
 sectors; will reassess against the live opening print
 during the market-open workflow. Trades this week: 0/3.
+
+### Market-Open Reassessment (~13:36 UTC / 9:36am ET)
+- Live account: equity $100,000, cash $100,000, 0 positions, 0 open
+  orders (fresh `alpaca.sh` pull) -- unchanged from pre-market.
+- Live quotes: XOM bid $157.30/ask $168.35 (spread ~$11.05, ~6.6%);
+  CVX bid $203.51/ask $213.82 (spread ~$10.31, ~4.8%); OXY bid
+  $55.14/ask $55.17 (spread ~$0.03, ~0.05%, normal/tight). XOM and CVX
+  spreads are still abnormally wide six minutes after the open -- same
+  unreliable-quote issue flagged pre-market, not tradeable for a
+  disciplined entry/stop on those two names.
+- Catalyst re-check: the Hormuz/oil headline is unchanged from every
+  prior session this week -- still explicitly whipsawing, two-sided,
+  not a confirmed trend. It does not rise to a genuinely-documented,
+  stock-specific catalyst per the entry checklist; OXY's tight spread
+  alone doesn't substitute for that.
+- **Decision: HOLD.** No trades placed. Ninth consecutive no-trade
+  session. Will not call `validate_trade.sh` for a trade with no
+  genuine catalyst -- that would just force a REJECT for the wrong
+  reason (missing catalyst) and obscure the real basis for standing
+  down. Reassess Energy/Tech again next session. Trades this week:
+  0/3.
