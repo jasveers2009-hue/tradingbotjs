@@ -96,3 +96,18 @@ Tech/semis a two-sided catalyst, not a clean directional setup. Trades
 this week: 0/3. Ninth consecutive session with zero positions. Energy and
 Technology/semis remain the top-momentum watchlist sectors pending a
 cleaner, less headline-dependent, non-extended setup.
+
+### Sep 30 -- EOD Snapshot (Day 10, Wednesday)
+**Portfolio:** $100,000.00 | **Cash:** $100,000.00 (100%) | **Day P&L:** $0.00 (0.00%) | **Phase P&L:** $0.00 (0.00%)
+
+No open positions, no open orders (confirmed via live `alpaca.sh account` /
+`positions` / `orders` pull). No trades today -- pre-market research held:
+oil reversed hard (opposite whipsaw direction from earlier in the week,
+reinforcing it's headline/flow-driven, not a trend to size Energy
+against), Tech/semis' one fresh catalyst (Micron) reports after today's
+close and isn't actionable pre-market, rising 30-year yields (highest
+since 2002) remain a headwind for the sector, and today's PCE print was a
+known binary macro risk best not traded into. Trades this week: 0/3.
+Tenth consecutive session with zero positions. Energy and Technology
+remain the top-momentum watchlist sectors; reassess Tech/semis against
+Micron's results and Energy against the live opening print tomorrow.
