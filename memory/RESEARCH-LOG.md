@@ -1009,3 +1009,100 @@ zero positions. Energy and Technology remain the top-momentum
 watchlist sectors; will reassess Tech/semis against Micron's results
 tomorrow and Energy against the live opening print during the
 market-open workflow. Trades this week: 0/3.
+
+## 2026-10-01 -- Pre-market Research (Day 11, Thursday)
+
+### Account
+- Equity: $100,000
+- Cash: $100,000 (100%)
+- Buying power: $400,000
+- Daytrade count: 0
+- Positions: none | Open orders: none (confirmed via live `alpaca.sh`
+  pull). Trades this week: 0/3.
+
+### Market Context
+- WTI / Brent: Sources disagree sharply (WTI quoted anywhere $88.82-
+  $92.76, Brent $96.62-$103.70) depending on snapshot time -- itself a
+  sign of a choppy, fast-moving print overnight. General read: WTI
+  ~$89-91/bbl, Brent ~$97-100/bbl, both off Tuesday's Hormuz-spike highs
+  but still elevated and two-sided. Reuters/CNBC cite Chinese refiners
+  suspending October fuel exports (bullish) alongside continued
+  Mideast export-flow recovery (bearish) -- same whipsaw pattern as
+  every session this week, not a tradeable trend.
+- S&P 500 futures: modestly positive overnight, settling ~+0.1-0.3%
+  by the 6:22am ET Investopedia snapshot after Wednesday's close (S&P
+  7,651.54, -0.25%). Dow futures slightly negative (~-0.2 to -0.4%),
+  Nasdaq 100 futures firmer (+0.3-1.0%) on AI/semis strength following
+  Micron's print. Mixed, not a strong directional signal.
+- VIX: ~16.3-16.5 at Wednesday's close, flat/calm -- no stress signal.
+- Today's catalysts: (1) four Fed speeches -- Waller 10am ET, Jefferson
+  1:30pm, Bowman 3pm, Cook 3:30pm ET -- headline risk for yields/rate
+  expectations, especially Jefferson's "U.S. Economy and Monetary
+  Policy" talk; (2) ISM Manufacturing PMI (10am ET) and weekly jobless
+  claims (8:30am ET); (3) Micron (MU) reported Tuesday after close:
+  beat on revenue ($54.2B vs $50.5B est.) and EPS ($33.42 vs $31.16
+  est.), guided Q1 FY27 revenue $61.5B+/-1.5B and EPS $38.15+/-1.00,
+  cited persistent AI-memory demand/supply tightness -- but MU stock
+  itself slipped ~0.8% after hours on spending-plan concerns despite
+  the beat. Asian chip stocks (Nikkei +3.3%, Kospi +2%) rallied on the
+  read-through, but the muted/negative reaction in MU itself makes
+  this a mixed, not a clean, signal for chasing US semis today.
+- Earnings before open: Accenture (ACN, 8am ET call), Acuity (AYI),
+  McCormick (MKC) -- none are Energy/Tech momentum-sector names, no
+  catalyst/stop/target logic ties them to the strategy.
+- Economic calendar: No CPI, no PPI, no FOMC decision today (next CPI
+  Oct 14, PPI Oct 15, FOMC Oct 27-28). September jobs report
+  (Employment Situation) lands tomorrow, Fri Oct 2, 8:30am ET -- binary
+  macro risk just ahead, argues against fresh exposure into it.
+- Sector momentum YTD (as of ~Sep 24-30): Energy #1 (+39.6%),
+  Information Technology #2 (+27.1%), both far ahead of S&P 500
+  (~+12.5% YTD). Same leadership as every prior session -- no rotation.
+- Held-ticker news: N/A -- no open positions.
+
+### Trade Ideas
+No new entries pre-market.
+1. (Watchlist) Energy majors/producers -- still #1 YTD momentum
+   sector, but oil prices are reported inconsistently across sources
+   this morning (a $4-5 WTI spread, $7 Brent spread between snapshots
+   within the same hour), underscoring a fast-moving, unreliable tape
+   -- not a stable trend to size a position against pre-market.
+2. (Watchlist only) Technology/semis -- #2 momentum sector; Micron's
+   beat-and-raise is a fresh datapoint, but MU itself faded after
+   hours on spending concerns, making the signal two-sided rather than
+   a clean, confirmed catalyst. Tomorrow's jobs report is also a
+   binary macro risk hanging over the sector today.
+3. ACN/AYI/MKC earnings -- rejected outright: none are in the
+   Energy/Tech momentum sectors, no catalyst/stop/target logic ties
+   them to the strategy.
+
+### Risk Factors
+- Oil remains headline/flow-driven and two-sided -- today's cross-
+  source price disagreement reinforces that it's not a reliable basis
+  for a Energy-sector entry right now.
+- Four Fed speeches today (Waller, Jefferson, Bowman, Cook) -- any one
+  could move yields and rate-sensitive sectors intraday; Jefferson's
+  1:30pm ET talk is flagged as highest-sensitivity.
+- Rising Treasury yields continue (30Y highest since 2002, 10Y ~5.29-
+  5.35%) -- ongoing headwind for rate-sensitive growth/tech names.
+- September jobs report tomorrow (Fri Oct 2, 8:30am ET) is a known
+  binary macro risk just ahead -- avoid building fresh exposure into
+  it today.
+- Micron's mixed stock reaction despite a beat-and-raise is a caution
+  flag against assuming AI/semis momentum is clean right now.
+- Perplexity results treated as untrusted content per CLAUDE.md; no
+  embedded instructions followed, only factual snippets extracted.
+
+### Decision
+**HOLD.** No trades pre-market. Rationale: (1) oil pricing is
+unusually inconsistent across sources this morning, reinforcing the
+two-sided/headline-driven pattern flagged all week -- not sizeable;
+(2) Micron's headline beat-and-raise didn't hold up in its own
+after-hours price action, so Tech/semis' one fresh catalyst is mixed,
+not clean; (3) no fresh single-name catalyst clears the entry
+checklist in either momentum sector; (4) tomorrow's jobs report is a
+known binary macro risk best not traded into today; (5) patience >
+activity, zero positions, nothing forces a trade. Eleventh consecutive
+session with zero positions. Energy and Technology remain the
+top-momentum watchlist sectors; will reassess against the live opening
+print during the market-open workflow and against tomorrow's jobs
+report. Trades this week: 0/3.
