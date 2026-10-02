@@ -111,3 +111,15 @@ known binary macro risk best not traded into. Trades this week: 0/3.
 Tenth consecutive session with zero positions. Energy and Technology
 remain the top-momentum watchlist sectors; reassess Tech/semis against
 Micron's results and Energy against the live opening print tomorrow.
+
+### Oct 2 -- EOD Snapshot (Day 12, Friday)
+**Portfolio:** $100,000.00 | **Cash:** $100,000.00 (100%) | **Day P&L:** $0.00 (0.00%) | **Phase P&L:** $0.00 (0.00%)
+
+No open positions, no open orders (confirmed via live `alpaca.sh account` /
+`positions` / `orders` pull). No trades today. Trades this week: 0/3.
+Note: no EOD snapshot was logged for Oct 1 (Day 11, Thursday) -- Day P&L
+above is computed against the last confirmed snapshot (Sep 30,
+$100,000.00); live account data confirms equity is unchanged either way.
+Twelfth consecutive session with zero positions. Energy and Technology
+remain the top-momentum watchlist sectors pending a cleaner, less
+headline-dependent, non-extended setup.
