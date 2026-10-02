@@ -46,3 +46,44 @@ itself (75-85%) or the catalyst bar's strictness should be reconsidered,
 not just the watchlist mechanics.
 
 **Status:** pending human review
+
+## 2026-10-02 -- Proposed by weekly-review
+
+**Current rule:** Entry Checklist ("Specific catalyst? Sector in
+momentum? Stop level? Target?") plus "never within 3% of current price"
+and the 75-85% deployment target. The 9/25 proposal (above, still
+pending) noted that if zero-deployment continued a third straight week,
+"the deployment target itself (75-85%) or the catalyst bar's strictness
+should be reconsidered, not just the watchlist mechanics."
+
+**Proposed change:** This is an escalation, not a new mechanism. Two
+options for the human reviewer, not mutually exclusive:
+1. Apply the 9/25 proposal now (concrete watch-price/pullback-level
+   logging per rejected name) so it can actually start changing outcomes
+   -- it has been pending two weeks with zero effect because it was never
+   applied.
+2. If applying (1) does not produce an entry within 1-2 more weeks,
+   consider loosening one specific dimension rather than the whole
+   checklist -- e.g., for a name rejected solely as "extended" (not for
+   lack of catalyst/momentum), allow entry on a defined intraday pullback
+   (e.g. first 30-60min range low) same-day instead of requiring a full
+   multi-day stabilization, which this market's headline-driven
+   volatility (esp. oil/Energy) may never provide.
+No change proposed to the hard risk rules (stop %, position sizing, max
+positions, max weekly trades) -- only to how a catalyst converts to an
+actionable entry.
+
+**Evidence:** Three consecutive weeks (9/16-9/18, 9/21-9/25, 9/28-10/2),
+12 straight trading sessions, 0% capital deployed against the 75-85%
+target, despite Energy (#1 YTD, +40%) and Technology (#2 YTD, +29%)
+holding the top two momentum-sector slots the entire time. Every single
+rejection this week was either (a) Energy, rejected on oil's day-to-day
+whipsaw (both directions, repeatedly -- 9/29, 9/30, 10/1, 10/2 pre-market
+research entries), or (b) Tech/semis, rejected as mixed-signal (Micron
+beat but stock faded after-hours, 10/1) or already extended (Accenture
++16% intraday, 10/2) -- never a lack of sector momentum or catalyst
+candidates. Opportunity cost is now measurable and cumulative: bot
+trailed the index -0.90% the week of 9/18-9/25, and this week's +0.30%
+"win" was purely a down-index week, not deployed capital outperforming.
+
+**Status:** pending human review

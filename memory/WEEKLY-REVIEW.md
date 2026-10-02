@@ -138,3 +138,53 @@ Template for each entry:
 - See memory/STRATEGY-PROPOSALS.md -- proposal to add a concrete pullback-trigger mechanism to the watchlist process (2 weeks of zero-deployment evidence).
 
 ### Overall Grade: C-
+
+## Week ending 2026-10-02
+
+### Stats
+| Metric | Value |
+|--------|-------|
+| Starting portfolio | $100,000.00 |
+| Ending portfolio | $100,000.00 |
+| Week return | $0.00 (0.00%) |
+| S&P 500 week | -0.30% |
+| Bot vs S&P | +0.30% |
+| Trades | 0 (W:0 / L:0 / open:0) |
+| Win rate | N/A (no trades) |
+| Best trade | N/A |
+| Worst trade | N/A |
+| Profit factor | N/A |
+
+### Closed Trades
+| Ticker | Entry | Exit | P&L | Notes |
+| -- | -- | -- | -- | -- |
+| None -- zero trades placed this week | | | | |
+
+### Open Positions at Week End
+| Ticker | Entry | Close | Unrealized | Stop |
+| -- | -- | -- | -- | -- |
+| None | | | | |
+
+### What Worked
+- Discipline held across all 5 sessions (9/28-10/2): correctly HOLD on every borderline setup -- Energy/oil's day-to-day whipsaw rejected repeatedly rather than chased on a single-day bounce, Micron's beat-and-raise rejected as a mixed signal (stock faded after hours despite the beat), Accenture's +16% pop and Nike's miss both rejected as out-of-scope/already-extended.
+- Entry checklist correctly screened out binary-macro-event risk: PCE (9/30), four Fed speeches (10/1), and the September jobs report (10/2) were each explicitly flagged and used as a reason to stay flat rather than front-run the print.
+- Account/position state independently re-verified via live Alpaca pulls every session rather than trusted from memory -- zero data-integrity issues this week.
+- Untrusted-content discipline held: no Perplexity/search-result instructions acted on; internally inconsistent oil-price feeds (a recurring theme all week) correctly treated as noise, not a tradeable signal.
+- Bot beat the index this week (+0.30%) by being flat while the S&P 500 itself dipped -0.3% -- but this is a down-week coincidence, not evidence the approach is working (see below).
+
+### What Didn't Work
+- Third consecutive week, 12th consecutive trading session, 0% capital deployed vs. the 75-85% target -- this is now a structural pattern, not noise.
+- The 9/25 proposal's own stated re-evaluation trigger ("if zero-deployment continues a third straight week, the deployment target itself or catalyst bar's strictness should be reconsidered") has now been met. The watchlist-actionability fix proposed 9/25 is still "pending human review" -- unapplied for two weeks running, so it hasn't had a chance to change behavior yet.
+- Energy (#1 YTD momentum, +40%) and Technology (#2, +29%) sat on the watchlist for all 12 sessions straight without a single concrete, non-extended entry ever clearing the checklist. Oil's session-to-session whipsaw (both directions, repeatedly, all week) made Energy unsizeable every single day; Tech/semis' only two fresh catalysts this week (Micron beat, Accenture pop) were each rejected as mixed-signal or already >15% extended.
+- Opportunity cost is now cumulative: 2 of the last 3 weeks the index moved and the bot sat in cash both times (9/18-9/25: bot -0.90% vs. index; this week the bot only "won" because the index itself was down).
+- No new single-name, non-extended, momentum-sector catalyst has converted to an entry in 12 sessions despite two YTD-leading sectors sitting at the top of the watchlist the entire time -- same gap flagged 9/25, now with 50% more evidence behind it.
+
+### Key Lessons
+- "Patience > activity" can no longer be distinguished from "the catalyst bar is effectively unreachable in current market conditions" without either (a) applying the pending 9/25 watchlist-actionability fix, or (b) a human recalibrating the catalyst/deployment rules directly. Three weeks of pure HOLD is enough evidence to act on, not enough to keep self-diagnosing.
+- Oil-driven Energy setups have failed the "non-extended, stable trend" bar in every single session this cycle, whipsawing both directions on geopolitical headlines -- this specific sector/catalyst combination may need its own volatility-aware handling rather than being treated like an ordinary momentum setup.
+- Binary macro-event risk (FOMC, PCE, jobs reports, multiple Fed speakers) keeps consuming entry windows -- across 3 weeks, multiple sessions were explicitly HELD because a scheduled macro print was pending. Correct discipline, but it is also mechanically reducing the number of tradeable days; noted as a contributing factor, not an excuse.
+
+### Strategy Change Proposals This Week
+- Escalation of the 9/25 proposal -- see memory/STRATEGY-PROPOSALS.md. Zero-deployment has now reached 3 consecutive weeks / 12 consecutive sessions, the exact evidence threshold the 9/25 review set for reconsidering the deployment target or catalyst-bar strictness, while the original fix is still unapplied.
+
+### Overall Grade: D+
