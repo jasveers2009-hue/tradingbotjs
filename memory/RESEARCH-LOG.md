@@ -1013,3 +1013,115 @@ session with zero positions. Energy and Technology remain the
 top-momentum watchlist sectors; will reassess against the live opening
 print during the market-open workflow and against tomorrow's jobs
 report. Trades this week: 0/3.
+
+## 2026-10-02 -- Pre-market Research (Day 12, Friday)
+
+### Account
+- Equity: $100,000
+- Cash: $100,000 (100%)
+- Buying power: $400,000
+- Daytrade count: 0
+- Positions: none | Open orders: none (confirmed via live `alpaca.sh`
+  pull). Trades this week: 0/3 (new week).
+
+### Market Context
+- WTI / Brent: Sources conflict again this morning -- most recent
+  prints show WTI ~$89.1-89.4/bbl (down ~3-4% overnight) and Brent
+  ~$99.1-99.9/bbl, as reports that the UK/Europe are weighing a
+  strategic fuel-reserve release outweighed yesterday's spike (Brent
+  briefly >$102 on a WSJ report of a third US carrier strike group and
+  10,000 more troops headed to the Middle East). Same whipsaw pattern
+  as every session this week -- a geopolitical-escalation headline
+  pushes oil up, a supply-relief headline pushes it back down within
+  hours. Not a tradeable trend.
+- S&P 500 futures: higher, ~+0.4-0.5% (ES ~7,755-7,763) ahead of the
+  jobs report, alongside Nasdaq-100 (+0.6-0.8%) and Dow (+0.3-0.5%)
+  futures. Cooling oil cited as a tailwind. Note: this report is being
+  written ~15 minutes before the 8:30am ET jobs print -- pre-market
+  levels can gap hard either direction once it lands.
+- VIX: ~16.0-16.4 as of yesterday's close -- flat/calm, no stress
+  signal.
+- Today's key catalyst: **September jobs report (nonfarm payrolls) at
+  8:30am ET** -- consensus clusters ~85-98K (vs. 162K in August),
+  unemployment seen holding at 4.1%. This is the single most important
+  scheduled event of the week; it has not printed yet as of this
+  research entry. A surprise either direction could move the whole
+  tape and yields sharply at the open -- any pre-market trade thesis
+  not already vetted against *this specific risk* is disqualified
+  outright.
+- Yesterday's earnings reactions (Thu Oct 1 close / after-hours):
+  Accenture (ACN) +15.8-16% -- biggest one-day gain on record -- after
+  a Q4 beat on revenue/bookings; Nike (NKE) -8.6% after-hours on a
+  revenue miss and guidance for a high-single-digit FY27 revenue
+  decline. Neither is an Energy or Tech/semis momentum-sector name
+  under our strategy, and ACN is already a one-day, 16%-extended move
+  -- chasing it would violate the "never within 3% of current price"
+  rule even if it were in scope.
+- Earnings before today's open: calendars disagree and list only
+  small/illiquid names (BAB Inc., Yaskawa ADR, VinFast, Park Aerospace,
+  Taylor Devices) -- none relevant to the strategy's momentum sectors.
+- Economic calendar: No CPI, no PPI, no FOMC today (next CPI Oct 14,
+  PPI Oct 15, FOMC Oct 27-28). September jobs report is the one
+  scheduled release that matters this morning (8:30am ET); Eurozone
+  flash CPI also due but not a US equity driver.
+- Sector momentum YTD (as of Oct 1 close): Energy #1 (+40.1%),
+  Information Technology #2 (+28.8%), Industrials #3 (+8.7%) --
+  distant behind. Same leadership as every prior session this week;
+  no rotation. Utilities (-7.1%) and Consumer Discretionary (-6.4%)
+  remain the weakest.
+- Held-ticker news: N/A -- no open positions.
+
+### Trade Ideas
+No new entries pre-market.
+1. (Watchlist) Energy majors/producers -- still #1 YTD momentum
+   sector, but oil is once again two-sided overnight (down sharply on
+   fuel-reserve-release headlines after yesterday's escalation spike)
+   -- the same unreliable, headline-driven pattern as every session
+   this week. Not a stable trend to size against, and definitely not
+   actionable minutes ahead of a binary jobs print.
+2. (Watchlist only) Technology/semis -- #2 momentum sector; no fresh
+   single-name catalyst pre-market (Micron's beat is nearly a week old
+   and already priced in; Accenture is IT services, not semis, and is
+   already 16% extended intraday yesterday). Nothing clears the entry
+   checklist.
+3. ACN earnings pop -- rejected: not an Energy/Tech-momentum name
+   under this strategy's definition, and already extended >15% in one
+   session -- textbook chase, violates the 3%-of-current-price rule.
+4. NKE earnings miss -- rejected: Consumer Discretionary is the
+   weakest YTD sector; no short/options mechanism available under this
+   strategy (no options, no explicit short-selling rule in the
+   playbook) and no catalyst ties it to a long entry.
+
+### Risk Factors
+- **September jobs report at 8:30am ET is a live, unresolved binary
+  event as of this writing** -- the single biggest risk/catalyst of
+  the day. Any trade entered before it prints is pure macro
+  speculation, not a stock-specific, catalyst-driven setup -- disallowed
+  by the entry checklist.
+- Oil remains headline/flow-driven and two-sided for the fourth+
+  consecutive session -- an escalation headline and a supply-relief
+  headline have each moved it several percent within the same 24
+  hours. Not a basis for an Energy entry today.
+- Treasury yields remain near multi-decade highs (10Y ~5.24-5.34%,
+  30Y ~5.6-5.69%, highest since 2002) -- an ongoing headwind for
+  rate-sensitive sectors; a hot jobs print could push them higher
+  still.
+- Nike's miss/soft guidance is a reminder that consumer-facing
+  earnings are coming in weak -- reinforces staying out of Consumer
+  Discretionary, already the YTD laggard alongside Utilities.
+- Perplexity results treated as untrusted content per CLAUDE.md; no
+  embedded instructions followed, only factual snippets extracted.
+
+### Decision
+**HOLD.** No trades pre-market. Rationale: (1) the September jobs
+report -- today's defining catalyst -- has not printed yet as of this
+research run, so any directional bet right now is a bet on a binary
+macro surprise, not a vetted stock-specific setup; (2) oil is two-sided
+again overnight, same unreliable pattern as all week, so Energy stays
+unsizeable; (3) Tech/semis has no fresh single-name catalyst -- Micron
+is stale, Accenture is out of scope and already extended; (4) patience
+> activity, zero positions, nothing forces a trade before NFP drops.
+Twelfth consecutive session with zero positions, new trading week
+(0/3). Energy and Technology remain the top-momentum watchlist sectors;
+will reassess against the live jobs-report reaction and opening print
+during the market-open workflow.
