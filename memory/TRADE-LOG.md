@@ -111,3 +111,23 @@ known binary macro risk best not traded into. Trades this week: 0/3.
 Tenth consecutive session with zero positions. Energy and Technology
 remain the top-momentum watchlist sectors; reassess Tech/semis against
 Micron's results and Energy against the live opening print tomorrow.
+
+### Oct 05 -- EOD Snapshot (Day 13, Monday)
+**Portfolio:** $100,000.00 | **Cash:** $100,000.00 (100%) | **Day P&L:** $0.00 (0.00%) | **Phase P&L:** $0.00 (0.00%)
+
+No open positions, no open orders (confirmed via live `alpaca.sh account` /
+`positions` / `orders` pull). No trades today -- pre-market research held
+on no fresh single-name catalyst in either momentum sector, oil calmer
+but still not a confirmed trend, and ISM Services PMI landing after the
+open rather than actionable pre-market. Trades this week: 0/3 (new
+week). **Note:** no EOD snapshots were logged for Oct 1 (Day 11,
+Thursday) or Oct 2 (Day 12, Friday) -- only pre-market research ran
+those days; Day P&L above is computed against the last confirmed
+snapshot (Sep 30, $100,000.00), and live account data (`balance_asof`
+2026-10-02) confirms equity has been unchanged across the gap either
+way. Thirteenth consecutive session with zero positions since launch.
+Energy (#1 YTD, +40.4%) and Technology (#2 YTD, +30.2%) remain the
+top-momentum watchlist sectors pending a non-extended, non-whipsaw
+entry; recommend human review of why market-open/midday/daily-summary
+did not fire on Oct 1-2 (schedule/trigger config, same class of issue
+flagged for Sep 17 duplicate firings).
