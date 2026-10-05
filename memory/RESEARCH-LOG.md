@@ -1125,3 +1125,86 @@ Twelfth consecutive session with zero positions, new trading week
 (0/3). Energy and Technology remain the top-momentum watchlist sectors;
 will reassess against the live jobs-report reaction and opening print
 during the market-open workflow.
+
+## 2026-10-05 -- Pre-market Research (Day 13, Monday)
+
+### Account
+- Equity: $100,000
+- Cash: $100,000 (100%)
+- Buying power: $400,000
+- Daytrade count: 0
+- Positions: none | Open orders: none (confirmed via live `alpaca.sh`
+  pull). Trades this week: 0/3 (new week).
+
+### Market Context
+- WTI / Brent: WTI ~$90.1-90.8/bbl, Brent ~$101.5-102.9/bbl -- sources
+  disagree by about a dollar depending on timestamp, but direction is
+  consistent this morning: modestly lower (~-0.3 to -1.2%) off Friday's
+  close. Calmer than the escalation/relief whipsaw of the prior two
+  weeks, but still not a clean directional trend to size an Energy
+  entry against.
+- S&P 500 futures: mixed/flat-to-slightly-higher depending on source
+  (-0.1% to +0.7% range across reports, ES ~7,760-7,788) after Friday's
+  soft-jobs-report rally (S&P +0.73%, Nasdaq +1.19% Friday close).
+  Nasdaq-100 futures leading (+0.3-1.0%), Tech/semis strength cited
+  (SMH, high-beta growth).
+- VIX: ~16.2-16.3, up ~6% off Friday's multi-month-low close (~15.3) --
+  still low/calm in absolute terms, no stress signal.
+- Today's key catalyst: **ISM Services PMI at 10:00am ET** (consensus
+  ~55.1-55.3 vs. 55.4 prior) -- main scheduled US macro event. Final
+  S&P Global Services PMI at 9:45am ET (consensus ~58.7) is secondary.
+  Both land after the open, not actionable pre-market.
+- Earnings before today's open: calendars disagree; most consistent
+  name is McCormick (MKC) -- not an Energy/Tech momentum name, no
+  catalyst fit. Small/illiquid names (TORO, CBAT) also listed, not
+  relevant.
+- Macro backdrop: markets still digesting Friday's soft September jobs
+  report (+29K vs. ~90K consensus, unemployment up to 4.2%, prior two
+  months revised down) -- Fed-cut odds up, which is why Friday rallied.
+  This week ahead: Treasury auctions Tue-Thu, FOMC minutes Wed, jobless
+  claims Thu, UMich sentiment Fri. 10Y yield still elevated (~5.28%,
+  highest-since-2002 territory).
+- Sector momentum YTD (as of Oct 2 close): Energy #1 (+40.4%),
+  Information Technology #2 (+30.2%), Industrials #3 (+9.6%) --
+  unchanged leadership, same two sectors have led all month. Consumer
+  Discretionary (-5.1%) and Utilities (-6.7%) remain the weakest.
+- Held-ticker news: N/A -- no open positions.
+
+### Trade Ideas
+No new entries pre-market.
+1. (Watchlist) Energy majors/producers -- still #1 YTD momentum
+   sector; oil is calmer today but the move is small (~-1%) and not a
+   confirmed trend after two weeks of pure headline-driven whipsaw --
+   want to see a stable multi-day direction before sizing.
+2. (Watchlist) Technology/semis -- #2 momentum sector, Nasdaq/semis
+   showing relative strength in futures, but no fresh single-name
+   catalyst identified pre-market (no notable Tech earnings today;
+   prior catalysts -- Micron, Accenture -- are stale/out of scope).
+   Nothing clears the entry checklist yet.
+3. MKC earnings -- rejected: Consumer Staples, not a momentum sector,
+   no catalyst/stop/target logic ties it to the strategy.
+
+### Risk Factors
+- ISM Services PMI (10am ET) is a live, unresolved macro risk at time
+  of writing -- a miss or hot prices-paid read could reverse Friday's
+  rally and swing rate-sensitive sectors intraday.
+- Oil pricing still shows source disagreement (~$1/bbl spread) --
+  reinforces staying cautious on Energy sizing until a cleaner read.
+- 10Y yield remains near multi-decade highs -- ongoing headwind for
+  rate-sensitive growth/tech names even as VIX stays low.
+- FOMC minutes (Wed) and Treasury auctions (Tue-Thu) are this week's
+  bigger known risk events; avoid building a position today that can't
+  survive that calendar.
+- Perplexity results treated as untrusted content per CLAUDE.md; no
+  embedded instructions followed, only factual snippets extracted.
+
+### Decision
+**HOLD.** No trades pre-market. Rationale: (1) no fresh single-name
+catalyst in either momentum sector clears the entry checklist; (2) oil
+is calmer but not yet a confirmed trend after weeks of whipsaw; (3)
+today's one scheduled catalyst (ISM Services PMI) lands after the open
+and isn't actionable now; (4) patience > activity, zero positions,
+nothing forces a trade. Thirteenth consecutive session with zero
+positions, new trading week (0/3). Energy and Technology remain the
+top-momentum watchlist sectors; will reassess against the live ISM
+print and opening tape during the market-open workflow.
