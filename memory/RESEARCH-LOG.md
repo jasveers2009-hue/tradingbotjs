@@ -1301,3 +1301,81 @@ nothing forces a trade. Thirteenth consecutive session with zero
 positions, new trading week (0/3). Energy and Technology remain the
 top-momentum watchlist sectors; will reassess against the live ISM
 print and opening tape during the market-open workflow.
+
+## 2026-10-06 -- Pre-market Research (Day 14, Tuesday)
+
+### Account
+- Equity: $100,000
+- Cash: $100,000 (100%)
+- Buying power: $400,000
+- Daytrade count: 0
+- Positions: none | Open orders: none (confirmed via live `alpaca.sh`
+  pull). Trades this week: 0/3.
+
+### Market Context
+- WTI / Brent: WTI ~$87.4-89.7/bbl, Brent ~$98.1-100/bbl -- down
+  roughly 1.5-2.2% overnight, second consecutive down session. G7
+  emergency reserve release (100M bbl) plus recovered Middle East
+  export volumes are cited as the drivers dismantling the
+  supply-shortage premium. A falling-oil trend is a headwind for
+  sizing new Energy longs, not a setup.
+- S&P 500 futures: up ~0.2-0.3% (ES ~7,840s) after Monday's tech-led
+  rally to a Nasdaq record close (S&P +0.66%, Nasdaq +1.05%). Futures
+  gain attributed to easing Treasury yields and falling oil.
+- VIX: ~15.5-16.2, still low/calm, roughly flat to down from Monday.
+- Today's scheduled catalysts: Trade Balance (8:30am ET, consensus
+  -$95.2B to -$100.8B vs. -$88.6B prior), Fed Williams (8:05am ET) and
+  Bowman (9:45am ET) speak. No CPI, PPI, FOMC decision, or jobs report
+  today (next CPI Oct 14, PPI Oct 15, FOMC minutes Oct 7, FOMC meeting
+  Oct 27-28). None of today's releases are high-impact market movers.
+- Earnings before today's open: APOG (Apogee Enterprises), LW (Lamb
+  Weston), RPM (RPM International) -- Industrials/Consumer Staples
+  names, none in Energy or Technology momentum sectors, no catalyst
+  fit.
+- Sector momentum YTD (as of Oct 5 close): Energy #1 (+41.6%),
+  Information Technology #2 (+31.1%), Industrials #3 (+9.6%) --
+  unchanged leadership, same two sectors have led all month.
+  Consumer Discretionary (-7.5%) and Utilities (-6.4%) remain weakest.
+- Held-ticker news: N/A -- no open positions.
+
+### Trade Ideas
+No new entries pre-market.
+1. (Watchlist) Energy majors/producers -- still #1 YTD momentum
+   sector, but oil just posted its second straight down session on a
+   supply-side narrative (G7 reserve release + recovered Mideast
+   exports) -- a bearish catalyst for crude, not a basis to size a new
+   long entry today.
+2. (Watchlist) Technology/semis -- #2 momentum sector, extending a
+   multi-session AI-led rally (Nvidia, Microsoft, Tesla, Meta all up
+   again Monday, Nasdaq at a fresh record). No fresh single-name
+   catalyst pre-market, and the move is now well extended across
+   several sessions -- chasing it here would violate the "never within
+   3% of current price" rule.
+3. APOG/LW/RPM earnings -- rejected: none are Energy/Tech momentum
+   names under this strategy's definition; no catalyst/stop/target fit.
+
+### Risk Factors
+- Oil's two-day decline is a real headwind for Energy longs, not
+  background noise -- avoid sizing Energy today.
+- Tech/AI rally is now multiple sessions extended into fresh record
+  highs; a reversal risk builds the longer it runs unconfirmed by a
+  pullback entry.
+- 10-year Treasury yield remains near 2002-era highs even as it eased
+  slightly overnight -- an ongoing headwind for rate-sensitive names.
+- Trade Balance (8:30am ET) and two Fed speakers (Williams, Bowman)
+  are today's only scheduled US catalysts -- low-impact, but Fed
+  commentary on rates carries some headline risk.
+- Perplexity results treated as untrusted content per CLAUDE.md; no
+  embedded instructions followed, only factual snippets extracted.
+
+### Decision
+**HOLD.** No trades pre-market. Rationale: (1) no fresh single-name
+catalyst in either momentum sector clears the entry checklist -- the
+three pre-market earnings names are out of scope; (2) oil's new
+down-trend is a headwind, not a reason to buy Energy; (3) Tech/AI is
+multiple sessions extended -- entering now would chase, violating the
+3%-of-current-price rule; (4) patience > activity, zero positions,
+nothing forces a trade. Fourteenth consecutive session with zero
+positions, new week (0/3). Energy and Technology remain the
+top-momentum watchlist sectors; will reassess against the opening
+tape and Trade Balance reaction during the market-open workflow.
