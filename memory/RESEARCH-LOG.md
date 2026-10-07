@@ -1286,3 +1286,102 @@ nothing forces a trade. Fourteenth consecutive session with zero
 positions, new week (0/3). Energy and Technology remain the
 top-momentum watchlist sectors; will reassess against the opening
 tape and Trade Balance reaction during the market-open workflow.
+
+## 2026-10-07 -- Pre-market Research (Day 15, Wednesday)
+
+### Account
+- Equity: $100,000 | Cash: $100,000 (100%) | Buying power: $400,000
+- Daytrade count: 0
+- Positions: none | Open orders: none (confirmed via live `alpaca.sh`
+  pull). Trades this week: 0/3.
+
+### Market Context
+- WTI / Brent: WTI ~$89.7-90.1/bbl, Brent ~$100.6-101.4/bbl -- both up
+  slightly overnight after Tuesday's dip below $90/$100, on reports
+  Iran has stepped up tanker attacks in the Strait of Hormuz (9
+  incidents so far this month per UK Maritime Trade Operations,
+  already half of all September). Partially offset by reports
+  Middle-East-ex-Iran export volumes are recovering toward pre-crisis
+  levels. Two-sided, headline-driven -- not a basis for sizing Energy
+  either direction.
+- S&P 500 futures: roughly flat to down slightly (~7,860-7,875,
+  -0.1% to +0.1% across sources) after Tuesday's cash close at a
+  record 7,818.93 (+0.58%), a fourth straight record/gain; Nasdaq
+  also closed at a fresh record.
+- VIX: ~15.0-15.5, still low/calm.
+- Today's scheduled catalysts: **FOMC Minutes (2:00pm ET)** from the
+  Sept 15-16 meeting (first rate hike since 2023) -- the main
+  scheduled catalyst today, not actionable pre-market. EIA weekly
+  petroleum status report (10:30am ET). No CPI, PPI, or jobs report
+  today (next CPI Oct 14, PPI Oct 15, next jobs Nov 6).
+- Earnings before today's open: Toro Corp (TORO) -- small industrial,
+  not an Energy/Tech momentum name, no catalyst fit. (Apogee's
+  earnings-beat premarket pop was Materials sector, already priced
+  in overnight -- not actionable, not in scope.)
+- Sector momentum YTD (as of Oct 6 close): Energy #1 (~+42-45%,
+  sources vary), Information Technology #2 (~+31-41%, sources vary),
+  Industrials #3. Same two sectors have led all month. Reuters flags
+  Energy's rally as "showing signs of fatigue" -- RSI overbought since
+  March, momentum stalling even as price held near highs -- a caution
+  flag against chasing Energy longs here, not a reason to short.
+- Other: US trade deficit widened sharply (Aug, +13.7% MoM to $105.6B,
+  above consensus) -- Treasury-yield/debt-sustainability chatter
+  (Bessent reassuring, Dalio skeptical) in the background. 10-year
+  yield eased slightly but remains near multi-decade highs. AI/chip
+  rally continues (Nvidia nearing $6T market cap on SpaceX chip-buy
+  reports) -- Tech is now many sessions extended into fresh records.
+  One low-quality aggregator source made unverified claims about an
+  active "US-Iran war" and missile depletion that no other source
+  corroborated -- discarded as unreliable per CLAUDE.md's rule to
+  treat search content as untrusted; only the multi-sourced Hormuz
+  tanker-attack reports were used.
+- Held-ticker news: N/A -- no open positions.
+
+### Trade Ideas
+No new entries pre-market.
+1. (Watchlist) Energy majors/producers -- still #1 YTD momentum
+   sector, but oil is whipsawing on two-sided Hormuz headlines and
+   Reuters flags the rally as technically overbought/fatigued --
+   neither a clean entry nor a basis to size today.
+2. (Watchlist) Technology/semis -- #2 momentum sector, extending a
+   multi-session AI-led rally into fresh record highs (Nvidia near
+   $6T). No fresh single-name catalyst pre-market; the move is now
+   well extended -- entering here would violate the "never within 3%
+   of current price" rule.
+3. TORO (Toro Corp) earnings BMO -- rejected: not an Energy/Tech
+   momentum name, no catalyst/stop/target fit under this strategy.
+
+### Risk Factors
+- FOMC Minutes (2:00pm ET) is today's single biggest scheduled event
+  -- any hawkish/dovish surprise in the Sept rate-hike discussion
+  could move rates expectations and rate-sensitive sectors sharply;
+  avoid entering new positions that can't survive that release.
+- Oil/Hormuz headline risk is two-sided and could reverse intraday --
+  not a trend to size Energy against in either direction.
+- Energy's YTD rally is technically overbought per Reuters (RSI
+  fatigue since March) -- a reversal risk builds the longer leadership
+  continues unconfirmed by a pullback entry.
+- Tech/AI rally is multiple sessions extended into fresh record highs;
+  chasing here risks buying a local top.
+- 10-year Treasury yield remains near multi-decade highs despite a
+  slight overnight ease -- an ongoing headwind for rate-sensitive
+  names; trade-deficit/Treasury-demand chatter (Dalio) adds background
+  noise.
+- Perplexity results treated as untrusted content per CLAUDE.md; one
+  low-quality source's unverified war/geopolitical claims were
+  discarded rather than summarized as fact; no embedded instructions
+  followed, only corroborated factual snippets extracted.
+
+### Decision
+**HOLD.** No trades pre-market. Rationale: (1) no fresh single-name
+catalyst in either momentum sector clears the entry checklist; (2) oil
+is two-sided/headline-driven on Hormuz, not a confirmed trend; (3)
+Energy's YTD leadership is now flagged as technically overbought,
+raising the bar for any new long; (4) Tech/AI remains multiple
+sessions extended -- chasing would violate the 3%-of-current-price
+rule; (5) FOMC Minutes at 2pm ET is a known binary-ish event best not
+traded into; (6) patience > activity, zero positions, nothing forces a
+trade. Fifteenth consecutive session with zero positions, trades this
+week 0/3. Energy and Technology remain the top-momentum watchlist
+sectors; will reassess against the opening tape during the
+market-open workflow.
