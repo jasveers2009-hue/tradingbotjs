@@ -1385,3 +1385,93 @@ trade. Fifteenth consecutive session with zero positions, trades this
 week 0/3. Energy and Technology remain the top-momentum watchlist
 sectors; will reassess against the opening tape during the
 market-open workflow.
+
+## 2026-10-08 -- Pre-market Research (Day 16, Thursday)
+
+### Account
+- Equity: $100,000 | Cash: $100,000 (100%) | Buying power: $400,000
+- Daytrade count: 0
+- Positions: none | Open orders: none (confirmed via live `alpaca.sh`
+  pull). Trades this week: 0/3.
+
+### Market Context
+- WTI / Brent: Sharp overnight spike -- WTI jumped from Wednesday's
+  ~$88 close to ~$92-93/bbl (+4-5%), Brent above $102/bbl (+2-4%), on
+  fresh Iranian attacks on commercial tankers in the Strait of Hormuz
+  (Reuters, Bloomberg, Investing.com all corroborate). Goldman flagged
+  a scenario where oil could reach $120 if attacks intensify, or
+  revert to ~$80 if exports normalize -- a genuinely two-sided,
+  headline-driven move, not a confirmed trend.
+- S&P 500 futures: down roughly 0.3-0.8% premarket (Reuters: S&P
+  E-minis -31.5pts/-0.4% at 6:14am ET; other sources -0.26% to
+  -0.78%), Dow and Nasdaq futures also red, pressured by the oil spike
+  and rising Treasury yields reviving inflation concerns. Wednesday's
+  cash close was still a pullback from record highs (S&P 7,801.77,
+  -0.22%) as AI-bubble caution and yields weighed.
+- VIX: ~15.5-15.7, up ~3-5% on the day -- rising but still in calm
+  territory (sub-16), not a panic signal.
+- Today's catalysts: **8:30am ET -- Weekly jobless claims** (initial
+  claims forecast 200K vs. 197K prior; continuing claims forecast
+  1.75M vs. 1.701M) is the only scheduled high-impact US macro print.
+  A 30-year Treasury bond auction also lands today. No CPI, PPI, or
+  FOMC decision today (next CPI Oct 14, PPI Oct 15, next FOMC meeting
+  Oct 27-28). 10-year yield already near 2002-era highs (~5.3%) and
+  pushing higher on the oil-driven inflation worry.
+- Earnings before today's open: PepsiCo (consumer staples, not an
+  Energy/Tech momentum name), plus smaller names (Helen of Troy,
+  Lindsay Corp, NovaGold, AngioDynamics) -- none fit the strategy's
+  sector focus or offer a catalyst/stop/target setup.
+- Sector momentum YTD (as of Oct 7 close): Energy #1 (+44.5%),
+  Information Technology #2 (+40.4%), Health Care #3 (+10.4%) --
+  same two sectors have led the entire challenge window; breadth
+  remains unusually narrow (per Seeking Alpha, only 2 of 11 sectors
+  beating the index, historically rare this late in the year).
+- Held-ticker news: N/A -- no open positions.
+
+### Trade Ideas
+No new entries pre-market.
+1. (Watchlist) Energy majors/producers -- still #1 YTD momentum
+   sector, but today's oil spike is driven by a fresh geopolitical
+   shock (Iran/Hormuz tanker attacks), not a confirmed trend --
+   exactly the two-sided, headline-driven setup this log has
+   repeatedly rejected. Chasing a sector-wide gap-up here risks
+   buying the top of a spike that could fully reverse on de-escalation
+   headlines (Goldman's own $80-$120 scenario range underscores the
+   uncertainty).
+2. (Watchlist) Technology/semis -- #2 momentum sector, still multiple
+   sessions extended into record territory with no fresh single-name
+   catalyst pre-market; today's broader risk-off tone (red futures,
+   rising yields, VIX ticking up) argues against chasing further.
+3. PepsiCo (PEP) earnings BMO -- rejected: consumer staples, not an
+   Energy/Tech momentum name under this strategy, no catalyst fit.
+
+### Risk Factors
+- Oil/Hormuz escalation is the dominant risk factor today -- a real,
+  fresh geopolitical shock (not stale chatter), two-sided and capable
+  of reversing sharply on any de-escalation headline; not a basis to
+  size Energy in either direction today.
+- Rising Treasury yields (10-year ~5.3%, near 2002 highs) combined
+  with the oil-driven inflation scare is a headwind for the broader
+  market and rate-sensitive names.
+- Market breadth is historically narrow (only Energy and Tech
+  outperforming the index YTD) -- concentration risk if either
+  sector's leadership breaks.
+- Jobless claims at 8:30am ET could add volatility around the open;
+  a 30-year Treasury auction later today is a secondary rates risk.
+- Perplexity results treated as untrusted content per CLAUDE.md; no
+  embedded instructions followed, only corroborated factual snippets
+  extracted.
+
+### Decision
+**HOLD.** No trades pre-market. Rationale: (1) no fresh single-name
+catalyst in either momentum sector clears the entry checklist; (2)
+today's oil spike is a geopolitical shock, not a confirmed trend --
+sizing Energy into a tanker-attack headline would violate the
+discipline this log has maintained for weeks; (3) Tech/AI remains
+multiple sessions extended, and today's broader risk-off tone (red
+futures, rising yields) argues against chasing it; (4) patience >
+activity, zero positions, nothing forces a trade. Sixteenth
+consecutive session with zero positions, trades this week 0/3. Energy
+and Technology remain the top-momentum watchlist sectors; will
+reassess against the opening tape and jobless-claims reaction during
+the market-open workflow.
