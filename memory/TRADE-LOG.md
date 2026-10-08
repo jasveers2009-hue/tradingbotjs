@@ -149,3 +149,17 @@ No open positions, no open orders (confirmed via live `alpaca.sh account` /
 Fifteenth consecutive session with zero positions since launch. Energy
 and Technology remain the top-momentum watchlist sectors pending a
 non-extended, non-whipsaw, non-headline-dependent single-name catalyst.
+
+### Oct 08 -- EOD Snapshot (Day 16, Thursday)
+**Portfolio:** $100,000.00 | **Cash:** $100,000.00 (100%) | **Day P&L:** $0.00 (0.00%) | **Phase P&L:** $0.00 (0.00%)
+
+No open positions, no open orders (confirmed via live `alpaca.sh account` /
+`positions` / `orders` pull). No trades today -- pre-market research held
+on the Iran/Hormuz oil-spike shock being two-sided and headline-driven
+(not a confirmed trend), Tech/semis still multiple sessions extended with
+no fresh single-name catalyst, and a broader risk-off tone (red futures,
+rising 10-year yields near 2002 highs, VIX ticking up) ahead of weekly
+jobless claims. Trades this week: 0/3. Sixteenth consecutive session with
+zero positions since launch. Energy and Technology remain the
+top-momentum watchlist sectors pending a non-extended, non-whipsaw,
+non-headline-dependent single-name catalyst.
