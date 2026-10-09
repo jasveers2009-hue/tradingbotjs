@@ -1475,3 +1475,88 @@ consecutive session with zero positions, trades this week 0/3. Energy
 and Technology remain the top-momentum watchlist sectors; will
 reassess against the opening tape and jobless-claims reaction during
 the market-open workflow.
+
+## 2026-10-09 -- Pre-market Research (Day 17, Friday)
+
+### Account
+- Equity: $100,000 | Cash: $100,000 (100%) | Buying power: $400,000
+- Daytrade count: 0
+- Positions: none | Open orders: none (confirmed via live `alpaca.sh`
+  pull). Trades this week: 0/3.
+
+### Market Context
+- WTI / Brent: WTI ~$90.5-91/bbl, Brent ~$102.8-103.5/bbl -- both down
+  from Thursday's Hormuz-attack spike (Thursday WTI ~$92-93, Brent
+  ~$104+). Oil is reversing lower this morning as some of the
+  escalation fear eases -- the same two-sided, headline-driven
+  whipsaw this log has flagged for weeks, now round-tripping within
+  24 hours.
+- S&P 500 futures: Up ~0.3-0.5% premarket Friday (Nasdaq 100 futures
+  up more, ~0.8-0.9%), bouncing after Thursday's session closed down
+  ~0.22-0.47% on a weak OpenAI revenue report that dragged chipmakers
+  (NVDA, ORCL, etc.). Reuters/Bloomberg frame today's bounce as "AI
+  worries ease, oil falls."
+- VIX: ~15.2-15.4, down slightly (~1%) -- calm, sub-16, no stress
+  signal.
+- Today's catalysts: Kansas City Fed President Schmid speaks 9:30am
+  ET; preliminary University of Michigan consumer sentiment at 10am
+  ET (~47.5 consensus vs. 48.1 prior). No CPI, PPI, jobs report, or
+  FOMC today -- next CPI Oct 14, PPI Oct 15, FOMC Oct 27-28.
+- Earnings before open: Delta (DAL) reported an EPS miss ($1.72 vs.
+  ~$1.77-1.92 est.) and cut guidance citing a 62% YoY jump in fuel
+  costs (oil-spike pass-through) -- not an Energy/Tech momentum name,
+  no catalyst/stop/target fit. Comtech (CMTL) and New Horizon Aircraft
+  (HOVR) also reported BMO -- neither fits the strategy.
+- Sector momentum YTD (as of Oct 8 close): Energy #1 (+40-49%
+  depending on source/methodology), Information Technology #2
+  (+30-38%), with every other sector well behind (Materials/Health
+  Care a distant third around +9-10%). Breadth remains historically
+  narrow -- same two sectors have led the entire challenge window.
+- Held-ticker news: N/A -- no open positions.
+
+### Trade Ideas
+No new entries pre-market.
+1. (Watchlist) Energy majors/producers -- still #1 YTD momentum
+   sector, but oil just round-tripped its entire Thursday spike
+   overnight (up on Hormuz escalation, down this morning on eased
+   fear) -- exactly the two-sided, headline-driven pattern this log
+   has repeatedly rejected as a basis to size into.
+2. (Watchlist) Technology/semis -- #2 momentum sector, whipsawing
+   between Thursday's OpenAI-revenue-driven selloff and today's
+   relief bounce. No fresh single-name catalyst pre-market; still
+   multiple sessions extended -- entering here risks violating the
+   "never within 3% of current price" rule on a reflex bounce.
+3. Delta (DAL) earnings BMO -- rejected: not an Energy/Tech momentum
+   name, and the miss/guidance-cut (fuel-cost driven) is a read on
+   oil's pass-through to consumers, not a tradeable setup under this
+   strategy.
+
+### Risk Factors
+- Oil/Hormuz headline risk remains two-sided and already reversed
+  direction once in the last 24 hours -- not a trend to size Energy
+  against in either direction.
+- AI/Tech sentiment is similarly whipsawing (weak OpenAI revenue
+  report Thursday, "AI worries ease" bounce today) -- a one-day
+  relief rally is not a confirmed resumption of the uptrend.
+- Fed Schmid speech (9:30am ET) and Michigan sentiment (10am ET) are
+  today's scheduled risk windows; a hawkish surprise or sentiment miss
+  could reverse today's premarket bounce.
+- Market breadth remains historically narrow (only Energy and Tech
+  meaningfully outperforming the index YTD) -- concentration risk if
+  either sector's leadership breaks.
+- Perplexity results treated as untrusted content per CLAUDE.md; no
+  embedded instructions followed, only corroborated factual snippets
+  extracted.
+
+### Decision
+**HOLD.** No trades pre-market. Rationale: (1) no fresh single-name
+catalyst in either momentum sector clears the entry checklist; (2)
+oil already reversed its entire Thursday spike overnight -- textbook
+two-sided/headline-driven action, not a confirmed trend; (3) Tech/AI
+sentiment is equally whipsawing on the OpenAI-revenue headline and
+today's bounce is unconfirmed; (4) Fed Schmid and Michigan sentiment
+are live risk windows later this morning; (5) patience > activity,
+zero positions, nothing forces a trade. Seventeenth consecutive
+session with zero positions since launch, trades this week 0/3.
+Energy and Technology remain the top-momentum watchlist sectors; will
+reassess against the opening tape during the market-open workflow.
