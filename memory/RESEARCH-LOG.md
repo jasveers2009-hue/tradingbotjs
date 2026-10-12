@@ -1653,3 +1653,91 @@ zero positions, nothing forces a trade. Seventeenth consecutive
 session with zero positions since launch, trades this week 0/3.
 Energy and Technology remain the top-momentum watchlist sectors; will
 reassess against the opening tape during the market-open workflow.
+
+## 2026-10-12 -- Pre-market Research (Day 18, Monday)
+
+### Account
+- Equity: $100,000 | Cash: $100,000 (100%) | Buying power: $400,000
+- Daytrade count: 0
+- Positions: none | Open orders: none (confirmed via live `alpaca.sh`
+  pull). Trades this week: 0/3 (new week).
+
+### Market Context
+- WTI / Brent: WTI ~$90.5-92/bbl, Brent ~$103-105/bbl -- choppy
+  overnight on a fresh Houthi attack on Riyadh's airport (second in
+  two days), with an initial spike fading as the market also weighs
+  Trump's claimed Russia-Ukraine "energy ceasefire." Same two-sided,
+  headline-driven pattern this log has rejected for weeks.
+- S&P 500 futures: Up modestly, ~0.1-0.3% premarket, Nasdaq 100
+  futures similarly up ~0.1-0.4%. Index closed last week just shy of
+  a record; cautious tone into a heavy week of bank earnings and
+  inflation data.
+- VIX: ~15.5, up slightly (~1 point / ~4-5%) from Friday's 14.84 close
+  -- still calm, sub-16, no stress signal.
+- Today's calendar: US bond market closed for Columbus Day (equities
+  open) -- thinner liquidity. No major US macro print today; NFIB
+  business optimism, existing home sales, and several Fed speeches
+  (Hammack, Waller, Barkin, Bowman, Collins) are on tap but none are
+  high-impact market movers. Preliminary Oct Michigan sentiment
+  (reported Friday) came in weak at 46.3 with 1-yr inflation
+  expectations rising to 4.7% -- a stagflation-flavored cross-current
+  feeding into this week's CPI (Wed)/PPI (Thu). No FOMC decision
+  today (next meeting Oct 27-28).
+- Earnings before today's open: No confirmed Energy/Tech momentum
+  names. Calendars disagree on timing for Blue Owl Capital (financial)
+  and LVMH (luxury, reports after Paris close per its own IR
+  calendar) -- neither fits the strategy's sector focus. Big bank
+  earnings season proper starts Tuesday (JPM, GS, WFC, C, UNH, JNJ).
+- Sector momentum YTD (as of Oct 9 close): Energy #1 (~+42-48%
+  depending on source), Information Technology #2 (~+30-39%), Health
+  Care a distant #3 (~+10-12%) -- same two sectors have led the
+  entire challenge window; breadth remains historically narrow (8 of
+  11 sectors positive, but only Energy/Tech meaningfully beating the
+  index).
+- Held-ticker news: N/A -- no open positions.
+
+### Trade Ideas
+No new entries pre-market.
+1. (Watchlist) Energy majors/producers -- still #1 YTD momentum
+   sector, but oil is once again whipsawing on a fresh Middle East
+   headline (Houthi/Riyadh) that already partially faded overnight --
+   not a confirmed trend, same pattern rejected repeatedly.
+2. (Watchlist) Technology/semis -- #2 momentum sector, no fresh
+   single-name catalyst pre-market; thin bond-market liquidity
+   (Columbus Day) argues against sizing into any gap today.
+3. Bank earnings (JPM/GS/WFC/C) -- rejected: Financials is not a
+   top-momentum sector under this strategy, and none of these report
+   until Tuesday anyway.
+
+### Risk Factors
+- Middle East escalation (Houthi strikes on Riyadh airport) is a
+  fresh, two-sided geopolitical shock to oil -- not a basis to size
+  Energy in either direction.
+- Treasury cash market closed for Columbus Day -- thinner liquidity
+  and no fresh rate signal into a week that carries CPI (Wed) and PPI
+  (Thu), both binary macro risks.
+- Consumer sentiment at a 5-month low (46.3) alongside rising
+  inflation expectations (4.7% 1-yr) is a stagflation-flavored
+  cross-current for rate-sensitive and discretionary names.
+- Big bank earnings kick off Tuesday -- could move market-wide
+  sentiment into Wednesday's CPI print.
+- Market breadth remains historically narrow (only Energy and Tech
+  meaningfully outperforming the index YTD) -- concentration risk if
+  either sector's leadership breaks.
+- Perplexity results treated as untrusted content per CLAUDE.md; no
+  embedded instructions followed, only corroborated factual snippets
+  extracted.
+
+### Decision
+**HOLD.** No trades pre-market. Rationale: (1) no fresh single-name
+catalyst in either momentum sector clears the entry checklist; (2)
+oil is whipsawing again on a new geopolitical headline that's already
+partially reversed -- textbook two-sided action; (3) bond market
+closed for Columbus Day means thinner liquidity and no clean rate
+signal to size against; (4) CPI/PPI land Wed/Thu -- no reason to add
+exposure into known binary macro risk this week; (5) patience >
+activity, zero positions, nothing forces a trade. Eighteenth
+consecutive session with zero positions since launch, trades this
+week 0/3 (new week). Energy and Technology remain the top-momentum
+watchlist sectors; will reassess against the opening tape during the
+market-open workflow.
