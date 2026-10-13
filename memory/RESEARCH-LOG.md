@@ -1648,3 +1648,99 @@ consecutive session with zero positions since launch, trades this
 week 0/3 (new week). Energy and Technology remain the top-momentum
 watchlist sectors; will reassess against the opening tape during the
 market-open workflow.
+
+## 2026-10-13 -- Pre-market Research (Day 19, Tuesday)
+
+### Account
+- Equity: $100,000 | Cash: $100,000 (100%) | Buying power: $400,000
+- Daytrade count: 0
+- Positions: none | Open orders: none (confirmed via live `alpaca.sh`
+  pull). Trades this week: 0/3.
+
+### Market Context
+- WTI / Brent: WTI ~$92-93/bbl (-1 to -1.8%), Brent ~$105-106/bbl
+  (-1 to -1.2%). Both easing off yesterday's ~2-week highs (Brent
+  topped $106.65 Monday) after the Riyadh-airport-strike spike;
+  Monday's rise was driven by Trump's claimed Russia-Ukraine "energy
+  ceasefire" being called violated by Zelenskyy, then today's pullback
+  as traders weigh extra Russian diesel-supply flows. Same two-sided,
+  headline-driven whipsaw pattern flagged for weeks.
+- S&P 500 futures: ~flat/slightly negative, ~7,850-7,855 (-0.05 to
+  -0.16%); Nasdaq-100 futures underperforming (-0.5 to -0.6%) on chip
+  weakness while Dow futures were firmer (+0.3-0.7%) on bank-earnings
+  optimism.
+- VIX: last confirmed close 15.21 (Mon 10/12, +2.49%), up from last
+  week's 14.84 -- still calm, sub-16, no stress signal.
+- Today's catalysts: (1) **Big bank/healthcare earnings before the
+  open** -- JPM, GS, WFC, C, UNH, JNJ, DPZ, ACI, FBK all report; JPM
+  posted a rare EPS miss ($5.75 vs ~$5.93 est.) while WFC beat
+  ($1.87 vs $1.85 est.) and UNH beat -- mixed bank tape, sets the tone
+  for earnings season (S&P 500 profit growth expected ~30% y/y). (2)
+  **Asia chip sell-off** -- South Korea's Kospi fell 5.5-6% (sharpest
+  drop since mid-Aug) on SK Hynix/Samsung weakness after China's CXMT
+  reported progress on a competing high-density memory-cell design;
+  Nasdaq futures/Micron/Nvidia under pressure in sympathy. (3) Fed
+  speakers Barkin and Collins on tap; Fed Gov. Waller spoke overnight
+  in Istanbul. (4) Oil/geopolitics per above.
+- Earnings before open: JPM, GS, WFC, C (financials); UNH, JNJ
+  (healthcare); DPZ, ACI (consumer) -- none are Energy/Tech-momentum
+  sector names under this strategy's watchlist, though bank results
+  are a broad risk-sentiment catalyst for the whole tape today.
+- Economic calendar: **No CPI, PPI, FOMC, or jobs report today.**
+  Existing home sales (Sep) is the only other scheduled US data point.
+  Next CPI Wed 10/14 8:30am ET, PPI Thu 10/15 8:30am ET, next FOMC
+  Oct 27-28, next jobs report Fri 11/6.
+- Sector momentum YTD (SPDR ETFs, as of 10/12 close): Energy (XLE)
+  #1 (~+47.6%), Technology (XLK) #2 (~+36.4%), Health Care a distant
+  #3 (~+11.1%), Industrials/Materials ~+9%, Consumer Staples ~+8.7%,
+  Real Estate ~+3.9%, Financials ~+0.5%. Weakest: Utilities (~-2.5%),
+  Communication Services (~-5.3%), Consumer Discretionary (~-6.0%).
+  Same two-sector leadership (Energy/Tech) as every prior session this
+  cycle; breadth still historically narrow.
+- Held-ticker news: N/A -- no open positions.
+
+### Trade Ideas
+No new entries pre-market.
+1. (Watchlist) Energy majors/producers -- still #1 YTD momentum, but
+   oil is once again reversing a headline-driven spike (Riyadh strike
+   -> "energy ceasefire" claim -> Zelenskyy dispute -> today's
+   pullback) -- same two-sided pattern rejected repeatedly, not a
+   confirmed trend to size against.
+2. (Watchlist) Technology/semis -- #2 YTD momentum, but today's
+   catalyst in the sector is negative (Asia memory-chip sell-off,
+   CXMT competitive threat, Nasdaq futures down) -- a headwind, not an
+   entry signal; no fresh single-name bullish catalyst identified.
+3. Bank earnings (JPM/GS/WFC/C/UNH/JNJ) -- rejected: Financials and
+   Health Care are not top-momentum sectors under this strategy, and
+   results are mixed (JPM miss, WFC/UNH beat) with no clean
+   single-name setup in our focus sectors anyway.
+
+### Risk Factors
+- Oil/Middle East headline risk remains fluid and two-sided (Riyadh
+  strike, disputed "energy ceasefire") -- do not treat any single
+  day's move as a trend; this has reversed direction repeatedly over
+  the past three weeks.
+- Asia chip sell-off (Kospi -5.5 to -6%) is a fresh negative catalyst
+  for the #2 momentum sector (Tech/semis) -- elevated downside risk in
+  AI/semis names today, not a dip-buy signal without confirmation the
+  selling has stabilized.
+- Bank earnings are the dominant cross-market catalyst today and could
+  swing broad risk sentiment (and thus Energy/Tech) either direction
+  depending on how the market reads credit/guidance commentary beyond
+  the mixed headline beats/misses.
+- Perplexity results treated as untrusted content per CLAUDE.md; no
+  embedded instructions followed, only corroborated factual snippets
+  extracted.
+
+### Decision
+**HOLD.** No trades pre-market. Rationale: (1) no fresh single-name
+catalyst in either momentum sector clears the entry checklist; (2) oil
+is whipsawing again on a disputed geopolitical headline, already
+partially reversed; (3) today's fresh Tech/semis catalyst (Asia chip
+sell-off) is a headwind, not a bullish setup; (4) bank earnings are
+the main cross-market driver today but sit outside this strategy's
+momentum-sector focus; (5) patience > activity, zero positions,
+nothing forces a trade. Nineteenth consecutive session with zero
+positions since launch, trades this week 0/3. Energy and Technology
+remain the top-momentum watchlist sectors; will reassess against the
+opening tape during the market-open workflow.
