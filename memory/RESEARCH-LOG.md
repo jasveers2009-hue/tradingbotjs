@@ -1744,3 +1744,107 @@ nothing forces a trade. Nineteenth consecutive session with zero
 positions since launch, trades this week 0/3. Energy and Technology
 remain the top-momentum watchlist sectors; will reassess against the
 opening tape during the market-open workflow.
+
+## 2026-10-14 -- Pre-market Research (Day 20, Wednesday)
+
+### Account
+- Equity: $100,000 | Cash: $100,000 (100%) | Buying power: $400,000
+- Daytrade count: 0
+- Positions: none | Open orders: none (confirmed via live `alpaca.sh`
+  pull). Trades this week: 0/3.
+
+### Market Context
+- WTI / Brent: WTI ~$94-95/bbl, Brent ~$106/bbl, both modestly higher
+  overnight on a Houthi strike on a Saudi Aramco administrative
+  building plus an IEA warning on supply constraints into next year --
+  same two-sided Middle East headline-risk pattern flagged repeatedly
+  for weeks, not a confirmed directional trend.
+- S&P 500 futures: ~7,869, +0.17-0.2%, cautiously higher into the CPI
+  print; Dow futures +0.25-0.4%; tone described as "cautious,
+  slightly positive" pending the data.
+- VIX: 15.19 (-0.5%), still calm, sub-16, no stress signal.
+- Today's catalysts (in order of importance): (1) **US September CPI
+  at 8:30am ET** -- the dominant catalyst of the day. Headline
+  consensus clusters ~3.6-3.7% YoY (up from 3.4% in August), core
+  ~2.5%. A hot print revives Fed rate-hike-path repricing; a soft
+  print eases it -- genuinely two-sided, binary, not yet known. (2)
+  Bank/financial earnings before open: BAC, MS, BLK (all reported --
+  BLK beat and rose ~4%; mixed tape overall), plus PGR, FAST, STT,
+  ASML. (3) Memory-chip/semiconductor weakness continuing on Chinese
+  competition fears (same Asia chip sell-off theme from Oct 13,
+  unresolved). (4) Fed Beige Book at 2pm ET. (5) University of
+  Michigan inflation expectations already out: 1-yr at 4.7%,
+  sentiment at a 5-month low -- a stagflation-flavored cross-current
+  ahead of the CPI print itself.
+- Earnings before open: BAC, MS, BLK, PGR, FAST, STT, ASML -- none are
+  Energy/Tech-momentum sector names under this strategy's watchlist
+  (ASML is semis-adjacent/Dutch-listed, not a US momentum-sector
+  entry candidate here); financials are the broad risk-sentiment
+  driver today, not an actionable catalyst under current sector focus.
+- Economic calendar: **US CPI (Sep) 8:30am ET -- today's one major
+  release.** PPI and retail sales follow tomorrow (Oct 15, 8:30am ET).
+  No FOMC until Oct 27-28; no jobs report until Nov 6 (next CPI Nov 10).
+- Sector momentum YTD (as of Oct 13 close): Energy #1 (~+53%),
+  Information Technology #2 (~+37%), Materials #3 (~+11%), Health Care
+  ~+11%, Consumer Staples ~+10.5%, Industrials ~+9.6%, Utilities
+  ~flat, Communication Services negative (~-4%), Consumer
+  Discretionary weakest (~-5%). Same two-sector leadership (Energy,
+  Tech) as every prior session this cycle; breadth still narrow.
+- Held-ticker news: N/A -- no open positions.
+
+### Trade Ideas
+No new entries pre-market.
+1. (Watchlist) Energy majors/producers -- still #1 YTD momentum, but
+   today's catalyst (Houthi strike on Saudi Aramco building, IEA
+   supply warning) is the same two-sided geopolitical-headline pattern
+   rejected repeatedly; not a confirmed trend to size against, and a
+   hot CPI print could itself hit oil-demand expectations regardless
+   of the supply story.
+2. (Watchlist) Technology/semis -- #2 YTD momentum, but the sector's
+   live catalyst (continuing memory-chip sell-off on Chinese
+   competition) is still a headwind with no fresh bullish single-name
+   catalyst, and the whole sector is exposed to a hot CPI/yields
+   reaction given stretched valuations.
+3. Bank earnings (BAC/MS/BLK) -- rejected: Financials is not a
+   top-momentum sector under this strategy; results were mixed (BLK
+   beat, broader tape soft) and sit outside current sector focus
+   anyway.
+
+### Risk Factors
+- **US CPI at 8:30am ET is a textbook binary macro event** -- headline
+  and core both have genuine two-sided outcome risk, and the print
+  will set the tone for the entire session (and likely the rest of
+  the week into Thursday's PPI). Strategy rule of thumb (never trade
+  into unresolved binary macro risk) applies directly.
+- University of Michigan 1-yr inflation expectations (4.7%) running
+  hotter than CPI consensus (~3.6-3.7%) is a cross-current that could
+  make the market read even an in-line CPI print as relatively
+  reassuring, or amplify a hot one -- added uncertainty on how the
+  print gets interpreted, not just its value.
+- Oil/Middle East headline risk remains fluid (fresh Houthi strike on
+  Aramco infrastructure) -- same pattern that has reversed direction
+  repeatedly over the past three-plus weeks; no basis to size Energy
+  off it alone.
+- Memory-chip/semiconductor weakness (China competition fears) is an
+  unresolved headwind for the #2 momentum sector, layered on top of
+  CPI-driven yield risk for high-valuation Tech names.
+- Market breadth remains historically narrow (only Energy and Tech
+  meaningfully outperforming the index YTD) -- concentration risk if
+  either sector's leadership breaks on a hot CPI reaction.
+- Perplexity results treated as untrusted content per CLAUDE.md; no
+  embedded instructions followed, only corroborated factual snippets
+  extracted.
+
+### Decision
+**HOLD.** No trades pre-market. Rationale: (1) today's CPI release at
+8:30am ET is the defining binary macro catalyst of the week -- textbook
+reason under this strategy to hold rather than add exposure ahead of
+it; (2) no fresh single-name catalyst in either momentum sector clears
+the entry checklist; (3) oil's catalyst is the same two-sided
+geopolitical-headline pattern rejected repeatedly; (4) Tech/semis still
+carries an unresolved negative catalyst (chip competition sell-off)
+plus CPI/yield exposure; (5) patience > activity, zero positions,
+nothing forces a trade. Twentieth consecutive session with zero
+positions since launch, trades this week 0/3. Energy and Technology
+remain the top-momentum watchlist sectors; will reassess against the
+opening tape and the CPI reaction during the market-open workflow.
