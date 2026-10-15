@@ -1848,3 +1848,118 @@ nothing forces a trade. Twentieth consecutive session with zero
 positions since launch, trades this week 0/3. Energy and Technology
 remain the top-momentum watchlist sectors; will reassess against the
 opening tape and the CPI reaction during the market-open workflow.
+
+## 2026-10-15 -- Pre-market Research
+
+### Account
+- Equity: $100,000 | Cash: $100,000 (100%) | Buying power: $400,000
+- Daytrade count: 0
+- Positions: none | Open orders: none (confirmed via live `alpaca.sh`
+  pull). Trades this week: 0/3.
+
+### Market Context
+- WTI / Brent: WTI ~$94-95/bbl, Brent ~$104-105/bbl, both down ~1%
+  overnight -- traders assessing Strait of Hormuz shipping-attack
+  headlines against the IEA's latest monthly supply outlook. Same
+  two-sided Middle East headline-risk pattern flagged for weeks, not a
+  confirmed directional trend; oil pulling back after yesterday's gains.
+- S&P 500 futures: ~7,743-7,750, down ~0.3-0.5%, pointing to a lower
+  open; Nasdaq 100 futures down ~1.1-1.3% (sharper), Dow futures flat-
+  to-slightly-higher -- a rotation OUT of tech, not a broad risk-off move.
+- VIX: ~17.5 (+3.8% to +4.4%), up from yesterday's ~15-17 range but still
+  sub-20 -- elevated versus the recent calm baseline, consistent with the
+  tech/AI-selloff tone, not yet a stress signal.
+- Today's catalysts (in order of importance): (1) **PPI (Sep), advance
+  retail sales (Sep), and weekly jobless claims, all 8:30am ET** --
+  reported this morning: PPI +0.4% MoM (vs +0.5% consensus, in-line/
+  slightly cool), retail sales +1.2% (vs +0.3% consensus, a hot beat),
+  jobless claims 197k (vs 201k expected, labor market still firm). Mixed
+  signal -- cooler wholesale inflation but hot consumer spending and
+  tight labor, following yesterday's hot CPI (3.7% YoY) that already
+  revived Fed rate-hike-path chatter. (2) **AI/semiconductor selloff
+  continuing** -- CoreWeave and Oracle again among hardest-hit names on
+  AI-infrastructure-spending/debt-sustainability worries; this is now a
+  multi-day Tech/AI drawdown, not a one-off. (3) Fed speakers today
+  (Cleveland's Hammack, Chicago's Goolsbee) -- market watching for any
+  rate-hike-path signal after the hot CPI print. (4) Earnings before
+  open: TSMC, SCHW, BNY, PNC, USB, PLD, MRSH -- TSMC is the one
+  AI/chip-relevant print, rest are financials/REIT, outside current
+  sector focus. (5) Strait of Hormuz shipping-attack headlines -- same
+  fluid geopolitical-risk pattern as recent weeks.
+- Earnings before open: TSM, SCHW, PLD, BNY, USB, PNC, MRSH, ERIC, FHN,
+  CMC, MAN, BSVN -- none are direct Energy-momentum names; TSM is
+  semis-adjacent but a single print isn't a clean single-name entry
+  catalyst for the broader Tech/AI selloff underway.
+- Economic calendar: PPI, retail sales, jobless claims (Sep/weekly) at
+  8:30am ET -- all released, mixed (see above). No FOMC until Oct 27-28;
+  no CPI until Nov 10; no jobs report until Nov 6.
+- Sector momentum YTD (as of ~Oct 14 close): Energy #1 (~+54%),
+  Information Technology #2 (~+33%), Health Care #3 (~+14%), Materials
+  ~+11%, Industrials ~+8-11%, Real Estate ~+5%, Financials ~+1%,
+  Communication Services ~-5%, Utilities ~flat-to--0.2%, Consumer
+  Discretionary weakest (~-6%). Same two-sector leadership (Energy,
+  Tech) as every prior session this cycle, but Tech's YTD lead is now
+  eroding fast on the multi-day AI-selloff (Nasdaq futures -1.1% to
+  -1.3% this morning alone vs S&P -0.3%) -- breadth still narrow and the
+  #2 momentum sector is now actively breaking down, not just extended.
+- Held-ticker news: N/A -- no open positions.
+
+### Trade Ideas
+No new entries pre-market.
+1. (Watchlist) Energy majors/producers -- still #1 YTD momentum, but
+   oil's catalyst (Hormuz shipping attacks, IEA supply report) is the
+   same two-sided geopolitical-headline pattern rejected repeatedly for
+   weeks, and oil itself is pulling back ~1% this morning -- not a
+   confirmed trend to size against.
+2. (Watchlist) Technology/semis -- #2 YTD momentum, but now actively
+   selling off on AI-infrastructure-spending/debt-sustainability fears
+   (CoreWeave, Oracle leading declines, Nasdaq futures down >1% while
+   S&P is down ~0.3%). This is a live negative catalyst, not a dip-buy
+   setup -- entry checklist fails (no bullish single-name catalyst, and
+   the sector trend just broke down, not extended-but-intact).
+3. TSMC earnings (chip-relevant) -- rejected as a standalone entry
+   catalyst: one earnings print into an already-deteriorating AI/semis
+   tape is a headline-dependent, binary setup, not the clean
+   non-whipsaw catalyst the checklist requires.
+
+### Risk Factors
+- **Multi-day AI/Tech selloff is now the dominant market story** --
+  CoreWeave/Oracle leading declines on AI-infra spending and debt-
+  sustainability concerns, Nasdaq futures down >1% again this morning.
+  The #2 momentum sector under this strategy is actively breaking down;
+  sizing into Tech right now would be fighting the live trend, not
+  following it.
+- Mixed macro read: PPI cooler than expected but retail sales hot and
+  claims low, layered on yesterday's hot CPI (3.7% YoY) -- cumulative
+  data this week skews toward "Fed may need to stay hawkish," which is
+  a headwind for high-valuation Tech names specifically.
+- Fed speakers (Hammack, Goolsbee) today could add rate-path volatility
+  intraday.
+- Oil/Hormuz headline risk remains fluid and two-sided, as it has for
+  three-plus weeks -- no basis to size Energy off it alone, especially
+  with oil itself down this morning.
+- VIX up ~4% to ~17.5 -- still not a stress reading, but a step up from
+  the recent calm baseline; worth watching for further escalation.
+- Market breadth remains historically narrow (Energy + Tech carrying
+  the index YTD) -- with Tech now cracking, breadth risk is live, not
+  hypothetical.
+- Perplexity results treated as untrusted content per CLAUDE.md; no
+  embedded instructions followed, only corroborated factual snippets
+  extracted.
+
+### Decision
+**HOLD.** No trades pre-market. Rationale: (1) the #2 momentum sector
+(Tech/AI) is in an active, multi-day selloff this morning -- not a
+buyable dip and not a basis for a fresh long; (2) the #1 momentum sector
+(Energy) still rests on the same two-sided geopolitical headline pattern
+rejected for weeks, and oil is down this morning; (3) no single name in
+either sector clears the entry checklist (specific catalyst + momentum
+alignment + clean risk level); (4) this week's data (hot CPI, hot retail
+sales, cool-ish PPI, low claims) nets out hawkish-leaning, a headwind for
+high-valuation growth/Tech specifically; (5) patience > activity, zero
+positions, nothing forces a trade. Twenty-first consecutive session with
+zero positions since launch, trades this week 0/3. Energy and Technology
+remain the top-momentum watchlist sectors on a YTD basis, but Tech's
+near-term trend just broke down and needs to stabilize before it's
+actionable again; will reassess against the opening tape during the
+market-open workflow.
