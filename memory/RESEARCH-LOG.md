@@ -2056,3 +2056,25 @@ remain the top-momentum watchlist sectors on a YTD basis, but Tech's
 near-term trend just broke down and needs to stabilize before it's
 actionable again; will reassess against the opening tape during the
 market-open workflow.
+
+### Market-Open Reassessment (~13:37 UTC / 9:37am ET)
+- Live account: equity $100,000, cash $100,000, 0 positions, 0 open
+  orders (fresh `alpaca.sh` pull) -- unchanged from pre-market.
+- Live quotes: XOM bid $169.90/ask $187.63 (spread ~$17.73, ~9.8%,
+  abnormally wide/unreliable); CVX bid $220.30/ask $222.29 (spread
+  ~$1.99, ~0.9%, normal); OXY bid $61.51/ask $61.55 (spread ~$0.04,
+  ~0.07%, tight/normal).
+- Catalyst re-check: no change from pre-market. Energy's catalyst
+  (Hormuz/oil headlines) is still the same two-sided, headline-driven
+  pattern rejected for weeks, and oil remains soft this morning -- a
+  tight OXY/CVX spread doesn't substitute for a genuinely-documented
+  single-name catalyst per the entry checklist. Tech/semis remains in
+  an active multi-day AI-selloff (CoreWeave, Oracle leading declines)
+  -- not a buyable setup, no bullish single-name catalyst, sector trend
+  broken, not just extended.
+- **Decision: HOLD.** No trades placed. Will not call
+  `validate_trade.sh` for a trade with no genuine catalyst -- that
+  would just force a REJECT for the wrong reason and obscure the real
+  basis for standing down. Twenty-second consecutive session with zero
+  positions since launch. Trades this week: 0/3. Reassess Energy/Tech
+  again next session.
