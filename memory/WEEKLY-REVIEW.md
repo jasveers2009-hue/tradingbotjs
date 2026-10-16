@@ -236,3 +236,54 @@ Template for each entry:
 - Second escalation -- see memory/STRATEGY-PROPOSALS.md. 4 consecutive weeks / 17 consecutive sessions of 0% deployment, including the single worst week-over-week opportunity cost yet (-1.09% vs. index), with both the 9/25 and 10/2 proposals still unapplied.
 
 ### Overall Grade: D
+
+## Week ending 2026-10-16
+
+### Stats
+| Metric | Value |
+|--------|-------|
+| Starting portfolio | $100,000.00 |
+| Ending portfolio | $100,000.00 |
+| Week return | $0.00 (0.00%) |
+| S&P 500 week | -2.05% |
+| Bot vs S&P | +2.05% |
+| Trades | 0 (W:0 / L:0 / open:0) |
+| Win rate | N/A (no trades) |
+| Best trade | N/A |
+| Worst trade | N/A |
+| Profit factor | N/A |
+
+### Closed Trades
+| Ticker | Entry | Exit | P&L | Notes |
+| -- | -- | -- | -- | -- |
+| None -- zero trades placed this week | | | | |
+
+### Open Positions at Week End
+| Ticker | Entry | Close | Unrealized | Stop |
+| -- | -- | -- | -- | -- |
+| None | | | | |
+
+### What Worked
+- Discipline held across all 5 sessions (10/12-10/16): Energy was rejected repeatedly on fresh but two-sided Middle East headlines (Houthi/Riyadh airport Mon, Saudi Aramco building Wed, Hormuz shipping Thu), each already partially reversed by the next session -- same pattern rejected for weeks, correctly not treated as a confirmed trend.
+- Tech/semis was correctly read as actively breaking down (CoreWeave/Oracle-led AI-debt-sustainability selloff, Nasdaq -1 to -1.3% days) rather than a buyable dip -- the entry checklist's "sector trend intact" requirement did real work this week, not just the chase-distance rule.
+- Binary macro risk (CPI Wed, PPI/retail sales/jobless claims Thu) was explicitly flagged each session as a reason to hold rather than front-run, consistent with every prior week.
+- Account/position state independently re-verified via live Alpaca pulls every session; zero data-integrity issues, end-of-week equity ($100,000.00) matches live pull exactly.
+- Untrusted-content discipline held: no Perplexity-embedded instructions acted on all week.
+- Bot beat the index this week (+2.05%) purely by holding cash while the S&P 500 fell -2.05% on the AI-debt-sustainability selloff -- same "cash wins on a down week" pattern as 9/18-9/25, not evidence the approach is working on balance (see below).
+
+### What Didn't Work
+- Fifth consecutive week, 23rd consecutive trading session, 0% capital deployed vs. the 75-85% target -- a full month of zero participation.
+- All three prior strategy proposals (9/25 watchlist-actionability fix, 10/2 escalation, 10/9 second escalation) remain "pending human review" and unapplied -- the proposed fix has never run once in a month, so neither of its two options has had a chance to change behavior.
+- Energy (#1 YTD, ~+49-54%) and Technology (#2 YTD, ~+25-33%) have now sat on the watchlist, unconverted, for all 23 sessions since launch -- this week included a genuine multi-day Tech/semis selloff-then-stabilization cycle (a real regime shift, not just "extended") and it still produced zero action in either direction.
+- The net opportunity-cost picture over 5 weeks is not favorable even though this week's relative number looks good: 9/18-9/25 cost -0.90% vs. index, 10/2-10/9 cost -1.09% vs. index, and this week's +2.05% "win" is the mirror image of the same zero-deployment stance, not a different approach. A coin flip on index direction, not a trading edge, is now driving the bot's week-to-week relative performance.
+- No EOD gap issues or scheduler anomalies this week (clean 5/5 sessions logged) -- the process risk flagged in past reviews is not the current bottleneck; the catalyst bar and the unapplied proposals are.
+
+### Key Lessons
+- The 10/09 review's own re-evaluation trigger -- "if neither option is applied before the next review and zero-deployment continues a 5th week, the next escalation should consider whether the entire catalyst-checklist approach (vs. a mechanical momentum-sector allocation) is suited to this market regime" -- has now been met exactly as specified.
+- Three consecutive un-actioned proposals (9/25, 10/2, 10/9) confirm the review process is correctly detecting and escalating the pattern; the bottleneck is entirely in the human-review feedback loop to memory/TRADING-STRATEGY.md, not in agent judgment or discipline.
+- A full calendar month of 0% deployment means the bot's relative performance vs. the S&P 500 is now effectively a bet on index direction (wins on down weeks, loses on up weeks) rather than a result of stock selection -- this is the clearest framing yet for why "patience > activity" needs either the pending mechanism applied or the catalyst bar itself revisited.
+
+### Strategy Change Proposals This Week
+- Third escalation -- see memory/STRATEGY-PROPOSALS.md. Fifth consecutive week / 23rd consecutive session of 0% deployment; this is the exact 5th-week trigger the 10/09 review set for reconsidering whether the catalyst-checklist approach itself fits this market regime, with all three prior proposals still unapplied.
+
+### Overall Grade: D
