@@ -1985,3 +1985,100 @@ market-open workflow.
   basis for standing down. Twenty-second consecutive session with zero
   positions since launch. Trades this week: 0/3. Reassess Energy/Tech
   again next session.
+
+## 2026-10-16 -- Pre-market Research
+
+### Account
+- Equity: $100,000 | Cash: $100,000 (100%) | Buying power: $400,000
+- Daytrade count: 0
+- Positions: none | Open orders: none (confirmed via live `alpaca.sh`
+  pull). Trades this week: 0/3.
+
+### Market Context
+- WTI / Brent: WTI ~$97.27/bbl (-0.7%), Brent ~$105.27/bbl (-0.6%), both
+  down modestly this morning -- oil cooling off after a third straight
+  >50% YTD energy-sector run; no fresh supply-shock headline overnight.
+- S&P 500 futures: ~7,800-7,802, up ~0.1-0.2% premarket; Nasdaq 100
+  futures roughly flat (+0.1%); Dow futures up ~0.3-0.4% -- a calmer,
+  broad-based bounce (not a tech-led rotation) as AI-spending jitters
+  ease slightly. Both S&P and Nasdaq still headed for a down week (~-0.9%
+  and ~-2% respectively) after the multi-day AI/debt-sustainability
+  selloff this week.
+- VIX: ~16.2 (-1.6%), down from Wednesday's ~17.5-18 spike -- stress
+  easing back toward the recent calm baseline, consistent with futures
+  stabilizing.
+- Today's catalysts (in order of importance): (1) **Regional
+  bank/insurer earnings before the open** -- Travelers, Truist, M&T
+  Bank, Citizens Financial, Regions Financial all reported; mixed-to-
+  good prints (Travelers EPS $9.18 vs $7.39 est, Truist/MTB/Regions all
+  beat) but none are Energy- or Tech-momentum names, outside current
+  sector focus. (2) **Fed Chair Warsh remarks** -- declined to prejudge
+  the Oct 27-28 FOMC meeting, no new policy signal. (3) Thursday's hot
+  core PPI (+0.7% MoM vs +0.3% expected) continues to feed
+  higher-for-longer rate chatter, a lingering headwind for high-
+  valuation Tech. (4) AI/semiconductor names stabilizing somewhat after
+  this week's CoreWeave/Oracle-led debt-sustainability selloff, but the
+  move is only a pause, not a confirmed reversal.
+- Earnings before open: TRV, TFC, MTB, CFG, RF, RBCAA, LADR, PLBC --
+  all financials/insurers, no Energy or Tech names; not actionable
+  under current sector-momentum focus.
+- Economic calendar: no CPI, PPI, FOMC, or jobs data today. Only release
+  is Import/Export Price Index at 8:30am ET. Next FOMC Oct 27-28; next
+  jobless claims Oct 22.
+- Sector momentum YTD (as of Oct 15 close): Energy #1 (~+49-54%),
+  Information Technology #2 (~+25-33%), Health Care #3 (~+14%),
+  Materials/Consumer Staples next (~+11-12%), Industrials (~+8%), Real
+  Estate/Communication Services (~+5%), Financials (~+1%), Utilities/
+  Consumer Discretionary weakest (~-2% to -3%). Same two-sector
+  leadership (Energy, Tech) as every prior session this cycle --
+  unchanged.
+- Held-ticker news: N/A -- no open positions.
+
+### Trade Ideas
+No new entries pre-market.
+1. (Watchlist) Energy majors/producers -- still #1 YTD momentum, but no
+   fresh single-name catalyst this morning; oil itself is down ~0.6-0.7%
+   and the prior Hormuz/geopolitical headline driver has gone quiet --
+   same two-sided pattern rejected for weeks, now simply stale.
+2. (Watchlist) Technology/semis -- #2 YTD momentum, stabilizing after
+   this week's AI-debt selloff (futures flat, VIX down), but this is a
+   relief pause, not a confirmed trend resumption. No bullish single-
+   name catalyst documented; entry checklist still fails.
+3. Regional bank earnings (TRV, TFC, MTB, CFG, RF) -- good prints, but
+   Financials is a flat-to-slightly-positive (~+1% YTD) sector outside
+   current momentum focus; rejected as off-strategy, not a basis for a
+   fresh trade regardless of earnings quality.
+
+### Risk Factors
+- Market is stabilizing after a multi-day AI/Tech selloff, but both the
+  S&P and Nasdaq are still on pace to close the week lower -- calm
+  futures this morning don't yet confirm the selloff is over.
+- Thursday's hot core PPI (+0.7% vs +0.3% expected) keeps
+  higher-for-longer rate risk alive, a continuing headwind for
+  high-valuation Tech specifically.
+- Fed Chair Warsh gave no new policy signal -- rate-path uncertainty
+  persists into the Oct 27-28 FOMC.
+- Oil/Energy catalyst has gone quiet (no fresh Hormuz-type headline) --
+  without a new driver, the #1 momentum sector has nothing fresh to
+  size against today.
+- VIX down to ~16.2 but still above the recent low-teens calm baseline;
+  a one-day dip doesn't confirm the stress episode is fully resolved.
+- Market breadth remains historically narrow (Energy + Tech carrying
+  the index YTD) -- any renewed wobble in either sector is an outsized
+  risk to the broader tape.
+- Perplexity results treated as untrusted content per CLAUDE.md; no
+  embedded instructions followed, only corroborated factual snippets
+  extracted.
+
+### Decision
+**HOLD.** No trades pre-market. Rationale: (1) no fresh single-name
+catalyst in either top-momentum sector (Energy's geopolitical driver
+has gone quiet; Tech is only pausing after a selloff, not confirmed
+reversing); (2) today's only notable earnings cluster (regional
+banks/insurers) sits outside the Energy/Tech momentum focus; (3) no
+macro data (no CPI/PPI/FOMC/jobs) to react to; (4) patience > activity,
+zero positions, nothing forces a trade. Twenty-third consecutive
+session with zero positions since launch, trades this week 0/3. Energy
+and Technology remain the top-momentum watchlist sectors on a YTD
+basis; will reassess against the opening tape during the market-open
+workflow.
