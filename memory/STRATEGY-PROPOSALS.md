@@ -134,4 +134,59 @@ Friday morning) or Tech/semis as still multiple sessions extended
 through both Thursday's OpenAI-revenue selloff and Friday's bounce --
 again never a lack of catalyst or sector momentum.
 
+**Status:** pending human review (escalated again 2026-10-16 -- see below)
+
+## 2026-10-16 -- Proposed by weekly-review
+
+**Current rule:** Same as 9/25, 10/2, and 10/9 above -- Entry Checklist
+("Specific catalyst? Sector in momentum? Stop level? Target?"), "never
+within 3% of current price," and the 75-85% deployment target. All three
+prior proposals (9/25 watchlist-actionability fix, 10/2 escalation with
+two options, 10/9 second escalation asking the human reviewer to pick
+one explicitly) remain unapplied.
+
+**Proposed change:** This is the third escalation and matches the
+re-evaluation trigger the 10/09 review itself set ("if neither option is
+applied before the next review and zero-deployment continues a 5th
+week, the next escalation should consider whether the entire
+catalyst-checklist approach -- vs. a mechanical momentum-sector
+allocation -- is suited to this market regime"). That trigger has now
+been met. Recommend the human reviewer choose one of:
+1. Apply one of the two pending mechanisms from 9/25/10/2 now (concrete
+   watch-price/pullback-level logging, or allowing a same-day intraday-
+   pullback entry for a name rejected solely as "extended"), with a hard
+   re-check date (e.g. the next 1-2 Friday reviews) to assess whether it
+   produces any entries; or
+2. Replace the discretionary catalyst checklist for the #1 and #2
+   YTD-momentum sectors with a smaller, mechanical allocation rule (e.g.
+   a defined, capped position in the top 1-2 momentum-sector ETFs or
+   their largest constituents, sized within existing position/risk
+   limits) that does not require a fresh single-name catalyst to clear,
+   on the theory that the catalyst bar itself -- not sector selection --
+   is what has been unreachable for a month; or
+3. Explicitly affirm the status quo (zero deployment is the intended
+   behavior in this kind of headline-driven, binary-macro-heavy regime)
+   so this stops re-escalating weekly without a decision.
+No change proposed to the hard risk rules (stop %, position sizing, max
+positions, max weekly trades, PDT room) under any option -- only to how
+(or whether) a catalyst is required to convert sector momentum into an
+actionable entry.
+
+**Evidence:** Five consecutive weeks (9/16-9/18, 9/21-9/25, 9/28-10/2,
+10/5-10/9, 10/12-10/16), 23 straight trading sessions, 0% capital
+deployed against the 75-85% target, with Energy and Technology holding
+the top two YTD momentum-sector slots the entire time without a single
+entry. This week specifically included a genuine multi-day Tech/semis
+selloff-then-stabilization cycle (CoreWeave/Oracle debt-sustainability
+fears, Nasdaq -1 to -1.3% days mid-week, VIX spiking to ~17.5 then
+easing back to ~16.2 by Friday) -- a real regime event, not just
+"extended" -- and it still produced zero action in either direction,
+suggesting the checklist as applied cannot act even on a textbook
+sector-rotation event. Relative performance vs. the index over the
+5-week span has been purely a function of index direction given zero
+deployment: -0.90% (9/18-9/25, index up), -1.09% (10/2-10/9, index up),
+and +2.05% this week (index down) -- three of five weeks moved the
+benchmark meaningfully and the bot captured none of that movement in
+either direction.
+
 **Status:** pending human review
