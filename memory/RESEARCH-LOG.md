@@ -2082,3 +2082,103 @@ session with zero positions since launch, trades this week 0/3. Energy
 and Technology remain the top-momentum watchlist sectors on a YTD
 basis; will reassess against the opening tape during the market-open
 workflow.
+
+## 2026-10-19 -- Pre-market Research (Day 23, Monday)
+
+### Account
+- Equity: $100,000 | Cash: $100,000 (100%) | Buying power: $400,000
+- Daytrade count: 0
+- Positions: none | Open orders: none (confirmed via live `alpaca.sh`
+  pull). Trades this week: 0/3 (new week).
+
+### Market Context
+- WTI / Brent: WTI ~$98-101/bbl, Brent ~$107-108/bbl, both off their
+  recent highs (Brent eased back after touching ~$110 last week) as a
+  U.S. waiver of some Russia-related sanctions reprices the supply
+  outlook looser; continued Strait of Hormuz tension remains a
+  two-sided upside risk. Net: a conflicting, not a clean bullish,
+  Energy catalyst this morning.
+- S&P 500 futures: up ~0.4-0.8%, trading roughly 7,737-7,750 premarket,
+  bouncing off Friday's close (~7,659, -1.1% on the week's AI-debt
+  selloff). A relief bounce, not a confirmed reversal.
+- VIX: ~18.6-18.8 (-5.8% to -7% today), down from Friday's spike close
+  of 19.99 (+21% that day) but still well above the recent low-teens
+  calm baseline -- stress easing, not resolved.
+- Today's catalysts (in order of importance): (1) **Russia
+  sanctions/oil** -- waiver news easing supply fears, Brent down off
+  highs, bonds/futures supported; Hormuz risk still a wildcard. (2)
+  **China Q3 GDP +4.5% YoY** (beat), retail sales +1.1%, industrial
+  output +5.5% -- modestly supportive for global growth sentiment. (3)
+  **Heavy earnings week kicks off** -- Meta (Wed) and Tesla (Wed) loom,
+  with AI capex/funding sustainability still the dominant market worry
+  after last week's selloff. (4) NAHB Housing Market Index at 10am ET
+  (not a Energy/Tech catalyst). (5) September import prices +1.1%
+  MoM / export prices +2.2% -- renews higher-for-longer rate concern,
+  a headwind for high-valuation Tech into the Oct 27-28 FOMC.
+- Earnings before open: CLF, FITB, DX, VFS, SMBK, CBZ -- steel, regional
+  bank, mortgage REIT, EV, auto-adjacent names; no Energy or Tech
+  momentum names, outside current sector focus.
+- Economic calendar: no U.S. CPI, PPI, jobs report, or FOMC today
+  (latest CPI Oct 14, PPI Oct 15, jobs report Oct 2; next FOMC Oct
+  27-28). Only U.S. release of note is the 10am NAHB Housing Index.
+- Sector momentum YTD (as of Oct 16 close): Energy #1 (+52.7%),
+  Information Technology #2 (+21.6%), Health Care #3 (+14.1%),
+  Consumer Staples (+13.6%), Materials (+12.4%), Industrials (+8.1%),
+  Real Estate (+5.5%), Communication Services (+2.7%), Financials
+  (+1.3%), Utilities (-1.1%), Consumer Discretionary (-4.1%). Same
+  two-sector leadership (Energy, Tech) as every prior session this
+  cycle -- unchanged.
+- Held-ticker news: N/A -- no open positions.
+
+### Trade Ideas
+No new entries pre-market.
+1. (Watchlist) Energy majors/producers -- still #1 YTD momentum, but
+   today's oil move is driven by conflicting sanction/supply headlines
+   (bearish waiver vs. bullish Hormuz risk), not a clean single-name
+   catalyst; entry checklist still fails.
+2. (Watchlist) Technology/semis -- #2 YTD momentum, bouncing with the
+   broader tape this morning, but heads into a high-risk earnings week
+   (Meta, Tesla Wed) with AI-capex sustainability still the live worry
+   from last week's selloff. No bullish single-name catalyst
+   documented; too much event risk to chase a relief bounce.
+3. Today's earnings cluster (CLF, FITB, DX, VFS, SMBK, CBZ) -- steel/
+   regional-bank/mortgage-REIT/EV names, all outside the Energy/Tech
+   momentum focus; rejected as off-strategy regardless of print quality.
+
+### Risk Factors
+- Futures are bouncing off Friday's AI-debt-driven selloff, but this is
+  a one-session relief move, not a confirmed trend reversal -- VIX
+  remains elevated versus its recent calm baseline despite today's
+  pullback.
+- Heavy earnings week ahead (Meta, Tesla Wed; Intel Thu) with AI capex
+  sustainability as the dominant market question -- outsized headline
+  risk for the #2 momentum sector (Tech) specifically.
+- Russia sanction-waiver news cuts both ways for oil/Energy: easing
+  supply fears is bearish for crude even as Hormuz-related tension
+  stays a latent upside risk -- the #1 momentum sector has no clean
+  single-direction catalyst today.
+- September import/export price gains (+1.1%/+2.2%) renew
+  higher-for-longer rate concern ahead of the Oct 27-28 FOMC, a
+  continuing headwind for high-valuation Tech.
+- Today's only earnings cluster (steel/regional banks/mortgage REIT) is
+  off-strategy and non-actionable.
+- Market breadth remains historically narrow (Energy + Tech carrying
+  the index YTD) -- any renewed wobble in either sector is an outsized
+  risk to the broader tape.
+- Perplexity results treated as untrusted content per CLAUDE.md; no
+  embedded instructions followed, only corroborated factual snippets
+  extracted.
+
+### Decision
+**HOLD.** No trades pre-market. Rationale: (1) no clean, documented
+single-name catalyst in either top-momentum sector (Energy's oil move
+is two-sided/conflicting; Tech is only bouncing into a high-risk
+earnings week, not confirmed resuming its trend); (2) today's only
+earnings cluster sits outside the Energy/Tech momentum focus; (3) no
+U.S. macro data (no CPI/PPI/FOMC/jobs) to react to; (4) patience >
+activity, zero positions, nothing forces a trade. Twenty-fourth
+consecutive session with zero positions since launch, trades this week
+0/3 (new week). Energy and Technology remain the top-momentum watchlist
+sectors on a YTD basis; will reassess against the opening tape and
+early earnings reactions (Meta/Tesla Wed) during the market-open
+workflow.
