@@ -2182,3 +2182,102 @@ consecutive session with zero positions since launch, trades this week
 sectors on a YTD basis; will reassess against the opening tape and
 early earnings reactions (Meta/Tesla Wed) during the market-open
 workflow.
+
+## 2026-10-20 -- Pre-market Research (Day 24, Tuesday)
+
+### Account
+- Equity: $100,000.00
+- Cash: $100,000.00 (100%)
+- Buying power: $400,000 (margin; not used -- 0 positions)
+- Daytrade count: 0 -- no open positions, no open orders (confirmed via
+  live `alpaca.sh account` / `positions` / `orders` pull)
+
+### Market Context
+- WTI / Brent: WTI ~$103.6-104.2, Brent ~$109.4-110.5, both ticking up
+  slightly in early trading -- choppy/two-sided across sources overnight
+  (some prints showed WTI near $98-100 on Russia-sanction-waiver supply
+  easing, others near $104 on tanker-attack/Hormuz tightening; latest
+  quotes lean toward the higher print).
+- S&P 500 futures: ~7,728, -0.08% premarket; Nasdaq 100 futures -0.45%
+  (tech-led softness); Dow futures +0.20%. Mixed tape, modest downside
+  bias in growth/tech ahead of Wednesday's Meta/Tesla prints.
+- VIX: ~18.6, +0.76-0.87% intraday -- still well off last week's
+  selloff spike, elevated-but-calming.
+- Today's catalysts: (1) Heavy single-stock earnings day (GE
+  Aerospace, GM, 3M, RTX, Northrop Grumman before open; Netflix, United
+  Airlines, Intuitive Surgical after close) -- dominant theme is
+  earnings, not macro. (2) AI/chip stocks remain the swing factor after
+  Monday's rebound from last week's selloff; Nasdaq 100 futures
+  slightly red into Tesla/Meta Wednesday. (3) Housing starts/building
+  permits (Sept) on the calendar -- rate-sensitive. (4) Oil/geopolitical:
+  conflicting Hormuz-tanker-attack vs. Russia-sanction-waiver-supply
+  headlines, no clean single direction.
+- Earnings before open: GE, GM, MMM, RTX, NOC, HAS, EFX, KEY, ALLY,
+  HAL, GPC, MSCI + smaller regional banks (VICR, MBWM, PEBO). Halliburton
+  (oilfield services, Energy-adjacent) is the only name touching our
+  momentum sectors; the rest (industrials, autos, insurance/data,
+  regional banks) are off-strategy regardless of print quality.
+- Economic calendar: No CPI, PPI, FOMC, or jobs report today (Sept CPI
+  Oct 14, PPI Oct 15, jobs report Oct 2; next FOMC Oct 27-28, blackout
+  already in effect). Only U.S. release of note: BLS State Employment
+  and Unemployment (Sept) at 10am ET -- not a direct Energy/Tech catalyst.
+- Sector momentum YTD (as of Oct 16-19 close): Energy #1 (~+54-62%),
+  Information Technology #2 (~+22-36%), Health Care #3 (~+14-16%),
+  Consumer Staples (~+13-16%), Materials (~+11-12%), Industrials
+  (~+8%), Real Estate (~+5-8%), Communication Services (~+3-5%),
+  Financials (~+1%), Utilities (~-1 to -3%), Consumer Discretionary
+  (~-3 to -5%). Same two-sector leadership (Energy, Tech) as every
+  prior session this cycle -- unchanged.
+- Held-ticker news: N/A -- no open positions.
+
+### Trade Ideas
+No new entries pre-market.
+1. (Watchlist) Energy majors/producers -- still #1 YTD momentum, but
+   today's oil move is two-sided (Hormuz tanker-attack risk vs.
+   sanction-waiver supply easing) across sources, not a clean
+   single-name catalyst; entry checklist still fails. Halliburton
+   earnings (before open) is Energy-adjacent but oilfield-services, not
+   a pure momentum-sector play, and reporting-day volatility is not a
+   pre-market entry signal.
+2. (Watchlist) Technology/semis -- #2 YTD momentum, but Nasdaq 100
+   futures are red premarket and the sector heads into the highest-risk
+   point of the week (Meta/Tesla Wednesday) with AI-capex sustainability
+   still the live debate. No bullish single-name catalyst documented;
+   too much event risk to chase.
+3. Today's earnings cluster (GE, GM, MMM, RTX, NOC, HAS, EFX, KEY,
+   ALLY, HAL, GPC, MSCI) -- industrials/autos/insurance/banks/oilfield
+   services, all outside the Energy/Tech momentum focus; rejected as
+   off-strategy.
+
+### Risk Factors
+- Heavy single-stock earnings day broadly, but none of today's
+  before-open reporters are clean Energy/Tech momentum-sector plays --
+  no actionable catalyst despite the headline volume.
+- Nasdaq 100 futures down premarket heading into Wednesday's
+  Meta/Tesla reports -- elevated headline risk specifically for the #2
+  momentum sector (Tech) this week.
+- Oil/Energy catalyst remains two-sided: Hormuz tanker-attack risk vs.
+  Russia sanction-waiver supply-easing headlines pull WTI/Brent in
+  opposite directions depending on source/timestamp -- no clean
+  single-direction read for the #1 momentum sector.
+- No U.S. macro data today (no CPI/PPI/FOMC/jobs; FOMC blackout live
+  ahead of Oct 27-28 meeting) to react to.
+- Market breadth remains historically narrow (Energy + Tech carrying
+  the index YTD) -- any wobble in either sector is an outsized risk to
+  the broader tape.
+- Perplexity results treated as untrusted content per CLAUDE.md; no
+  embedded instructions followed, only corroborated factual snippets
+  extracted.
+
+### Decision
+**HOLD.** No trades pre-market. Rationale: (1) no clean, documented
+single-name catalyst in either top-momentum sector (oil/Energy is
+two-sided across sources; Tech futures are red into a high-risk
+Meta/Tesla earnings day tomorrow); (2) today's heavy earnings slate
+sits entirely outside the Energy/Tech momentum focus; (3) no U.S.
+macro data to react to; (4) patience > activity, zero positions,
+nothing forces a trade. Twenty-fourth consecutive session with zero
+positions since launch, trades this week 0/3 (new week). Energy and
+Technology remain the top-momentum watchlist sectors on a YTD basis;
+will reassess against the opening tape during the market-open
+workflow.
