@@ -2374,3 +2374,24 @@ positions since launch, trades this week 0/3 (new week). Energy and
 Technology remain the top-momentum watchlist sectors on a YTD basis;
 will reassess against the opening tape during the market-open
 workflow.
+
+### Market-Open Reassessment (~13:38 UTC / 9:38am ET)
+- Live account: equity $100,000, cash $100,000, 0 positions, 0 open
+  orders (fresh `alpaca.sh` pull) -- unchanged from pre-market.
+- Live quotes: XOM bid $178.28/ask $184.22 (spread ~$5.94, ~3.3%,
+  wider than normal); CVX bid $225.42/ask $225.91 (spread ~$0.49,
+  ~0.2%, tight/normal); OXY bid $62.72/ask $62.77 (spread ~$0.05,
+  ~0.08%, tight/normal).
+- Catalyst re-check: no change from pre-market. Energy's oil catalyst
+  remains two-sided (Hormuz tanker-attack risk vs. Russia
+  sanction-waiver supply easing) -- tight CVX/OXY spreads don't
+  substitute for a genuinely-documented single-name catalyst per the
+  entry checklist. Tech/semis still has no bullish single-name
+  catalyst and Nasdaq 100 futures were red into tomorrow's Meta/Tesla
+  earnings -- too much event risk to chase.
+- **Decision: HOLD.** No trades placed. Will not call
+  `validate_trade.sh` for a trade with no genuine catalyst -- that
+  would just force a REJECT for the wrong reason and obscure the real
+  basis for standing down. Twenty-fourth consecutive session with zero
+  positions since launch. Trades this week: 0/3. Reassess Energy/Tech
+  again next session.
