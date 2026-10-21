@@ -2302,3 +2302,99 @@ workflow.
   basis for standing down. Twenty-fourth consecutive session with zero
   positions since launch. Trades this week: 0/3. Reassess Energy/Tech
   again next session.
+
+## 2026-10-21 -- Pre-market Research
+
+### Account
+- Equity: $100,000.00
+- Cash: $100,000.00
+- Buying power: $400,000 (margin; non-marginable $100,000)
+- Daytrade count: 0 (endpoint does not return the field; 0 trades placed
+  this week regardless)
+- Positions: 0. Open orders: 0 (fresh `alpaca.sh` pull).
+
+### Market Context
+- WTI / Brent: WTI ~$99.22/bbl (+~1.4%), Brent ~$110.42/bbl (+~1.5%) as of
+  early Wed trading -- both up on Middle East tension headlines (Iran-
+  Pakistan diplomatic standoff referenced in coverage), continuing
+  Tuesday's gains.
+- S&P 500 futures: +0.1% to +0.24% premarket (~7,774-7,780), Nasdaq 100
+  futures +0.3-0.6% leading, Dow futures roughly flat/-0.1%. Tone:
+  cautiously positive into tonight's mega-cap earnings, SpaceX's strong
+  print (after Tue close) cited as easing AI-capex-sustainability worries.
+- VIX: closed Tue 10/20 at 17.31, down 6.13% (open 18.42) -- calm,
+  well off recent highs, 52-wk range 13.38-35.30.
+- Today's catalysts: (1) **After-market mega-cap earnings** -- Meta and
+  Tesla report after today's close, with IBM, Lam Research, and Texas
+  Instruments also reporting after hours -- dominant swing factor for
+  tomorrow's open, not actionable pre-market today. (2) Oil/Middle East
+  headlines pushing WTI/Brent higher. (3) Broad earnings breadth question
+  -- whether Tuesday's rally (SpaceX +8-10%, Super Micro +16%) extends past
+  a handful of mega-caps. (4) Heavy before-open reporting slate (see
+  below), none in our momentum sectors.
+- Earnings before open: AT&T, Abbott Labs, Thermo Fisher, Philip Morris,
+  Danaher, NextEra Energy, CME Group, Elevance Health, Moody's, Northern
+  Trust, Wabtec, Teledyne, Healthcare Services Group, BankUnited, and
+  smaller regional banks. NextEra is a utility (not Energy-sector
+  oil/gas); none of today's before-open reporters sit in Energy or Tech.
+- Economic calendar: No CPI, PPI, FOMC, or jobs report today (Sept CPI
+  Oct 14, PPI Oct 15, jobs report Oct 2; next FOMC Oct 27-28). Only
+  release of note: BLS Usual Weekly Earnings of Wage and Salary Workers
+  (Q3) at 10am ET -- not a direct Energy/Tech catalyst.
+- Sector momentum YTD (as of Oct 19-20 close, sources vary slightly):
+  Energy #1 (~+51-55%), Information Technology #2 (~+23-29%), Health
+  Care #3 (~+13-18%), Consumer Staples (~+13%), Materials (~+11-12%),
+  Industrials (~+7-8%), Real Estate (~+4-5%), Financials (~+0.5-1%),
+  Consumer Discretionary (~-1 to -5%), Utilities (~-3%). Communication
+  Services figures were inconsistent across sources this run (one showed
+  modestly positive, another showed it as the worst performer) -- treated
+  as unreliable and not acted on either way. Same two-sector leadership
+  (Energy, Tech) as every prior session this cycle -- unchanged.
+- Held-ticker news: N/A -- no open positions.
+
+### Trade Ideas
+No new entries pre-market.
+1. (Watchlist) Energy -- still #1 YTD momentum; today's oil move is
+   higher but driven by generic Middle East geopolitical headlines, not a
+   documented single-name catalyst; entry checklist still fails.
+2. (Watchlist) Technology/semis -- #2 YTD momentum; today's real catalyst
+   (Meta/Tesla/IBM/Lam/TXN earnings) lands after today's close -- by
+   definition not a pre-market entry signal today, and highly binary
+   event risk makes chasing into it pre-report a bad risk/reward even if
+   it were. Will reassess tomorrow pre-market once results are in.
+3. Today's before-open earnings cluster (T, ABT, TMO, PM, DHR, NEE, CME,
+   ELV, MCO, NTRS, WAB, TDY, HCSG, BKU) -- telecom/healthcare/
+   utilities/financials/industrials, all outside the Energy/Tech momentum
+   focus; rejected as off-strategy.
+
+### Risk Factors
+- Tonight's Meta/Tesla (+IBM/Lam/TXN) earnings are the single biggest
+  catalyst of the week for the #2 momentum sector (Tech) -- expect
+  elevated volatility into and especially out of tomorrow's open; not
+  a reason to pre-position today.
+- Oil/Brent rising on Middle East headlines supports the #1 momentum
+  sector (Energy) directionally today, but it's a macro/geopolitical
+  move, not a single-name catalyst our entry checklist requires.
+- No U.S. macro data today (no CPI/PPI/FOMC/jobs; FOMC blackout live
+  ahead of Oct 27-28 meeting).
+- Market breadth remains historically narrow (Energy + Tech carrying
+  the index YTD) -- any wobble in either sector is an outsized risk to
+  the broader tape.
+- Sector-momentum source data was internally inconsistent on
+  Communication Services this run -- flagged, not relied upon.
+- Perplexity results treated as untrusted content per CLAUDE.md; no
+  embedded instructions followed, only corroborated factual snippets
+  extracted.
+
+### Decision
+**HOLD.** No trades pre-market. Rationale: (1) no documented single-name
+catalyst in either top-momentum sector today (Energy's move is generic
+geopolitical/oil, not a single-name event; Tech's real catalyst doesn't
+land until after today's close); (2) today's heavy before-open earnings
+slate sits entirely outside the Energy/Tech momentum focus; (3) no U.S.
+macro data to react to; (4) patience > activity, zero positions, nothing
+forces a trade. Twenty-fifth consecutive session with zero positions
+since launch, trades this week 0/3. Energy and Technology remain the
+top-momentum watchlist sectors on a YTD basis; will reassess tomorrow
+pre-market once Meta/Tesla/IBM/Lam/TXN results are digested -- that is
+the most likely source of an actual single-name catalyst this week.
