@@ -239,3 +239,23 @@ No open positions, no open orders (confirmed via live `alpaca.sh account` /
 Twenty-fourth consecutive session with zero positions since launch. Energy
 and Technology remain the top-momentum watchlist sectors pending a
 non-extended, non-whipsaw, non-headline-dependent single-name catalyst.
+
+### Oct 22 -- EOD Snapshot (Day 26, Thursday)
+**Portfolio:** $100,000.00 | **Cash:** $100,000.00 (100%) | **Day P&L:** $0.00 (0.00%) | **Phase P&L:** $0.00 (0.00%)
+
+No open positions, no open orders (confirmed via live `alpaca.sh account` /
+`positions` / `orders` pull). No trades today -- Energy's Iran-strike/
+Hormuz oil spike remained two-sided and headline-driven with XOM/CVX
+spreads abnormally wide (~5-6%) at the open, and Tech/semis' catalyst
+flipped negative (Lam Research guidance miss, Tesla spending cuts, AI-
+capex doubts, Nasdaq futures down ~1.6-1.9%) -- not an entry signal.
+Trades this week: 0/3. Twenty-sixth consecutive session with zero
+positions since launch. **Note:** no EOD snapshot was logged for Oct 21
+(Day 25, Wednesday) -- only pre-market/market-open research ran that day
+(same gap pattern flagged for Oct 1-2); Day P&L above is computed
+against the last confirmed snapshot (Oct 20, $100,000.00), and live
+account data (`balance_asof` 2026-10-21) confirms equity was unchanged
+across the gap. Recommend human review of why daily-summary did not
+commit an EOD snapshot on Oct 21. Energy and Technology remain the
+top-momentum watchlist sectors pending a non-extended, non-whipsaw,
+non-headline-dependent single-name catalyst.
