@@ -208,3 +208,13 @@ Cash: $100,000.00
 Trades today: none
 Open positions: none
 Tomorrow: reassess Energy/Tech vs opening tape, early Meta/Tesla earnings reactions
+
+---
+## 2026-10-22 20:17 UTC (fallback -- no notification channel configured)
+EOD Oct 22
+Portfolio: $100,000.00 (0.0% day, 0.0% phase)
+Cash: $100,000.00
+Trades today: none
+Open positions: none
+Note: no EOD snapshot was committed for Oct 21 -- gap in daily-summary
+Tomorrow: reassess Energy/Tech for a clean single-name catalyst
