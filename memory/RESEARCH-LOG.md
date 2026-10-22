@@ -2529,3 +2529,25 @@ remain the top-momentum watchlist sectors on a YTD basis; will reassess
 against the opening tape during the market-open workflow, watching
 specifically whether the oil spike holds/extends and whether Tech
 stabilizes after the earnings-driven selloff.
+
+### Market-Open Reassessment (~13:37 UTC / 9:37am ET)
+- Live account: equity $100,000, cash $100,000, 0 positions, 0 open
+  orders (fresh `alpaca.sh` pull) -- unchanged from pre-market.
+- Live quotes: XOM bid $170.62/ask $181.40 (spread ~$10.78, ~5.9%,
+  abnormally wide); CVX bid $216.60/ask $228.15 (spread ~$11.55, ~5.0%,
+  abnormally wide). Both still unusably wide for a disciplined
+  entry/stop minutes after the open -- same stale-quote issue flagged
+  on prior sessions.
+- Catalyst re-check: no change from pre-market. Energy's move is still
+  the Iran-strike-plan/Hormuz geopolitical oil spike -- two-sided,
+  headline-driven, not a documented single-name catalyst -- compounded
+  today by unusably wide XOM/CVX spreads. Tech/semis' catalyst remains
+  negative (Lam Research guidance miss, Tesla spending cuts, AI-capex
+  doubts, Nasdaq futures down ~1.6-1.9%) -- not an entry signal.
+- **Decision: HOLD.** No trades placed. Will not call
+  `validate_trade.sh` for a trade with no genuine catalyst -- that
+  would just force a REJECT for the wrong reason and obscure the real
+  basis for standing down. Twenty-sixth consecutive session with zero
+  positions since launch. Trades this week: 0/3. Reassess Energy/Tech
+  next session, watching whether the oil spike holds/extends and
+  whether Tech stabilizes.
