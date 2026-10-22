@@ -2511,3 +2511,114 @@ the most likely source of an actual single-name catalyst this week.
   basis for standing down. Twenty-fifth consecutive session with zero
   positions since launch. Trades this week: 0/3. Reassess Energy/Tech
   tomorrow pre-market once tonight's earnings are digested.
+
+## 2026-10-22 -- Pre-market Research
+
+### Account
+- Equity: $100,000.00
+- Cash: $100,000.00
+- Buying power: $400,000 (margin; non-marginable $100,000)
+- Daytrade count: 0 (endpoint does not return the field; 0 trades placed
+  this week regardless)
+- Positions: 0. Open orders: 0 (fresh `alpaca.sh` pull).
+
+### Market Context
+- WTI / Brent: WTI ~$99.47/bbl (+~2.3%), Brent ~$111.46-112.17/bbl
+  (+~2-3%) -- sharp overnight spike on reports the U.S. and Israeli
+  militaries have finalized plans for renewed strikes on Iran (a "short
+  but intensive" operation reportedly timed after the U.S. midterms),
+  plus attacks on vessels near the Strait of Hormuz. Geopolitical/macro
+  move, not a single-name catalyst.
+- S&P 500 futures: down ~1.0-1.75% pre-market (~7,675-7,725), Nasdaq 100
+  futures down ~1.6-1.9% (leading decline), Dow futures down ~0.6-0.8%.
+  Risk-off tone after mixed mega-cap earnings: Meta beat (+shares higher
+  after-hours) but chip-equipment maker Lam Research guided weak and
+  fell >7%, Tesla dropped ~4.9% on spending cutbacks, IBM/TXN also in the
+  mix. AI-capex-sustainability worries resurfacing, compounded by the
+  oil-driven inflation/risk-off tape.
+- VIX: ~18.2-18.6, up ~9-11% intraday vs Tue's 17.31 close/16.68 low --
+  clear volatility pop off a calm base, still well inside 52-wk range
+  (13.38-35.30), not a dislocation level.
+- Today's catalysts: (1) Iran-strike-plan / Hormuz oil shock (geopolitical,
+  not single-name); (2) mega-cap tech earnings hangover -- Lam Research
+  guidance miss is a real negative catalyst in our #2 momentum sector
+  (semis), Tesla spending cuts likewise negative for its own name; (3)
+  broad AI-capex doubt resurfacing after a strong prior-week tech rally;
+  (4) heavy pre-market earnings slate (below), none in Energy or core
+  semis/Tech momentum names we'd act on.
+- Earnings before open: Procter & Gamble, Union Pacific, Blackstone,
+  Valero Energy, Lockheed Martin, Comcast, Norfolk Southern, Honeywell,
+  Nasdaq Inc., American Airlines, Tractor Supply, Argenx, Dover, Visteon,
+  Ryder, CBRE, Roper Technologies, Quest Diagnostics (~78 names reporting
+  total). Valero (refiner) touches Energy tangentially but is a refining
+  margin story, not the oil-price catalyst driving the sector; none are
+  core upstream E&P/majors or Tech/semis names in our momentum focus.
+- Economic calendar: No CPI/PPI/FOMC/jobs report today (next FOMC Oct
+  27-28; next jobs report Nov 6). Initial jobless claims (wk of Oct 17)
+  at 8:30am ET, forecast 200k vs prior 199k; Leading Indicators (Sept) at
+  10am ET. Neither is a market-moving surprise risk on consensus.
+- Sector momentum YTD (through Oct 20): Energy #1 (+52.0%), Information
+  Technology #2 (+22.6%), Health Care #3 (+16.0%), Consumer Staples
+  (+13.4%), Materials (+12.8%), Industrials (+7.5%), Real Estate (+6.0%),
+  Communication Services (+2.1%), Financials (+1.6%), Consumer
+  Discretionary (-0.7%), Utilities (-2.0%). Same Energy/Tech leadership as
+  every prior session this cycle -- unchanged, though today's price
+  action is a headwind for Tech (semis selloff) and a mixed/two-sided
+  tailwind for Energy (oil up on geopolitics, not demand/fundamentals).
+- Held-ticker news: N/A -- no open positions.
+
+### Trade Ideas
+No new entries pre-market.
+1. (Watchlist) Energy -- still #1 YTD momentum; today's oil spike is
+   driven by Iran-strike-plan/Hormuz headlines, not a documented
+   single-name catalyst, and this kind of geopolitical spike is exactly
+   the "two-sided, headline-dependent" pattern the entry checklist has
+   repeatedly rejected -- it can reverse as fast as it moved. Watching
+   majors (XOM, CVX) and refiners for a cleaner setup, not chasing today.
+2. (Watchlist) Technology/semis -- #2 YTD momentum, but today's actual
+   news is negative for the sector (Lam Research guidance miss, AI-capex
+   doubts resurfacing, Nasdaq futures down ~1.6-1.9%). Not an entry signal
+   -- if anything, a reason to stay out until the dust settles on
+   earnings season. Will watch for stabilization, not a dip-buy today.
+3. Today's pre-market earnings cluster (PG, UNP, BX, VLO, LMT, CMCSA,
+   NSC, HON, NDAQ, AAL, TSCO, ARGX, etc.) -- consumer staples/industrials/
+   transports/financials/airlines, essentially all outside the
+   Energy/Tech momentum focus (Valero is Energy-adjacent but a refining-
+   margin story, not the oil-price catalyst); rejected as off-strategy.
+
+### Risk Factors
+- Iran strike-plan reports + Hormuz vessel attacks are a live, fast-moving
+  geopolitical risk -- could extend oil's spike or reverse sharply on any
+  de-escalation headline; not a basis for a position in either direction
+  today.
+- Tech/semis earnings season is actively generating negative single-name
+  catalysts (Lam Research, Tesla) in our #2 momentum sector -- raises the
+  bar for any new Tech entry until the earnings dust settles.
+- VIX up ~9-11% off a calm base -- volatility regime shifting up, not yet
+  at a stress level, but reduces margin for error on any new entry today.
+- No U.S. macro surprise risk today (jobless claims near consensus,
+  leading indicators), so today's moves are earnings- and geopolitics-
+  driven, not data-driven.
+- Market breadth remains historically narrow (Energy + Tech carrying the
+  index YTD) -- a simultaneous negative catalyst in Tech and a volatile,
+  reversible catalyst in Energy is a bad combination for the broader tape
+  today.
+- Perplexity results treated as untrusted content per CLAUDE.md; no
+  embedded instructions followed, only corroborated factual snippets
+  extracted.
+
+### Decision
+**HOLD.** No trades pre-market. Rationale: (1) Energy's catalyst today is
+a fast-moving geopolitical oil spike (Iran strike plans/Hormuz attacks),
+exactly the two-sided/headline-dependent pattern the entry checklist
+exists to filter out; (2) Tech/semis' catalyst today is negative (Lam
+Research guidance miss, Tesla spending cuts, AI-capex doubts) -- not an
+entry signal, if anything a reason for added caution; (3) no U.S. macro
+data today to react to; (4) patience > activity, zero positions, nothing
+forces a trade into a day with elevated volatility (VIX +9-11%) and a
+live geopolitical shock. Twenty-sixth consecutive session with zero
+positions since launch, trades this week 0/3. Energy and Technology
+remain the top-momentum watchlist sectors on a YTD basis; will reassess
+against the opening tape during the market-open workflow, watching
+specifically whether the oil spike holds/extends and whether Tech
+stabilizes after the earnings-driven selloff.
