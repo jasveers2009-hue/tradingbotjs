@@ -2678,3 +2678,26 @@ watchlist sectors on a YTD basis; will reassess against the opening tape
 during the market-open workflow, watching specifically whether Tech
 shows a second day of real stabilization and whether oil's climb holds,
 extends, or reverses on any de-escalation headline.
+
+### Market-Open Reassessment (~13:37 UTC / 9:37am ET)
+- Live account: equity $100,000, cash $100,000, 0 positions, 0 open
+  orders (fresh `alpaca.sh` pull) -- unchanged from pre-market.
+- Live quotes: XOM bid $171.89/ask $184.57 (spread ~$12.68, ~7.1%,
+  abnormally wide -- same stale-quote pattern flagged on prior
+  sessions); CVX bid $228.66/ask $232.88 (spread ~$4.22, ~1.8%, normal).
+  NVDA bid $210.00/ask $211.12 (~0.5%, tight); AMD bid $507.00/ask
+  $537.50 (~5.8%, wide); LRCX bid $225.70/ask $226.97 (~0.6%, tight).
+- Catalyst re-check: no change from pre-market. Energy's move is still
+  the Iran/Israel-strike-plan geopolitical oil spike -- two-sided,
+  headline-driven, not a documented single-name catalyst -- and XOM's
+  spread remains unusably wide. Tech/semis (NVDA, LRCX quotes tight
+  enough to trade) still has no documented single-name catalyst beyond
+  a generic, unconfirmed premarket bounce from Thursday's AI-capex
+  selloff -- not a second day of real stabilization, just one open.
+- **Decision: HOLD.** No trades placed. Will not call
+  `validate_trade.sh` for a trade with no genuine catalyst -- that would
+  just force a REJECT for the wrong reason and obscure the real basis
+  for standing down. Twenty-eighth consecutive session with zero
+  positions since launch. Trades this week: 0/3. Reassess Energy/Tech
+  next session, watching whether the oil spike holds/extends and
+  whether Tech shows real multi-day stabilization.
