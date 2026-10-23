@@ -236,3 +236,52 @@ Template for each entry:
 - Second escalation -- see memory/STRATEGY-PROPOSALS.md. 4 consecutive weeks / 17 consecutive sessions of 0% deployment, including the single worst week-over-week opportunity cost yet (-1.09% vs. index), with both the 9/25 and 10/2 proposals still unapplied.
 
 ### Overall Grade: D
+
+## Week ending 2026-10-23
+
+### Stats
+| Metric | Value |
+|--------|-------|
+| Starting portfolio | $100,000.00 |
+| Ending portfolio | $100,000.00 |
+| Week return | $0.00 (0.00%) |
+| S&P 500 week | -0.50% |
+| Bot vs S&P | +0.50% |
+| Trades | 0 (W:0 / L:0 / open:0) |
+| Win rate | N/A (no trades) |
+| Best trade | N/A |
+| Worst trade | N/A |
+| Profit factor | N/A |
+
+### Closed Trades
+| Ticker | Entry | Exit | P&L | Notes |
+| -- | -- | -- | -- | -- |
+| None -- zero trades placed this week | | | | |
+
+### Open Positions at Week End
+| Ticker | Entry | Close | Unrealized | Stop |
+| -- | -- | -- | -- | -- |
+| None | | | | |
+
+### What Worked
+- Discipline held across all 5 sessions (10/19-10/23): Energy was rejected all week as a two-sided, headline-driven Iran/Israel-strike-plan oil spike rather than a confirmed trend, and Tech/semis was rejected as unconfirmed stabilization after Thursday 10/22's worst Nasdaq day since June (AI-capex payback fears off Meta/Tesla capex commentary) -- a one-day premarket bounce Friday was correctly not treated as a second day of real stabilization.
+- Account/position state independently re-verified via live Alpaca pulls every session rather than trusted from memory -- confirmed again at week-end ($100,000.00 equity, zero positions, matches Oct 22 `balance_asof`).
+- Untrusted-content discipline held: no Perplexity/search-result instructions acted on all week.
+- Bot beat the index this week (+0.50%) by being flat while the S&P 500 itself fell -0.50% on a volatile earnings week (Dow up, Nasdaq/S&P down) -- a down-week coincidence, not evidence the approach is working, consistent with every prior "bot wins by sitting out a down week" instance this cycle.
+
+### What Didn't Work
+- Fifth consecutive week, 28th consecutive trading session, 0% capital deployed vs. the 75-85% target.
+- This week hits the exact re-evaluation trigger the 10/9 review itself set: "if neither option is applied before the next review and zero-deployment continues a 5th week, the next escalation should consider whether the entire catalyst-checklist approach ... is suited to this market regime." Neither of the two pending mechanisms (9/25 watch-price logging, 10/2/10/9 same-day-pullback option) has been applied in 4+ weeks since first proposed.
+- Energy (#1 YTD momentum, +51-54%) and Technology (#2 YTD, +20-27%) have now sat on the watchlist, unconverted, every session since account launch on 9/16 -- 28 straight sessions across 5 calendar weeks with the two leading sectors of the entire challenge window producing zero trades.
+- Opportunity cost this cycle is now mixed rather than one-directional: the bot has trailed the index in 2 of the last 6 weeks it mattered (9/18-9/25: -0.90%; 10/5-10/9: -1.09%) and "won" in others purely because the index itself fell -- the strategy has not yet been tested on a genuine up-trending week with deployed capital, so true performance vs. benchmark remains unmeasured after 5 weeks.
+- No EOD-snapshot or scheduler gaps this week (unlike 10/1-10/2 and 10/21) -- the only unresolved structural issue is the catalyst bar itself, not logging/scheduling.
+
+### Key Lessons
+- Three consecutive reviews (9/25, 10/2, 10/9) have proposed the same fix in escalating form and none has been applied -- the bottleneck is not detection, it's the feedback loop from proposal to TRADING-STRATEGY.md. A fourth review repeating the same ask without a human decision point changes nothing.
+- 5 weeks / 28 sessions is enough data to say the current catalyst bar, as applied, has not once converted the account's own top-two YTD momentum sectors into a trade -- independent of whether the bot would have been profitable, this is a structural non-participation problem, not a "patience" win.
+- The bot cannot yet distinguish "disciplined patience" from "effectively untradeable catalyst bar" because it has never deployed capital to test either hypothesis -- only a human-applied change (to the checklist mechanics, the deployment target, or neither if the human judges current discipline correct) can break the loop.
+
+### Strategy Change Proposals This Week
+- See memory/STRATEGY-PROPOSALS.md -- third escalation. 5 consecutive weeks / 28 consecutive sessions of 0% deployment has now met the 10/9 review's own stated trigger for reconsidering the entire catalyst-checklist approach, not just its mechanics, with the 9/25/10/2/10/9 proposals all still unapplied.
+
+### Overall Grade: D-

@@ -134,4 +134,56 @@ Friday morning) or Tech/semis as still multiple sessions extended
 through both Thursday's OpenAI-revenue selloff and Friday's bounce --
 again never a lack of catalyst or sector momentum.
 
+**Status:** pending human review (escalated again 2026-10-23 -- see below)
+
+## 2026-10-23 -- Proposed by weekly-review
+
+**Current rule:** Same as 9/25, 10/2, and 10/9 above -- Entry Checklist
+("Specific catalyst? Sector in momentum? Stop level? Target?"), "never
+within 3% of current price," and the 75-85% deployment target. All three
+prior proposals (9/25 watch-price/pullback logging; 10/2 option to apply
+that or loosen the "extended" dimension for a same-day intraday pullback;
+10/9's choice between the two with a hard re-check date) remain unapplied.
+
+**Proposed change:** This is a third escalation. The 10/9 review set an
+explicit trigger: "if neither option is applied before the next review
+and zero-deployment continues a 5th week, the next escalation should
+consider whether the entire catalyst-checklist approach (vs. a mechanical
+momentum-sector allocation) is suited to this market regime." That trigger
+has now been met exactly -- neither option was applied, and this is the
+5th consecutive zero-deployment week. Recommend the human reviewer choose
+one of:
+1. Apply one of the 9/25/10/2/10/9 mechanisms now, with a hard deadline
+   (e.g. end of next week) after which, if still zero trades, the
+   catalyst-checklist approach itself (not just its mechanics) is
+   replaced or modified for the remainder of the challenge window; or
+2. Replace the discretionary catalyst checklist for the #1/#2
+   YTD-momentum sectors with a smaller, mechanical allocation rule (e.g.
+   a defined-size starter position in the top momentum sector once it
+   meets a volatility/spread filter, sized well under the 20%
+   single-position cap) so the bot is forced to test real P&L instead of
+   continuing to self-select out of every setup; or
+3. Explicitly decide current behavior is correct (the market regime
+   genuinely has not offered a qualifying setup) and relax only the
+   *measurement* bar -- e.g. have the bot log a hypothetical "what if I
+   had entered X" P&L alongside each HOLD, so the opportunity-cost
+   question can be answered with data instead of inference.
+No change proposed to the hard risk rules (stop %, position sizing, max
+positions, max weekly trades, PDT room) under any of the three options.
+
+**Evidence:** Five consecutive weeks (9/16-9/18, 9/21-9/25, 9/28-10/2,
+10/5-10/9, 10/19-10/23), 28 straight trading sessions, 0% capital deployed
+against the 75-85% target, with Energy (#1 YTD, +51-54%) and Technology
+(#2 YTD, +20-27%) holding the top two momentum-sector slots the entire
+time without a single entry. This week's rejections were again catalyst-
+quality calls, not absence of momentum: Energy was rejected as a two-sided
+Iran/Israel-strike-plan geopolitical oil spike, and Tech/semis was
+rejected as an unconfirmed one-day bounce after Thursday 10/22's worst
+Nasdaq session since June. The bot beat the index this week (+0.50%) only
+because the index fell -0.50% on a volatile earnings week -- the second
+and third such "win by sitting out a down week" instances this cycle
+(9/16-9/18, 9/28-10/2), alongside two weeks the bot actively trailed the
+index (9/18-9/25: -0.90%; 10/5-10/9: -1.09%). True performance under
+deployed capital remains untested after 5 weeks and 28 sessions.
+
 **Status:** pending human review
