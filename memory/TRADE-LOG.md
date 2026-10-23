@@ -259,3 +259,12 @@ across the gap. Recommend human review of why daily-summary did not
 commit an EOD snapshot on Oct 21. Energy and Technology remain the
 top-momentum watchlist sectors pending a non-extended, non-whipsaw,
 non-headline-dependent single-name catalyst.
+
+### Oct 23 -- EOD Snapshot (Day 27, Friday)
+**Portfolio:** $100,000.00 | **Cash:** $100,000.00 (100%) | **Day P&L:** $0.00 (0.00%) | **Phase P&L:** $0.00 (0.00%)
+
+No open positions, no open orders (confirmed via live `alpaca.sh account` /
+`positions` / `orders` pull). No trades today. Trades this week: 0/3.
+Twenty-seventh consecutive session with zero positions since launch.
+Energy and Technology remain the top-momentum watchlist sectors pending a
+non-extended, non-whipsaw, non-headline-dependent single-name catalyst.
