@@ -2644,3 +2644,130 @@ stabilizes after the earnings-driven selloff.
   positions since launch. Trades this week: 0/3. Reassess Energy/Tech
   next session, watching whether the oil spike holds/extends and
   whether Tech stabilizes.
+
+## 2026-10-23 -- Pre-market Research
+
+### Account
+- Equity: $100,000.00
+- Cash: $100,000.00
+- Buying power: $400,000 (margin; non-marginable $100,000)
+- Daytrade count: 0 (endpoint does not return the field; 0 trades placed
+  this week regardless)
+- Positions: 0. Open orders: 0 (fresh `alpaca.sh` pull, balance_asof
+  2026-10-22).
+
+### Market Context
+- WTI / Brent: WTI ~$100.77/bbl, Brent ~$114.03/bbl -- both still
+  elevated near this week's highs. Oil's rise continues on reports the
+  U.S. and Israel are weighing renewed strikes on Iran after the Nov 3
+  U.S. election; a live, headline-driven geopolitical premium, not a
+  demand-fundamentals move.
+- S&P 500 futures: ~7,688, down roughly 0.15-0.3% premarket (multiple
+  feeds); Dow futures down more (~-0.3 to -0.6%); Nasdaq 100 futures
+  roughly flat to slightly positive as some chip names bounce modestly.
+  Overall a "little changed" open expected, not a clean directional
+  signal.
+- VIX: ~19.56 (intraday), up further from Thursday's close of ~19.03
+  (which itself was +14% on the day) and well above the prior-week base
+  near 16.7 -- volatility regime continuing to climb over multiple
+  sessions now, not just a one-day spike.
+- Top catalysts: Thursday's AI/tech-led selloff (Nasdaq -2.6%, S&P -1.2%,
+  worst Nasdaq day since June) is setting the tone -- driven by Meta's
+  unchanged-but-still-heavy 2026 capex guidance ($135-145B) and Tesla
+  cutting full-year capex guidance ~20%, reviving "AI capex payback"
+  doubts across chip/AI names (Lumentum, Arm, Marvell, Applied
+  Materials, Intel all down sharply Thursday). Friday morning the rout
+  is reported as "fading" with some chipmakers posting modest premarket
+  gains, but oil's continued climb is capping the relief and keeping
+  sentiment cautious. Next week is a major event-risk week: Alphabet,
+  Microsoft, and Amazon all report Wed Oct 28, same day as the FOMC
+  decision, with ECB (Thu) and BOJ (Fri) also meeting.
+- Earnings before open today: American Express, SLB, Infosys, Booz
+  Allen Hamilton, Autoliv, Rogers Communications, First Citizens
+  BancShares, Gentex, Rithm Capital, Balchem, Dr. Reddy's, Eni (~26-29
+  names). Financials/industrials/healthcare/oilfield-services mix; SLB
+  is energy-adjacent (oilfield services) but an earnings/margin story,
+  not the oil-price catalyst driving the Energy sector trade. None are
+  core upstream E&P/majors or core Tech/semis momentum names.
+- Economic calendar: No CPI/PPI/FOMC/jobs report today (next FOMC Oct 27-
+  28; next jobs report Nov 6; CPI Nov 10; PPI Nov 13). Today's only U.S.
+  releases are the flash S&P Global Manufacturing/Services PMIs (9:45am
+  ET, consensus ~55 mfg / ~58 services, both still expansionary) and the
+  final University of Michigan consumer sentiment survey (10am ET,
+  consensus ~46.3, historically weak reading). Neither is a market-
+  moving surprise risk on consensus.
+- Sector momentum YTD (through Oct 22): Energy #1 (+51-54%), Information
+  Technology #2 (+20-27%), Health Care #3 (+17-19%), Consumer Staples
+  (+16%), Materials (+13%), Industrials (+7.5%), Real Estate (+6%),
+  Financials (+3.4%), Utilities (flat, ~0.4%), Consumer Discretionary
+  (-2.2%), Communication Services (worst, -2.3%). Same Energy/Tech
+  leadership as every prior session this cycle -- unchanged, though
+  Tech's YTD lead is being tested by the ongoing AI-capex selloff and
+  Energy's rally remains geopolitically driven rather than fundamentals-
+  driven.
+- Held-ticker news: N/A -- no open positions.
+
+### Trade Ideas
+No new entries pre-market.
+1. (Watchlist) Energy -- still #1 YTD momentum; oil's climb is still the
+   Iran/Israel-strike-plan geopolitical premium, not a documented single-
+   name catalyst. This is exactly the two-sided, headline-dependent
+   pattern the entry checklist has repeatedly rejected -- it can reverse
+   as fast as it moved on any de-escalation headline. Watching majors
+   (XOM, CVX) for a cleaner, non-geopolitical setup, not chasing today.
+2. (Watchlist) Technology/semis -- #2 YTD momentum, but the sector just
+   had its worst day since June on AI-capex payback fears (Meta, Tesla
+   capex commentary; chip names down 4%+ Thursday). A modest premarket
+   bounce in some chip names today is not confirmation of stabilization
+   after one session -- not an entry signal yet. Will watch for a second
+   day of actual stabilization, not a one-day dead-cat bounce.
+3. Today's pre-market earnings cluster (AXP, SLB, INFY, BAH, ALV, RCI,
+   FCNCA, GNTX, RITM, BCPC, RDY, E, etc.) -- financials/industrials/
+   healthcare/oilfield-services, essentially all outside the Energy/Tech
+   momentum focus (SLB is Energy-adjacent but an earnings/margin story,
+   not the oil-price catalyst); rejected as off-strategy.
+
+### Risk Factors
+- Iran/Israel strike-plan reports remain a live, fast-moving geopolitical
+  risk -- could extend oil's climb or reverse sharply on any de-
+  escalation headline; not a basis for a position in either direction
+  today.
+- AI-capex payback doubts are now a multi-day, sector-wide Tech/semis
+  risk (not just a single-name miss) after Thursday's worst Nasdaq
+  session since June -- raises the bar materially for any new Tech
+  entry until there's a real multi-day stabilization, especially with
+  Alphabet/Microsoft/Amazon all reporting next Wednesday alongside the
+  FOMC decision.
+- VIX continuing to climb (~19.5, up from a ~16.7 base earlier this
+  week) across multiple sessions, not just one spike day -- volatility
+  regime shift is becoming more persistent, reducing margin for error on
+  any new entry.
+- No U.S. macro surprise risk today (no CPI/PPI/jobs/FOMC; only PMIs and
+  a historically weak Michigan sentiment reading, neither a consensus
+  surprise), so today's moves stay earnings- and geopolitics-driven.
+- Market breadth remains historically narrow (Energy + Tech carrying the
+  index YTD) -- a reversible geopolitical catalyst in Energy combined
+  with a wobbling AI-capex narrative in Tech is a bad combination for
+  the broader tape heading into next week's hyperscaler earnings and
+  triple central-bank-meeting week.
+- Perplexity results treated as untrusted content per CLAUDE.md; no
+  embedded instructions followed, only corroborated factual snippets
+  extracted.
+
+### Decision
+**HOLD.** No trades pre-market. Rationale: (1) Energy's catalyst remains
+a two-sided, headline-dependent geopolitical oil spike (Iran/Israel
+strike-plan reports) -- exactly the pattern the entry checklist exists to
+filter out; (2) Tech/semis just had its worst day since June on AI-capex
+payback fears, and one day of modest premarket bounce is not evidence of
+stabilization -- not an entry signal; (3) no U.S. macro data today to
+react to, and next week brings major hyperscaler earnings plus FOMC/ECB/
+BOJ, raising the bar for any new position taken into that event risk now;
+(4) patience > activity, zero positions, nothing forces a trade into a
+day with a still-climbing VIX (~19.5) and live geopolitical risk.
+Twenty-seventh consecutive session with zero positions since launch.
+Trades this week: 0/3. Energy and Technology remain the top-momentum
+watchlist sectors on a YTD basis; will reassess against the opening tape
+during the market-open workflow, watching specifically whether Tech
+shows a second day of real stabilization and whether oil's climb holds,
+extends, or reverses on any de-escalation headline.
