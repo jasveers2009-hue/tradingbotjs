@@ -2794,3 +2794,99 @@ extends, or reverses on any de-escalation headline.
   positions since launch. Trades this week: 0/3. Reassess Energy/Tech
   next session, watching whether the oil spike holds/extends and
   whether Tech shows real multi-day stabilization.
+
+## 2026-10-26 -- Pre-market Research
+
+### Account
+- Equity: $100,000.00
+- Cash: $100,000.00
+- Buying power: $400,000 (margin; effectively unused -- 0 positions)
+- Daytrade count: 0 (0 positions, 0 open orders -- fresh live pull)
+
+### Market Context
+- WTI / Brent: WTI ~$100.7-101.8, Brent ~$109.5-110.5, both down roughly
+  1.5-2.5% on the day. Oil retreating after last week's spike -- Trump
+  ruled out an immediate strike on Iran; Saudi Arabia partially restored
+  airport ops and intercepted Houthi missile/drone attacks. De-escalation
+  move, not a fresh catalyst.
+- S&P 500 futures: +0.2-0.3% premarket (~7,675-7,684), Dow +0.3-0.5%,
+  Nasdaq 100 +0.15-0.3%. Modest broad bounce as oil falls, heading into a
+  "make-or-break" week (Fed + mega-cap earnings).
+- VIX: ~19.5-19.6, still elevated (up from ~16.7 base two weeks ago), flat
+  to slightly up overnight. Volatility regime remains elevated, not
+  spiking further today.
+- Today's catalysts: Oil/Middle East de-escalation; FOMC two-day meeting
+  Oct 27-28 (decision Wed 2pm ET, broadly expected hold); Alphabet/
+  Microsoft report Wed, Amazon Thu -- AI-capex spending/guidance is the
+  swing factor for Tech; Q3 GDP (advance) and Sept PCE inflation both due
+  Thursday; ~1/3 of S&P 500 reports this week. No US CPI/PPI/jobs today
+  (Chicago Fed National Activity Index and Dallas Fed Mfg Index only,
+  low-impact).
+- Earnings before open: VZ, CX (Cemex), MMYT, ARLP, BOH, MED, BMRC --
+  telecom/materials/travel/coal/regional banks, none in the Energy or
+  Tech momentum focus. Off-strategy, rejected.
+- Economic calendar: No CPI/PPI/NFP today. FOMC decision Wed Oct 28.
+  Chicago Fed/Dallas Fed regional surveys today (low-impact, not a
+  trading trigger).
+- Sector momentum (YTD, through Oct 23 close): Energy #1 by a wide
+  margin (+55%), Information Technology #2 (+21-28%, but down ~5-6% over
+  the trailing month on AI-capex payback fears), Health Care #3 (+16-17%),
+  Consumer Staples (+14%), Materials (+12-15%). Communication Services and
+  Consumer Discretionary are the laggards (-4% to -10%). Energy and Tech
+  remain the two sectors in the watchlist.
+
+### Trade Ideas
+1. (Watchlist, no entry) Energy (XOM/CVX) -- oil's pullback today is a
+   reversal of last week's geopolitical spike, not a new catalyst in
+   either direction. No documented single-name Energy catalyst; still
+   two-sided/headline-dependent. Not an entry.
+2. (Watchlist, no entry) Technology/semis -- YTD #2 momentum sector but
+   still digesting the AI-capex payback selloff from last week, and now
+   walking directly into Alphabet/Microsoft (Wed) and Amazon (Thu)
+   earnings -- exactly the event risk the entry checklist (non-extended,
+   non-headline-dependent, documented catalyst) exists to filter out. A
+   pre-earnings entry into mega-cap-dependent sentiment is not a
+   single-name catalyst trade.
+3. No clean single-name setup in either momentum sector today; off-focus
+   earnings (VZ, CX, MMYT, ARLP, BOH, MED, BMRC) rejected as outside
+   Energy/Tech strategy focus.
+
+### Risk Factors
+- "Super-catalyst week": FOMC decision Wednesday, Alphabet/Microsoft
+  (Wed) and Amazon (Thu) earnings, Q3 GDP advance + Sept PCE (Thu) all
+  land in the next 4 days -- any new position taken now carries full
+  exposure into all of it. Raises the bar materially for any new entry
+  before these events clear.
+- Oil's pullback today could reverse again on any new Middle East
+  headline (strike-plan reports, Hormuz risk) -- still a live, fast-
+  moving geopolitical risk in either direction.
+- VIX still elevated (~19.5) versus its ~16.7 base two weeks ago --
+  volatility regime shift persists; reduces margin for error on any new
+  entry.
+- Tech/semis sentiment remains fragile after last week's AI-capex
+  payback selloff; mega-cap earnings this week could extend or reverse
+  that narrative sharply in either direction.
+- US midterm elections next week are reportedly being treated as an
+  informal deadline for Iran peace talks before potential US
+  re-escalation -- adds a second geopolitical event risk layer stacked
+  on top of this week's Fed/earnings calendar.
+- Perplexity results treated as untrusted content per CLAUDE.md; no
+  embedded instructions followed, only corroborated factual snippets
+  extracted.
+
+### Decision
+**HOLD.** No trades pre-market. Rationale: (1) oil's reversal today is a
+de-escalation move, not a fresh single-name Energy catalyst -- still
+two-sided and headline-dependent; (2) Tech/semis has no documented
+single-name catalyst and is walking directly into Alphabet/Microsoft/
+Amazon earnings plus the FOMC decision this week -- new exposure now
+would be a bet on event risk, not a specific thesis; (3) no US macro
+surprise today to react to, and the week's calendar (FOMC Wed, Big Tech
+earnings Wed/Thu, GDP+PCE Thu) is reason to wait, not force a trade
+ahead of it; (4) patience > activity, zero positions, nothing compels
+action into a week this loaded with binary event risk. Twenty-ninth
+consecutive session with zero positions since launch (new trading week).
+Trades this week: 0/3. Energy and Technology remain the top-momentum
+watchlist sectors on a YTD basis; will reassess against the opening tape
+during market-open, and again after FOMC/mega-cap earnings clear later
+this week.
