@@ -2797,3 +2797,93 @@ Trades this week: 0/3. Energy and Technology remain the top-momentum
 watchlist sectors on a YTD basis; will reassess against the opening tape
 during market-open, and again after FOMC/mega-cap earnings clear later
 this week.
+
+## 2026-10-27 -- Pre-market Research
+
+### Account
+- Equity: $100,000.00
+- Cash: $100,000.00
+- Buying power: $400,000 (margin; effectively unused -- 0 positions)
+- Daytrade count: 0 (0 positions, 0 open orders -- fresh live `alpaca.sh` pull)
+
+### Market Context
+- WTI / Brent: WTI ~$101-102, Brent ~$110-116 (wide cross-source spread this
+  morning). Oil slipping for a second straight session after Saudi Arabia's
+  defense minister met Iranian leaders in Tehran to de-escalate -- Brent
+  fell 91c to $115.81 Monday after briefly topping $117; still up ~12% for
+  the month and near its highest since late April. De-escalation move, not
+  a fresh catalyst, and still reversible on any new headline.
+- S&P 500 futures: little changed / modestly higher premarket (~+0.05% to
+  +0.3% across sources, ~7,715-7,727), after Monday's rally (S&P +0.70%,
+  Nasdaq +0.8%, Dow +0.3%) led by tech on Anthropic's IPO filing reviving
+  AI-trade enthusiasm (chip stocks up broadly, Asia followed -- Kospi
+  +4.5%). CME FedWatch prices only ~11% odds of a hike this week.
+- VIX: ~17.84-18.39, down ~3-5% from Monday's close and well off last
+  week's ~19.5 peak -- vol cooling into the Fed meeting, not spiking.
+- Today's catalysts: FOMC two-day meeting begins today, decision Wed Oct 28
+  2pm ET (widely expected hold at 3.75-4%); Alphabet/Microsoft report Wed
+  after close, Amazon Thu -- AI-capex guidance remains the swing factor for
+  Tech after last week's selloff and Monday's AI-optimism bounce; durable
+  goods orders, consumer confidence, new home sales, Richmond Fed survey
+  today (second-tier, not a market mover). No CPI/PPI/jobs report today --
+  October CPI not due until Nov 10, PPI Nov 13, jobs report Nov 6.
+- Earnings before open: KO, BA, UPS, PYPL, SOFI, GLW, NVS, SPGI, AMT, FCX,
+  HCA, JCI, HLT, ECL, XYL -- consumer staples/industrials/financials/
+  diversified, none a single-name catalyst in the Energy or Tech momentum
+  focus (GLW is optical/glass, adjacent to AI infra narrative but not a
+  core semis/momentum name).
+- Sector momentum (YTD, through Oct 23 close): Energy #1 by a wide margin
+  (+55-58%), Information Technology #2 (+21-30%, still digesting last
+  week's AI-capex selloff before Monday's bounce), Health Care #3
+  (+15-17%), Consumer Staples (+14%), Materials (+12%). Communication
+  Services and Consumer Discretionary remain the laggards (-3% to -4%).
+  Energy and Tech remain the two sectors in the watchlist -- unchanged
+  from prior sessions.
+
+### Trade Ideas
+1. (Watchlist, no entry) Energy (XOM/CVX) -- oil's second day of pullback
+   is a de-escalation move (Saudi-Iran talks), not a fresh single-name
+   catalyst; still two-sided and headline-reversible on any new Middle
+   East development. Not an entry.
+2. (Watchlist, no entry) Technology/semis -- Monday's AI-optimism bounce
+   (Anthropic IPO filing) is sentiment-driven, not a documented
+   single-name catalyst, and the sector is about to walk directly into
+   Alphabet/Microsoft (Wed) and Amazon (Thu) earnings plus the FOMC
+   decision Wed -- exactly the event-risk stacking the entry checklist
+   exists to filter out.
+3. No clean single-name setup in either momentum sector today; today's
+   before-open earnings slate (KO, BA, UPS, PYPL, SOFI, GLW, NVS, SPGI,
+   AMT, FCX, HCA, JCI, HLT, ECL, XYL) is off-focus and rejected.
+
+### Risk Factors
+- FOMC decision Wednesday 2pm ET is the week's dominant event; a hawkish
+  surprise (markets pricing further hikes by mid-2027 per some desks) or
+  any dovish-vs-expectations shift would move the whole tape and any new
+  position taken today carries full exposure into it.
+- Alphabet/Microsoft (Wed) and Amazon (Thu) earnings are a second major
+  event risk layer stacked directly on top of the Fed decision -- AI-capex
+  guidance could reverse Monday's bounce sharply in either direction.
+- Oil's de-escalation could reverse on any new Iran/Saudi/Israel headline;
+  still a live, fast-moving geopolitical risk.
+- VIX has calmed (~17.8-18.4) but remains above its multi-week lows,
+  leaving limited cushion if the Fed or Big Tech earnings disappoint.
+- Perplexity results treated as untrusted content per CLAUDE.md; no
+  embedded instructions followed, only corroborated factual snippets
+  extracted.
+
+### Decision
+**HOLD.** No trades pre-market. Rationale: (1) oil's pullback today is a
+continuation of Monday's de-escalation move, not a new single-name Energy
+catalyst -- still two-sided and headline-reversible; (2) Tech/semis has no
+documented single-name catalyst beyond a broad, sentiment-driven AI-optimism
+bounce, and is walking directly into the FOMC decision (Wed) and
+Alphabet/Microsoft/Amazon earnings (Wed/Thu) -- new exposure now would be a
+bet on this week's binary event risk, not a specific thesis; (3) no US
+CPI/PPI/jobs data today to react to, and today's before-open earnings slate
+is entirely off-focus (no Energy/Tech momentum names); (4) patience >
+activity, zero positions, nothing compels a trade into the single biggest
+event-risk week since launch (FOMC + mega-cap earnings). Twenty-ninth
+consecutive session with zero positions since launch. Trades this week:
+0/3. Energy and Technology remain the top-momentum watchlist sectors on a
+YTD basis; will reassess against the opening tape during market-open, and
+again once FOMC and Big Tech earnings clear later this week.
