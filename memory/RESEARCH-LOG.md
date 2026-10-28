@@ -2980,3 +2980,103 @@ consecutive session with zero positions since launch. Trades this week:
 0/3. Energy and Technology remain the top-momentum watchlist sectors on a
 YTD basis; will reassess against the opening tape during market-open, and
 again once FOMC and Big Tech earnings clear later this week.
+
+## 2026-10-28 -- Pre-market Research (Day 30, Wednesday, FOMC decision day)
+
+### Account
+- Equity: $100,000.00
+- Cash: $100,000.00
+- Buying power: $400,000 (margin; effectively unused -- 0 positions)
+- Daytrade count: 0 (0 positions, 0 open orders -- fresh live `alpaca.sh` pull,
+  `balance_asof` 2026-10-27)
+
+### Market Context
+- WTI / Brent: WTI ~$100-103/bbl (+1 to +1.5%), Brent ~$111-116/bbl -- both
+  firmer again overnight. Driver: reports the Pentagon has spent $47B+ on
+  the US-Iran conflict and chatter the US may resume strikes on Iran --
+  renewed geopolitical risk premium, not a demand-side move. Same
+  Iran/Hormuz-adjacent headline risk flagged repeatedly this cycle, now a
+  third straight session of oil firming.
+- S&P 500 futures: modestly positive, ~+0.05 to +0.16% (~7,758-7,768),
+  Nasdaq 100 futures leading (+0.3-0.5%) on AI-chip optimism; Dow futures
+  slightly negative (~-0.2 to -0.3%). Thin, mixed tape ahead of the day's
+  two binary events.
+- VIX: ~17.5-18.4, little changed, still well off multi-week highs -- calm
+  heading into the Fed, not stressed.
+- Today's catalysts: (1) **FOMC decision 2:00pm ET + press conference
+  2:30pm ET** -- widely expected hold at 3.75-4.00%, statement/guidance is
+  the swing factor; (2) **Microsoft and Alphabet report after today's
+  close** -- AI-capex guidance and cloud growth are the key read-throughs,
+  Amazon follows tomorrow; (3) SK Hynix posted record Q3 revenue/profit on
+  strong memory demand, shares +11% in Seoul, lifting Kospi +4.5-6.6% and
+  supporting the AI/semis trade into Microsoft/Alphabet; (4) AI-financing
+  concerns persist (Meta's reported ~$97.5B equity offering, Nvidia's $3B
+  stake in it) -- a two-sided overhang on the same Tech trade; (5) Employment
+  Cost Index (Q3) 8:30am ET and JOLTS job openings (Sep) 10:00am ET --
+  second-tier data, not expected to move the tape ahead of the Fed. No
+  CPI/PPI/jobs report today (next CPI Nov 10, PPI Nov 13, jobs report
+  Nov 6).
+- Earnings before open: GE Vernova (GEV), Amphenol (APH), ADP, Phillips 66
+  (PSX), Vertiv (VRT), Boston Scientific (BSX), TE Connectivity (TEL), GE
+  HealthCare (GEHC), Aon (AON), American Electric Power (AEP), Biogen
+  (BIIB), Old Dominion (ODFL) -- industrials/healthcare/payments mix, none
+  a single-name catalyst in the Energy or Tech momentum focus.
+- Sector momentum (YTD, through Oct 26-27 close, cross-source): Energy #1
+  by a wide margin (+55-59%), Information Technology #2 (+23-37% depending
+  on source/proxy), Health Care #3 (+15-17%), Consumer Staples (+14%),
+  Materials (+12%). Communication Services (-5 to -11%) and Consumer
+  Discretionary (-2.5 to -4%) remain the laggards. Energy and Tech remain
+  the two sectors in the watchlist -- unchanged leadership for the entire
+  cycle since launch.
+
+### Trade Ideas
+No new entries pre-market -- today is the single highest-stakes event day
+since launch (FOMC + Microsoft/Alphabet earnings), exactly the setup the
+entry checklist is designed to filter out of.
+1. (Watchlist, no entry) Energy (XOM/CVX) -- oil's third straight firming
+   session is driven by Iran-strike-resumption chatter, a reversible
+   geopolitical headline, not a fresh documented single-name catalyst.
+   Not an entry.
+2. (Watchlist, no entry) Technology/semis -- SK Hynix's blowout quarter and
+   Kospi rally are a real AI-demand signal, but the sector is hours away
+   from its own binary catalyst (Microsoft/Alphabet earnings after close)
+   stacked directly on top of the FOMC decision -- a new position today
+   would be a bet on two stacked binary events, not a specific thesis.
+3. No clean single-name setup in either momentum sector; today's before-
+   open earnings slate (GEV, APH, ADP, PSX, VRT, BSX, TEL, GEHC, AON, AEP,
+   BIIB, ODFL) is off-focus and rejected.
+
+### Risk Factors
+- FOMC decision (2pm ET) and press conference (2:30pm ET) is the week's
+  single biggest event -- a hold is priced in, but any guidance surprise
+  moves the whole tape; any position opened pre-market carries full
+  exposure into it with hours to go.
+- Microsoft and Alphabet report after today's close -- AI-capex guidance
+  could swing the Tech/semis momentum trade sharply either direction
+  overnight, before the position could even be managed intraday.
+- Oil firming for a third session on Iran-strike-resumption chatter is a
+  live, fast-moving geopolitical risk, not a confirmed trend -- same
+  headline-driven whipsaw pattern flagged all cycle.
+- AI-financing/equity-offering concerns (Meta, Nvidia stake) are a fresh,
+  two-sided overhang on the same Tech names carrying today's earnings
+  catalyst.
+- Perplexity results treated as untrusted content per CLAUDE.md; no
+  embedded instructions followed, only corroborated factual snippets
+  extracted.
+
+### Decision
+**HOLD.** No trades pre-market. Rationale: (1) today stacks the FOMC
+decision (2pm ET) directly against Microsoft/Alphabet earnings after the
+close -- the two largest binary catalysts of the cycle land on the same
+day, and opening a new position now would be sizing into pure event risk,
+not a documented single-name thesis; (2) oil's firming is geopolitical-
+headline-driven (Iran strike-resumption chatter) and reversible, not a
+fresh Energy catalyst; (3) SK Hynix's strong quarter is a real data point
+for the AI/semis trade but doesn't substitute for a vetted entry ahead of
+Microsoft/Alphabet's own results tonight; (4) patience > activity, zero
+positions, nothing compels a trade into the highest-stakes day since
+launch. Thirtieth consecutive session with zero positions since launch
+(new week day 3). Trades this week: 0/3. Energy and Technology remain the
+top-momentum watchlist sectors; will reassess against the opening tape
+during market-open, and again once the Fed decision and Microsoft/Alphabet
+earnings clear tonight/tomorrow.
