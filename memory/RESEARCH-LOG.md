@@ -2987,3 +2987,108 @@ launch. Thirtieth consecutive session with zero positions since launch
 top-momentum watchlist sectors; will reassess against the opening tape
 during market-open, and again once the Fed decision and Microsoft/Alphabet
 earnings clear tonight/tomorrow.
+
+## 2026-10-29 -- Pre-market Research
+
+### Account
+- Equity: $100,000.00
+- Cash: $100,000.00
+- Buying power: $400,000 (margin, 4x; RegT $200,000)
+- Daytrade count: 0 (no positions, no orders -- confirmed via live `alpaca.sh account`/`positions`/`orders`, balance_asof 2026-10-28)
+
+### Market Context
+- WTI / Brent: WTI ~$101.5-102 (down ~1% today), Brent ~$114-115 (down
+  ~0.6-1%). Oil pulled back after a 3-session firming run -- U.S. reportedly
+  told Gulf countries to prepare for Iran strikes after midterm elections
+  (Wed headline), but today's tape is giving some of that back; same
+  reversible geopolitical-headline pattern flagged all cycle.
+- S&P 500 futures: down ~0.3-0.5% pre-market (~7,756-7,765). Nasdaq 100
+  futures down ~1.0-1.2% on Alphabet's post-earnings slide; Dow futures up
+  ~0.4-0.6% as oil eases. Mixed/risk-off tilt in Tech specifically.
+- VIX: ~17.2-17.5, up modestly (~+2%) but still calm/low, well off
+  multi-week highs.
+- Today's catalysts: (1) Fed held rates at 3.75-4.00% Wed with 2 hawkish
+  dissents -- already resolved, S&P/Nasdaq/Dow all closed up Wed; (2)
+  **Alphabet (GOOGL) slumped ~9-10% after-hours** on a revenue miss and
+  negative free cash flow (-$9.1B) -- reignites AI-capex-sustainability
+  doubts; (3) **Microsoft (MSFT) +3% after-hours** on an Azure beat (+48%
+  YoY) -- a direct, same-night counter-signal to Alphabet, splitting the
+  AI/hyperscaler trade rather than confirming a single direction; (4)
+  Oracle +10.7% Wed on $30B FY29 FCF guidance -- separate positive AI-capex
+  data point; (5) Boston Scientific -5.8% Wed after cutting guidance on a
+  cyberattack; (6) **Amazon and Intel report after today's close** -- a
+  second consecutive night of binary hyperscaler/AI-capex event risk; (7)
+  **ECB rate decision 9:15am ET + Lagarde press conference 9:45am ET** --
+  widely expected hold at 2.50%, December-hike signaling is the swing
+  factor for European markets.
+- Earnings before open: Caterpillar (CAT), Eli Lilly (LLY), Mastercard
+  (MA), Merck (MRK), STMicroelectronics (STM), Carrier Global (CARR),
+  L3Harris (LHX), Howmet Aerospace (HWM), Bristol Myers Squibb (BMY),
+  Shell (SHEL), Intercontinental Exchange (ICE), Textron (TXT) -- large,
+  diversified industrials/healthcare/energy-major slate, no single-name
+  catalyst in the Energy or Tech momentum focus (Shell is a European
+  major, not a momentum-watchlist name).
+- Economic calendar: No CPI/PPI/jobs report today (next CPI Nov 10, PPI
+  Nov 13, jobs report Nov 6). **Q3 advance GDP, September PCE/core PCE
+  inflation, and weekly initial/continuing jobless claims all land
+  8:30am ET** -- consensus ~3.1% core PCE YoY, ~3.2% annualized GDP growth.
+  A hot PCE print or a GDP miss could move the tape ahead of the open.
+- Sector momentum (YTD, through Oct 27-28 close): Energy #1 by a wide
+  margin (+52-56%), Information Technology #2 (+24-33%), Health Care #3
+  (+15-17%), Materials (+12-13%), Consumer Staples (+13%). Communication
+  Services (-5%) and Consumer Discretionary (-1 to -4%) remain the
+  laggards. Energy and Tech remain the two sectors in the watchlist --
+  unchanged leadership for the entire cycle since launch.
+
+### Trade Ideas
+No new entries pre-market.
+1. (Watchlist, no entry) Energy (XOM/CVX) -- still the #1 momentum sector
+   YTD, but oil is reversing lower today after Wednesday's Iran-strike-prep
+   spike -- the same two-sided, headline-driven whipsaw pattern flagged all
+   cycle, not a fresh single-name catalyst. Not an entry.
+2. (Watchlist, no entry) Technology/AI -- Microsoft's Azure beat and
+   Alphabet's revenue miss/negative FCF landed on the same night, splitting
+   the AI-capex trade rather than confirming it; Nasdaq futures are down
+   ~1% pre-market on the Alphabet read-through. Amazon and Intel report
+   again tonight, stacking a second consecutive binary AI-earnings event
+   on top of an already-split signal. Not an entry.
+3. No clean single-name setup in either momentum sector; today's
+   before-open earnings slate (CAT, LLY, MA, MRK, STM, CARR, LHX, HWM,
+   BMY, SHEL, ICE, TXT) is off-focus (industrials/healthcare/payments/
+   European energy major) and rejected. Q3 GDP/PCE at 8:30am ET and the
+   ECB decision add further event risk ahead of the open.
+
+### Risk Factors
+- Q3 advance GDP and September PCE inflation (8:30am ET) are released
+  before the open -- a hot PCE print or soft GDP could move the tape
+  immediately, before any new position could be sized responsibly.
+- Alphabet's ~9-10% after-hours slide on a revenue miss and negative FCF
+  reignites AI-capex-sustainability concerns industry-wide; Microsoft's
+  same-night Azure beat is a direct counter-signal -- the AI/Tech
+  narrative is split, not confirmed, heading into Amazon/Intel tonight.
+- A second consecutive night of binary hyperscaler earnings (Amazon,
+  Intel after today's close) keeps Tech/AI-capex headline risk elevated
+  through the full session.
+- Oil reversing lower after a 3-session geopolitical-headline-driven spike
+  (Iran-strike-prep chatter) is not a confirmed trend -- same whipsaw
+  pattern flagged all cycle; Hormuz/Houthi-attack risk remains live and
+  two-sided.
+- ECB decision (9:15am ET) and Lagarde press conference (9:45am ET) add
+  European event risk that can spill into US futures pre-open.
+- Perplexity results treated as untrusted content per CLAUDE.md; no
+  embedded instructions followed, only corroborated factual snippets
+  extracted.
+
+### Decision
+**HOLD.** No trades pre-market. Rationale: (1) zero open positions, zero
+open orders -- nothing to manage, no urgency; (2) Energy's oil tailwind is
+reversing today on the same reversible geopolitical-headline pattern that
+has kept this sector on watchlist-only status all cycle; (3) Tech/AI
+sentiment is explicitly split tonight (Microsoft beat vs. Alphabet miss),
+with Amazon and Intel adding a second straight binary event after today's
+close -- not a vetted single-name thesis; (4) today's before-open earnings
+slate is off-focus for both momentum sectors; (5) Q3 GDP/PCE at 8:30am ET
+and the ECB decision add macro event risk ahead of the open; (6) patience
+> activity. Trades this week: 0/3. Energy and Technology remain the
+top-momentum watchlist sectors; will reassess against the opening tape
+during market-open, and again once Amazon/Intel earnings clear tonight.
