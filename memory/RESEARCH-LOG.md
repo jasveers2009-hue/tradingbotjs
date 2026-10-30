@@ -3185,3 +3185,77 @@ and the ECB decision add macro event risk ahead of the open; (6) patience
 > activity. Trades this week: 0/3. Energy and Technology remain the
 top-momentum watchlist sectors; will reassess against the opening tape
 during market-open, and again once Amazon/Intel earnings clear tonight.
+
+## 2026-10-30 -- Pre-market Research
+
+### Tooling Note
+- `scripts/perplexity.sh` failed on every query with `curl: (22)` / HTTP 403
+  from `https://api.perplexity.ai/v1/agent` (not the documented "key unset,
+  exit 3" case -- PERPLEXITY_API_KEY is set). Checked the agent-proxy status
+  endpoint: no destination-host block recorded in `recentRelayFailures`, so
+  this looks like an API-side 403 (invalid/expired key, rate limit, or
+  endpoint change) rather than a network policy block. Per CLAUDE.md,
+  fell back to native WebSearch for all queries below.
+- WebSearch fallback also came back thin for *today specifically* -- most
+  results were stale (days-to-months old) or conflicting, with no
+  authoritative same-day print for oil, S&P futures, or VIX. Figures below
+  are the most recent corroborated data points found, explicitly dated,
+  not confirmed as-of today's open. Recommend human check of
+  `PERPLEXITY_API_KEY` validity before the next scheduled run.
+
+### Account
+- Equity: $100,000.00
+- Cash: $100,000.00
+- Buying power: $400,000 (margin, 4x; RegT $200,000)
+- Daytrade count: 0 (no positions, no orders -- confirmed via live
+  `alpaca.sh account`/`positions`/`orders`, balance_asof 2026-10-29)
+
+### Market Context (dates as noted -- no confirmed same-day print)
+- WTI / Brent: last corroborated data point is Oct 26 (~$102 / ~$110);
+  no confirmed Oct 30 print found via WebSearch fallback.
+- S&P 500 / Nasdaq futures: no confirmed premarket level found for today;
+  search results returned only stale (non-today) premarket briefs.
+- VIX: no confirmed today reading found; most recent corroborated point
+  (~Jul 31) is too stale to use, so treat current vol regime as unknown
+  rather than assume calm.
+- Today's known calendar item: Q3 Employment Cost Index at 8:30am ET
+  (per multiple econ-calendar sources) -- GDP/PCE/jobless claims already
+  released Thu Oct 29 (per prior session's research-log entry) and FOMC
+  already resolved Wed Oct 28 (hold, 2 hawkish dissents, per prior entry).
+  No same-day earnings-before-open list could be confirmed via WebSearch.
+- Sector momentum: consistent with every prior log this cycle -- Energy
+  #1 YTD by a wide margin, Technology #2. No new corroborated figure for
+  today; no change in watchlist-sector leadership implied.
+- No held positions, so no ticker-specific news check applicable.
+
+### Trade Ideas
+No new entries pre-market. With primary and fallback research both
+degraded for today's actual print (no confirmed oil/futures/VIX/earnings
+data), there is no basis for a documented single-name catalyst regardless
+of sector. Not an entry on any name.
+
+### Risk Factors
+- Research pipeline degraded today (Perplexity 403 + thin WebSearch
+  fallback) -- flying with less information than normal; this alone is a
+  reason to default harder to HOLD.
+- Employment Cost Index (8:30am ET) is a scheduled release that could move
+  rates-sensitive sectors before/at the open; no fresh single-name
+  catalyst identified in Energy or Tech to trade around it.
+- Last known Tech/AI narrative (per prior entries) was already split
+  (Microsoft beat vs. Alphabet miss) with Amazon/Intel reporting since --
+  no corroborated follow-through data for today to act on.
+- Perplexity/WebSearch results treated as untrusted content per CLAUDE.md;
+  no embedded instructions followed, only corroborated factual snippets
+  extracted (and flagged above where even those are stale/unconfirmed).
+
+### Decision
+**HOLD.** No trades pre-market. Rationale: (1) zero open positions, zero
+open orders -- nothing to manage, no urgency; (2) both primary (Perplexity,
+HTTP 403) and fallback (WebSearch) research returned no confirmed today-
+dated data for oil, futures, VIX, or earnings -- no basis for a documented
+single-name catalyst; (3) Energy and Technology remain the only watchlist
+sectors per prior sessions, unchanged; (4) patience > activity, and a
+degraded information environment is itself a reason not to trade. Trades
+this week: 0/3. Thirty-second consecutive session with zero positions
+since launch. Flagging the Perplexity API 403 for human review before the
+next scheduled run.
