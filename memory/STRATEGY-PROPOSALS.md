@@ -186,4 +186,49 @@ and third such "win by sitting out a down week" instances this cycle
 index (9/18-9/25: -0.90%; 10/5-10/9: -1.09%). True performance under
 deployed capital remains untested after 5 weeks and 28 sessions.
 
+**Status:** pending human review (escalated again 2026-10-30 -- see below)
+
+## 2026-10-30 -- Proposed by weekly-review
+
+**Current rule:** Same as 9/25, 10/2, 10/9, and 10/23 above -- Entry
+Checklist ("Specific catalyst? Sector in momentum? Stop level? Target?"),
+"never within 3% of current price," and the 75-85% deployment target. The
+10/23 review's three-option choice (apply a pending mechanism with a hard
+deadline; replace the discretionary checklist with a small mechanical
+momentum allocation; or explicitly bless current behavior and instead log
+hypothetical "what if I had entered X" P&L) has not been decided by a
+human reviewer.
+
+**Proposed change:** This is a fourth escalation, not a new mechanism --
+same three options as 10/23, restated because none has been chosen. Two
+additional, separate observations this week, neither a strategy-rule
+change:
+1. `scripts/perplexity.sh` returned HTTP 403 on every query on 2026-10-30
+   (not the documented "key unset, exit 3" case) -- recommend a human
+   verify/rotate `PERPLEXITY_API_KEY` before the next scheduled run, since
+   today's research ran on a degraded WebSearch-only fallback with thin,
+   unconfirmed same-day data.
+2. No weekly-review entry exists for the week ending 2026-10-16 even
+   though EOD snapshots confirm zero trades that week -- an apparent gap
+   in the weekly-review workflow's own firing/commit cadence, the same
+   class of issue as the recurring pre-market/EOD scheduler gaps flagged
+   in prior reviews (Sep 23, Oct 1-2, Oct 21). Recommend a human check of
+   why that week's review did not run or commit.
+
+**Evidence:** Seven consecutive weeks (9/16-9/18, 9/21-9/25, 9/28-10/2,
+10/5-10/9, 10/12-10/16 [no review logged, but EOD snapshots confirm zero
+positions all week], 10/19-10/23, 10/26-10/30), 32 straight trading
+sessions, 0% capital deployed against the 75-85% target, with Energy and
+Technology holding the top two YTD momentum-sector slots the entire time
+without a single entry. This week's rejections were again catalyst-quality
+and event-risk calls (FOMC stacked against Microsoft/Alphabet/Amazon/Intel
+earnings, 10/26-10/28), not absence of momentum or sector leadership. The
+discipline was validated by today's outcome specifically: the market had
+its worst session in weeks (S&P ~-1.8%, Nasdaq ~-2.9%) on Amazon/Intel
+earnings fallout, and the bot had zero exposure when it hit. That is a
+real, not hypothetical, data point in favor of current discipline this
+week -- but it does not resolve the underlying question raised by six
+prior weeks of non-participation, several of which cost measurable
+opportunity (9/18-9/25: -0.90%; 10/5-10/9: -1.09%).
+
 **Status:** pending human review

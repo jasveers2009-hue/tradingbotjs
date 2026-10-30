@@ -285,3 +285,55 @@ Template for each entry:
 - See memory/STRATEGY-PROPOSALS.md -- third escalation. 5 consecutive weeks / 28 consecutive sessions of 0% deployment has now met the 10/9 review's own stated trigger for reconsidering the entire catalyst-checklist approach, not just its mechanics, with the 9/25/10/2/10/9 proposals all still unapplied.
 
 ### Overall Grade: D-
+
+## Week ending 2026-10-30
+
+### Stats
+| Metric | Value |
+|--------|-------|
+| Starting portfolio | $100,000.00 |
+| Ending portfolio | $100,000.00 |
+| Week return | $0.00 (0.00%) |
+| S&P 500 week | ~-0.57% (approximate -- see note) |
+| Bot vs S&P | ~+0.57% |
+| Trades | 0 (W:0 / L:0 / open:0) |
+| Win rate | N/A (no trades) |
+| Best trade | N/A |
+| Worst trade | N/A |
+| Profit factor | N/A |
+
+**Note on S&P figure:** `scripts/perplexity.sh` returned HTTP 403 on every query this week (see 10/30 research-log entry and "what didn't work" below). S&P 500 week return is estimated from WebSearch: confirmed Oct 23 close 7,623.68, Oct 30 close ~7,580 (today's brutal post-earnings selloff, cross-checked against the live SPY quote of $756.12 at 20:32 UTC) -- sources disagreed on the exact print, so treat this figure as approximate, not authoritative.
+
+### Closed Trades
+| Ticker | Entry | Exit | P&L | Notes |
+| -- | -- | -- | -- | -- |
+| None -- zero trades placed this week | | | | |
+
+### Open Positions at Week End
+| Ticker | Entry | Close | Unrealized | Stop |
+| -- | -- | -- | -- | -- |
+| None | | | | |
+
+### What Worked
+- Discipline held across all 5 sessions (10/26-10/30): new exposure was correctly withheld ahead of the single highest-stakes event stretch since launch -- FOMC decision (10/28) stacked directly against Microsoft/Alphabet (Wed) and Amazon/Intel (Thu) earnings -- rather than sizing into pure binary event risk.
+- That discipline paid off concretely this time, not just hypothetically: today (10/30) the market had its worst session in weeks (S&P ~-1.8%, Nasdaq ~-2.9%) on Amazon/Intel earnings fallout and AI-capex doubts following Alphabet's Thursday slide -- zero capital was at risk when the tape cratered.
+- Degraded-information-day discipline held: when `scripts/perplexity.sh` failed with HTTP 403 on every query (10/30) and the WebSearch fallback also came back thin for same-day data, the bot correctly defaulted to HOLD rather than trading on stale/unconfirmed figures.
+- Account/position state was independently re-verified via live Alpaca pulls every session -- confirmed again at week-end ($100,000.00 equity, zero positions, `balance_asof` 2026-10-29).
+- Untrusted-content discipline held: conflicting/thin search results (oil, futures, VIX) were treated as noise, never as signal or instruction.
+
+### What Didn't Work
+- Seventh consecutive week, 32nd consecutive trading session, 0% capital deployed vs. the 75-85% target.
+- All three prior proposed fixes (9/25, 10/2, 10/9) and the three-option third escalation (10/23) remain pending human review and unapplied -- the feedback loop from proposal to TRADING-STRATEGY.md is now 5+ weeks stale.
+- `PERPLEXITY_API_KEY` / `scripts/perplexity.sh` returned HTTP 403 on every query today (not the documented "key unset" case) -- needs human verification of the key before the next scheduled run; today's research ran on a degraded WebSearch-only fallback.
+- No weekly-review entry exists above for the week ending 2026-10-16, even though EOD snapshots confirm zero trades/zero positions that week too -- an apparent gap in the review cadence itself, the same class of issue as the recurring pre-market/EOD scheduler gaps already flagged (Sep 23, Oct 1-2, Oct 21). Recommend human review of why the Friday weekly-review workflow didn't fire or commit that week.
+- Energy and Technology have now sat on the watchlist, unconverted, every session since account launch on 9/16 -- 32 straight sessions.
+
+### Key Lessons
+- Today is a genuine (not hypothetical) data point in the discipline's favor: the same "never chase stacked event risk" rule that has looked costly on up-weeks this cycle prevented new exposure walking straight into the worst single session in weeks. That doesn't resolve the core question -- it's one data point, not a trend reversal.
+- The proposal backlog (9/25, 10/2, 10/9, 10/23) is unresolved and compounding; a fourth escalation without a human decision point changes nothing, same lesson as 10/23's review stated about repeating itself.
+- Tooling reliability is now a second open risk alongside the strategy question: a silent Perplexity API failure (403, not the expected unset-key case) degrades research quality without blocking the run, and the missing 10/16 review entry suggests the review cadence itself needs a human check, not just the trading logic.
+
+### Strategy Change Proposals This Week
+- See memory/STRATEGY-PROPOSALS.md -- fourth escalation. 7 consecutive weeks / 32 consecutive sessions of 0% deployment, with the 10/23 three-option choice still undecided and a newly observed process gap (missing 10/16 weekly review).
+
+### Overall Grade: D
