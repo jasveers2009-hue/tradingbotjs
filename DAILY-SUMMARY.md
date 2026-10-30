@@ -264,3 +264,7 @@ Cash: $100,000.00
 Trades today: none
 Open positions: none
 Tomorrow: hold, await non-extended single-name catalyst in Energy/Tech
+
+---
+## 2026-10-30 12:20 UTC (fallback -- no notification channel configured)
+Pre-market Oct 30: HOLD, flat $100k, 0/3 trades this wk. Perplexity API returned 403 (not key-missing) -- research pipeline degraded, needs human check.
