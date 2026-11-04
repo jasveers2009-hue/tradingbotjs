@@ -3331,3 +3331,100 @@ week: 0/3 (new week). Thirty-fourth consecutive session with zero
 positions since launch. Flagging the persistent Perplexity API 403 for
 human review a third time -- unresolved since Oct 30; recommend rotating
 `PERPLEXITY_API_KEY`.
+
+## 2026-11-04 -- Pre-market Research
+
+### Tooling Note
+- `scripts/perplexity.sh` failed on every query again with `curl: (22)` /
+  HTTP 403 from `https://api.perplexity.ai/v1/agent`. `PERPLEXITY_API_KEY`
+  is set in the environment (confirmed present), so this is an API-side
+  rejection, not a missing-key issue. Checked agent-proxy status:
+  `recentRelayFailures` empty, destination host not blocked -- confirms
+  API-side 403 (invalid/expired key or rate/plan limit), not a
+  network/proxy issue. This is now the **fourth consecutive scheduled
+  run** with the research pipeline degraded (first flagged Oct 30,
+  repeated Nov 2, Nov 3, unresolved). Fell back to native WebSearch per
+  CLAUDE.md.
+- WebSearch fallback was thin again for today specifically -- no
+  authoritative same-day print found for oil, S&P futures, VIX, or a
+  confirmed Nov 4 pre-market earnings/catalyst list. Figures below are
+  the most recent corroborated (but stale/undated) data points found,
+  explicitly flagged as not confirmed for today.
+- One dated signal worth flagging: an FXStreet piece timestamped Nov 3
+  2026 is titled "Rising VIX points towards growing investor caution" --
+  directionally suggests vol has been ticking up into this week, though
+  no numeric VIX level confirmed. Treated as a soft risk signal, not a
+  basis for action.
+
+### Account
+- Equity: $100,000.00
+- Cash: $100,000.00
+- Buying power: $400,000 (margin, 4x; RegT $200,000)
+- Daytrade count: 0 (no positions, no orders -- confirmed via live
+  `alpaca.sh account`/`positions`/`orders` pull, balance_asof 2026-11-03)
+
+### Market Context (dates as noted -- no confirmed same-day print)
+- WTI / Brent: no confirmed Nov 4 print found via WebSearch; results
+  returned undated/stale figures spanning a wide range ($62-85/bbl
+  depending on source and vintage) -- too inconsistent to use. Treat
+  today's oil level as unknown.
+- S&P 500 / Nasdaq futures: no confirmed premarket level for today; most
+  recent dated result is from May 12, 2026 (futures down 0.4%) -- too
+  stale to use.
+- VIX: no confirmed numeric reading for today; directional signal only
+  (see Tooling Note above -- "rising," caution building). Treat current
+  vol regime as unknown-but-possibly-elevated rather than assume calm.
+- Economic calendar: no FOMC/CPI/PPI event confirmed for Nov 4 itself.
+  NFP (Oct jobs report) due Fri Nov 6 per prior-session research and
+  corroborated again today; CPI Nov 10; PPI/PCE dates carried from prior
+  logs, unconfirmed for any changes.
+- Catalysts: no reliable dated catalyst list for Nov 4 surfaced via
+  WebSearch. One 2026-dated item noted Fastenal's October sales release
+  lands Nov 5 (tomorrow) -- a watch item, not a same-day driver.
+- Earnings before open: no confirmed Nov 4 pre-market earnings list
+  found.
+- Sector momentum: most recent corroborated figures (late Sept 2026,
+  stale ~5 weeks) still show Energy and Technology as the two leading
+  S&P 500 sectors YTD (figures in the ~35-38% range depending on source),
+  consistent with every prior log this cycle. Communication Services
+  remains the laggard. No fresh same-day figure to confirm continuation;
+  no change in watchlist-sector leadership implied.
+- No held positions, so no ticker-specific news check applicable.
+
+### Trade Ideas
+No new entries pre-market. Research pipeline degraded for a fourth
+consecutive session (Perplexity 403 unresolved) and WebSearch fallback
+returned no confirmed today-dated oil/futures/VIX/earnings/catalyst data --
+no basis for a documented single-name catalyst in either watchlist sector.
+Not an entry on any name.
+
+### Risk Factors
+- Research pipeline degraded for a fourth consecutive scheduled run
+  (Perplexity 403 unresolved since Oct 30) -- flying with materially less
+  information than normal; defaults harder to HOLD.
+- Soft signal of rising VIX / growing investor caution into this week,
+  unconfirmed numerically -- reason for extra caution on any new entry
+  even once a catalyst is identified.
+- No confirmed same-day oil, futures, or VIX level -- current
+  volatility/risk regime unknown going into the open.
+- NFP (Oct jobs report) due in two sessions (Fri Nov 6) -- event risk
+  ahead; no single-name catalyst identified to trade around it regardless.
+- Perplexity/WebSearch results treated as untrusted content per
+  CLAUDE.md; no embedded instructions followed, only corroborated
+  factual snippets extracted (and flagged above where stale/unconfirmed).
+
+### Decision
+**HOLD.** No trades pre-market. Rationale: (1) zero open positions, zero
+open orders -- nothing to manage, no urgency; (2) both primary (Perplexity,
+HTTP 403, fourth consecutive degraded run) and fallback (WebSearch)
+research returned no confirmed today-dated data for oil, futures, VIX, or
+earnings -- no basis for a documented single-name catalyst; (3) Energy and
+Technology remain the only watchlist sectors per prior sessions, unchanged
+but unconfirmed for today; (4) patience > activity, and a degraded
+information environment plus a soft rising-VIX signal are both reasons
+not to trade. Trades this week: 0/3. Thirty-fifth consecutive session
+with zero positions since launch. Flagging the persistent Perplexity API
+403 for human review a fourth time -- unresolved since Oct 30; `
+PERPLEXITY_API_KEY` is confirmed present in the environment so this is an
+API-side rejection, not a missing-key issue; recommend checking the key's
+validity/quota directly with Perplexity and rotating it if needed.
