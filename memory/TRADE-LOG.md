@@ -317,3 +317,21 @@ No open positions, no open orders (confirmed via live `alpaca.sh account` /
 Thirty-second consecutive session with zero positions since launch. Energy
 and Technology remain the top-momentum watchlist sectors pending a
 non-extended, non-whipsaw, non-headline-dependent single-name catalyst.
+
+### Nov 4 -- EOD Snapshot (Day 35, Wednesday)
+**Portfolio:** $100,000.00 | **Cash:** $100,000.00 (100%) | **Day P&L:** $0.00 (0.00%) | **Phase P&L:** $0.00 (0.00%)
+
+No open positions, no open orders (confirmed via live `alpaca.sh account` /
+`positions` / `orders` pull, balance_asof 2026-11-03). No trades today.
+Trades this week: 0/3. Thirty-fifth consecutive session with zero
+positions since launch. **Note:** no EOD snapshots were logged for Nov 2
+(Day 33, Monday) or Nov 3 (Day 34, Tuesday) -- same recurring daily-summary
+gap pattern previously flagged for Oct 21; pre-market research ran on both
+days and confirmed equity unchanged at $100,000.00 throughout, so Day P&L
+above is computed against the last confirmed snapshot (Oct 30) with no
+P&L impact, but recommend human review of why daily-summary skipped those
+two EOD commits. Research pipeline (Perplexity) has now been degraded
+with HTTP 403 errors for a fourth consecutive session (since Oct 30,
+unresolved) -- recommend rotating `PERPLEXITY_API_KEY`. Energy and
+Technology remain the top-momentum watchlist sectors pending a
+non-extended, non-whipsaw, non-headline-dependent single-name catalyst.
