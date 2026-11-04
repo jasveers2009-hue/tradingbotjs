@@ -268,3 +268,7 @@ Tomorrow: hold, await non-extended single-name catalyst in Energy/Tech
 ---
 ## 2026-10-30 12:20 UTC (fallback -- no notification channel configured)
 Pre-market Oct 30: HOLD, flat $100k, 0/3 trades this wk. Perplexity API returned 403 (not key-missing) -- research pipeline degraded, needs human check.
+
+---
+## 2026-11-04 12:16 UTC (fallback -- no notification channel configured)
+Pre-market 2026-11-04: HOLD, no positions/orders, 0/3 trades this week. Perplexity API 403 for 4th straight session (unresolved since Oct 30) -- recommend rotating PERPLEXITY_API_KEY.
