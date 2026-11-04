@@ -272,3 +272,14 @@ Pre-market Oct 30: HOLD, flat $100k, 0/3 trades this wk. Perplexity API returned
 ---
 ## 2026-11-04 12:16 UTC (fallback -- no notification channel configured)
 Pre-market 2026-11-04: HOLD, no positions/orders, 0/3 trades this week. Perplexity API 403 for 4th straight session (unresolved since Oct 30) -- recommend rotating PERPLEXITY_API_KEY.
+
+---
+## 2026-11-04 20:16 UTC (fallback -- no notification channel configured)
+EOD Nov 04
+Portfolio: $100,000.00 (0.0% day, 0.0% phase)
+Cash: $100,000.00
+Trades today: none
+Open positions: none
+Note: EOD snapshots missing for Nov 2-3 (gap, no P&L impact)
+Perplexity 403 for 4th session -- rotate API key
+Tomorrow: watch NFP Fri, same Energy/Tech watchlist
