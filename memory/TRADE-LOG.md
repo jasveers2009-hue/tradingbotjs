@@ -335,3 +335,13 @@ with HTTP 403 errors for a fourth consecutive session (since Oct 30,
 unresolved) -- recommend rotating `PERPLEXITY_API_KEY`. Energy and
 Technology remain the top-momentum watchlist sectors pending a
 non-extended, non-whipsaw, non-headline-dependent single-name catalyst.
+
+### Nov 5 -- EOD Snapshot (Day 36, Thursday)
+**Portfolio:** $100,000.00 | **Cash:** $100,000.00 (100%) | **Day P&L:** $0.00 (0.00%) | **Phase P&L:** $0.00 (0.00%)
+
+No open positions, no open orders (confirmed via live `alpaca.sh account` /
+`positions` / `orders` pull, balance_asof 2026-11-04). No trades today.
+Trades this week: 0/3. Thirty-sixth consecutive session with zero
+positions since launch. Energy and Technology remain the top-momentum
+watchlist sectors pending a non-extended, non-whipsaw, non-headline-
+dependent single-name catalyst.
