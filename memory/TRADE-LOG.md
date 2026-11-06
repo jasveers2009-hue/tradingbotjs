@@ -345,3 +345,18 @@ Trades this week: 0/3. Thirty-sixth consecutive session with zero
 positions since launch. Energy and Technology remain the top-momentum
 watchlist sectors pending a non-extended, non-whipsaw, non-headline-
 dependent single-name catalyst.
+
+### Nov 6 -- EOD Snapshot (Day 37, Friday)
+**Portfolio:** $100,000.00 | **Cash:** $100,000.00 (100%) | **Day P&L:** $0.00 (0.00%) | **Phase P&L:** $0.00 (0.00%)
+
+No open positions, no open orders (confirmed via live `alpaca.sh account` /
+`positions` / `orders` pull, balance_asof 2026-11-05). No trades today --
+pre-market research held on Perplexity 403 (sixth consecutive degraded
+session, unresolved since Oct 30) plus confirmed NFP release risk at the
+open; market-open reassessment confirmed no change and held again.
+Trades this week: 0/3. Thirty-seventh consecutive session with zero
+positions since launch. Energy and Technology remain the top-momentum
+watchlist sectors pending a non-extended, non-whipsaw, non-headline-
+dependent single-name catalyst. Perplexity API 403 now unresolved for a
+full week (Oct 30 through Nov 6) -- escalating again for human review of
+`PERPLEXITY_API_KEY`.
