@@ -285,3 +285,123 @@ Template for each entry:
 - See memory/STRATEGY-PROPOSALS.md -- third escalation. 5 consecutive weeks / 28 consecutive sessions of 0% deployment has now met the 10/9 review's own stated trigger for reconsidering the entire catalyst-checklist approach, not just its mechanics, with the 9/25/10/2/10/9 proposals all still unapplied.
 
 ### Overall Grade: D-
+
+## Week ending 2026-10-30
+
+**Note:** This review is being written retroactively on 2026-11-06 -- no
+weekly-review run fired for this week at the time, so this entry and the
+2026-11-06 entry below are both being filed in the same session. Flagging
+the missed Friday run itself as the same class of scheduler-gap issue
+noted for daily-summary (Oct 21, Nov 2-3).
+
+### Stats
+| Metric | Value |
+|--------|-------|
+| Starting portfolio | $100,000.00 |
+| Ending portfolio | $100,000.00 |
+| Week return | $0.00 (0.00%) |
+| S&P 500 week | Not reliably determined -- live search (Perplexity, then WebSearch fallback) returned no confirmed close-to-close figure for Oct 23 -> Oct 30; see note below |
+| Bot vs S&P | Unknown (see above) |
+| Trades | 0 (W:0 / L:0 / open:0) |
+| Win rate | N/A (no trades) |
+| Best trade | N/A |
+| Worst trade | N/A |
+| Profit factor | N/A |
+
+**Note on S&P figure:** This review's own retrospective WebSearch for
+Oct 23/Oct 30 2026 closes returned thin, conflicting, and in one case
+self-contradictory results (the same 7,623.68 figure was attributed to
+two different weeks by different sources). Rather than report a guessed
+number, this is logged as unconfirmed -- consistent with how this week's
+own research-log entries (Oct 30 onward) treated degraded market data.
+
+### Closed Trades
+| Ticker | Entry | Exit | P&L | Notes |
+| -- | -- | -- | -- | -- |
+| None -- zero trades placed this week | | | | |
+
+### Open Positions at Week End
+| Ticker | Entry | Close | Unrealized | Stop |
+| -- | -- | -- | -- | -- |
+| None | | | | |
+
+### What Worked
+- Discipline held through the single highest-stakes week of the cycle so far: FOMC decision Wed 10/28, plus Alphabet/Microsoft (Wed) and Amazon/Intel (Thu) earnings all landed in a 3-day span -- the bot correctly refused every new-position idea rather than size into stacked binary event risk.
+- Correctly read a split AI/hyperscaler signal as two-sided, not directional: Microsoft's Azure beat and Alphabet's revenue miss/negative FCF (-$9.1B) landed the same night (10/28), and the bot treated that as reason to stand down rather than pick a side.
+- When `scripts/perplexity.sh` started failing with HTTP 403 on 10/30 (the first occurrence of what becomes a week-long outage), the bot did not fabricate a market view -- it explicitly labeled oil/futures/VIX as "unknown," fell back to WebSearch per CLAUDE.md, and logged the failure for human follow-up rather than silently guessing.
+- Account/position state independently re-verified via live Alpaca pulls every session; confirmed flat ($100,000.00, zero positions) at week end.
+
+### What Didn't Work
+- Sixth consecutive week, 32nd consecutive trading session, 0% capital deployed against the 75-85% target -- Energy (#1 YTD) and Technology (#2 YTD) still haven't produced a single qualifying entry since account launch 9/16.
+- The Perplexity API began failing (HTTP 403) on the last session of this week (10/30) -- the opening session of what becomes a full 6-session outage, unresolved through this review date.
+- All three prior strategy proposals (9/25, 10/2, 10/9) plus the 10/23 third escalation remain unapplied -- five straight review cycles flagging the same zero-deployment pattern with no human-applied change yet.
+- This week's own opportunity-cost question (did sitting out cost anything vs. the index) could not be answered with confidence in this retrospective review -- the underlying market data for 10/23-10/30 was not reliably retrievable after the fact, which is itself a gap (see lessons below).
+
+### Key Lessons
+- Avoiding new exposure into a week stacking an FOMC decision against four mega-cap-adjacent earnings nights was clearly sound risk management on its own terms, independent of the broader zero-deployment debate.
+- A degraded research pipeline that first surfaces on a Friday, right before a weekly review, is exactly the kind of failure that's easy to miss if the review itself doesn't run on schedule -- this review's own lateness (see note above) compounded that risk.
+
+### Strategy Change Proposals This Week
+- See memory/STRATEGY-PROPOSALS.md -- fourth escalation (filed together with the 11/06 entry below, since this review is late).
+
+### Overall Grade: D-
+
+## Week ending 2026-11-06
+
+### Stats
+| Metric | Value |
+|--------|-------|
+| Starting portfolio | $100,000.00 (Mon 11/02) |
+| Ending portfolio | $100,000.00 |
+| Week return | $0.00 (0.00%) |
+| S&P 500 week | Approx. -2% to -3% (not independently confirmed to the decimal -- see note) |
+| Bot vs S&P | Approx. +2% to +3% in the bot's favor (not independently confirmed to the decimal) |
+| Trades | 0 (W:0 / L:0 / open:0) |
+| Win rate | N/A (no trades) |
+| Best trade | N/A |
+| Worst trade | N/A |
+| Profit factor | N/A |
+
+**Note on S&P figure:** Primary research (Perplexity) was down all week
+(see below), and this review's own WebSearch returned thin/conflicting
+weekly-close data. The best-corroborated facts: Thursday 11/5 alone the
+S&P 500 fell ~4.36%, the Nasdaq Composite fell ~5.52% and entered
+correction territory (its worst single day in roughly 19 months), and the
+Dow fell ~1,833 points (~3.44%). Friday 11/6 the market rebounded
+(S&P +0.7%, Nasdaq +1.6%) on a cooler-than-feared October jobs report
+(+165K), but multiple sources still described the index as on pace for
+its worst *week* since early June even after the bounce. The -2% to -3%
+weekly figure above is this review's best-effort synthesis of those
+data points, not a verified close-to-close number -- treat as directional.
+
+### Closed Trades
+| Ticker | Entry | Exit | P&L | Notes |
+| -- | -- | -- | -- | -- |
+| None -- zero trades placed this week | | | | |
+
+### Open Positions at Week End
+| Ticker | Entry | Close | Unrealized | Stop |
+| -- | -- | -- | -- | -- |
+| None | | | | |
+
+### What Worked
+- Zero capital at risk meant the account was fully insulated from Thursday 11/5's broad selloff (S&P -4.36%, Nasdaq -5.52% and into correction territory, Dow -1,833 pts) -- the first week this cycle where "patience > activity" demonstrably protected capital from a real, sharp single-day drawdown rather than just missing a quiet down day.
+- Despite a full week of degraded primary research (Perplexity HTTP 403 every single session, 10/30 through 11/6, 6 consecutive scheduled runs), the bot never fabricated market data to fill the gap -- every pre-market entry explicitly labeled oil/futures/VIX/sector figures as "unknown" or "stale/unconfirmed," fell back to WebSearch per CLAUDE.md, and defaulted harder to HOLD.
+- Friday 11/6 pre-market research correctly treated the confirmed NFP release itself as a standalone reason not to add new single-name risk that morning, independent of whether a sector catalyst existed.
+- Account/position state independently re-verified via live Alpaca pulls every session; confirmed flat ($100,000.00, zero positions) at week end.
+
+### What Didn't Work
+- The Perplexity research pipeline has now been broken (HTTP 403) for a full calendar week -- 10/30, 11/2, 11/3, 11/4, 11/5, 11/6, six consecutive scheduled runs -- flagged in five straight log entries with no human action taken yet. This is an unresolved operational outage, not routine noise.
+- **EOD documentation gap:** the 11/5 EOD snapshot in TRADE-LOG.md -- logged the same day as the ~4.4% S&P / ~5.5% Nasdaq selloff -- makes zero mention that the selloff happened; it only records the bot's own flat P&L and repeats the standard watchlist note. On a day with no position, the current EOD format leaves no record in the audit trail of what the market actually did. That's a real gap independent of the deployment debate.
+- Seventh consecutive week, 38 consecutive trading sessions through 11/5 (39th today), 0% capital deployed against the 75-85% target -- the structural non-participation pattern flagged in four prior reviews (9/25, 10/2, 10/9, 10/23) continues unresolved.
+- No EOD snapshots were logged for Nov 2 or Nov 3 -- the same recurring daily-summary gap pattern flagged previously for Oct 21 and Oct 1-2, still unresolved.
+
+### Key Lessons
+- This week is the first concrete evidence *against* the simple "zero-deployment = pure missed upside" framing that drove the 9/25-10/23 escalations: a real, sharp, largely unpredictable selloff hit this week, and the flat account was fully protected from it. That doesn't resolve the underlying question (the catalyst bar still hasn't produced one entry in 38+ sessions), but it does mean any fix that forces capital into the market (e.g. the 10/23 proposal's "mechanical starter position" option) would have been sitting in a drawdown through Thursday's crash. Both data points -- the opportunity-cost weeks and this protection week -- need to inform whatever the human decides, not just the opportunity-cost side.
+- A week-long, still-unresolved research outage that happened to coincide with the most volatile week of the cycle is a risk multiplier worth taking seriously on its own: if the bot had been holding a position into 11/5 with degraded market data, the EOD/intraday process would have been flying blind on exactly the day it mattered most for managing a stop.
+- The EOD snapshot's current format (position/P&L only) can't answer "what did the market do today" after the fact unless the bot is holding a position that day -- worth fixing so the audit trail captures realized market conditions every session, not only when there's a position to report on.
+
+### Strategy Change Proposals This Week
+- See memory/STRATEGY-PROPOSALS.md -- fourth escalation of the ongoing zero-deployment/catalyst-bar proposal (now explicitly weighed against this week's crash as a counter-data-point), plus two new operational proposals: (a) resolve the week-long Perplexity API 403 outage, (b) add realized market-conditions logging to the EOD snapshot format regardless of position state.
+
+### Overall Grade: C
