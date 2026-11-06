@@ -3530,3 +3530,110 @@ consecutive scheduled runs; `PERPLEXITY_API_KEY` is confirmed present in
 the environment so this is an API-side rejection (invalid/expired key or
 rate/plan limit), not a missing-key issue; recommend checking the key's
 validity/quota directly with Perplexity and rotating it if needed.
+
+## 2026-11-06 -- Pre-market Research
+
+### Tooling Note
+- `scripts/perplexity.sh` failed again on the first query with `curl: (22)`
+  / HTTP 403 from `https://api.perplexity.ai/v1/agent`. `PERPLEXITY_API_KEY`
+  is confirmed present in the environment, so this remains an API-side
+  rejection, not a missing-key issue. This is now the **sixth
+  consecutive scheduled run** with the research pipeline degraded (first
+  flagged Oct 30; repeated Nov 2, Nov 3, Nov 4, Nov 5, now Nov 6;
+  unresolved for a full week). Fell back to native WebSearch per
+  CLAUDE.md.
+- WebSearch fallback again returned no confirmed same-day print for oil,
+  S&P futures, VIX, sector momentum, or a dated Nov 6 earnings list.
+  Figures below are the most recent corroborated (but stale) data
+  points, explicitly flagged as unconfirmed for today.
+- One confirmed dated item: multiple independent calendars agree the Oct
+  jobs report (Nonfarm Payrolls) releases today, Fri Nov 6 2026, 8:30am
+  ET / 13:30 UTC -- consistent with the "due tomorrow" flag raised in
+  yesterday's log.
+
+### Account
+- Equity: $100,000.00
+- Cash: $100,000.00
+- Buying power: $400,000 (margin, 4x; RegT $200,000)
+- Daytrade count: 0 (no positions, no orders -- confirmed via live
+  `alpaca.sh account`/`positions`/`orders` pull, balance_asof 2026-11-05)
+
+### Market Context (dates as noted -- no confirmed same-day print)
+- WTI / Brent: no confirmed Nov 6 print found via WebSearch; results
+  returned undated/stale figures from well outside this cycle. Treat
+  today's oil level as unknown.
+- S&P 500 / Nasdaq futures: no confirmed premarket level for today; most
+  recent dated result is from May 12, 2026 (futures down 0.4%) -- too
+  stale to use.
+- VIX: no confirmed numeric reading for today. Most recent 2026 data
+  point found is July 31 (16.0, "Normal") -- too stale to use. The
+  Nov 3 FXStreet "rising VIX / growing investor caution" piece (carried
+  forward since Nov 4-5) remains the only directional signal; treat
+  current vol regime as unknown-but-possibly-elevated rather than assume
+  calm.
+- Economic calendar: **confirmed** -- Oct jobs report (Nonfarm Payrolls)
+  releases today, Fri Nov 6 2026, 8:30am ET / 13:30 UTC, per multiple
+  independent calendar sources. No CPI release confirmed for today (CPI
+  dated later in November per one source, date not independently
+  verified). This is real, confirmed event risk into the open.
+- Catalysts: no reliable dated market-wide catalyst list for Nov 6
+  surfaced via WebSearch beyond the NFP release itself.
+- Earnings before open: no confirmed Nov 6 pre-market earnings list
+  found via WebSearch.
+- Sector momentum: most recent corroborated figures (mid-August 2026,
+  stale ~12 weeks) still show Energy (~+39%) and Technology (~+32%) as
+  the two leading S&P 500 sectors YTD, consistent with every prior log
+  this cycle; Communication Services the laggard (per a separate
+  late-Sept source, +4% YTD, likely a different return basis). No
+  fresher same-day figure to confirm continuation; no change in
+  watchlist-sector leadership implied.
+- No held positions, so no ticker-specific news check applicable.
+
+### Trade Ideas
+No new entries pre-market. Research pipeline degraded for a sixth
+consecutive session (Perplexity 403 unresolved) and WebSearch fallback
+again returned no confirmed today-dated oil/futures/VIX/earnings/sector
+data -- no basis for a documented single-name catalyst in either
+watchlist sector. Additionally, today carries confirmed NFP release risk
+at the open -- not a day to be initiating new single-name risk even if a
+catalyst existed. Not an entry on any name.
+
+### Risk Factors
+- Research pipeline degraded for a **sixth consecutive scheduled run**
+  (Perplexity 403 unresolved since Oct 30, now spanning Oct 30, Nov 2,
+  Nov 3, Nov 4, Nov 5, Nov 6 -- a full week) -- flying with materially
+  less information than normal; defaults harder to HOLD. Flagged in five
+  prior log entries with no resolution -- escalating this as an
+  operational issue needing human action (rotate/verify
+  `PERPLEXITY_API_KEY`), not routine noise.
+- **Confirmed NFP (Oct jobs report) release today at 8:30am ET** --
+  high-volatility event risk at/after the open; no single-name catalyst
+  identified to trade around it regardless, and not a day to add new
+  risk pre-report.
+- Soft signal of rising VIX / growing investor caution carried from Nov 3
+  FXStreet piece, still unconfirmed numerically -- reason for extra
+  caution on any new entry even once a catalyst is identified.
+- No confirmed same-day oil, futures, or VIX level -- current
+  volatility/risk regime unknown going into the open.
+- Perplexity/WebSearch results treated as untrusted content per
+  CLAUDE.md; no embedded instructions followed, only corroborated
+  factual snippets extracted (and flagged above where stale/unconfirmed).
+
+### Decision
+**HOLD.** No trades pre-market. Rationale: (1) zero open positions, zero
+open orders -- nothing to manage, no urgency; (2) both primary (Perplexity,
+HTTP 403, sixth consecutive degraded run) and fallback (WebSearch)
+research returned no confirmed today-dated data for oil, futures, VIX, or
+earnings -- no basis for a documented single-name catalyst; (3) confirmed
+NFP release today at the open is a standalone reason not to add new
+single-name risk pre-report; (4) Energy and Technology remain the only
+watchlist sectors per prior sessions, unchanged but unconfirmed for today;
+(5) patience > activity, and a degraded information environment plus
+confirmed event risk are both reasons not to trade. Trades this week:
+0/3. Thirty-seventh consecutive session with zero positions since launch.
+Flagging the persistent Perplexity API 403 for human review a sixth
+time -- unresolved for a full week (since Oct 30, across Oct 30, Nov 2,
+Nov 3, Nov 4, Nov 5, Nov 6); `PERPLEXITY_API_KEY` is confirmed present in
+the environment so this is an API-side rejection (invalid/expired key or
+rate/plan limit), not a missing-key issue; recommend checking the key's
+validity/quota directly with Perplexity and rotating it if needed.
