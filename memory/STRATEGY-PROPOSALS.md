@@ -187,3 +187,83 @@ index (9/18-9/25: -0.90%; 10/5-10/9: -1.09%). True performance under
 deployed capital remains untested after 5 weeks and 28 sessions.
 
 **Status:** pending human review
+
+## 2026-11-06 -- Proposed by weekly-review
+
+**Current rule:** Same as 9/25, 10/2, 10/9, and 10/23 above -- Entry
+Checklist ("Specific catalyst? Sector in momentum? Stop level? Target?"),
+"never within 3% of current price," and the 75-85% deployment target.
+All prior proposals remain unapplied. (This review covers two weeks --
+2026-10-30 and 2026-11-06 -- since the 10/30 weekly-review run never fired;
+see memory/WEEKLY-REVIEW.md for both entries.)
+
+**Proposed change:** Fourth escalation, with a new wrinkle the human
+reviewer should weigh explicitly. The three options from 10/23 (apply a
+pending mechanism with a hard deadline; replace the discretionary checklist
+with a small mechanical starter allocation; or explicitly bless current
+behavior and switch to logging hypothetical "what if I'd entered X" P&L)
+are all still on the table. But this cycle (week of 11/2-11/6) included a
+sharp, largely unpredictable single-day selloff (S&P -4.36%, Nasdaq -5.52%
+into correction territory, 11/5) that the flat account was fully protected
+from. That is a genuine counter-data-point to the opportunity-cost argument
+that has driven every escalation since 9/25 -- a mechanical
+starter-allocation fix (option 2 from 10/23) would have been sitting in a
+drawdown through that day. Recommend the human reviewer weigh both sides
+(cumulative missed-upside on calm/up weeks vs. this week's protection on a
+crash week) rather than treating opportunity cost as one-directional
+evidence going forward.
+
+**Evidence:** Seven consecutive weeks since launch (9/16-9/18 through
+11/2-11/6), 38 consecutive trading sessions through 11/5 (39th as of this
+review), 0% capital deployed against the 75-85% target, with Energy and
+Technology holding the top two YTD momentum-sector slots essentially the
+entire time without a single qualifying entry. This week specifically:
+zero losses during the sharpest single-day drawdown of the cycle (11/5),
+but also zero evidence the catalyst bar is reachable in any market
+condition tested so far (calm, headline-driven, and now genuinely volatile
+weeks have all produced zero entries).
+
+**Status:** pending human review
+
+## 2026-11-06 -- Proposed by weekly-review (operational, not a strategy-rule change)
+
+**Current state:** `scripts/perplexity.sh` has returned HTTP 403 on every
+call for six consecutive scheduled runs (2026-10-30, 11-02, 11-03, 11-04,
+11-05, 11-06) despite `PERPLEXITY_API_KEY` being confirmed present in the
+environment each time. The bot has correctly fallen back to WebSearch per
+CLAUDE.md and has not acted on unverified data, but primary research has
+effectively been offline for a full calendar week.
+
+**Proposed change:** This is not a TRADING-STRATEGY.md change -- it needs a
+human to check the Perplexity account directly (key validity, quota/plan
+limit, or an API endpoint change) and rotate `PERPLEXITY_API_KEY` if needed.
+No code or rule change is being proposed; flagging here per CLAUDE.md
+because it has now met the "escalate clearly" bar after five prior
+same-issue log entries with no resolution.
+
+**Evidence:** See Tooling Notes in memory/RESEARCH-LOG.md, 2026-10-30
+through 2026-11-06 entries.
+
+**Status:** pending human review (operational fix, not a rule change)
+
+## 2026-11-06 -- Proposed by weekly-review (EOD snapshot format gap)
+
+**Current rule:** The daily EOD snapshot format in memory/TRADE-LOG.md
+reports portfolio value, cash, day/phase P&L, and open positions/orders.
+When the bot holds no position, there is no field for what the broader
+market actually did that day.
+
+**Proposed change:** Add a one-line "Market conditions" note to the EOD
+snapshot template (e.g. S&P/Nasdaq/Dow day change, VIX) regardless of
+whether the bot holds a position, so the audit trail reflects realized
+market conditions every session -- not only on days with an open position
+to report P&L against.
+
+**Evidence:** The 2026-11-05 EOD snapshot was logged the same day the S&P
+500 fell ~4.36% and the Nasdaq fell ~5.52% into correction territory (its
+worst single session in roughly 19 months) -- the snapshot entry makes no
+mention that this happened. A reader of TRADE-LOG.md alone, without
+cross-referencing external sources, would have no way to know 11/5 was an
+unusually volatile day.
+
+**Status:** pending human review

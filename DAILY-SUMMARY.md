@@ -296,3 +296,19 @@ Tomorrow: await non-extended single-name catalyst in Energy/Tech
 ---
 ## 2026-11-06 12:21 UTC (fallback -- no notification channel configured)
 Pre-market 2026-11-06: HOLD, 0 positions. Perplexity API down 6th consecutive session (403, full week unresolved) -- recommend rotating PERPLEXITY_API_KEY. NFP release today 8:30am ET.
+
+---
+## 2026-11-06 20:38 UTC (fallback -- no notification channel configured)
+Week ending Nov 06
+Portfolio: $100,000.00 (0.00% week, 0.00% phase)
+vs S&P 500: approx +2-3% (index fell ~2-3%, bot flat)
+Trades: 0 (W:0 / L:0 / open:0)
+Best: N/A  Worst: N/A
+Strategy proposals this week: 3 (1 strategy escalation, 2 operational)
+Grade: C
+
+Also filing late review for wk ending Oct 30 (missed run) -- Grade D-.
+Flags: Perplexity API 403 for 7 straight days (unresolved, needs key
+check/rotation). EOD snapshot missed documenting Thu 11/5's ~4.4% S&P /
+5.5% Nasdaq selloff (correction territory) -- format gap, proposal filed.
+Bot held 0 positions through the crash -- zero drawdown.
