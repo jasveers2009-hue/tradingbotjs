@@ -345,3 +345,19 @@ Trades this week: 0/3. Thirty-sixth consecutive session with zero
 positions since launch. Energy and Technology remain the top-momentum
 watchlist sectors pending a non-extended, non-whipsaw, non-headline-
 dependent single-name catalyst.
+
+### Nov 9 -- EOD Snapshot (Day 38, Monday)
+**Portfolio:** $100,000.00 | **Cash:** $100,000.00 (100%) | **Day P&L:** $0.00 (0.00%) | **Phase P&L:** $0.00 (0.00%)
+
+No open positions, no open orders (confirmed via live `alpaca.sh account` /
+`positions` / `orders` pull, balance_asof 2026-11-06). No trades today.
+Trades this week: 0/3 (new week). Thirty-eighth consecutive session with
+zero positions since launch. **Note:** no EOD snapshot was logged for
+Nov 6 (Day 37, Friday) -- same recurring daily-summary gap pattern
+previously flagged for Oct 21 and Nov 2-3; live account data
+(`balance_asof` 2026-11-06) confirms equity was unchanged at $100,000.00
+across the gap, so Day P&L above is computed against the last confirmed
+snapshot (Nov 5) with no P&L impact. Recommend human review of why
+daily-summary keeps skipping EOD commits. Energy and Technology remain
+the top-momentum watchlist sectors pending a non-extended, non-whipsaw,
+non-headline-dependent single-name catalyst.

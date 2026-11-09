@@ -312,3 +312,13 @@ Flags: Perplexity API 403 for 7 straight days (unresolved, needs key
 check/rotation). EOD snapshot missed documenting Thu 11/5's ~4.4% S&P /
 5.5% Nasdaq selloff (correction territory) -- format gap, proposal filed.
 Bot held 0 positions through the crash -- zero drawdown.
+
+---
+## 2026-11-09 20:16 UTC (fallback -- no notification channel configured)
+EOD Nov 09
+Portfolio: $100,000.00 (0.0% day, 0.0% phase)
+Cash: $100,000.00
+Trades today: none
+Open positions: none
+Note: Nov 6 EOD snapshot gap (recurring daily-summary miss)
+Tomorrow: same watchlist, awaiting clean single-name catalyst
