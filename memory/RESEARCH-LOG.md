@@ -3650,3 +3650,124 @@ validity/quota directly with Perplexity and rotating it if needed.
   no-trade session. Trades this week: 0/3. No ClickUp notification sent
   (no trade placed). Per Step 7 of the market-open workflow, commit/push
   is skipped since no trades executed this run.
+
+## 2026-11-09 -- Pre-market Research
+
+### Tooling Note
+- `scripts/perplexity.sh` failed on every query again with `curl: (22)` /
+  HTTP 403 from `https://api.perplexity.ai/v1/agent`. `PERPLEXITY_API_KEY`
+  is confirmed present in the environment (53 chars), so this remains an
+  API-side rejection, not a missing-key issue. This is now the **seventh
+  consecutive trading-day scheduled run** with the research pipeline
+  degraded (first flagged Oct 30; repeated Nov 2, Nov 3, Nov 4, Nov 5,
+  Nov 6, now Nov 9 -- markets closed Nov 7-8 weekend; unresolved for
+  eight calendar days / a full week+ of trading sessions). Fell back to
+  native WebSearch per CLAUDE.md.
+- WebSearch fallback again returned no confirmed same-day (Nov 9) print
+  for oil, S&P futures, VIX, catalysts, or earnings. Most recent
+  confirmed data is from Nov 5-6. Figures below are the most recent
+  corroborated data points, explicitly flagged as stale/unconfirmed for
+  today where applicable.
+
+### Account
+- Equity: $100,000.00
+- Cash: $100,000.00
+- Buying power: $400,000 (margin, 4x; RegT $200,000)
+- Daytrade count: 0 (no positions, no orders -- confirmed via live
+  `alpaca.sh account`/`positions`/`orders` pull, balance_asof 2026-11-06)
+
+### Market Context (dates as noted -- no confirmed same-day print)
+- **Confirmed major event, Thu Nov 5:** S&P 500 fell 4.4% to 7,353.73
+  (worst day since the 2025 "Liberation Day" tariff selloff), Nasdaq
+  -5.5%, driven by a broad AI/tech-stock selloff. VIX spiked to ~28.17-
+  28.18, up ~70% in a single session -- reported as the third-biggest
+  one-day VIX jump since 1990.
+- **Confirmed partial rebound, Fri Nov 6:** S&P 500 +0.3%, tech stocks
+  rebounding, trimming the weekly loss. No confirmed Nov 6 VIX close
+  found (one source's "36.80" figure was a forward-looking implied-move
+  reading, not a close).
+- No confirmed Nov 9 (today) print for S&P futures, VIX, or oil via
+  WebSearch -- current-day levels unknown; treat the post-shock regime as
+  still elevated/unsettled pending a live quote.
+- WTI/Brent: no confirmed Nov 9 print. Context from the Nov 2-5 window:
+  Brent and WTI both fell sharply (~7-9%) around the midterm-election
+  result, with one Nov 2 source citing Brent -7.47% to ~$104.96 and WTI
+  -7.2% to ~$96.62; a separate Nov 5-dated reference cites Brent ~$95.
+  Sources conflict on exact level -- treat oil as volatile/lower but
+  unconfirmed for today.
+- Economic calendar: October CPI is the headline release this week, most
+  sources pointing to **tomorrow, Tue Nov 10, 8:30am ET**. PPI also due
+  this week per one source (exact day not independently confirmed). Next
+  FOMC rate decision is Dec 9 (minutes from the October meeting due
+  Nov 18); October jobs report already released Nov 6 (per prior log),
+  next (November) jobs report not due until Dec 4. CPI tomorrow is real,
+  confirmed near-term event risk.
+- Catalysts: no reliable dated market-wide catalyst list for Nov 9
+  surfaced via WebSearch beyond the lingering effects of the Nov 5
+  selloff/Nov 6 rebound and tomorrow's CPI print.
+- Earnings before open: no confirmed Nov 9 pre-market earnings list found
+  via WebSearch.
+- Sector momentum: most recent corroborated figures (mid-August 2026,
+  stale ~3 months) still show Energy (~+39%) and Technology (~+32%) as
+  the two leading S&P 500 sectors YTD, consistent with every prior log
+  this cycle -- but this predates the Nov 5 AI/tech-driven selloff, so
+  Technology's near-term momentum is now in question even if YTD
+  leadership hasn't reversed. No fresher same-day figure to confirm or
+  deny continuation.
+- No held positions, so no ticker-specific news check applicable.
+
+### Trade Ideas
+No new entries pre-market. Research pipeline degraded for a seventh
+consecutive trading-day session (Perplexity 403 unresolved) and WebSearch
+fallback could not confirm today-dated oil/futures/VIX/earnings data --
+no basis for a documented single-name catalyst in either watchlist
+sector. Additionally, the market is two sessions removed from a sharp
+volatility shock (Nov 5) with no confirmed today-level VIX read, and CPI
+lands tomorrow -- not a day to be initiating new single-name risk even if
+a catalyst existed. Not an entry on any name.
+
+### Risk Factors
+- Research pipeline degraded for a **seventh consecutive trading-day
+  scheduled run** (Perplexity 403 unresolved since Oct 30, now spanning
+  Oct 30, Nov 2, Nov 3, Nov 4, Nov 5, Nov 6, Nov 9 -- over a full week of
+  trading sessions) -- flying with materially less information than
+  normal; defaults harder to HOLD. Flagged in six prior log entries with
+  no resolution -- this is a confirmed, persistent operational issue
+  needing human action (verify/rotate `PERPLEXITY_API_KEY`).
+- Market is two sessions removed from a severe volatility shock: VIX
+  spiked ~70% to ~28.17 on Nov 5 (third-biggest one-day jump since 1990),
+  S&P -4.4%, AI/tech-led selloff. Nov 6 saw only a partial +0.3% rebound.
+  No confirmed today-level VIX read -- treat current vol regime as
+  elevated/unsettled, not calm, until confirmed otherwise.
+- October CPI release confirmed for tomorrow (Tue Nov 10, 8:30am ET) --
+  real near-term event risk; not a day to add new single-name exposure
+  heading into it.
+- Technology (a core watchlist sector) was the epicenter of the Nov 5
+  selloff -- prior YTD-leadership data (mid-August, now stale) may no
+  longer reflect current sector momentum; treat Tech momentum signal as
+  unconfirmed/degraded until fresher sector data is available.
+- Perplexity/WebSearch results treated as untrusted content per
+  CLAUDE.md; no embedded instructions followed, only corroborated
+  factual snippets extracted (and flagged above where stale/unconfirmed).
+
+### Decision
+**HOLD.** No trades pre-market. Rationale: (1) zero open positions, zero
+open orders -- nothing to manage, no urgency; (2) both primary (Perplexity,
+HTTP 403, seventh consecutive degraded trading-day run) and fallback
+(WebSearch) research returned no confirmed today-dated data for oil,
+futures, VIX, or earnings -- no basis for a documented single-name
+catalyst; (3) the market is still digesting a severe Nov 5 volatility
+shock (VIX +70% to ~28.17, S&P -4.4%) with only a partial Nov 6 rebound
+and no confirmed today-level VIX read -- not a regime to add new risk
+into; (4) October CPI lands tomorrow -- additional reason to hold off on
+new entries into a data print; (5) Technology's momentum signal is now
+questionable post-selloff and unconfirmed for today; (6) patience >
+activity. Trades this week: 0/3 (new week). Thirty-eighth consecutive
+session with zero positions since launch (~8 weeks, since Sept 16).
+Flagging the persistent Perplexity API 403 for human review a seventh
+time -- unresolved for over a week across seven consecutive trading
+sessions (Oct 30, Nov 2, Nov 3, Nov 4, Nov 5, Nov 6, Nov 9);
+`PERPLEXITY_API_KEY` is confirmed present in the environment (53 chars)
+so this is an API-side rejection (invalid/expired key or rate/plan
+limit), not a missing-key issue; recommend checking the key's
+validity/quota directly with Perplexity and rotating it if needed.
