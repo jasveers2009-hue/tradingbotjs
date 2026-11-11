@@ -322,3 +322,14 @@ Trades today: none
 Open positions: none
 Note: Nov 6 EOD snapshot gap (recurring daily-summary miss)
 Tomorrow: same watchlist, awaiting clean single-name catalyst
+
+---
+## 2026-11-11 20:16 UTC (fallback -- no notification channel configured)
+EOD Nov 11
+Portfolio: $100,000.00 (0.0% day, 0.0% phase)
+Cash: $100,000.00 (100%)
+Trades today: none
+Open positions: none
+Research: Perplexity 403 unresolved, 9th day
+Gap: no Nov 10 snapshot (scheduler miss)
+Tomorrow: hold, await clean non-extended catalyst
