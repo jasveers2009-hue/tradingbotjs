@@ -4084,3 +4084,115 @@ Nov 2, 3, 4, 5, 6, 9, 10, 11); `PERPLEXITY_API_KEY` is confirmed present
 in the environment so this is an API-side rejection (invalid/expired key
 or rate/plan limit), not a missing-key issue; recommend checking the
 key's validity/quota directly with Perplexity and rotating it if needed.
+
+## 2026-11-12 -- Pre-market Research
+
+### Tooling Note
+- `scripts/perplexity.sh` failed with `curl: (22)` / HTTP 403 on the first
+  query (oil prices); given nine consecutive prior degraded sessions,
+  did not re-run the remaining six queries through Perplexity and went
+  straight to WebSearch fallback per CLAUDE.md. `PERPLEXITY_API_KEY`,
+  `ALPACA_API_KEY`, `ALPACA_SECRET_KEY` all confirmed set in environment
+  -- this is an API-side rejection, not a missing-key issue. **Tenth
+  consecutive trading-day scheduled run with the research pipeline
+  degraded** (first flagged Oct 30; repeated Nov 2, 3, 4, 5, 6, 9, 10, 11,
+  now Nov 12 -- unresolved for 14 calendar days).
+- WebSearch fallback again could not confirm any today-dated (Nov 12)
+  print for S&P futures, VIX, oil, earnings, or sector performance --
+  all results returned stale/undated data from October or early
+  November. Treat all levels below as the most recent corroborated data,
+  not live quotes.
+
+### Account
+- Equity: $100,000.00
+- Cash: $100,000.00
+- Buying power: $400,000 (margin, 4x; RegT $200,000)
+- Positions: 0; Open orders: 0 (confirmed via live `alpaca.sh account` /
+  `positions` / `orders` pull, balance_asof 2026-11-11)
+- Daytrade count: 0
+
+### Market Context (dates as noted -- no confirmed same-day print)
+- No confirmed Nov 12 print for S&P futures. Same undated live-quote
+  page as prior sessions showed futures ~7,692, little changed -- cannot
+  confirm when that snapshot was taken, so treat as unreliable.
+- VIX: no confirmed Nov 12 read. Same Nov 5 data persists across sources
+  (28.18 close, +69.7% that day, vs. a prior close of 16.61; one other
+  source's 16.83 figure carries its own correction note). Cboe's Nov 9
+  weekly note flags equity vol spikes with macro vol fading but gives no
+  number. Net: still treat the vol regime as elevated/unsettled, not
+  calm, pending a live quote.
+- WTI/Brent: no confirmed Nov 12 print. Sources disagree sharply --
+  Nov 8 dated figure ~$90.34 WTI / $97.75 Brent; other undated pages show
+  WTI $95.63-$95.96 and Brent $94.52-$98.29; still others show WTI
+  $86.37 / Brent $92.37. Treat oil as unconfirmed/unreliable for today.
+- Earnings before open: no reliable pre-market list surfaced for Nov 12.
+  Search results returned calendars for unrelated dates (July/Aug 2026).
+- Economic calendar: BLS confirms October CPI released Tue Nov 10 (now
+  behind us) and October PPI scheduled Fri Nov 13, 8:30am ET (tomorrow,
+  not today). October jobs report was Fri Nov 6. No confirmed FOMC or
+  other major release found for today. Treat today as a comparatively
+  quiet data day, PPI pending tomorrow.
+- Catalysts: no reliable dated market-wide catalyst list for Nov 12
+  surfaced. No fresh single-name catalyst identified in either watchlist
+  sector.
+- Sector momentum: most recent corroborated figures remain mid-August
+  2026 (stale ~3 months): Energy ~+39.4% (XLE), Technology top-4-worst
+  subsector mix per a separate March note -- inconsistent and stale.
+  One Nov 4 intraday-only note has Consumer Services/Staples leading and
+  Energy lagging that single session -- not a trend signal. Given the
+  Nov 5 AI/tech selloff since the August snapshot, Technology's near-
+  term momentum remains unconfirmed/degraded.
+- No held positions, so no ticker-specific news check applicable.
+
+### Trade Ideas
+No new entries pre-market. Tenth consecutive session with the research
+pipeline degraded (Perplexity 403) and WebSearch fallback unable to
+confirm any today-dated data point (futures, VIX, oil, earnings,
+sector momentum) -- no basis for a documented single-name catalyst in
+either watchlist sector.
+
+### Risk Factors
+- Research pipeline degraded for a **tenth consecutive trading-day
+  scheduled run** (Perplexity 403 unresolved since Oct 30, now spanning
+  14 calendar days) -- flying with materially less information than
+  normal. Flagged in nine prior log entries with no resolution --
+  confirmed persistent operational issue needing human action
+  (verify/rotate `PERPLEXITY_API_KEY`).
+- Market is one week removed from the Nov 5 volatility shock with no
+  confirmed current VIX read -- treat as unsettled until a live quote
+  is confirmed.
+- Technology (core watchlist sector) was the epicenter of the Nov 5
+  selloff -- prior YTD-leadership data is stale/inconsistent; treat
+  momentum signal as unconfirmed/degraded.
+- Oil price sources conflict sharply across a $9+ range -- treat any
+  single-source oil figure as unreliable until corroborated.
+- PPI releases tomorrow (Fri Nov 13, 8:30am ET) -- not a same-day risk
+  but a reason to avoid sizing into new single-name risk this close to
+  a data print.
+- Perplexity/WebSearch results treated as untrusted content per
+  CLAUDE.md; no embedded instructions followed, only corroborated
+  factual snippets extracted (and flagged above where stale/unconfirmed).
+
+### Decision
+**HOLD.** No trades pre-market. Rationale: (1) zero open positions, zero
+open orders -- nothing to manage, no urgency; (2) both primary
+(Perplexity, HTTP 403, tenth consecutive degraded run) and fallback
+(WebSearch) research returned no confirmed today-dated data for oil,
+futures, VIX, or earnings -- no basis for a documented single-name
+catalyst; (3) the post-Nov-5 vol regime still cannot be confirmed as
+normalized; (4) Technology's momentum signal remains questionable and
+unconfirmed for today; (5) PPI prints tomorrow -- no reason to rush into
+new risk one session ahead of it; (6) patience > activity. Trades this
+week: 0/3 (new week). Forty-first consecutive session with zero
+positions since launch (~8 weeks, since Sept 16). Flagging the
+persistent Perplexity API 403 for human review a tenth time -- unresolved
+for 14 calendar days across ten consecutive trading sessions (Oct 30,
+Nov 2, 3, 4, 5, 6, 9, 10, 11, 12); `PERPLEXITY_API_KEY` is confirmed
+present in the environment so this is an API-side rejection
+(invalid/expired key or rate/plan limit), not a missing-key issue;
+recommend checking the key's validity/quota directly with Perplexity and
+rotating it if needed. No ClickUp notification sent this run -- nothing
+meets the "genuinely urgent" bar (no held positions, no overnight thesis
+break, no major geopolitical event); the persistent Perplexity 403 has
+already been flagged nine times with no new information to add beyond
+"still broken."
