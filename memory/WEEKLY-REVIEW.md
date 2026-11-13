@@ -405,3 +405,63 @@ data points, not a verified close-to-close number -- treat as directional.
 - See memory/STRATEGY-PROPOSALS.md -- fourth escalation of the ongoing zero-deployment/catalyst-bar proposal (now explicitly weighed against this week's crash as a counter-data-point), plus two new operational proposals: (a) resolve the week-long Perplexity API 403 outage, (b) add realized market-conditions logging to the EOD snapshot format regardless of position state.
 
 ### Overall Grade: C
+
+## Week ending 2026-11-13
+
+### Stats
+| Metric | Value |
+|--------|-------|
+| Starting portfolio | $100,000.00 (Mon 11/09) |
+| Ending portfolio | $100,000.00 |
+| Week return | $0.00 (0.00%) |
+| S&P 500 week | Approx. +2.9% (best-effort synthesis, not triple-confirmed -- see note) |
+| Bot vs S&P | Approx. -2.9% (bot trailed) |
+| Trades | 0 (W:0 / L:0 / open:0) |
+| Win rate | N/A (no trades) |
+| Best trade | N/A |
+| Worst trade | N/A |
+| Profit factor | N/A |
+
+**Note on S&P figure:** Perplexity was down (HTTP 403) for the entire
+week -- an 11th consecutive degraded trading-day run by Friday. WebSearch
+fallback corroborated two data points from independent-looking sources:
+the S&P 500 closed last Friday (11/6) at 7,376.86, and closed today (11/13)
+at 7,592.40 (down 0.4% on the day, per a Yahoo Finance recap tied to an
+Nvidia CEO-transition-driven selloff -- Jensen Huang stepped down,
+Colette Kress named interim CEO, corroborated by an SEC Form 8-K hit).
+7,376.86 -> 7,592.40 is +2.92%. This is two-source, not three-source,
+confirmation -- treat as directional, same caveat level as the 10/30 and
+11/06 entries above.
+
+### Closed Trades
+| Ticker | Entry | Exit | P&L | Notes |
+| -- | -- | -- | -- | -- |
+| None -- zero trades placed this week | | | | |
+
+### Open Positions at Week End
+| Ticker | Entry | Close | Unrealized | Stop |
+| -- | -- | -- | -- | -- |
+| None | | | | |
+
+### What Worked
+- Discipline held across all 5 sessions (11/9-11/13): correctly avoided new exposure ahead of both confirmed data prints this week (October CPI, Tue 11/10; October PPI, Fri 11/13) and continued to treat the post-Nov-5 vol regime as unconfirmed/unsettled rather than assuming it had normalized (VIX reads this week ranged 16.8-28+ depending on source, with a FRED-confirmed Nov 9 close of 19.92 the only solid data point).
+- Zero capital at risk meant the account was fully insulated from today's (11/13) Nvidia CEO-transition shock and the broader AI/semis wobble it triggered -- the second time in two weeks the flat posture happened to dodge a sudden single-name/sector shock (the first being the 11/5 selloff).
+- Despite Perplexity returning HTTP 403 on every call all week (11th consecutive degraded trading day by today), the bot never fabricated market data -- every session explicitly labeled oil/futures/VIX/sector figures as unconfirmed, fell back to WebSearch per CLAUDE.md, and defaulted harder to HOLD.
+- Account/position state independently re-verified via live Alpaca pulls every session; confirmed flat ($100,000.00, zero positions) at week end.
+
+### What Didn't Work
+- Eighth consecutive week, 42nd consecutive trading session, 0% capital deployed against the 75-85% target -- Energy and Technology still haven't produced a single qualifying entry since account launch (9/16).
+- This was a real opportunity-cost week, not a protected one: the index rebounded roughly +2.9% off last Friday's (11/6) close while the bot captured none of it -- the mirror image of the 11/5-11/6 "crash protection" week two reviews ago, where the same flat posture avoided a drawdown instead.
+- The Perplexity API 403 outage is now in its **third calendar week** (15 calendar days, 11 consecutive trading sessions through today) with no human action taken yet -- flagged in ten prior daily log entries plus the 11/06 operational proposal, still unresolved.
+- Two more EOD-snapshot gaps this week in TRADE-LOG.md -- no entry was committed for Nov 10 (Tuesday, Day 39) or Nov 12 (Thursday, Day 41), even though pre-market research ran both days. This is the same recurring daily-summary scheduler issue flagged for Oct 21, Nov 2-3, and Nov 6 -- now happening roughly every week, and the Nov 12 gap wasn't even flagged in this week's own Nov 13 TRADE-LOG entry.
+- All five pending zero-deployment/catalyst-bar proposals (9/25, 10/2, 10/9, 10/23, 11/06) remain unapplied, now almost 7 weeks after the first one.
+
+### Key Lessons
+- Opportunity cost is not one-directional, and this week proves it the other way from 11/5-11/6: same flat posture, but this time the market recovered sharply and the bot missed the entire move. The human reviewer should weigh the crash-protection week and this missed-rebound week together, not treat whichever happened most recently as the deciding data point.
+- A research pipeline that has now been down for three straight calendar weeks is not a transient blip -- it is measurably degrading decision quality every session (no live VIX, no live oil, no live sector data) and deserves the same urgency as a stuck position would.
+- The daily-summary EOD-commit gap is no longer occasional -- it has now hit in 4 of the last ~5 weeks (Oct 21, Nov 2, Nov 3, Nov 10, Nov 12) and warrants a direct look at the trigger/schedule config rather than another log-level flag.
+
+### Strategy Change Proposals This Week
+- See memory/STRATEGY-PROPOSALS.md -- sixth escalation of the zero-deployment/catalyst-bar proposal (now weighed against both a protection week and a missed-rebound week in the same two-week span), continued escalation of the Perplexity 403 outage (now a third calendar week), and a new escalation specifically on the recurring daily-summary EOD-commit gaps.
+
+### Overall Grade: D-

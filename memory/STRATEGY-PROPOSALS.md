@@ -223,7 +223,7 @@ but also zero evidence the catalyst bar is reachable in any market
 condition tested so far (calm, headline-driven, and now genuinely volatile
 weeks have all produced zero entries).
 
-**Status:** pending human review
+**Status:** pending human review (escalated again 2026-11-13 -- see below)
 
 ## 2026-11-06 -- Proposed by weekly-review (operational, not a strategy-rule change)
 
@@ -244,7 +244,7 @@ same-issue log entries with no resolution.
 **Evidence:** See Tooling Notes in memory/RESEARCH-LOG.md, 2026-10-30
 through 2026-11-06 entries.
 
-**Status:** pending human review (operational fix, not a rule change)
+**Status:** pending human review (operational fix, not a rule change; escalated again 2026-11-13 -- see below)
 
 ## 2026-11-06 -- Proposed by weekly-review (EOD snapshot format gap)
 
@@ -267,3 +267,89 @@ cross-referencing external sources, would have no way to know 11/5 was an
 unusually volatile day.
 
 **Status:** pending human review
+
+## 2026-11-13 -- Proposed by weekly-review
+
+**Current rule:** Same as 9/25, 10/2, 10/9, 10/23, and 11/06 above -- Entry
+Checklist ("Specific catalyst? Sector in momentum? Stop level? Target?"),
+"never within 3% of current price," and the 75-85% deployment target. All
+five prior proposals remain unapplied.
+
+**Proposed change:** Sixth escalation. No new mechanism beyond the three
+options already on the table from 10/23 (apply a pending mechanism with a
+hard deadline; replace the discretionary checklist with a small mechanical
+starter allocation; or explicitly bless current behavior and log
+hypothetical "what if I'd entered X" P&L alongside each HOLD). The new
+wrinkle: the two most recent weeks bracket the opportunity-cost question
+from both directions in rapid succession -- 11/2-11/6 was a crash-protection
+week (flat account avoided a -4.36% single-day S&P drop), and this week
+(11/9-11/13) was a missed-rebound week (flat account captured none of an
+approx. +2.9% index recovery off the 11/6 close). Recommend the human
+reviewer treat these two weeks as a paired data point, not separately --
+whatever mechanism is chosen (or chosen not to be applied) should be
+evaluated against both outcomes together, since the current all-or-nothing
+posture guarantees missing one side of every volatile stretch.
+
+**Evidence:** Eight consecutive weeks since launch (9/16-9/18 through
+11/9-11/13), 42 consecutive trading sessions, 0% capital deployed against
+the 75-85% target, with Energy and Technology holding the top two YTD
+momentum-sector slots essentially the entire time without a single
+qualifying entry. This week specifically: S&P 500 approx. +2.9%
+(7,376.86 -> 7,592.40, two-source corroborated) while the bot captured
+none of it -- a clean opportunity-cost week with no offsetting protection
+benefit, unlike the week immediately prior.
+
+**Status:** pending human review
+
+## 2026-11-13 -- Proposed by weekly-review (operational, Perplexity outage escalation)
+
+**Current state:** `scripts/perplexity.sh` has now returned HTTP 403 on
+every call for an 11th consecutive scheduled trading-day run (2026-10-30,
+11-02, 11-03, 11-04, 11-05, 11-06, 11-09, 11-10, 11-11, 11-12, 11-13) --
+15 calendar days, a third full calendar week. `PERPLEXITY_API_KEY` is
+confirmed present in the environment at every check, so this is an
+API-side rejection (invalid/expired key, revoked key, or a quota/plan
+limit), not a missing-key issue. The bot has consistently fallen back to
+WebSearch and never fabricated data, but primary research has effectively
+been offline for three weeks straight.
+
+**Proposed change:** This is a second escalation of the 2026-11-06
+operational proposal, which has had zero human action in a week. Given
+the duration, recommend the human reviewer either (a) rotate
+`PERPLEXITY_API_KEY` directly with Perplexity and confirm the account/plan
+is in good standing, or (b) if the key cannot be fixed promptly, formally
+accept WebSearch as the primary research tool for now (rather than a
+fallback) so the daily workflows stop re-attempting and logging a known-
+broken call every session. No code or rule change is being proposed to
+TRADING-STRATEGY.md.
+
+**Evidence:** See Tooling Notes in memory/RESEARCH-LOG.md, 2026-10-30
+through 2026-11-13 entries (11 consecutive flagged instances).
+
+**Status:** pending human review (operational fix, not a rule change)
+
+## 2026-11-13 -- Proposed by weekly-review (operational, daily-summary EOD-commit gaps)
+
+**Current state:** The daily-summary workflow has repeatedly failed to
+commit an EOD snapshot to memory/TRADE-LOG.md on trading days when
+pre-market research otherwise ran normally. Confirmed gaps: Oct 1-2,
+Oct 21, Nov 2-3, Nov 6, Nov 10, and Nov 12 -- six separate occurrences
+across the last ~7 weeks, including two in this week alone (Nov 10
+Tuesday, Nov 12 Thursday). Live Alpaca data has confirmed no P&L impact
+each time, but the audit trail itself has a growing number of silent gaps,
+and the Nov 12 gap wasn't even flagged in the following day's (Nov 13)
+TRADE-LOG entry.
+
+**Proposed change:** Not a TRADING-STRATEGY.md change -- recommend a human
+directly review the daily-summary scheduled task / trigger configuration
+(cloud routine firing conditions, timing, error handling) rather than
+continuing to log each individual gap after the fact. If the workflow is
+erroring silently rather than simply not firing, that failure mode should
+surface somewhere a human sees it promptly (not just a retroactive note
+the following trading day).
+
+**Evidence:** See memory/TRADE-LOG.md notes dated Oct 2, Oct 22, Nov 4,
+Nov 9, and Nov 11 (each flags the preceding gap), plus this week's two new
+gaps (Nov 10, Nov 12) noted in memory/WEEKLY-REVIEW.md's 2026-11-13 entry.
+
+**Status:** pending human review (operational fix, not a rule change)
