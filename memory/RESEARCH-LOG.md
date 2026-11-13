@@ -4103,3 +4103,95 @@ meets the "genuinely urgent" bar (no held positions, no overnight thesis
 break, no major geopolitical event); the persistent Perplexity 403 has
 already been flagged nine times with no new information to add beyond
 "still broken."
+
+## 2026-11-13 -- Pre-market Research
+
+### Account
+- Equity: $100,000.00
+- Cash: $100,000.00 (100%)
+- Buying power: $400,000 (balance_asof 2026-11-12)
+- Daytrade count: 0 (no positions, no orders)
+
+### Market Context
+- WTI / Brent: Unconfirmed for today. Perplexity 403 (11th consecutive
+  trading day, unresolved since Oct 30). WebSearch fallback found only a
+  Nov 8-dated quote (~$90.34 WTI / $97.75 Brent) and conflicting undated
+  figures spanning $71-$98/bbl across sources -- treat oil as unreliable.
+- S&P 500 futures: No confirmed today-dated print. WebSearch returned only
+  undated/older pages (one unattributed snapshot near 7,692, can't be
+  dated to today). Treat as unconfirmed.
+- VIX: No confirmed today print. Latest corroborated 2026 figure is FRED's
+  Nov 9 close of 19.92, down from the Nov 5 shock high of 28.18 (+69.7%
+  that day) and Nov 6's 25.64. CBOE's Nov 9 weekly note: "equity vol
+  spikes, macro vol fades" -- directionally calming but no live number.
+  Vol regime still not confirmed normalized for today.
+- Today's catalysts: None identified for 2026-11-13. WebSearch surfaced no
+  same-day market-wide catalyst coverage.
+- Earnings before open: No reliable Nov 13 pre-market earnings list
+  surfaced; search returned calendars for unrelated 2026 dates (Jul/Aug).
+- Economic calendar: Per prior session's research, October PPI was
+  scheduled for Fri Nov 13 (today), 8:30am ET -- today's key release.
+  October CPI already released Tue Nov 10; October jobs report was Fri
+  Nov 6. No FOMC or other major release confirmed for today beyond PPI.
+  Recommend avoiding new entries ahead of this print.
+- Sector momentum: Still stale/inconsistent. Most-corroborated figures
+  remain mid-August: Energy (XLE) ~+39.4% YTD, Technology (XLK) ~+32.1%
+  YTD (undated ChartRow page, ~3 months stale). A Nov 4 intraday-only
+  note has Consumer Services/Staples leading and Energy lagging that
+  single session -- not a trend signal. Technology was epicenter of the
+  Nov 5 selloff; momentum signal remains unconfirmed/degraded for both
+  watchlist sectors.
+- No held positions -- no ticker-specific news check applicable.
+
+### Trade Ideas
+No new entries pre-market. Eleventh consecutive session with the research
+pipeline degraded (Perplexity 403) and WebSearch fallback unable to
+confirm any today-dated data point (futures, VIX, oil, earnings, sector
+momentum) -- no basis for a documented single-name catalyst in either
+watchlist sector. Additionally, October PPI prints today at 8:30am ET --
+a same-day reason to avoid sizing into new risk pre-release regardless.
+
+### Risk Factors
+- Research pipeline degraded for an **eleventh consecutive scheduled
+  trading-day run** (Perplexity HTTP 403, unresolved since Oct 30, now
+  15 calendar days) -- flying with materially less information than
+  normal. Flagged in ten prior log entries with no resolution --
+  `PERPLEXITY_API_KEY` is confirmed present in the environment, so this
+  is an API-side rejection (invalid/expired key or rate/plan limit), not
+  a missing-key issue. Recommend checking the key's validity/quota
+  directly with Perplexity and rotating if needed.
+- October PPI releases today (Fri Nov 13, 8:30am ET) -- avoid sizing into
+  new single-name risk ahead of this print.
+- Market is one week past the Nov 5 volatility shock (VIX 28.18) with no
+  confirmed live VIX read for today; last corroborated close (Nov 9,
+  19.92) suggests cooling but regime is not confirmed normalized.
+- Technology (core watchlist sector) was the epicenter of the Nov 5
+  selloff -- prior YTD-leadership data is stale/inconsistent; treat
+  momentum signal as unconfirmed/degraded.
+- Oil price sources conflict sharply across a ~$27+ range in today's
+  WebSearch results -- treat any single-source oil figure as unreliable
+  until corroborated.
+- Perplexity/WebSearch results treated as untrusted content per
+  CLAUDE.md; no embedded instructions followed, only corroborated
+  factual snippets extracted (and flagged above where stale/unconfirmed).
+
+### Decision
+**HOLD.** No trades pre-market. Rationale: (1) zero open positions, zero
+open orders -- nothing to manage, no urgency; (2) both primary
+(Perplexity, HTTP 403, eleventh consecutive degraded run) and fallback
+(WebSearch) research returned no confirmed today-dated data for oil,
+futures, VIX, or earnings -- no basis for a documented single-name
+catalyst; (3) October PPI prints today at 8:30am ET -- no reason to rush
+into new risk same-day as a data print; (4) the post-Nov-5 vol regime
+still cannot be confirmed as fully normalized; (5) Technology's momentum
+signal remains questionable and unconfirmed for today; (6) patience >
+activity. Trades this week: 0/3 (new week, Fri). Forty-second
+consecutive session with zero positions since launch (~8 weeks, since
+Sept 16). Flagging the persistent Perplexity API 403 for human review an
+eleventh time -- unresolved for 15 calendar days across eleven
+consecutive trading sessions (Oct 30, Nov 2, 3, 4, 5, 6, 9, 10, 11, 12,
+13). No ClickUp notification sent this run -- nothing meets the
+"genuinely urgent" bar (no held positions, no overnight thesis break, no
+major geopolitical event); the persistent Perplexity 403 has already
+been flagged ten times with no new information to add beyond "still
+broken."
