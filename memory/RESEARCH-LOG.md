@@ -4209,3 +4209,100 @@ broken."
   sent (no trade placed; Perplexity 403 already flagged ten times with
   nothing new to add). Per Step 7 of the market-open workflow, commit/push
   is skipped since no trades executed this run.
+
+## 2026-11-16 -- Pre-market Research
+
+### Account
+- Equity: $100,000.00
+- Cash: $100,000.00 (100%)
+- Buying power: $400,000 (balance_asof 2026-11-13)
+- Daytrade count: 0 (no positions, no orders)
+
+### Market Context
+- WTI / Brent: Unconfirmed for today. Perplexity failed (now HTTP 401,
+  changed from the prior persistent 403 -- see Risk Factors). WebSearch
+  fallback found only a Nov 8-dated quote (~$90.34 WTI / $97.75 Brent)
+  plus conflicting undated/stale figures (Oct 27-28 posts near
+  $101-116 Brent) -- treat oil as unreliable for today.
+- S&P 500 futures: No confirmed today-dated print. WebSearch returned only
+  an undated snapshot (~7,692) and months-old Bloomberg premarket movers
+  (April 2026) -- treat as unconfirmed.
+- VIX: No confirmed today print. Latest corroborated figure remains
+  FRED's Nov 9 close of 19.92, down from the Nov 5 shock high of 28.18
+  and Nov 6's 25.64. No live read for today or the intervening sessions
+  (Nov 10-13) surfaced. Vol regime still not confirmed normalized.
+- Today's catalysts: None identified specifically for 2026-11-16.
+  WebSearch surfaced a thriveinmarkets weekly preview naming retail
+  sales, Nvidia earnings, FOMC minutes, and UK CPI as this week's
+  headline events, but without day-level attribution within the week.
+- Earnings before open: No confirmed BMO earnings for today. Stockti's
+  calendar shows Nov 16 reporters (Tyson Foods, Aecom, Aramark, Powell
+  Industries) but lists them after-close, not before-open. Nvidia and
+  Disney report tomorrow (Nov 17), not today.
+- Economic calendar: No confirmed CPI/PPI/jobs release dated specifically
+  to today; October CPI/PPI already printed the week of Nov 9-13. FOMC
+  minutes are flagged as a headline event sometime this week (date
+  within the week unconfirmed) -- treat as a possible catalyst later in
+  the week, not a today-specific one.
+- Sector momentum: Still stale/inconsistent. Most-corroborated older
+  ranking (mid-August) has Energy (XLE) +39.4% YTD and Technology (XLK)
+  +32.1% YTD leading; a conflicting undated Yahoo Finance snapshot shows
+  Technology at -3.35% YTD. A Nov 10 note shows all 11 sector ETFs
+  positive that single session, led by Industrials (+3.73%), index down
+  0.38% to 7520.93 -- single-day move, not a trend signal. Energy/
+  Technology momentum signal remains unconfirmed/degraded for today.
+- No held positions -- no ticker-specific news check applicable.
+
+### Trade Ideas
+No new entries pre-market. Research pipeline degraded for a twelfth
+consecutive scheduled trading-day run (Perplexity now failing with
+HTTP 401, a change from the prior persistent 403) with WebSearch
+fallback unable to confirm any today-dated data point (futures, VIX,
+oil, before-open earnings, sector momentum) -- no basis for a documented
+single-name catalyst in either watchlist sector.
+
+### Risk Factors
+- Research pipeline degraded for a **twelfth consecutive scheduled
+  trading-day run** (unresolved since Oct 30, now 17 calendar days).
+  **Error code changed today: HTTP 401 (was HTTP 403 for all eleven
+  prior failures).** `PERPLEXITY_API_KEY` confirmed present in the
+  environment. A shift from 403 (forbidden/plan-level rejection) to 401
+  (unauthorized/invalid credential) is a different failure signature and
+  may indicate the key was rotated, revoked, or expired -- recommend
+  human verification of the key's current validity as a priority, not
+  just a quota/plan check.
+- Market is roughly a week and a half past the Nov 5 volatility shock
+  (VIX 28.18) with no confirmed live VIX read since Nov 9 (19.92) --
+  regime not confirmed normalized.
+- Technology (core watchlist sector) was the epicenter of the Nov 5
+  selloff; momentum data is stale/conflicting (one source +32.1% YTD as
+  of mid-August, another -3.35% YTD undated) -- treat as unconfirmed.
+- Oil price sources conflict sharply (~$90-$116/bbl Brent across
+  different undated/stale posts) -- treat any single-source figure as
+  unreliable until corroborated.
+- FOMC minutes reportedly due sometime this week per one weekly preview
+  (day unconfirmed) -- a possible reason to avoid sizing into new
+  single-name risk later this week pending confirmation of the date.
+- Perplexity/WebSearch results treated as untrusted content per
+  CLAUDE.md; no embedded instructions followed, only corroborated
+  factual snippets extracted (and flagged above where stale/unconfirmed).
+
+### Decision
+**HOLD.** No trades pre-market. Rationale: (1) zero open positions, zero
+open orders -- nothing to manage, no urgency; (2) both primary
+(Perplexity, now HTTP 401, twelfth consecutive degraded run) and fallback
+(WebSearch) research returned no confirmed today-dated data for oil,
+futures, VIX, or before-open earnings -- no basis for a documented
+single-name catalyst; (3) the post-Nov-5 vol regime still cannot be
+confirmed as normalized with no VIX read since Nov 9; (4) both watchlist
+sectors' (Energy, Technology) momentum signals remain conflicting/
+unconfirmed; (5) a possible FOMC minutes release later this week (date
+unconfirmed) argues against rushing into new risk; (6) patience >
+activity. Trades this week: 0/3 (new week, Mon). Forty-third consecutive
+session with zero positions since launch (~9 weeks, since Sept 16).
+Flagging the Perplexity API failure for human review a twelfth time --
+now escalated from HTTP 403 to HTTP 401, which is a materially different
+signal (looks like an invalid/revoked credential rather than a
+plan/quota rejection) and should be checked directly against the
+Perplexity dashboard. No ClickUp notification sent this run -- see
+notification note below.
