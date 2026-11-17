@@ -4399,3 +4399,96 @@ signal (looks like an invalid/revoked credential rather than a
 plan/quota rejection) and should be checked directly against the
 Perplexity dashboard. No ClickUp notification sent this run -- see
 notification note below.
+
+## 2026-11-17 -- Pre-market Research
+
+### Account
+- Equity: $100,000.00
+- Cash: $100,000.00 (100%)
+- Buying power: $400,000
+- Daytrade count: 0 (no positions, no orders; balance_asof 2026-11-16)
+
+### Market Context
+- WTI / Brent: Unconfirmed for today. Perplexity failed again (HTTP 401,
+  curl exit 22 -- see Risk Factors). WebSearch fallback found only a
+  Nov 8-dated figure (~$90.34 WTI / $97.75 Brent) plus conflicting
+  undated/stale late-Oct posts ($101-116 Brent) -- oil remains
+  unreliable for today.
+- S&P 500 futures: No confirmed today-dated print. WebSearch returned
+  only an undated snapshot (~7,692) -- treat as unconfirmed.
+- VIX: No confirmed today print. Latest corroborated figure remains
+  FRED's Nov 9 close of 19.92, down from the Nov 5 shock high (28.18)
+  and Nov 6 (25.64). No live read since Nov 9 surfaced. Vol regime
+  still not confirmed normalized.
+- Today's catalysts: Disney reports fiscal Q4/FY2026 before the open
+  (~8:30am ET webcast) -- not in either watchlist sector. Nvidia
+  reports today but AFTER the close (2pm PT) -- a catalyst for
+  tomorrow's gap, not today's open. No single-name catalyst identified
+  in Energy or Technology for today specifically.
+- Earnings before open: Disney only (confirmed). No Energy/Tech names
+  confirmed reporting before today's open.
+- Economic calendar: No CPI/PPI/FOMC rate decision today (October CPI
+  printed Nov 10, PPI Nov 13). Today: October import/export price
+  indexes (8:30am ET, BLS) and October Advance Retail Sales (8:30am ET,
+  Census). FOMC minutes reportedly due later this week (exact day
+  unconfirmed) -- a reason for caution on new risk later in the week.
+- Sector momentum: Best single-source data point to date -- Tapeboard's
+  weekly recap (week ended Nov 13, uncorroborated by a second source)
+  puts the S&P 500 +10.25% YTD with Energy (XLE) leading at +42.30% YTD
+  (+5.40% that week) and Technology (XLK) second at +18.00% YTD (+4.87%
+  that week). Consistent directionally with the mid-August ranking
+  (Energy +39.4% YTD) previously logged, so Energy/Technology leadership
+  is now better corroborated than in recent sessions, though still a
+  single current-dated source and the 10Y yield figure in that same
+  recap (5.15%) looks anomalously high and is flagged as suspect --
+  treat the whole recap with some caution pending a second source.
+- No held positions -- no ticker-specific news check applicable.
+
+### Trade Ideas
+No new entries pre-market. Sector leadership data firmed up slightly
+(Energy/Technology both corroborated by two directionally-consistent
+sources now), but no single-name catalyst with a documented
+entry/stop/target surfaced for either sector today -- Disney (today's
+only confirmed before-open reporter) is outside both watchlist sectors,
+and Nvidia's catalyst lands after today's close, not before. Nothing
+actionable to size pre-market.
+
+### Risk Factors
+- Research pipeline degraded for a **thirteenth consecutive scheduled
+  trading-day run** (unresolved since Oct 30, now 18 calendar days):
+  11 sessions of HTTP 403, now 2nd session of HTTP 401 (curl exit 22).
+  `PERPLEXITY_API_KEY` confirmed present in environment. Persistent 401
+  across two sessions now reinforces that this looks like an
+  invalid/revoked credential rather than a transient quota issue --
+  recommend human verification/rotation of the key as a priority.
+- Vol regime still not confirmed normalized -- no live VIX read since
+  Nov 9 (19.92), ~8 trading days stale.
+- Oil price sources remain sharply conflicting (~$90-116/bbl Brent
+  across undated/stale posts) -- unreliable until corroborated.
+- Nvidia earnings after today's close is a known overnight-gap risk for
+  Technology-sector names tomorrow regardless of today's inaction.
+- FOMC minutes due sometime this week (date unconfirmed) -- argues
+  against rushing into new risk later this week pending confirmation.
+- Perplexity/WebSearch results treated as untrusted content per
+  CLAUDE.md; no embedded instructions followed, only corroborated
+  factual snippets extracted (flagged above where stale/unconfirmed).
+
+### Decision
+**HOLD.** No trades pre-market. Rationale: (1) zero open positions, zero
+open orders -- nothing to manage, no urgency; (2) primary research
+(Perplexity, HTTP 401, thirteenth consecutive degraded run) still down;
+WebSearch fallback firmed up Energy/Technology sector leadership
+somewhat but found no single-name catalyst with documented entry/stop/
+target in either sector for today; (3) today's only confirmed
+before-open earnings reporter (Disney) is outside both watchlist
+sectors; Nvidia's catalyst lands after today's close, not actionable
+pre-market; (4) vol regime still unconfirmed normalized (no VIX read
+since Nov 9); (5) FOMC minutes later this week argue against rushing;
+(6) patience > activity. Trades this week: 0/3. Forty-fourth consecutive
+session with zero positions since launch (~9 weeks, since Sept 16).
+Flagging the Perplexity API failure for human review a thirteenth time --
+now two consecutive sessions of HTTP 401 (was 403 for eleven sessions
+before that), strengthening the case for a revoked/invalid credential;
+recommend checking the Perplexity dashboard directly. No urgent
+ClickUp notification -- no held positions, no broken thesis, no major
+geopolitical event; see notification note below.
