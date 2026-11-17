@@ -352,3 +352,14 @@ Trades: 0 (W:0 / L:0 / open:0)
 Best: N/A  Worst: N/A
 Strategy proposals this week: 3 (zero-deployment 6th escalation, Perplexity outage 2nd escalation, new EOD-gap proposal)
 Grade: D-
+
+---
+## 2026-11-17 20:17 UTC (fallback -- no notification channel configured)
+EOD Nov 17
+Portfolio: $100,000.00 (0.0% day, 0.0% phase)
+Cash: $100,000.00 (100%)
+Trades today: none
+Open positions: none
+Trades this week: 0/3
+Note: Nov 16 EOD snapshot gap (recurring), Perplexity still down (401, 18d)
+Tomorrow: watching Energy/Technology for single-name catalyst
