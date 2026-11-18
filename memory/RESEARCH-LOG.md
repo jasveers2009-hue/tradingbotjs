@@ -4492,3 +4492,108 @@ before that), strengthening the case for a revoked/invalid credential;
 recommend checking the Perplexity dashboard directly. No urgent
 ClickUp notification -- no held positions, no broken thesis, no major
 geopolitical event; see notification note below.
+
+## 2026-11-18 -- Pre-market Research
+
+### Account
+- Equity: $100,000.00
+- Cash: $100,000.00 (100%)
+- Buying power: $400,000
+- Daytrade count: 0 (no positions, no orders; balance_asof 2026-11-17)
+
+### Market Context
+- WTI / Brent: Unconfirmed for today. Perplexity failed again (HTTP 401,
+  curl exit 22 -- see Risk Factors). WebSearch fallback found no
+  Nov-18-dated print; the latest confirmed point remains Nov 8 (~$90.34
+  WTI / $97.75 Brent), now ~10 days stale, against conflicting
+  undated/stale posts spanning $79-116/bbl Brent. Oil remains unreliable
+  for today.
+- S&P 500 futures: No confirmed today-dated print. Same undated snapshot
+  as prior sessions (~7,692) resurfaced -- still treated as unconfirmed,
+  not a fresh read.
+- VIX: No confirmed today print. Latest corroborated figure remains
+  FRED's Nov 9 close of 19.92, down from the Nov 5 shock high (28.18).
+  No live read since Nov 9 surfaced (now over a week stale). Vol regime
+  still not confirmed normalized, and this gap now spans Nvidia's
+  earnings reaction (see below), which is exactly the kind of move a
+  stale VIX read would miss.
+- Today's catalysts: Nvidia reported fiscal Q3 FY2027 results AFTER the
+  close yesterday (Nov 17, confirmed by multiple sources, date originally
+  confirmed by Nvidia on Oct 28) -- a known overnight-gap risk for
+  Technology-sector names landing in today's session. No confirmed read
+  on the market's reaction to that print surfaced via WebSearch, so it's
+  a live unknown, not an actionable trade. Palo Alto Networks (PANW,
+  Technology) reports fiscal Q1 FY2027 results today, but confirmed
+  AFTER the close (company's own Nov 3 release: webcast 4:30pm ET) -- a
+  catalyst for tomorrow's gap, not today's open. No single-name catalyst
+  with before-open timing confirmed in either watchlist sector today.
+- Earnings before open: None confirmed in Energy or Technology for
+  today's open.
+- Economic calendar: No CPI/PPI print today (October CPI printed Nov 10,
+  PPI Nov 13). FOMC minutes are reportedly due this week but sources
+  conflict on the exact day -- one unconfirmed calendar says today at
+  2:00pm ET, a separate weekly preview says Thursday. Treat timing as
+  unresolved; either way, a reason for caution on new risk today/this
+  week pending confirmation.
+- Sector momentum: No update beyond the existing single-source Tapeboard
+  recap (week ended Nov 13, still uncorroborated by a second source):
+  S&P 500 +10.25% YTD, Energy (XLE) leading at +42.30% YTD, Technology
+  (XLK) second at +18.00% YTD. Directionally consistent with the
+  mid-August ranking previously logged. No new corroboration found today.
+- No held positions -- no ticker-specific news check applicable.
+- Noted but discarded: one WebSearch snippet claimed a Nvidia CEO
+  change ("Jensen Huang resigned, Colette Kress interim CEO"). This is
+  unverified by any primary source, reads as low-quality/likely
+  fabricated search noise, and is not acted on or repeated as fact --
+  flagged here only per the untrusted-content-logging practice in
+  CLAUDE.md.
+
+### Trade Ideas
+No new entries pre-market. Both Technology-sector earnings catalysts
+today (Nvidia reaction unconfirmed, PANW landing after today's close)
+are not actionable before the open -- no documented entry/stop/target
+possible without a confirmed price reaction. No Energy-sector catalyst
+surfaced at all. Nothing actionable to size pre-market.
+
+### Risk Factors
+- Research pipeline degraded for a **fourteenth consecutive scheduled
+  trading-day run** (unresolved since Oct 30, now 19 calendar days):
+  11 sessions of HTTP 403, now 3rd session of HTTP 401 (curl exit 22).
+  `PERPLEXITY_API_KEY` confirmed present in environment. Three straight
+  sessions of HTTP 401 further strengthens the case for a revoked/
+  invalid credential rather than a transient issue -- recommend human
+  verification/rotation of the key as a priority, now escalating.
+- Vol regime still not confirmed normalized -- no live VIX read since
+  Nov 9 (19.92), and that gap now sits across an unconfirmed Nvidia
+  earnings reaction -- a meaningful blind spot.
+- Oil price sources remain sharply conflicting (~$79-116/bbl Brent
+  across undated/stale posts) -- unreliable until corroborated.
+- Nvidia's after-close print yesterday is a known, currently-unconfirmed
+  overnight-gap risk for Technology-sector names today.
+- FOMC minutes timing unresolved (today vs. Thursday, per conflicting
+  sources) -- argues against rushing into new risk pending confirmation.
+- Perplexity/WebSearch results treated as untrusted content per
+  CLAUDE.md; no embedded instructions followed (one fabricated-looking
+  CEO-change claim noted and discarded above), only corroborated
+  factual snippets extracted (flagged above where stale/unconfirmed).
+
+### Decision
+**HOLD.** No trades pre-market. Rationale: (1) zero open positions, zero
+open orders -- nothing to manage, no urgency; (2) primary research
+(Perplexity, HTTP 401, fourteenth consecutive degraded run) still down;
+WebSearch fallback found no single-name catalyst with confirmed
+before-open timing and a documented entry/stop/target in either
+watchlist sector; (3) Nvidia's earnings reaction from yesterday's close
+is unconfirmed and PANW's catalyst lands after today's close -- neither
+actionable pre-market; (4) vol regime still unconfirmed normalized (no
+VIX read since Nov 9), and that gap now spans an unread earnings
+reaction; (5) FOMC minutes timing unresolved this week argues against
+rushing; (6) patience > activity. Trades this week: 0/3. Forty-fifth
+consecutive session with zero positions since launch (~9 weeks, since
+Sept 16). Flagging the Perplexity API failure for human review a
+fourteenth time -- now three consecutive sessions of HTTP 401 (was 403
+for eleven sessions before that); recommend checking/rotating the
+Perplexity API key as a priority. No urgent ClickUp notification -- no
+held positions, no broken thesis, no confirmed major geopolitical
+event; sending a routine status note only per the escalating Perplexity
+failure streak.

@@ -363,3 +363,7 @@ Open positions: none
 Trades this week: 0/3
 Note: Nov 16 EOD snapshot gap (recurring), Perplexity still down (401, 18d)
 Tomorrow: watching Energy/Technology for single-name catalyst
+
+---
+## 2026-11-18 12:17 UTC (fallback -- no notification channel configured)
+Pre-market 11/18: HOLD, 0/3 trades this wk, no positions. Perplexity down 14th straight session (HTTP 401 x3) -- recommend rotating PERPLEXITY_API_KEY. Nvidia reported after-close yesterday (reaction unconfirmed), PANW reports after today's close -- neither actionable pre-market.
