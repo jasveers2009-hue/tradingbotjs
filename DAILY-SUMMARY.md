@@ -371,3 +371,14 @@ Pre-market 11/18: HOLD, 0/3 trades this wk, no positions. Perplexity down 14th s
 ---
 ## 2026-11-19 12:15 UTC (fallback -- no notification channel configured)
 Pre-market 11/19: HOLD, 0 positions, 0/3 trades this week. Perplexity still down (HTTP 401, 4th straight session, 15th degraded day) -- recommend rotating PERPLEXITY_API_KEY.
+
+---
+## 2026-11-19 20:16 UTC (fallback -- no notification channel configured)
+EOD Nov 19
+Portfolio: $100,000.00 (0.0% day, 0.0% phase)
+Cash: $100,000.00 (100%)
+Trades today: none
+Open positions: none
+Trades this week: 0/3
+Perplexity still down (HTTP 401, 20 days)
+Tomorrow: hold, awaiting single-name catalyst
