@@ -465,3 +465,131 @@ confirmation -- treat as directional, same caveat level as the 10/30 and
 - See memory/STRATEGY-PROPOSALS.md -- sixth escalation of the zero-deployment/catalyst-bar proposal (now weighed against both a protection week and a missed-rebound week in the same two-week span), continued escalation of the Perplexity 403 outage (now a third calendar week), and a new escalation specifically on the recurring daily-summary EOD-commit gaps.
 
 ### Overall Grade: D-
+
+## Week ending 2026-11-20
+
+### Stats
+| Metric | Value |
+|--------|-------|
+| Starting portfolio | $100,000.00 (Mon 11/16) |
+| Ending portfolio | $100,000.00 |
+| Week return | $0.00 (0.00%) |
+| S&P 500 week | Approx. -3% to -4% (confirmed -3.1% through Wed 11/18 close; Thu/Fri not independently confirmed to the decimal -- see note) |
+| Bot vs S&P | Approx. +3% to +4% in the bot's favor (not independently confirmed to the decimal) |
+| Trades | 0 (W:0 / L:0 / open:0) |
+| Win rate | N/A (no trades) |
+| Best trade | N/A |
+| Worst trade | N/A |
+| Profit factor | N/A |
+
+**Note on S&P figure:** Perplexity was down (HTTP 401) all week -- a 16th
+consecutive degraded scheduled run, 21 calendar days unresolved since
+Oct 30. WebSearch fallback corroborated two solid anchor points from
+independent-looking wire sources: S&P 500 closed Fri 11/13 at 7,561.67
+(+2.51% that week), then fell for five straight sessions through Wed
+11/18 to 7,323.63 -- a confirmed -3.1% week-to-date move (238.04 pts),
+tied to continuing "AI bubble" / AI-capex-payback selloff pressure
+(Nvidia's Nov 17 after-close beat did not reverse the slide). No
+reliably-dated close for Thu 11/19 or Fri 11/20 (today) surfaced --
+multiple searches returned either stale/undated figures or results
+contaminated by 2025-dated and early-November-2026 (Nov 5 shock)
+articles. Given the confirmed Mon-Wed trajectory and a continuing
+negative-AI-sentiment narrative in every source checked, this entry
+reports a directional -3% to -4% range rather than a guessed
+decimal-precise number, consistent with the 10/30, 11/06, and 11/13
+entries' approach to a degraded-data week.
+
+### Closed Trades
+| Ticker | Entry | Exit | P&L | Notes |
+| -- | -- | -- | -- | -- |
+| None -- zero trades placed this week | | | | |
+
+### Open Positions at Week End
+| Ticker | Entry | Close | Unrealized | Stop |
+| -- | -- | -- | -- | -- |
+| None | | | | |
+
+### What Worked
+- Zero capital at risk meant the account was fully insulated from a
+  five-consecutive-session S&P losing streak (11/13 Fri close 7,561.67
+  down to 11/18 Wed close 7,323.63, -3.1% confirmed, with the broader
+  AI-capex-payback selloff narrative continuing through the week) --
+  the second clear "flat posture protected capital from a real
+  drawdown" week this cycle, after 11/5-11/6.
+- Despite Perplexity returning HTTP 401 on every call all week (16th
+  consecutive degraded trading-day run, 21 calendar days unresolved),
+  the bot never fabricated market data -- every pre-market entry
+  explicitly labeled oil/futures/VIX/sector figures as unconfirmed,
+  fell back to WebSearch per CLAUDE.md, and defaulted harder to HOLD.
+- Untrusted-content discipline held again: the 11/18 pre-market entry
+  explicitly flagged and discarded an unverified WebSearch snippet
+  claiming an Nvidia CEO change ("Jensen Huang resigned") as
+  likely-fabricated search noise rather than repeating it as fact --
+  notably, this review's own research today independently confirmed
+  that claim does not check out, validating last week's call to
+  discard it.
+- Account/position state independently re-verified via live Alpaca
+  pulls every session; confirmed flat ($100,000.00, zero positions) at
+  week end (balance_asof 2026-11-19).
+
+### What Didn't Work
+- Ninth consecutive week, 47th consecutive trading session, 0% capital
+  deployed against the 75-85% target -- Energy and Technology still
+  haven't produced a single qualifying entry since account launch
+  (9/16).
+- This was a real opportunity-cost-adjacent week but with an unusual
+  shape: the index fell most of the week (good for a flat account) but
+  the catalyst bar's own logic never got the chance to be tested either
+  way, since no single-name setup in either watchlist sector was ever
+  presented as a live candidate -- the structural non-participation
+  problem is unchanged regardless of which direction the index moved.
+- The Perplexity API outage is now in its **fourth calendar week** (21
+  calendar days, 16 consecutive degraded trading-day runs through
+  today) with no human action taken yet -- the error signature has now
+  been HTTP 401 (vs. the original 403) for six straight sessions,
+  reinforcing that this reads as a revoked/invalid credential, not a
+  transient quota issue.
+- Two more EOD-snapshot gaps this week in TRADE-LOG.md -- no entry was
+  committed for Nov 16 (Monday, Day 43) or Nov 18 (Wednesday, Day 45),
+  the same recurring daily-summary scheduler gap flagged for Oct 21,
+  Nov 2-3, Nov 6, Nov 10, Nov 12, and Nov 16/18 now.
+- **New finding this review:** memory/WEEKLY-REVIEW.md itself has a gap
+  -- there is no "Week ending 2026-10-16" entry between the 10/09 and
+  10/23 entries. Unlike the 10/30 miss (which was caught and filed
+  retroactively on 11/06), this one was never flagged or backfilled.
+  This is the same class of scheduler/trigger issue already flagged
+  for daily-summary, now confirmed to affect the weekly-review workflow
+  itself -- see new proposal below.
+- All six pending zero-deployment/catalyst-bar proposals (9/25, 10/2,
+  10/9, 10/23, 11/06, 11/13) remain unapplied, now over 8 weeks after
+  the first one.
+
+### Key Lessons
+- The account has now sat through both shapes of a volatile AI-selloff
+  stretch (11/5-11/6 single-day shock, and this week's slower
+  five-session bleed) without a scratch, and without ever once
+  deploying capital to find out what a real trade would have done in
+  either regime. Protection is real and now happening twice, but it
+  still can't substitute for the human decision this workflow keeps
+  asking for.
+- A research outage that has now outlasted the trading-week-pattern
+  long enough to flip its own error code (403 -> 401) without a human
+  touching it is itself a signal the issue is not self-resolving and
+  needs direct intervention, not another log entry.
+- Discovering a second, previously-unflagged missed weekly-review
+  (10/16) while writing this one means the review process's own audit
+  trail has a blind spot: a missed Friday run with no retroactive catch
+  is indistinguishable from "a real week where the account did X" to
+  anyone reading WEEKLY-REVIEW.md linearly. Worth a direct fix, not
+  just a flag.
+
+### Strategy Change Proposals This Week
+- See memory/STRATEGY-PROPOSALS.md -- seventh escalation of the
+  zero-deployment/catalyst-bar proposal; continued escalation of the
+  Perplexity outage (now a fourth calendar week, error code shift
+  403->401 sustained); continued escalation of the daily-summary
+  EOD-commit gaps; and a new proposal flagging the missed 10/16
+  weekly-review as the same scheduler/trigger class of issue, now
+  confirmed to hit this workflow too.
+
+### Overall Grade: C-
