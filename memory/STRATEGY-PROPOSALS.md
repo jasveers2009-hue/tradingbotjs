@@ -328,6 +328,113 @@ through 2026-11-13 entries (11 consecutive flagged instances).
 
 **Status:** pending human review (operational fix, not a rule change)
 
+## 2026-11-20 -- Proposed by weekly-review
+
+**Current rule:** Same as 9/25, 10/2, 10/9, 10/23, 11/06, and 11/13 above --
+Entry Checklist ("Specific catalyst? Sector in momentum? Stop level?
+Target?"), "never within 3% of current price," and the 75-85% deployment
+target. All six prior proposals remain unapplied.
+
+**Proposed change:** Seventh escalation. No new mechanism beyond the three
+options already on the table from 10/23 (apply a pending mechanism with a
+hard deadline; replace the discretionary checklist with a small mechanical
+starter allocation; or explicitly bless current behavior and log
+hypothetical "what if I'd entered X" P&L alongside each HOLD). This week
+adds a third data point to the opportunity-cost/protection pairing: a
+slower, five-session AI-selloff bleed (11/13 close 7,561.67 -> 11/18 close
+7,323.63, -3.1% confirmed) that the flat account was fully insulated from --
+the second clear protection week this cycle (after 11/5-11/6), now against
+one clear missed-rebound week (11/9-11/13). Three distinct market regimes
+(a single-day shock, a slow multi-session bleed, and a sharp rebound) have
+now all occurred during this zero-deployment stretch without the bot ever
+testing a real position in any of them.
+
+**Evidence:** Nine consecutive weeks since launch (9/16-9/18 through
+11/16-11/20), 47 consecutive trading sessions, 0% capital deployed against
+the 75-85% target, with Energy and Technology holding the top two
+momentum-sector slots essentially the entire time without a single
+qualifying entry.
+
+**Status:** pending human review
+
+## 2026-11-20 -- Proposed by weekly-review (operational, Perplexity outage escalation)
+
+**Current state:** `scripts/perplexity.sh` has now returned a non-200
+error on every call for a 16th consecutive scheduled trading-day run
+(2026-10-30 through 2026-11-20) -- 21 calendar days, a fourth full
+calendar week. The error signature shifted from HTTP 403 (first 11
+sessions) to HTTP 401 (sustained for the last 6 sessions straight,
+2026-11-16 through 2026-11-20 inclusive per today's `perplexity.sh` call
+in this review). `PERPLEXITY_API_KEY` is confirmed present in the
+environment at every check. The sustained shift to 401 (unauthorized/
+invalid credential) rather than 403 (forbidden/plan-level) makes a
+revoked or expired key the most likely explanation, not a quota issue.
+
+**Proposed change:** Third escalation of the 2026-11-06 operational
+proposal (second escalation was 2026-11-13). Recommend the human reviewer
+rotate `PERPLEXITY_API_KEY` directly with Perplexity now, or formally
+switch the workflows to treat WebSearch as primary (not fallback) until
+the key is fixed, so the daily workflows stop re-attempting and logging a
+known-broken call every session. No code or rule change proposed to
+TRADING-STRATEGY.md.
+
+**Evidence:** See Tooling Notes in memory/RESEARCH-LOG.md, 2026-10-30
+through 2026-11-19 entries, plus this review's own direct
+`scripts/perplexity.sh` call on 2026-11-20 (exit 22 / HTTP 401).
+
+**Status:** pending human review (operational fix, not a rule change)
+
+## 2026-11-20 -- Proposed by weekly-review (operational, daily-summary EOD-commit gaps, continued)
+
+**Current state:** Two more EOD-snapshot gaps occurred this week in
+memory/TRADE-LOG.md -- no entry for Nov 16 (Monday, Day 43) or Nov 18
+(Wednesday, Day 45), bringing the running total to 8+ occurrences across
+the last ~8 weeks (Oct 1-2, Oct 21, Nov 2-3, Nov 6, Nov 10, Nov 12, Nov 16,
+Nov 18). Live Alpaca data has confirmed no P&L impact each time, but this
+is now a weekly-recurring pattern, not an occasional miss.
+
+**Proposed change:** Unchanged from the 2026-11-13 entry -- recommend a
+human directly review the daily-summary scheduled task / trigger
+configuration (cloud routine firing conditions, timing, error handling)
+rather than continuing to log each individual gap after the fact.
+
+**Evidence:** See memory/TRADE-LOG.md notes dated Oct 2, Oct 22, Nov 4,
+Nov 9, Nov 11, Nov 17, and Nov 19 (each flags the preceding gap), plus
+this week's entries.
+
+**Status:** pending human review (operational fix, not a rule change)
+
+## 2026-11-20 -- Proposed by weekly-review (operational, weekly-review itself has a scheduler gap)
+
+**Current state:** While assembling this review, memory/WEEKLY-REVIEW.md
+was found to have no "Week ending 2026-10-16" entry -- it jumps directly
+from "Week ending 2026-10-09" to "Week ending 2026-10-23" with no note
+explaining the gap. This differs from the 2026-10-30 miss, which was
+caught and filed retroactively (see the note at the top of that entry,
+written 2026-11-06). The 10/16 gap was never caught or backfilled, and no
+prior review or log entry flags it. Live Alpaca data cannot retroactively
+confirm what happened during that week's sessions beyond what
+memory/TRADE-LOG.md already shows (continuous zero-position entries), so
+no backfill is being attempted here -- flagging the gap itself is the
+priority.
+
+**Proposed change:** Not a TRADING-STRATEGY.md change. This is the same
+class of issue already flagged for daily-summary's EOD-commit gaps, now
+confirmed to also affect the weekly-review workflow's own schedule/trigger.
+Recommend a human review the weekly-review trigger configuration alongside
+the daily-summary one (same proposal, same root cause suspected), and
+consider whether the review workflow should self-detect a missing prior
+Friday entry at startup (e.g. check the most recent "## Week ending"
+header against the expected date) so a future miss surfaces immediately
+rather than being discovered incidentally weeks later.
+
+**Evidence:** memory/WEEKLY-REVIEW.md -- compare the "Week ending
+2026-10-09" and "Week ending 2026-10-23" headers; no 2026-10-16 entry
+exists between them, and no existing log entry anywhere in the repo
+flags this gap prior to this one.
+
+**Status:** pending human review (operational fix, not a rule change)
+
 ## 2026-11-13 -- Proposed by weekly-review (operational, daily-summary EOD-commit gaps)
 
 **Current state:** The daily-summary workflow has repeatedly failed to

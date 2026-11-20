@@ -382,3 +382,15 @@ Open positions: none
 Trades this week: 0/3
 Perplexity still down (HTTP 401, 20 days)
 Tomorrow: hold, awaiting single-name catalyst
+
+---
+## 2026-11-20 20:37 UTC (fallback -- no notification channel configured)
+Week ending Nov 20
+Portfolio: $100,000.00 (0.00% week, 0.00% phase)
+vs S&P 500: approx +3-4% (bot flat vs ~-3-4% AI-selloff week)
+Trades: 0 (W:0 / L:0 / open:0)
+Best: N/A  Worst: N/A
+Perplexity outage: 21 days, now HTTP 401 (likely revoked key) - 3rd escalation
+Also flagged: daily-summary EOD gaps (Nov16,18) + a missed 10/16 weekly-review found this run
+Strategy proposals this week: 4
+Grade: C-
