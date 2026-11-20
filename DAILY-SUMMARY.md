@@ -382,3 +382,12 @@ Open positions: none
 Trades this week: 0/3
 Perplexity still down (HTTP 401, 20 days)
 Tomorrow: hold, awaiting single-name catalyst
+
+---
+## 2026-11-20 20:16 UTC (fallback -- no notification channel configured)
+EOD Nov 20
+Portfolio: $100,000.00 (0.0% day, 0.0% phase)
+Cash: $100,000.00
+Trades today: none
+Open positions: none
+Tomorrow: hold; watching Energy/Tech for a clean, non-extended single-name catalyst
