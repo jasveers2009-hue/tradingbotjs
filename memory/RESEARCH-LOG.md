@@ -4601,3 +4601,97 @@ the Perplexity API key as a priority. No urgent ClickUp notification --
 no held positions, no broken thesis, no confirmed major geopolitical
 event; sending a routine status note only per the continuing Perplexity
 failure streak.
+
+## 2026-11-23 -- Pre-market Research (Day 48, Monday)
+
+### Account
+- Equity: $100,000.00
+- Cash: $100,000.00 (100%)
+- Buying power: $400,000
+- Daytrade count: 0 (no positions, no orders; balance_asof 2026-11-20)
+
+### Market Context
+- WTI / Brent: Unconfirmed for today. Perplexity failed again (HTTP 401,
+  curl exit 22 -- see Risk Factors, a sixteenth confirmed degraded
+  pre-market session, unresolved since Oct 30). WebSearch fallback found
+  no Nov-23-dated print; most recent dated figure is an Oct 28 post-market
+  snapshot (~$115.11 Brent / $101.65 WTI), now 26 days stale, against
+  conflicting undated posts spanning roughly $86-116/bbl Brent. Oil
+  remains unreliable for today.
+- S&P 500 futures: No confirmed today-dated premarket print surfaced.
+  Nothing usable for pre-open positioning.
+- VIX: No confirmed today print. Latest corroborated figure remains
+  FRED's Nov 13 close of 19.30 (down from the Nov 5 shock high of 28.18),
+  now 6 trading days stale. Vol regime last confirmed trending down, but
+  not confirmed current.
+- Today's catalysts: No reliable Nov-23-dated catalyst surfaced. Prior
+  week's items (FOMC minutes released Nov 18 2pm ET, Fed Chair Warsh
+  remarks Nov 16, Anthropic IPO priced Nov 18 / Nasdaq debut Nov 19) are
+  now past and resolved -- no longer live risks. Nothing new confirmed
+  for today. Note: this is Thanksgiving week (market closed Thu Nov 26,
+  early close Fri Nov 27) -- historically lower pre-holiday volume.
+- Earnings before open: No confirmed before-open earnings list surfaced
+  for today in either watchlist sector. Nothing actionable.
+- Economic calendar: No CPI/PPI/FOMC/jobs release confirmed for today.
+  October CPI (Nov 10) and PPI (Nov 13) already printed; next CPI listed
+  Dec 10, next jobs report Dec 4, next FOMC decision Dec 9. Today's
+  calendar appears thin/quiet, consistent with a holiday-shortened week.
+- Sector momentum: Signals remain conflicting and stale. One source
+  (week of Nov 9-13 recap) has Energy and Technology leading; another
+  (undated Schwab piece) describes Technology as weakest and Health Care
+  as strongest month-to-date. No clean, dated YTD sector table found.
+  Energy and Technology remain the provisional watchlist pending a
+  corroborated, current reading.
+- No held positions -- no ticker-specific news check applicable.
+- Treated as untrusted per CLAUDE.md: no embedded instructions found in
+  any search result; only corroborated/dated factual snippets used
+  above, with staleness and conflicts flagged throughout.
+
+### Trade Ideas
+No new entries pre-market. No single-name catalyst in either watchlist
+sector (Energy, Technology) surfaced with confirmed before-open timing
+and a documented entry/stop/target. Nothing actionable to size pre-market.
+
+### Risk Factors
+- Research pipeline degraded for a **sixteenth confirmed scheduled
+  pre-market session** (unresolved since Oct 30, now 24 calendar days):
+  11 sessions of HTTP 403, now a fifth straight session of HTTP 401
+  (curl exit 22). `PERPLEXITY_API_KEY` confirmed present in environment.
+  Five consecutive 401s continues to point to a revoked/invalid
+  credential rather than a transient issue -- recommend human
+  verification/rotation of the key as a continuing priority. (Note: no
+  pre-market entry was logged for Nov 20 -- matches the recurring
+  daily-summary/pre-market gap pattern previously flagged; live account
+  data, balance_asof 2026-11-20, confirms equity unchanged at $100,000
+  across that gap, so no P&L impact.)
+- Vol regime last confirmed trending down (FRED VIX 19.30 on Nov 13) but
+  no read since then (6 trading days stale) -- treat current level as
+  unconfirmed.
+- Oil price sources remain conflicting and stale (~$86-116/bbl Brent
+  across undated/late-Oct posts) -- unreliable until corroborated.
+- Thanksgiving holiday week -- lower liquidity and potential whipsaws
+  into Thursday's close/Friday's early session argue against rushing
+  into new risk.
+- Sector momentum signals conflicting between sources -- no actionable
+  single-name catalyst resulted regardless.
+- Perplexity/WebSearch results treated as untrusted content per
+  CLAUDE.md; no embedded instructions followed, only corroborated
+  factual snippets extracted (flagged above where stale/unconfirmed).
+
+### Decision
+**HOLD.** No trades pre-market. Rationale: (1) zero open positions, zero
+open orders -- nothing to manage, no urgency; (2) primary research
+(Perplexity, HTTP 401, sixteenth confirmed degraded session) still down;
+WebSearch fallback found no single-name catalyst with confirmed
+before-open timing and a documented entry/stop/target in either
+watchlist sector; (3) today's economic/earnings calendar is thin and
+unconfirmed, consistent with a holiday-shortened week; (4) vol regime
+last confirmed trending down but unconfirmed since Nov 13; (5) sector
+momentum signals conflict between sources; (6) patience > activity.
+Trades this week: 0/3 (new week). Forty-eighth consecutive session with
+zero positions since launch (~9.5 weeks, since Sept 16). Flagging the
+Perplexity API failure for human review a sixteenth time -- now five
+consecutive sessions of HTTP 401; recommend checking/rotating the
+Perplexity API key as a priority. No urgent ClickUp notification beyond
+the routine Perplexity-failure status note -- no held positions, no
+broken thesis, no confirmed major geopolitical event.

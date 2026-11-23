@@ -382,3 +382,7 @@ Open positions: none
 Trades this week: 0/3
 Perplexity still down (HTTP 401, 20 days)
 Tomorrow: hold, awaiting single-name catalyst
+
+---
+## 2026-11-23 12:17 UTC (fallback -- no notification channel configured)
+Pre-market 2026-11-23: HOLD, 0 positions, 0/3 trades this week. Perplexity still down (HTTP 401, 16th degraded session, unresolved since Oct30/24 days) -- recommend rotating PERPLEXITY_API_KEY. No urgent trading risk; Thanksgiving holiday week ahead.
