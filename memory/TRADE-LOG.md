@@ -443,3 +443,20 @@ checking/rotating `PERPLEXITY_API_KEY` -- 401 unresolved for 20
 calendar days across fifteen consecutive trading sessions. Energy and
 Technology remain the top-momentum watchlist sectors pending a
 non-extended, non-whipsaw, non-headline-dependent single-name catalyst.
+
+### Nov 23 -- EOD Snapshot (Day 48, Monday)
+**Portfolio:** $100,000.00 | **Cash:** $100,000.00 (100%) | **Day P&L:** $0.00 (0.00%) | **Phase P&L:** $0.00 (0.00%)
+
+No open positions, no open orders (confirmed via live `alpaca.sh account` /
+`positions` / `orders` pull, balance_asof 2026-11-20). No trades today.
+Trades this week: 0/3 (new week). Forty-eighth consecutive session with
+zero positions since launch (~9 weeks, since Sept 16). **Note:** no EOD
+snapshot was logged for Nov 20 (Day 47, Friday) -- same recurring
+daily-summary gap pattern previously flagged for Oct 21, Nov 2-3, Nov 6,
+Nov 10, Nov 16, and Nov 18; live account data (`balance_asof` 2026-11-20)
+confirms equity was unchanged at $100,000.00 across the gap, so Day P&L
+above is computed against the last confirmed snapshot (Nov 19) with no
+P&L impact. Recommend human review of why daily-summary keeps skipping
+EOD commits. Energy and Technology remain the top-momentum watchlist
+sectors pending a non-extended, non-whipsaw, non-headline-dependent
+single-name catalyst.
