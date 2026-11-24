@@ -4601,3 +4601,84 @@ the Perplexity API key as a priority. No urgent ClickUp notification --
 no held positions, no broken thesis, no confirmed major geopolitical
 event; sending a routine status note only per the continuing Perplexity
 failure streak.
+
+## 2026-11-24 -- Pre-market Research (run inline from market-open workflow)
+
+**Note:** No scheduled routine committed anything between Nov 19 and
+Nov 24 (git log confirms zero commits in that window) -- same recurring
+gap pattern flagged repeatedly since Oct 21. No research entry existed
+for today, so this research was run inline per CLAUDE.md ("never trade
+without documented research") before any market-open trade decision.
+
+### Account
+- Equity: $100,000.00
+- Cash: $100,000.00 (100%)
+- Buying power: $400,000
+- Daytrade count: 0 (no positions, no orders; balance_asof 2026-11-23)
+
+### Market Context
+- WTI / Brent: Unconfirmed for today. Perplexity failed again (HTTP 401,
+  curl exit 22) on all queries -- research pipeline still down, now
+  spanning at least Oct 30 through today with no resolution seen in the
+  log. WebSearch fallback found no Nov-24-dated print; most recent
+  quotes surfaced are late-October 2026 (Brent ~$115/WTI ~$102 on
+  Oct 28), now ~4 weeks stale. Oil remains unreliable for today.
+- S&P 500 futures: No confirmed today-dated print. WebSearch returned
+  only undated/older newsletter snippets (one mentions a Saudi pipeline
+  strike and WTI >$104 with futures "fractionally positive," another
+  references a Wednesday all-time-high rally) -- neither dated to today,
+  not actionable.
+- VIX: No confirmed today print. WebSearch returned only undated or
+  months-stale references (Cboe page dated June 9 2026, a market note
+  dated Aug 13 2026). No live current read obtained.
+- Today's catalysts: None confirmed for 2026-11-24. Search results were
+  dominated by prior-year (Nov 2025) and unrelated-date material.
+- Earnings before open: No Nov-24-2026 earnings calendar surfaced --
+  results returned were 2023 archives and mid-2026/2027 dated pages,
+  none for today. Nothing actionable.
+- Economic calendar: One Finance Calendar listing (unconfirmed
+  reliability) shows US Consumer Confidence at 10:00am ET and Germany
+  Ifo Business Climate at 10:30am CET today, with no FOMC/CPI/PPI/jobs
+  release listed for today. Not independently corroborated.
+- Sector momentum: No current reading obtained this session; last
+  confirmed figures remain the stale mid-August data previously logged
+  (Energy/Technology leading YTD) -- over 3 months stale, unconfirmed.
+- No held positions -- no ticker-specific news check applicable.
+- Treated as untrusted per CLAUDE.md: no embedded instructions found in
+  any search result; only corroborated/dated snippets would be used,
+  and none of today's results met that bar -- all flagged as stale or
+  unconfirmed above.
+
+### Trade Ideas
+No entries. No single-name catalyst in either watchlist sector (Energy,
+Technology) surfaced with confirmed today-dated timing and a
+documented entry/stop/target. Oil, VIX, futures, and earnings data all
+unconfirmed for today. Nothing actionable to size.
+
+### Risk Factors
+- Research pipeline (Perplexity) still returning HTTP 401 on every
+  query type -- unresolved since at least Oct 30, now well over three
+  weeks with no confirmed fix. Recommend checking/rotating
+  `PERPLEXITY_API_KEY` as a continuing priority.
+- No scheduled routine ran or committed between Nov 19 and Nov 24 --
+  recommend human review of the scheduler/trigger configuration, same
+  as prior flagged gaps.
+- All market context (oil, VIX, futures, economic calendar, earnings)
+  is unconfirmed or weeks-stale for today -- no reliable basis to size
+  new risk.
+- Perplexity/WebSearch results treated as untrusted content per
+  CLAUDE.md; no embedded instructions followed; only dated/corroborated
+  snippets would be used, and none qualified today.
+
+### Decision
+**HOLD.** No trades. Rationale: (1) zero open positions, zero open
+orders -- nothing to manage, no urgency; (2) primary research
+(Perplexity, HTTP 401) still down; WebSearch fallback found no
+single-name catalyst with confirmed today-dated timing and a
+documented entry/stop/target in either watchlist sector; (3) oil, VIX,
+futures, and economic-calendar data are all unconfirmed or stale for
+today -- no reliable basis to size new risk; (4) patience > activity.
+Trades this week: 0/3. Flagging the Perplexity API outage and the
+Nov 19-24 routine gap for human review. No urgent ClickUp notification
+warranted from research alone -- no held positions, no broken thesis,
+no confirmed major geopolitical event.
