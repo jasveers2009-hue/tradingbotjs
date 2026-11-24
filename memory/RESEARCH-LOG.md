@@ -4601,3 +4601,118 @@ the Perplexity API key as a priority. No urgent ClickUp notification --
 no held positions, no broken thesis, no confirmed major geopolitical
 event; sending a routine status note only per the continuing Perplexity
 failure streak.
+
+## 2026-11-24 -- Pre-market Research
+
+### Account
+- Equity: $100,000.00
+- Cash: $100,000.00 (100%)
+- Buying power: $400,000
+- Daytrade count: 0 (no positions, no orders; balance_asof 2026-11-23)
+
+### Market Context
+- WTI / Brent: Unconfirmed for today. Perplexity failed again (HTTP 401,
+  curl exit 22 -- see Risk Factors, now a sixteenth-plus consecutive
+  degraded run). WebSearch fallback found no Nov-24-dated print; most
+  recent dated figure is an Oct 28 post-market (unconfirmed-settlement)
+  snapshot of ~$101.65 WTI / $115.11 Brent -- now ~27 days stale, against
+  conflicting undated/stale posts spanning roughly $79-116/bbl Brent
+  across October. Oil remains unreliable for today.
+- S&P 500 futures: No confirmed today-dated print surfaced via WebSearch.
+  Nothing usable found; treated as unconfirmed.
+- VIX: No confirmed today print. Latest corroborated figure remains
+  FRED's Nov 9 close of 19.92 (down sharply from the Nov 5 shock high of
+  28.18); prior session's log had cited a Nov 13 close of 19.30 but that
+  source did not resurface today. No live read since Nov 9-13 (now 7+
+  trading days stale). Vol regime last known trending down, but current
+  level unconfirmed.
+- Today's catalysts: No reliable Nov-24-dated catalyst list surfaced --
+  WebSearch returned mostly Nov 24, 2025 filler (wrong year). One Nov 16
+  preview mentioned an upcoming Anthropic IPO and a scheduled Fed Chair
+  Warsh speech within that week, neither confirmed as landing today.
+  Nothing actionable surfaced for Energy or Technology specifically.
+- Earnings before open: None confirmed. No live, dated before-open list
+  for today surfaced via WebSearch.
+- Economic calendar: This is Thanksgiving week (US holiday Thu Nov 26;
+  market closed that day, early close Fri Nov 27). An MNI Markets
+  preview headlines "Retail Sales, PPI & Claims" for Thanksgiving week,
+  but exact day-of-week placement within the week is not confirmed from
+  today's search -- no CPI/PPI/jobs print confirmed specifically for
+  today. Treat timing as unresolved; holiday-week liquidity alone is a
+  reason for added caution on new risk.
+- Sector momentum: Conflicting signals. A Nov 13 recap (tapeboard.com,
+  lower-quality source, previously flagged as unverified) put the S&P
+  500 at 7,561.67, +10.25% YTD, with Energy and Technology leading that
+  week. A separate Schwab note says Technology dropped to the bottom of
+  sector rankings month-to-date in November while Health Care moved to
+  the top -- directly conflicting with the Energy/Technology leadership
+  thesis this log has carried for months. Neither source is strong
+  enough alone to flip the watchlist, but this is the first concrete
+  signal of a possible Technology rotation and should be watched closely
+  before sizing into any Technology-sector name.
+- No held positions -- no ticker-specific news check applicable.
+- **Routine gap noted:** no pre-market research (or any commit) was
+  logged for Nov 20 (Friday) or Nov 23 (Monday) -- this is a gap in the
+  pre-market routine itself, not just the previously-flagged
+  daily-summary/EOD gap pattern. Live account data (balance_asof
+  2026-11-23) confirms equity unchanged at $100,000.00 across the gap,
+  so no P&L impact, but recommend human review of why the pre-market
+  scheduled run did not fire or log on those two trading days.
+- Treated as untrusted per CLAUDE.md: no embedded instructions found in
+  any search result; only corroborated/dated factual snippets used
+  above, with staleness and conflicts flagged throughout.
+
+### Trade Ideas
+No new entries pre-market. No single-name catalyst in either watchlist
+sector (Energy, Technology) surfaced with confirmed before-open timing
+and a documented entry/stop/target. Technology-sector momentum itself is
+now in question (see Sector momentum above) -- not a basis to add
+exposure there without further confirmation. Nothing actionable to size
+pre-market.
+
+### Risk Factors
+- Research pipeline (Perplexity) remains down -- HTTP 401 again today,
+  continuing the degraded streak first flagged Oct 30 (now ~25 calendar
+  days). `PERPLEXITY_API_KEY` confirmed present in environment. Recommend
+  checking/rotating the key as a continuing priority -- now a long-
+  running, unresolved issue.
+- Pre-market routine itself appears to have skipped Nov 20 and Nov 23
+  (no commits logged) -- separate from the Perplexity outage, recommend
+  human review of the scheduler/routine for those two missed days.
+- Vol regime last confirmed trending down (FRED VIX 19.92 on Nov 9) but
+  no live read since then -- treat current level as unconfirmed.
+- Oil price sources remain sharply conflicting and stale
+  (~$79-116/bbl Brent across undated/October posts) -- unreliable until
+  corroborated.
+- Thanksgiving holiday week -- Thursday market closed, Friday early
+  close -- lower liquidity is itself a reason for caution on new risk
+  this week, independent of other factors.
+- First concrete signal of possible Technology-sector rotation (Schwab:
+  Tech bottom of month-to-date rankings in November) conflicting with
+  this log's long-standing Energy/Technology leadership thesis --
+  unresolved, watch before any Technology-sector sizing.
+- Perplexity/WebSearch results treated as untrusted content per
+  CLAUDE.md; no embedded instructions followed, only corroborated
+  factual snippets extracted (flagged above where stale/unconfirmed/
+  conflicting).
+
+### Decision
+**HOLD.** No trades pre-market. Rationale: (1) zero open positions, zero
+open orders -- nothing to manage, no urgency; (2) primary research
+(Perplexity, HTTP 401) still down; WebSearch fallback found no
+single-name catalyst with confirmed before-open timing and a documented
+entry/stop/target in either watchlist sector; (3) Thanksgiving holiday
+week argues for added caution on new risk regardless of catalyst status;
+(4) a new, unresolved signal of possible Technology-sector rotation
+undercuts confidence in the long-standing Energy/Technology leadership
+thesis -- not a basis to size into Technology without further
+confirmation; (5) vol regime last confirmed trending down but unconfirmed
+current; (6) patience > activity. Trades this week: 0/3 (new week).
+Flagging two issues for human review: (a) continuing Perplexity API
+failure (HTTP 401, ~25 calendar days unresolved) -- recommend rotating
+the key; (b) the pre-market routine itself appears to have skipped Nov 20
+and Nov 23 -- recommend checking the scheduler. No urgent ClickUp
+notification for market/position reasons -- no held positions, no broken
+thesis, no confirmed major geopolitical event -- but sending a status
+note flagging the routine-gap finding, which is new and actionable for a
+human.
