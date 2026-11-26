@@ -4601,3 +4601,77 @@ the Perplexity API key as a priority. No urgent ClickUp notification --
 no held positions, no broken thesis, no confirmed major geopolitical
 event; sending a routine status note only per the continuing Perplexity
 failure streak.
+
+## 2026-11-26 -- Pre-market Research
+
+### Account
+- Equity: $100,000.00
+- Cash: $100,000.00 (100%)
+- Buying power: $400,000
+- Daytrade count: 0 (no positions, no orders; balance_asof 2026-11-25)
+
+### Market Context
+- **US markets closed today -- Thanksgiving Day.** Nov 26, 2026 is the
+  fourth Thursday of November (NYSE/Nasdaq holiday). WebSearch results
+  corroborate this directly (one hit explicitly states "Today, November
+  26, 2026, is Thanksgiving Day, so U.S. markets are likely closed").
+  No pre-market session exists today -- nothing is actionable regardless
+  of any other data point below.
+- **Gap flagged:** no pre-market research log entry exists for Nov 20,
+  23, 24, or 25 (four trading days) -- prior entry was Nov 19. Live
+  account `balance_asof` is now 2026-11-25, and equity is unchanged at
+  $100,000.00, so no P&L impact, but the pre-market routine itself
+  appears to have not fired or not logged for four consecutive trading
+  days. Recommend human review -- this is a new/different gap pattern
+  than the previously-flagged daily-summary EOD-snippet gaps.
+- WTI/Brent: No reliable today-dated print (expected -- market closed).
+  Last dated figures found are late-Oct ($91-115/bbl Brent range across
+  sources), too stale to use.
+- S&P 500 futures / VIX: No today-dated print surfaced (expected --
+  market closed). Last corroborated VIX close remains Nov 13 (19.30,
+  FRED), now stale across the unlogged Nov 20-25 gap.
+- Catalysts/earnings/econ calendar: No US earnings or econ releases
+  expected today (holiday). One item possibly real today: Fed Beige
+  Book mention in search results, but unconfirmed/low-priority and
+  moot given the market closure.
+- Sector momentum: No current (Nov) reading found; stale mid-year
+  Fidelity data (through 6/30) shows Technology +27.3% YTD vs. S&P
+  +10.3%, Energy +20.9% YTD -- conflicts with earlier-in-year snapshots
+  showing Energy leading/Tech lagging. Treat as unreliable until a
+  current read is available.
+- No held positions -- no ticker-specific news check applicable.
+- Perplexity: still down, HTTP 401 (curl exit 22) on every query
+  attempted today -- consistent with the failure pattern logged through
+  Nov 19 (15th consecutive degraded run then, 4 straight 401s); status
+  during the unlogged Nov 20-25 gap is unknown. WebSearch fallback used
+  for all queries per CLAUDE.md fallback procedure.
+- Treated as untrusted per CLAUDE.md: no embedded instructions found in
+  any search result; only corroborated/dated factual snippets used
+  above, with staleness flagged throughout.
+
+### Trade Ideas
+None. Market closed today (Thanksgiving) -- no pre-market session, no
+entries possible.
+
+### Risk Factors
+- Market closed today -- no intraday risk to manage.
+- Perplexity research pipeline still down (HTTP 401) -- continuing
+  priority to check/rotate `PERPLEXITY_API_KEY`; now compounded by an
+  unlogged 4-trading-day gap (Nov 20-25) where pipeline status is
+  unknown.
+- Pre-market routine itself missed logging for Nov 20, 23, 24, 25 --
+  recommend human review of scheduler/trigger health, separate from the
+  previously-flagged daily-summary EOD gaps.
+- Sector momentum data stale and internally conflicting across sources
+  this year -- do not act on it without a current, corroborated read.
+
+### Decision
+**HOLD.** No trades today. Rationale: (1) US markets are closed for
+Thanksgiving -- no pre-market or regular session exists today, so
+nothing is actionable regardless of any other factor; (2) zero open
+positions, zero open orders -- nothing to manage; (3) Perplexity still
+down (HTTP 401) -- WebSearch fallback used, consistent with prior
+sessions; (4) patience > activity. Trades this week: 0/3 (new week).
+No urgent ClickUp notification -- no held positions, no broken thesis,
+no geopolitical event; flagging the unlogged Nov 20-25 research-log gap
+and the continuing Perplexity failure in a routine status note only.

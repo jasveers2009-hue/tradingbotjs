@@ -382,3 +382,7 @@ Open positions: none
 Trades this week: 0/3
 Perplexity still down (HTTP 401, 20 days)
 Tomorrow: hold, awaiting single-name catalyst
+
+---
+## 2026-11-26 12:15 UTC (fallback -- no notification channel configured)
+Pre-market 11/26: HOLD -- US markets closed (Thanksgiving). 0 positions, 0/3 trades this week. Flagging: research-log gap Nov20-25 (4 trading days unlogged, no P&L impact) + Perplexity still 401.
