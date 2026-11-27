@@ -328,6 +328,43 @@ through 2026-11-13 entries (11 consecutive flagged instances).
 
 **Status:** pending human review (operational fix, not a rule change)
 
+## 2026-11-27 -- Proposed by weekly-review (operational, CRITICAL -- full scheduled-workflow blackout)
+
+**Current state:** No scheduled workflow (pre-market, market-open,
+midday, or daily-summary) committed anything to this repo between the
+2026-11-19 EOD snapshot (last commit `0157089`) and this review on
+2026-11-27 -- zero git commits, zero RESEARCH-LOG.md entries, zero
+TRADE-LOG.md entries for 5 consecutive trading sessions (Nov 20, 23, 24,
+25, 27; Nov 26 was the Thanksgiving holiday). This is a full calendar
+week (8 days) of complete silence from the automated system, not the
+occasional missing EOD snapshot described in the six prior "daily-summary
+EOD-commit gap" entries (Oct 21 through Nov 18) -- those assumed the
+other workflows were still firing. Live Alpaca data confirms the account
+itself is unaffected (still flat, $100,000.00, zero positions/orders,
+balance_asof 2026-11-25), so there is no financial exposure from this gap
+today, but the review process had no way to know that until it happened
+to run.
+
+**Proposed change:** Not a TRADING-STRATEGY.md change. This needs urgent
+human review of the scheduled-task/trigger configuration that fires
+pre-market, market-open, midday, and daily-summary -- specifically
+whether the triggers themselves stopped firing (vs. each workflow firing
+and failing silently before it could commit). Recommend adding an
+out-of-band alert (independent of this weekly review) that fires if no
+commit has landed in this repo within N hours of a trading day's expected
+schedule, so a full blackout like this is caught same-day, not up to 8
+days later on the next Friday review. This supersedes and escalates the
+2026-11-13 daily-summary EOD-commit-gap proposal, which is still valid
+but describes a narrower, less severe failure mode.
+
+**Evidence:** `git log` shows no commits after `0157089` ("EOD snapshot
+2026-11-19 (#105)") until this review's own commit. memory/RESEARCH-LOG.md
+and memory/TRADE-LOG.md both end at 2026-11-19 entries with no entries for
+2026-11-20 through 2026-11-27. Live `alpaca.sh account`/`positions`/`orders`
+pulls today confirm no unlogged trading activity occurred during the gap.
+
+**Status:** pending human review (operational fix, CRITICAL priority -- not a rule change)
+
 ## 2026-11-13 -- Proposed by weekly-review (operational, daily-summary EOD-commit gaps)
 
 **Current state:** The daily-summary workflow has repeatedly failed to

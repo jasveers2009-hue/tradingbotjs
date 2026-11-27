@@ -465,3 +465,134 @@ confirmation -- treat as directional, same caveat level as the 10/30 and
 - See memory/STRATEGY-PROPOSALS.md -- sixth escalation of the zero-deployment/catalyst-bar proposal (now weighed against both a protection week and a missed-rebound week in the same two-week span), continued escalation of the Perplexity 403 outage (now a third calendar week), and a new escalation specifically on the recurring daily-summary EOD-commit gaps.
 
 ### Overall Grade: D-
+
+## Week ending 2026-11-27
+
+**Note on period covered and a critical operational gap:** No daily
+workflow (pre-market, market-open, midday, or daily-summary) committed
+anything to this repo between the 2026-11-19 EOD snapshot and this
+review -- zero commits, zero RESEARCH-LOG.md entries, zero TRADE-LOG.md
+entries for Nov 20, 23, 24, 25, and 27 (5 trading sessions; Nov 26 was
+the Thanksgiving market holiday). This is a materially worse failure
+than the recurring "EOD-commit gap" flagged in six prior reviews (Oct
+21, Nov 2-3, Nov 6, Nov 10, Nov 12, Nov 16, Nov 18) -- those were missing
+EOD snapshots on days other workflows still ran; this is a full
+calendar week where **no scheduled workflow appears to have run or
+logged at all**. This review therefore covers 2026-11-16 through
+2026-11-27 (the entire gap since the last review), not a single clean
+week, and cannot assess trading-decision quality for that period because
+no decisions were logged.
+
+### Stats
+| Metric | Value |
+|--------|-------|
+| Starting portfolio | $100,000.00 (confirmed, week of 11/13) |
+| Ending portfolio | $100,000.00 (live Alpaca pull today, balance_asof 2026-11-25) |
+| Week return | $0.00 (0.00%) |
+| S&P 500 period (11/13 -> 11/27) | Approx. -3.5% to -5% (not reliably confirmed -- see note) |
+| Bot vs S&P | Approx. +3.5% to +5% in the bot's favor (not independently confirmed to the decimal) |
+| Trades | 0 (W:0 / L:0 / open:0) |
+| Win rate | N/A (no trades) |
+| Best trade | N/A |
+| Worst trade | N/A |
+| Profit factor | N/A |
+
+**Note on S&P figure:** `scripts/perplexity.sh` returned HTTP 401 again
+today (still unresolved since Oct 30, now 4 full calendar weeks).
+WebSearch fallback found better-than-usual corroboration for the
+decline into mid/late last week -- S&P 500 closed 7,561.67 on 11/13
+(AP-confirmed, +2.5% that week), fell to 7,323.63 on 11/18 (a 5th
+straight loss, "longest losing streak since June") and 7,175.83 on
+11/19 (-2%, 6th straight loss, AI/chip-stock-driven). From there the
+data quality drops sharply: a single low-quality, unindexed-by-majors
+source puts 11/20 at 6,910.39 (-3.70%) and 11/25 at ~7,182.78 (two
+weakly-corroborated sources), and a single uncorroborated source claims
+a holiday-shortened-session close near 7,297 today (11/27). Given only
+11/13-11/19 is solidly confirmed and the rest rests on thin sourcing,
+the -3.5%/-5% range above is this review's best-effort synthesis, not a
+verified close-to-close number -- treat as directional, same caveat
+level as the 10/30, 11/06, and 11/13 entries.
+
+### Closed Trades
+| Ticker | Entry | Exit | P&L | Notes |
+| -- | -- | -- | -- | -- |
+| None -- zero trades placed this period | | | | |
+
+### Open Positions at Week End
+| Ticker | Entry | Close | Unrealized | Stop |
+| -- | -- | -- | -- | -- |
+| None | | | | |
+
+### What Worked
+- Account/position state independently re-verified via live Alpaca pulls
+  today rather than trusted from memory: confirmed flat ($100,000.00
+  equity, zero positions, zero open orders, balance_asof 2026-11-25).
+  Whatever caused the logging blackout, it did not coincide with any
+  unauthorized or unlogged trading activity.
+- Zero capital at risk meant the account was fully insulated from what
+  WebSearch corroborates as a real, multi-session AI/chip-stock-driven
+  decline (5-6 straight losing sessions through 11/19, continuing into
+  the following week per thinly-sourced data) -- consistent with the
+  pattern noted in the 11/06 and 11/13 reviews that the all-or-nothing
+  flat posture protects on down stretches even though it has never been
+  tested with capital deployed.
+- This review did not fabricate research-log content to paper over the
+  gap -- it reports the blackout plainly rather than reconstructing a
+  week of invented pre-market reasoning.
+
+### What Didn't Work
+- **Critical, new-severity operational failure:** zero workflow
+  executions logged to this repo for 5 consecutive trading sessions
+  (11/20, 11/23, 11/24, 11/25, 11/27) and 8 calendar days straight. This
+  is categorically worse than the prior "daily-summary sometimes skips
+  the EOD commit" pattern flagged in six straight reviews -- that pattern
+  assumed pre-market/market-open/midday were still running; here there
+  is no evidence any scheduled workflow ran at all. This needs the same
+  urgency as a stuck position, not another log-level flag.
+- Because nothing was logged, this review cannot confirm whether
+  research actually happened and simply wasn't committed, or whether the
+  scheduler/trigger never fired -- that ambiguity is itself a gap: a
+  silent failure mode that produced no error anyone would see without
+  this Friday review stumbling on it.
+- Tenth/eleventh consecutive week (per prior count) of 0% capital
+  deployed against the 75-85% target continues, now compounded by not
+  even knowing whether the catalyst checklist was being run.
+- The Perplexity API outage (HTTP 401) is now unresolved for a full 4
+  calendar weeks (since 10/30) -- fifth weekly review flagging it with no
+  human action taken yet.
+- S&P 500 period-return data quality for 11/20-11/27 is poor (single,
+  unindexed sources for the two most recent data points) -- consistent
+  with the recurring pattern (10/30, 11/06, 11/13 reviews) that WebSearch
+  fallback coverage degrades specifically for the most recent 1-2
+  trading days, which matters most for same-day accuracy.
+
+### Key Lessons
+- This is the single most important finding of this review: the
+  repository going 8 calendar days / 5 trading sessions with zero
+  commits from any scheduled workflow is a different class of problem
+  than the recurring "missed one EOD snapshot" gaps flagged six times
+  since Oct 21 -- it suggests the scheduling/trigger layer itself may
+  have stopped firing, not just one workflow occasionally erroring
+  silently. This should be the human's first priority this week, ahead
+  of the zero-deployment strategy debate.
+- The zero-deployment/catalyst-bar question (escalated in six prior
+  reviews: 9/25, 10/2, 10/9, 10/23, 11/06, 11/13) cannot be meaningfully
+  re-escalated with new evidence this cycle, because there is no
+  evidence at all for 11/16-11/27 -- the question is paused, not
+  resolved, until logging resumes.
+- A review process that only surfaces a full-week operational blackout
+  after the fact, on the next scheduled Friday run, is itself a gap:
+  if this had been a week with an open position and a live stop to
+  manage, a silent scheduler failure during that stretch would have
+  been far more costly than a missed watchlist entry.
+
+### Strategy Change Proposals This Week
+- See memory/STRATEGY-PROPOSALS.md -- new top-priority operational
+  escalation: the scheduled-workflow blackout (11/20-11/27, zero commits
+  of any kind). Continued (unchanged) escalation of the Perplexity 403/401
+  outage, now 4 calendar weeks unresolved. The zero-deployment
+  catalyst-bar proposals (9/25 through 11/13) remain pending and are not
+  re-escalated this cycle for lack of new evidence.
+
+### Overall Grade: F (operational) -- trading discipline itself cannot be
+graded this period since no trading-related activity was logged at all.
