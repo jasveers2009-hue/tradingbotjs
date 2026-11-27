@@ -382,3 +382,14 @@ Open positions: none
 Trades this week: 0/3
 Perplexity still down (HTTP 401, 20 days)
 Tomorrow: hold, awaiting single-name catalyst
+
+---
+## 2026-11-27 20:36 UTC (fallback -- no notification channel configured)
+Week ending Nov 27
+Portfolio: $100,000 (0.00% week, 0.00% phase)
+vs S&P 500: approx +3.5-5% (bot ahead, unconfirmed -- see review)
+Trades: 0 (W:0 / L:0 / open:0)
+Best: N/A  Worst: N/A
+CRITICAL: zero workflow commits Nov20-27 (5 sessions) -- scheduler likely broken
+Strategy proposals this week: 1 (critical ops escalation)
+Grade: F (operational)
