@@ -443,3 +443,27 @@ checking/rotating `PERPLEXITY_API_KEY` -- 401 unresolved for 20
 calendar days across fifteen consecutive trading sessions. Energy and
 Technology remain the top-momentum watchlist sectors pending a
 non-extended, non-whipsaw, non-headline-dependent single-name catalyst.
+
+### Nov 27 -- EOD Snapshot (Day 51, Friday)
+**Portfolio:** $100,000.00 | **Cash:** $100,000.00 (100%) | **Day P&L:** $0.00 (0.00%) | **Phase P&L:** $0.00 (0.00%)
+
+No open positions, no open orders (confirmed via live `alpaca.sh account` /
+`positions` / `orders` pull, balance_asof 2026-11-25). No trades today.
+Trades this week: 0/3. Market was closed Nov 26 for Thanksgiving; today
+was the scheduled post-holiday half-day session. **Note:** no scheduled
+routine of any kind (pre-market, midday, or EOD) appears to have logged
+output between Nov 19 and today -- a four-trading-day gap (Nov 20, 23,
+24, 25) on top of the recurring skip pattern already flagged for Oct 21,
+Nov 2-3, Nov 6, Nov 10, Nov 16, and Nov 18. This is the longest outage
+yet and warrants urgent human review of the scheduler/cloud routine
+wiring, not just a log note. Live account data (`balance_asof`
+2026-11-25) confirms equity was unchanged at $100,000.00 across the
+entire gap, so Day P&L above is computed against the last confirmed
+value with no P&L impact. Fifty-first consecutive session with zero
+positions since launch (~10.5 weeks, since Sept 16). Perplexity research
+pipeline status is unconfirmed since Nov 19 (last confirmed: HTTP 401,
+fifteenth consecutive degraded run, unresolved since Oct 30) -- status
+today unknown pending the next research run; still recommend
+checking/rotating `PERPLEXITY_API_KEY`. Energy and Technology remain the
+top-momentum watchlist sectors pending a non-extended, non-whipsaw,
+non-headline-dependent single-name catalyst.

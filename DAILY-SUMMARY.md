@@ -382,3 +382,14 @@ Open positions: none
 Trades this week: 0/3
 Perplexity still down (HTTP 401, 20 days)
 Tomorrow: hold, awaiting single-name catalyst
+
+---
+## 2026-11-27 20:16 UTC (fallback -- no notification channel configured)
+EOD Nov 27
+Portfolio: $100,000.00 (0.0% day, 0.0% phase)
+Cash: $100,000.00 (100%)
+Trades today: none
+Open positions: none
+Note: 4-trading-day scheduler gap (Nov 20,23,24,25) before today - longest outage yet, recommend review
+Perplexity: unconfirmed since Nov 19 (last: HTTP 401)
+Tomorrow: resume pre-market research, watch Energy/Tech for catalyst
