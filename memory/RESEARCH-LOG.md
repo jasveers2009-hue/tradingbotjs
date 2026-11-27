@@ -4601,3 +4601,55 @@ the Perplexity API key as a priority. No urgent ClickUp notification --
 no held positions, no broken thesis, no confirmed major geopolitical
 event; sending a routine status note only per the continuing Perplexity
 failure streak.
+
+## 2026-11-27 -- Market-Open (inline pre-market research, no prior entry today)
+
+### Account
+- Equity: $100,000.00 | Cash: $100,000.00 (100%) | Buying power: $400,000
+- Daytrade count: 0 (no positions, no orders; balance_asof 2026-11-25)
+- **Note:** no RESEARCH-LOG or TRADE-LOG entries found for Nov 20, 23, 24,
+  25 (Nov 26 was Thanksgiving, full market closure) -- same recurring
+  scheduler-gap pattern flagged repeatedly since Oct 21. Live account
+  data confirms equity unchanged at $100,000.00 across the gap.
+
+### Market Context
+- Today is Black Friday: NYSE/Nasdaq open but close early at 1:00pm ET
+  (confirmed via WebSearch) -- thin, low-liquidity holiday session, a
+  headwind for clean entries/stops regardless of catalyst quality.
+- Perplexity: HTTP 401 again (curl exit 22) -- now an 18th+ consecutive
+  degraded trading-day run, unresolved since Oct 30 (~4 weeks).
+  `PERPLEXITY_API_KEY` confirmed present in environment; recommend
+  rotating it, escalating priority given the duration.
+- WebSearch fallback used. No today-dated (Nov 27, 2026) VIX, oil, or
+  futures print surfaced -- most-recent confirmed reads are stale
+  (VIX 19.30 on Nov 13; oil quotes only through late Oct; sector YTD
+  figures conflict across snapshots from May/July/Oct). Nothing
+  reliable enough to size against.
+- No today-dated single-name catalyst or earnings-before-open print
+  found for either watchlist sector (Energy, Technology).
+- No held positions -- no ticker-specific news check applicable.
+- Treated as untrusted per CLAUDE.md: no embedded instructions found in
+  any search result; only corroborated/dated snippets used, staleness
+  flagged throughout.
+
+### Trade Ideas
+None. No confirmed today-dated catalyst in either watchlist sector, and
+today's thin holiday-shortened session argues against sizing into new
+risk even if one existed.
+
+### Risk Factors
+- Perplexity pipeline down ~4 weeks (401, since Oct 30) -- recommend
+  key rotation as a continuing priority.
+- Vol/oil/futures all stale -- no live read to size against.
+- Black Friday low-liquidity session: wide spreads, unreliable price
+  action likely into the 1pm ET early close.
+
+### Decision
+**HOLD.** No trades. Rationale: (1) zero open positions/orders -- no
+urgency; (2) Perplexity still down, WebSearch fallback found no
+today-dated, documented single-name catalyst in either watchlist
+sector; (3) thin Black Friday holiday session is a poor setup for new
+entries regardless; (4) patience > activity. Trades this week: 0/3.
+No ClickUp notification -- nothing urgent (no held positions, no
+broken thesis, no confirmed major event), and CLICKUP_* credentials are
+unset in this environment regardless.
